@@ -103,9 +103,6 @@ export const HeroSection = () => {
       July 16 at 7:28 PM
       Sqlite
       July 16 at 7:33 PM
-      Disen̈ar sitio y sqlite
-      July 16 at 7:42 PM
-      Forkeado de x.com 💗
       12:12 AM
       Linktree matarlo con portfolio youtube abajo ya no mas amonimatos
       put timezone 7:32  AM, CET Italy
