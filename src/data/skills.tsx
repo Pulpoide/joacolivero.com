@@ -1,17 +1,13 @@
-import { AstroJsLogo } from "~/components/Svg/AstroJsLogo"
 import { NextJsLogo } from "~/components/Svg/NextJsLogo"
-import { CssLogo } from "~/components/Svg/CssLogo"
 import { MongoDbLogo } from "~/components/Svg/MongoDbLogo"
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo"
 import { ReactJsLogo } from "~/components/Svg/ReactJsLogo"
 import { ExpressLogo } from "~/components/Svg/ExpressLogo"
-import { JavascriptLogo } from "~/components/Svg/JavascriptLogo"
-import { HtmlLogo } from "~/components/Svg/HtmlLogo"
-import { StyledComponentsLogo } from "~/components/Svg/StyledComponentsLogo"
+import { CppLogo } from "~/components/Svg/JavascriptLogo"
 import { TypescriptLogo } from "~/components/Svg/TypescriptLogo"
 import { NodeJsLogo } from "~/components/Svg/NodeJsLogo"
-import { TailwindCssLogo } from "~/components/Svg/TailwindCssLogo"
-import { VitestLogo } from "~/components/Svg/VitestLogo"
+import { UnityLogo } from "~/components/Svg/TailwindCssLogo"
+import { UnrealLogo } from "~/components/Svg/VitestLogo"
 
 export const skills = [
 	{
@@ -35,11 +31,6 @@ export const skills = [
 		brandColor: "#5FA04E",
 	},
 	{
-		name: "Styled components",
-		icon: <StyledComponentsLogo />,
-		brandColor: "#DB7093",
-	},
-	{
 		name: "Express",
 		icon: <ExpressLogo />,
 		brandColor: "",
@@ -55,33 +46,18 @@ export const skills = [
 		brandColor: "#4169E1",
 	},
 	{
-		name: "Astro",
-		icon: <AstroJsLogo />,
-		brandColor: "#BC52EE",
-	},
-	{
-		name: "HTML",
-		icon: <HtmlLogo />,
-		brandColor: "#E34F26",
-	},
-	{
-		name: "CSS",
-		icon: <CssLogo />,
-		brandColor: "#1572B6",
-	},
-	{
-		name: "Javascript",
-		icon: <JavascriptLogo />,
+		name: "C++",
+		icon: <CppLogo />,
 		brandColor: "#c7b008",
 	},
 	{
-		name: "Tailwind CSS",
-		icon: <TailwindCssLogo />,
+		name: "Unity",
+		icon: <UnityLogo />,
 		brandColor: "#06B6D4",
 	},
 	{
-		name: "Vitest",
-		icon: <VitestLogo />,
+		name: "Unreal Engine",
+		icon: <UnrealLogo />,
 		brandColor: "#6E9F18",
 	},
 ]

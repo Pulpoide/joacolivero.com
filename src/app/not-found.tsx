@@ -12,7 +12,7 @@ export default function NotFound() {
 		<>
 			<main className={styles.wrapper}>
 				<h1 className={styles.title}>404</h1>
-				<p className={styles.description}>Página no encontrada ♨︎_♨︎</p>
+				<p className={styles.description}>Página no encontrada</p>
 				<Button asChild>
 					<Link href="/">Volver al inicio</Link>
 				</Button>
