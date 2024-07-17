@@ -9,7 +9,7 @@ export default function PostsLayout({
 		<main>
 			<article className={styles.article}>
 				{children}
-				<div className={styles.greetings}>Gracias por leer y recuerda tomar agüita 💙</div>
+				<div className={styles.greetings}>Gracias por leer 💙</div>
 			</article>
 		</main>
 	)
