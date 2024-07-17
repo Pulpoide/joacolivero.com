@@ -1,24 +1,23 @@
 import { SVGProps } from "react"
 
-export const NextJsLogo = (props: SVGProps<SVGSVGElement>) => (
+export const PythonLogo = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		width={50}
 		height={50}
-		viewBox="0 0 50 50"
+		viewBox="0 2 15 10"
 		fill="none"
 		{...props}
 	>
 		<g clipPath="url(#a)">
 			<path
 				fill="currentColor"
-				d="M38.885 45.788A24.875 24.875 0 0 1 25 50C11.202 50 0 38.798 0 25S11.202 0 25 0s25 11.202 25 25c0 7.465-3.28 14.169-8.473 18.752L19.207 15H15v19.992h3.365v-15.72l20.52 26.516ZM31.944 28.01l3.333 4.294V15h-3.333v13.01Z"
-			/>
-		</g>
-		<defs>
-			<clipPath id="a">
-				<path fill="currentColor" d="M0 0h50v50H0z" />
-			</clipPath>
-		</defs>
-	</svg>
+				d="M6 2.5H7M4.5 4V1.5C4.5 0.947715 4.94772 0.5 5.5 0.5H9.5C10.0523 0.5 10.5 0.947715 10.5 1.5V6.5C10.5 7.05228 10.0523 7.5 9.5 7.5H5.5C4.94772 7.5 4.5 7.94772 4.5 8.5V13.5C4.5 14.0523 4.94772 14.5 5.5 14.5H9.5C10.0523 14.5 10.5 14.0523 10.5 13.5V11M8 4.5H1.5C0.947715 4.5 0.5 4.94772 0.5 5.5V10.5C0.5 11.0523 0.947715 11.5 1.5 11.5H4.5M7 10.5H13.5C14.0523 10.5 14.5 10.0523 14.5 9.5V4.5C14.5 3.94772 14.0523 3.5 13.5 3.5H10.5M8 12.5H9" stroke="#000000" strokeWidth={0.75}/>
+	</g>
+<defs>
+	<clipPath id="a">
+		<path fill="currentColor" d="M0 0h50v50H0z"/>
+	</clipPath>
+</defs>
+</svg>
 )

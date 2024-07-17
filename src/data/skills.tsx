@@ -1,4 +1,4 @@
-import { NextJsLogo } from "~/components/Svg/NextJsLogo"
+import { PythonLogo } from "~/components/Svg/NextJsLogo"
 import { MongoDbLogo } from "~/components/Svg/MongoDbLogo"
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo"
 import { ReactJsLogo } from "~/components/Svg/ReactJsLogo"
@@ -17,9 +17,9 @@ export const skills = [
 		brandColor: "hsl(192.85714285714286, 95.06172839506173%, 68.23529411764706%)",
 	},
 	{
-		name: "Next.js",
-		icon: <NextJsLogo />,
-		brandColor: "",
+		name: "Python",
+		icon: <PythonLogo />,
+		brandColor: "#3776AB",
 	},
 	{
 		name: "Typescript",
@@ -54,16 +54,16 @@ export const skills = [
 	{
 		name: "Unity",
 		icon: <UnityLogo />,
-		brandColor: "#06B6D4",
+		brandColor: "#2e2c2c",
 	},
 	{
 		name: "Unreal Engine",
 		icon: <UnrealLogo />,
-		brandColor: "#6E9F18",
+		brandColor: "#0E1128",
 	},
 	{
 		name: "C#",
 		icon: <CsharpLogo />,
-		brandColor: "#620aaa"
+		brandColor: "#68217A",
 	}
 ]

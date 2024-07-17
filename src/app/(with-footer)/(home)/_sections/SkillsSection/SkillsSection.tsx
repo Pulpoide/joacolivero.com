@@ -5,7 +5,7 @@ import styles from "./SkillsSection.module.css"
 export const SkillsSection = () => {
 	return (
 		<section className="section-wrapper">
-			<h2 className={styles.title}>Stack tecnológico</h2>
+			<h2 className={styles.title}>Tecnologías</h2>
 			<div className={styles.skillWrapper}>
 				{skills.map((skill) => (
 					<SkillCard key={skill.name} {...skill} />
