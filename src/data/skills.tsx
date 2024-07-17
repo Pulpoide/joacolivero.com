@@ -3,11 +3,12 @@ import { MongoDbLogo } from "~/components/Svg/MongoDbLogo"
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo"
 import { ReactJsLogo } from "~/components/Svg/ReactJsLogo"
 import { ExpressLogo } from "~/components/Svg/ExpressLogo"
-import { CppLogo } from "~/components/Svg/JavascriptLogo"
 import { TypescriptLogo } from "~/components/Svg/TypescriptLogo"
 import { NodeJsLogo } from "~/components/Svg/NodeJsLogo"
-import { UnityLogo } from "~/components/Svg/TailwindCssLogo"
-import { UnrealLogo } from "~/components/Svg/VitestLogo"
+import { UnityLogo } from "~/components/Svg/UnityLogo"
+import { UnrealLogo } from "~/components/Svg/UnrealEngineLogo"
+import { CsharpLogo } from "~/components/Svg/CsharpLogo"
+import { CppLogo } from "~/components/Svg/CppLogo"
 
 export const skills = [
 	{
@@ -60,4 +61,9 @@ export const skills = [
 		icon: <UnrealLogo />,
 		brandColor: "#6E9F18",
 	},
+	{
+		name: "C#",
+		icon: <CsharpLogo />,
+		brandColor: "#620aaa"
+	}
 ]

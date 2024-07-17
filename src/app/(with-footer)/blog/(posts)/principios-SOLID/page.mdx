@@ -1,13 +1,12 @@
-import { localFormatDate } from "~/helpers/local-format-date"
 import { ArticleHeader } from "~/components/ArticleHeader"
 
 export const metadata = {
-	title: "Principios SOLID: Fundamentos para un Código Limpio y Mantenible",
+	title: "The People Behind RDR2",
 	description:
-		"Los Principios SOLID son un conjunto de cinco reglas de diseño de software que promueven la escritura de código limpio, flexible y fácil de mantener.",
+		"Information about the role distribution, seniority, and breakdowns per department of the development team behind RDR2.",
 	publishedOn: "July 2, 2024",
 	lastModified: "July 2, 2024",
-	emoji: "🧩",
+	emoji: "🐎",
 }
 
 <ArticleHeader title={metadata.title} date={metadata.publishedOn} />
@@ -55,6 +54,11 @@ class GeneradorInformeUsuario {
 ## Principio de Abierto/Cerrado (Open/Closed Principle - OCP)
 
 El OCP establece que las entidades del software (clases, módulos, etc.) deben estar abiertas para su extensión pero cerradas para su modificación. En otras palabras, cuando se agregan nuevas funcionalidades o requisitos, se deben agregar nuevas clases o extensiones en lugar de modificar las clases existentes.
+
+![React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
+
+## This is an example of a Markdown image
+
 
 ```js
 // Mal: Modificar la clase existente para agregar una nueva funcionalidad

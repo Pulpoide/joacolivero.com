@@ -15,7 +15,6 @@ export default async function Blog() {
 	return (
 		<main className={styles.wrapper}>
 			<h1 className={styles.title}>Blog</h1>
-			<p>Disclaimer: La información de los posts es proveida por chat GPT 💀</p>
 			<div className={styles.postsWrapper}>
 				{sortedPosts.map((post) => (
 					<PostCard key={post.slug} {...post} />
