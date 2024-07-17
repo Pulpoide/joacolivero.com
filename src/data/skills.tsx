@@ -3,7 +3,7 @@ import { MongoDbLogo } from "~/components/Svg/MongoDbLogo"
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo"
 import { ReactJsLogo } from "~/components/Svg/ReactJsLogo"
 import { BashLogo } from "~/components/Svg/BashLogo"
-import { TypescriptLogo } from "~/components/Svg/TypescriptLogo"
+import { LinuxLogo } from "~/components/Svg/LinuxLogo"
 import { NodeJsLogo } from "~/components/Svg/NodeJsLogo"
 import { UnityLogo } from "~/components/Svg/UnityLogo"
 import { UnrealLogo } from "~/components/Svg/UnrealEngineLogo"
@@ -22,9 +22,9 @@ export const skills = [
 		brandColor: "#3776AB",
 	},
 	{
-		name: "Typescript",
-		icon: <TypescriptLogo />,
-		brandColor: "#3178C6",
+		name: "Linux",
+		icon: <LinuxLogo />,
+		brandColor: "#FCC624",
 	},
 	{
 		name: "Node.js",
@@ -47,6 +47,11 @@ export const skills = [
 		brandColor: "#4169E1",
 	},
 	{
+		name: "Unreal Engine",
+		icon: <UnrealLogo />,
+		brandColor: "",
+	},
+	{
 		name: "C++",
 		icon: <CppLogo />,
 		brandColor: "#00599C",
@@ -57,13 +62,23 @@ export const skills = [
 		brandColor: "",
 	},
 	{
-		name: "Unreal Engine",
-		icon: <UnrealLogo />,
-		brandColor: "",
-	},
-	{
 		name: "C#",
 		icon: <CsharpLogo />,
 		brandColor: "#68217A",
-	}
+	},
+	{
+		name: "MySQL",
+		icon: <PostgreSqlLogo />,
+		brandColor: "#4169E1",
+	},
+	{
+		name: ".NET",
+		icon: <CsharpLogo />,
+		brandColor: "#68217A",
+	},
+	{
+		name: "AWS",
+		icon: <PostgreSqlLogo />,
+		brandColor: "#FF9900",
+	},
 ]
