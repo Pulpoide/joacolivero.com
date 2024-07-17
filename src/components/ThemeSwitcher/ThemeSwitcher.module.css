@@ -14,7 +14,6 @@
 
 .button:hover {
 	color: var(--color-text);
-	cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 }
 
 .sunAndMoon {

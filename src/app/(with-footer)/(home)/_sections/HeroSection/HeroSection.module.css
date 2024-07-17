@@ -59,7 +59,6 @@
 .actionBtn:hover {
 	background-color: #3700b3;
 	color: #ffffff;
-	cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 }
 
 .copyEmailButton {

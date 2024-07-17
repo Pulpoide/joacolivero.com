@@ -11,14 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/react-styled-components/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/react-styled-components/page.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PostCard/PostCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostCard/PostCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectCard/ProjectCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectCard/ProjectCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SkillCard/SkillCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillCard/SkillCard.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ThemeSwitcher/ThemeSwitcher.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSwitcher/ThemeSwitcher.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Button/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Ui/Dialog/Dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Ui/Dialog/Dialog.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +126,7 @@
       <workItem from="1721182501470" duration="2867000" />
       <workItem from="1721222029943" duration="329000" />
       <workItem from="1721222382463" duration="350000" />
-      <workItem from="1721222751239" duration="4851000" />
+      <workItem from="1721222751239" duration="4252000" />
     </task>
     <servers />
   </component>
