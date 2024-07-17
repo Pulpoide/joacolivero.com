@@ -34,7 +34,7 @@ export const HeroSection = () => {
 				<ContactDialog
 					trigger={
 						<Button className={styles.actionBtn} type="button">
-							ʕっ•ᴥ•ʔっ Contáctame
+							Contáctame
 						</Button>
 					}
 				/>

@@ -1,24 +1,26 @@
-import styles from "./AboutSection.module.css"
+import styles from "./AboutSection.module.css";
 
 export const AboutSection = () => {
 	return (
 		<section className="section-wrapper">
 			<h2 className={styles.title}>Un poco sobre mí</h2>
 			<div className={styles.aboutMeWrapper}>
-				<p>Hola, hola 👋🏻, me llamo Javier Andrés, pero puedes decirme Dresan.</p>
+				<p>Hola, hola 👋🏻, me llamo Maximo Comperatore, pero puedes decirme Dresan.</p>
 				<p>
-					Soy desarrollador de software y me especializo en el Front-end. Valoro los pequeños
-					detalles y soy un gran fan de CSS (¡el mejor lenguaje de programación! 🙂).
+					Soy desarrollador de software especializado en Backend y desarrollo de videojuegos.
+					Tengo un gran interés en el desarrollo de aplicaciones móviles y siempre estoy buscando
+					aprender nuevas tecnologías y mejorar mis habilidades.
 				</p>
 				<p>
-					Disfruto aprendiendo sobre el desarrollo de software en sus distintas etapas y
-					manteniéndome al tanto de los avances en inteligencia artificial 🥴.
+					Disfruto explorando diferentes etapas del desarrollo de software y manteniéndome al día
+					con los avances tecnológicos en la industria.
 				</p>
 				<p>
-					Actualmente, estoy profundizando mi conocimiento en el ecosistema de React, pero siempre
-					estoy dispuesto a aprender nuevas tecnologías 😉.
+					Actualmente, me encuentro profundizando mis conocimientos en el desarrollo backend y
+					la creación de videojuegos, sin perder de vista las oportunidades en el ámbito del
+					desarrollo móvil.
 				</p>
 			</div>
 		</section>
-	)
-}
+	);
+};
