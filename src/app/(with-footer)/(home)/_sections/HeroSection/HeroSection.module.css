@@ -1,110 +1,73 @@
 .section {
+	padding: 50px 20px;
 	text-align: center;
-	padding-block-end: var(--space-block);
+	background-color: #000000;
+	color: #e0e0e0;
 }
 
 .phrase {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 16px;
-	padding: var(--space-inline);
-	color: var(--color-text-secondary);
+	font-size: 1rem;
+	margin-bottom: 20px;
 }
 
 .availableCircle {
-	--size: 8px;
-	--color-background: hsl(126 38% 48%);
-	position: relative;
-	inline-size: var(--size);
-	block-size: var(--size);
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background-color: green;
 	border-radius: 50%;
-	background: var(--color-background);
-}
-
-.availableCircle::after {
-	content: "";
-	position: absolute;
-	inset: 0;
-	border-radius: 50%;
-	box-shadow: 0 0 0 0 var(--color-background);
-	animation: circle-pulse 2s infinite;
+	margin-left: 5px;
 }
 
 .title {
-	position: relative;
-	padding: var(--space-inline) 12px;
-	font: 900 clamp(42px, 34.4px + 2.375vw, 80px) / 1 var(--font-geist-sans);
-}
-
-.title::after {
-	content: "";
-	position: absolute;
-	inset: 0;
-	border-block: 1px dashed var(--color-stroke);
-	transition: border-block-color var(--theme-transition-duration);
-	pointer-events: none;
+	font-size: 3rem;
+	font-weight: bold;
+	margin: 20px 0;
+	background: -webkit-linear-gradient(45deg, #ff6ec4, #7873f5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .introSubtitle {
-	padding: var(--space-inline);
-	font-size: clamp(18px, 17.296px + 0.141vw, 20px);
-	color: var(--color-text-secondary);
-	border-block-end: 1px dashed var(--color-stroke);
-	transition: border-block-end-color var(--theme-transition-duration);
-}
-
-.introSubtitle > strong {
-	color: var(--color-text);
-	font-weight: 500;
+	font-size: 1.5rem;
+	margin: 20px 0;
 }
 
 .actions {
 	display: flex;
-	flex-direction: column;
-	gap: 16px;
-	padding: var(--space-inline);
+	justify-content: center;
+	gap: 20px;
+	margin-top: 30px;
+}
+
+.actionBtn {
+	padding: 15px 30px;
+	border-radius: 50px;
+	font-weight: bold;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.actionBtn:hover {
+	background-color: #3700b3;
+	color: #ffffff;
 }
 
 .copyEmailButton {
-	align-self: center;
+	display: inline-block;
+	margin-top: 10px;
 }
 
-@media screen and (min-width: 575px) {
+@media screen and (max-width: 768px) {
 	.actions {
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		max-inline-size: 580px;
-		margin-inline: auto;
+		flex-direction: column;
+		gap: 10px;
 	}
 
-	.actionBtn {
-		flex: 1 0 250px;
-	}
-}
-
-@media screen and (min-width: 768px) {
-	.section {
-		inline-size: fit-content;
-		padding-block: var(--space-block);
-		margin-inline: auto;
-	}
-}
-
-@keyframes circle-pulse {
-	0% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 hsl(126 38% 48% / 0.9);
-	}
-	50% {
-		transform: scale(1);
-		box-shadow: 0 0 0 8px hsl(126 38% 48% / 0);
+	.title {
+		font-size: 2.5rem;
 	}
 
-	100% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 hsl(126 38% 48% / 0);
+	.introSubtitle {
+		font-size: 1.25rem;
 	}
 }
