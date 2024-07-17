@@ -49,7 +49,7 @@ export const HeroSection = () => {
     <CopyEmailSmallButton className={styles.copyEmailButton} />
    </div>
 		<p className={styles.introSubtitle}>
-			Agregar flechas handrawn y underline a los links y esas cosas. Ver otras fonts.
+			Agregar flechas handrawn y underline a los links y esas cosas. Ver otras fonts. Poner seccion con spotify. Poner ubicacion en algun lado. Seccion de experiencia profesional y el mucho texto colin parte. Poner cada seccion en algun boton para darle click e ir a la #parte esa.
 		</p>
   </section>
  );
