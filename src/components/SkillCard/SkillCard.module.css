@@ -59,9 +59,11 @@
 		transform: translateX(-50%);
 		opacity: 0;
 		transition: opacity 150ms;
+		cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 	}
 
 	.card:hover .skillName {
 		opacity: 1;
+		cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 	}
 }

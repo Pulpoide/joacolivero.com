@@ -9,7 +9,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="" />
+    <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MenuMobile/MenuMobile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuMobile/MenuMobile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectCard/ProjectCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectCard/ProjectCard.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SkillCard/SkillCard.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SkillCard/SkillCard.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +134,7 @@
       <workItem from="1721222029943" duration="329000" />
       <workItem from="1721222382463" duration="350000" />
       <workItem from="1721222751239" duration="4252000" />
-      <workItem from="1721228396381" duration="430000" />
+      <workItem from="1721228396381" duration="1050000" />
     </task>
     <servers />
   </component>

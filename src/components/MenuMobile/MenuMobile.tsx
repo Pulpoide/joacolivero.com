@@ -38,9 +38,9 @@ export const MenuMobile = () => {
 			<div className={clsx(styles.menu, { [styles.open]: open })}>
 				<nav className={styles.nav}>
 					<ul className={styles.navList}>
-						{APP_ROUTES.map(({ href, label, target }) => (
+						{APP_ROUTES.map(({ href, label }) => (
 							<li key={href}>
-								<Link className={styles.navLink} href={href} target={target}>
+								<Link className={styles.navLink} href={href}>
 									{label}
 								</Link>
 							</li>
