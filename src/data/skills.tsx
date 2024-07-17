@@ -1,8 +1,8 @@
-import { PythonLogo } from "~/components/Svg/NextJsLogo"
+import { PythonLogo } from "~/components/Svg/PythonLogo"
 import { MongoDbLogo } from "~/components/Svg/MongoDbLogo"
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo"
 import { ReactJsLogo } from "~/components/Svg/ReactJsLogo"
-import { ExpressLogo } from "~/components/Svg/ExpressLogo"
+import { BashLogo } from "~/components/Svg/BashLogo"
 import { TypescriptLogo } from "~/components/Svg/TypescriptLogo"
 import { NodeJsLogo } from "~/components/Svg/NodeJsLogo"
 import { UnityLogo } from "~/components/Svg/UnityLogo"
@@ -32,9 +32,9 @@ export const skills = [
 		brandColor: "#5FA04E",
 	},
 	{
-		name: "Express",
-		icon: <ExpressLogo />,
-		brandColor: "",
+		name: "Bash",
+		icon: <BashLogo />,
+		brandColor: "#4EAA25",
 	},
 	{
 		name: "MongoDB",
@@ -49,17 +49,17 @@ export const skills = [
 	{
 		name: "C++",
 		icon: <CppLogo />,
-		brandColor: "#c7b008",
+		brandColor: "#00599C",
 	},
 	{
 		name: "Unity",
 		icon: <UnityLogo />,
-		brandColor: "#2e2c2c",
+		brandColor: "",
 	},
 	{
 		name: "Unreal Engine",
 		icon: <UnrealLogo />,
-		brandColor: "#0E1128",
+		brandColor: "",
 	},
 	{
 		name: "C#",
