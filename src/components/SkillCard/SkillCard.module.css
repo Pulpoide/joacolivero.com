@@ -43,6 +43,7 @@
 
 .card:hover .iconWrapper {
 	color: var(--color-brand, var(--color-text-secondary));
+	cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 }
 
 .skillName {
