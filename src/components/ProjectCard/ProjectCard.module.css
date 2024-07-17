@@ -27,10 +27,12 @@
 .link:focus-visible + .imageWrapper > .image,
 .card:hover .image {
 	filter: none;
+	cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 }
 
 .card:hover .image {
 	transform: scale(1.05);
+	cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 }
 
 .title {

@@ -120,6 +120,7 @@ a {
 	::-webkit-scrollbar-corner {
 		display: none;
 	}
+	cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 }
 
 @media screen and (min-width: 768px) {
