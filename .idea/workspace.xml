@@ -9,12 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/ogp-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/send-message.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/send-message.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/opengraph-image.png" beforeDir="false" />
-    </list>
+    <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
