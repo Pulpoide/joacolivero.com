@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/md-mdx-tests/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/md-mdx-tests/page.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/principios-SOLID/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/principios-SOLID/page.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +74,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OneDrive\Escritorio\portfolios\dresan.dev\src\components\Svg" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\Escritorio\portfolios\dresan.dev\public\assets\images\blog\rdr2\departments" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
@@ -108,7 +112,7 @@
       <workItem from="1721182501470" duration="2867000" />
       <workItem from="1721222029943" duration="329000" />
       <workItem from="1721222382463" duration="350000" />
-      <workItem from="1721222751239" duration="1510000" />
+      <workItem from="1721222751239" duration="1880000" />
     </task>
     <servers />
   </component>
