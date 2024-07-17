@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/links.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/links.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/md-mdx-tests/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/md-mdx-tests/page.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/principios-SOLID/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/principios-SOLID/page.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <updated>1721179499180</updated>
       <workItem from="1721179502059" duration="2829000" />
       <workItem from="1721182374546" duration="111000" />
-      <workItem from="1721182501470" duration="1947000" />
+      <workItem from="1721182501470" duration="2260000" />
     </task>
     <servers />
   </component>
