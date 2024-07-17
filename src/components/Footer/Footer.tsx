@@ -1,14 +1,16 @@
-import { socialMediaLinks } from "~/data/links"
-import { Link } from "~/components/Ui/Link"
-import styles from "./Footer.module.css"
+import { socialMediaLinks } from "~/data/links";
+import { Link } from "~/components/Ui/Link";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
-	const currentYear = new Date().getFullYear()
+	const currentYear = new Date().getFullYear();
 
 	return (
 		<footer className={styles.footer}>
 			<div className={styles.wrapper}>
-				<span className={styles.year}>ฅʕ´•ᴥ•`ʔฅ - {currentYear}</span>
+				<span className={styles.year}>Basado en el portfolio de <Link href="https://www.dresan.dev"
+																																			target={"_blank"}>Dresan</Link>
+				</span>
 				<div className={styles.linksWrapper}>
 					{socialMediaLinks.map(({ url, label }) => (
 						<Link key={url} className={styles.link} href={url} target="_blank">
@@ -18,5 +20,5 @@ export const Footer = () => {
 				</div>
 			</div>
 		</footer>
-	)
+	);
 }

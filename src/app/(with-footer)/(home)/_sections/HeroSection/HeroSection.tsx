@@ -100,9 +100,6 @@ export const HeroSection = () => {
       Delete available upon request quien verga te crees qie sos
       July 16 at 7:23 PM
       https://thegounis.com/ life illusrrated. Unity?
-      Life Path
-      This is my portfolio
-      thegounis.com
       July 16 at 7:28 PM
       Sqlite
       July 16 at 7:33 PM
