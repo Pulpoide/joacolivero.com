@@ -84,8 +84,6 @@ export const HeroSection = () => {
       Testimonials section
       12:56 AM
       Showcase/other projects
-      1:37 AM
-      change the readme
 
       meterle algo 3d al portfolio. plenear disen̈o
       July 16 at 7:04 PM
