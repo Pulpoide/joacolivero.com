@@ -48,6 +48,9 @@ export const HeroSection = () => {
     </Button>
     <CopyEmailSmallButton className={styles.copyEmailButton} />
    </div>
+		<p className={styles.introSubtitle}>
+			Agregar flechas handrawn y underline a los links y esas cosas. Ver otras fonts.
+		</p>
   </section>
  );
 };
