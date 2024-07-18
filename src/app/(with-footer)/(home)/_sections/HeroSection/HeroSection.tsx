@@ -5,7 +5,6 @@ import { ContactDialog } from "~/components/ContactDialog";
 import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import styles from "./HeroSection.module.css";
 
-// Componente HeroSection mejorado para mayor profesionalismo
 export const HeroSection = () => {
   return (
     <section aria-labelledby="hero-title" className={styles.section}>
