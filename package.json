@@ -12,7 +12,6 @@
     "@mdx-js/loader": "^3.0.1",
     "@mdx-js/react": "^3.0.1",
     "@next/mdx": "^14.2.4",
-    "@next/swc-win32-x64-msvc": "^14.2.5",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-label": "^2.1.0",
     "clsx": "^2.1.1",
@@ -31,7 +30,8 @@
     "eslint": "^8.57.0",
     "eslint-config-next": "14.2.4",
     "eslint-config-prettier": "^9.1.0",
-    "typescript": "^5.5.3"
+    "typescript": "^5.5.3",
+    "webpack-cli": "^5.1.4"
   },
   "optionalDependencies": {
     "@next/swc-win32-x64-msvc": "14.2.5"
