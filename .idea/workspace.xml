@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +69,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "javascript.nodejs.core.library.configured.version": "20.9.0",
     "javascript.nodejs.core.library.typings.version": "20.9.5",
+    "js.buildTools.grunt.grunt-cli.package": "",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/OneDrive/Escritorio/portfolios/dresan.dev/src/components/Svg",
     "node.js.detected.package.eslint": "true",
@@ -87,7 +86,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "SQL Dialects",
-    "ts.external.directory.path": "D:\\OneDrive\\Escritorio\\portfolios\\dresan.dev\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Users\\Usuario\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,7 +106,7 @@
         <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
-      <package-manager value="npm" />
+      <package-manager value="pnpm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -135,7 +134,8 @@
       <workItem from="1721222382463" duration="350000" />
       <workItem from="1721222751239" duration="4252000" />
       <workItem from="1721228396381" duration="1977000" />
-      <workItem from="1721236956150" duration="886000" />
+      <workItem from="1721236956150" duration="1831000" />
+      <workItem from="1721255097849" duration="3589000" />
     </task>
     <servers />
   </component>
