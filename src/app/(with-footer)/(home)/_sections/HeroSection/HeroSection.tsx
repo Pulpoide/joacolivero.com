@@ -24,9 +24,6 @@ export const HeroSection = () => {
       </div>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
-          Hago que tu proyecto <strong>destaque</strong> con la <strong>elegancia</strong> y la <strong>calidad</strong> que merece.
-        </p>
-        <p className={styles.introSubtitle}>
           Además, me apasiona el desarrollo de <strong>aplicaciones móviles</strong>.
         </p>
         <p className={styles.introSubtitle}>
