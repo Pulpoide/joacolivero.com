@@ -10,11 +10,11 @@ import "~/styles/utils.css"
 
 export const metadata: Metadata = {
 	metadataBase: new URL(HOST_URL),
-	title: "Dresan - Frontend developer",
+	title: "Max - Backend developer",
 	description:
-		"Web personal de Dresan, donde encontrarás mi portafolio, habilidades, información de contacto y blog. Explora mi trabajo y contáctame si tienes un proyecto en mente.",
+		"Web personal de Maximo, donde encontrarás mi portafolio, habilidades, información de contacto y blog. Explora mi trabajo y contáctame si tienes un proyecto en mente.",
 	authors: [{ name: "Javier Andres - Dresan" }],
-	creator: "Javier Andres - Dresan",
+	creator: "Maximo Comperatore",
 }
 
 export default function RootLayout({
