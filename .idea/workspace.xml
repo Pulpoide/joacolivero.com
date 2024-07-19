@@ -10,8 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/cpp-concurrency/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/cpp-concurrency/page.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/react-styled-components/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/swe-principles/page.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Svg/PythonLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Svg/PythonLogo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +138,7 @@
       <workItem from="1721228396381" duration="1977000" />
       <workItem from="1721236956150" duration="1831000" />
       <workItem from="1721255097849" duration="7305000" />
-      <workItem from="1721427915271" duration="2864000" />
+      <workItem from="1721427915271" duration="3597000" />
     </task>
     <servers />
   </component>
