@@ -9,6 +9,8 @@ import { UnityLogo } from "~/components/Svg/UnityLogo"
 import { UnrealLogo } from "~/components/Svg/UnrealEngineLogo"
 import { CsharpLogo } from "~/components/Svg/CsharpLogo"
 import { CppLogo } from "~/components/Svg/CppLogo"
+import { DockerLogo } from "~/components/Svg/DockerLogo"
+import { MySQLLogo } from "~/components/Svg/MySQLLogo"
 
 export const skills = [
 	{
@@ -33,7 +35,7 @@ export const skills = [
 	},
 	{
 		name: "MySQL",
-		icon: <PostgreSqlLogo />,
+		icon: <MySQLLogo />,
 		brandColor: "#4169E1",
 	},
 	{
@@ -70,5 +72,10 @@ export const skills = [
 		name: "Python",
 		icon: <PythonLogo />,
 		brandColor: "#3776AB",
+	},
+	{
+		name: "Docker",
+		icon: <DockerLogo />,
+		brandColor: "#2496ED",
 	},
 ]
