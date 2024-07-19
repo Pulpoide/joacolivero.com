@@ -1,10 +1,10 @@
 import { PythonLogo } from "~/components/Svg/PythonLogo"
 import { MongoDbLogo } from "~/components/Svg/MongoDbLogo"
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo"
-import { ReactJsLogo } from "~/components/Svg/ReactJsLogo"
+import { AzureLogo } from "~/components/Svg/AzureLogo"
 import { BashLogo } from "~/components/Svg/BashLogo"
 import { LinuxLogo } from "~/components/Svg/LinuxLogo"
-import { NodeJsLogo } from "~/components/Svg/NodeJsLogo"
+import { DotNetLogo } from "~/components/Svg/DotNetLogo"
 import { UnityLogo } from "~/components/Svg/UnityLogo"
 import { UnrealLogo } from "~/components/Svg/UnrealEngineLogo"
 import { CsharpLogo } from "~/components/Svg/CsharpLogo"
@@ -12,24 +12,9 @@ import { CppLogo } from "~/components/Svg/CppLogo"
 
 export const skills = [
 	{
-		name: "React",
-		icon: <ReactJsLogo />,
-		brandColor: "hsl(192.85714285714286, 95.06172839506173%, 68.23529411764706%)",
-	},
-	{
-		name: "Python",
-		icon: <PythonLogo />,
-		brandColor: "#3776AB",
-	},
-	{
 		name: "Linux",
 		icon: <LinuxLogo />,
 		brandColor: "#FCC624",
-	},
-	{
-		name: "Node.js",
-		icon: <NodeJsLogo />,
-		brandColor: "#5FA04E",
 	},
 	{
 		name: "Bash",
@@ -43,6 +28,11 @@ export const skills = [
 	},
 	{
 		name: "PostgreSQL",
+		icon: <PostgreSqlLogo />,
+		brandColor: "#4169E1",
+	},
+	{
+		name: "MySQL",
 		icon: <PostgreSqlLogo />,
 		brandColor: "#4169E1",
 	},
@@ -62,23 +52,23 @@ export const skills = [
 		brandColor: "",
 	},
 	{
+		name: ".NET",
+		icon: <DotNetLogo />,
+		brandColor: "#68217A",
+	},
+	{
 		name: "C#",
 		icon: <CsharpLogo />,
 		brandColor: "#68217A",
 	},
 	{
-		name: "MySQL",
-		icon: <PostgreSqlLogo />,
-		brandColor: "#4169E1",
+		name: "Azure",
+		icon: <AzureLogo />,
+		brandColor: "#007FFF",
 	},
 	{
-		name: ".NET",
-		icon: <CsharpLogo />,
-		brandColor: "#68217A",
-	},
-	{
-		name: "AWS",
-		icon: <PostgreSqlLogo />,
-		brandColor: "#FF9900",
+		name: "Python",
+		icon: <PythonLogo />,
+		brandColor: "#3776AB",
 	},
 ]

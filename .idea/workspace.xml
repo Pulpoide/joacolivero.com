@@ -10,9 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Svg/AzureLogo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Svg/PythonLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Svg/PythonLogo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Svg/NodeJsLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Svg/DotNetLogo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Svg/ReactJsLogo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +140,7 @@
       <workItem from="1721228396381" duration="1977000" />
       <workItem from="1721236956150" duration="1831000" />
       <workItem from="1721255097849" duration="7305000" />
-      <workItem from="1721427915271" duration="3597000" />
+      <workItem from="1721427915271" duration="4267000" />
     </task>
     <servers />
   </component>
