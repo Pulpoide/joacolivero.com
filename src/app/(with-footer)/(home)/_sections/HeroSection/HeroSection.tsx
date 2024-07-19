@@ -24,7 +24,7 @@ export const HeroSection = () => {
       </div>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
-          Además, me apasiona el desarrollo de <strong>aplicaciones móviles</strong>.
+          Soy un apasionado por la tecnología y el desarrollo de software.
         </p>
         <p className={styles.introSubtitle}>
           Me encuentro en Mendoza, Argentina.

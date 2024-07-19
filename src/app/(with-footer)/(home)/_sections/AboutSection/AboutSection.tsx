@@ -1,26 +1,21 @@
 import styles from "./AboutSection.module.css";
 
 export const AboutSection = () => {
-	return (
-		<section className="section-wrapper">
-			<h2 className={styles.title}>Un poco sobre mí</h2>
-			<div className={styles.aboutMeWrapper}>
-				<p>Hola, hola 👋🏻, me llamo Maximo Comperatore, pero puedes decirme Dresan.</p>
-				<p>
-					Soy desarrollador de software especializado en Backend y desarrollo de videojuegos.
-					Tengo un gran interés en el desarrollo de aplicaciones móviles y siempre estoy buscando
-					aprender nuevas tecnologías y mejorar mis habilidades.
-				</p>
-				<p>
-					Disfruto explorando diferentes etapas del desarrollo de software y manteniéndome al día
-					con los avances tecnológicos en la industria.
-				</p>
-				<p>
-					Actualmente, me encuentro profundizando mis conocimientos en el desarrollo backend y
-					la creación de videojuegos, sin perder de vista las oportunidades en el ámbito del
-					desarrollo móvil.
-				</p>
-			</div>
-		</section>
-	);
+  return (
+    <section className="section-wrapper">
+      <h2 className={styles.title}>Sobre mí</h2>
+      <div className={styles.aboutMeWrapper}>
+        <p>
+          Conoce a Maximo Comperatore, especializado en desarrollo Backend con .NET y desarrollo de videojuegos.
+					
+          Actualmente, estudio Desarrollo de Videojuegos en la Universidad de Mendoza,
+          preparándome para un futuro profesional en tecnología.
+        </p>
+        <p>
+          Busco siempre ampliar mi conocimiento y contribuir a proyectos que me apasionan. Estoy comprometido con mi desarrollo profesional,
+          buscando oportunidades para crecer en el campo de la tecnología y el desarrollo de software.
+        </p>
+      </div>
+    </section>
+  );
 };
