@@ -7,7 +7,7 @@ export const AboutSection = () => {
       <div className={styles.aboutMeWrapper}>
         <p>
           Conoce a Maximo Comperatore, especializado en desarrollo Backend con .NET y desarrollo de videojuegos.
-					
+
           Actualmente, estudio Desarrollo de Videojuegos en la Universidad de Mendoza,
           preparándome para un futuro profesional en tecnología.
         </p>
