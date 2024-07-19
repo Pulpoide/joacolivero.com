@@ -16,7 +16,6 @@ export const AboutSection = () => {
           Busco siempre ampliar mi conocimiento y contribuir a proyectos que me apasionan.
           Estoy comprometido con mi desarrollo profesional,
           buscando oportunidades para crecer en el campo de la tecnología y el desarrollo de software.
-          TODO: PUT CORRECT COLORS IN SKILLS SECTION
         </p>
       </div>
     </section>

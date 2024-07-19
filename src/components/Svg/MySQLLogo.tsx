@@ -3,9 +3,9 @@ import type { SVGProps } from "react"
 export const MySQLLogo = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		width={50}
-		height={50}
-		viewBox="0 0 50 50"
+		width={55}
+		height={55}
+		viewBox="4 5 25 25"
 		fill="none"
 		{...props}
 	>

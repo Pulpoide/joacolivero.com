@@ -16,7 +16,7 @@ export const skills = [
 	{
 		name: "Linux",
 		icon: <LinuxLogo />,
-		brandColor: "#FCC624",
+		brandColor: "#444444",
 	},
 	{
 		name: "Bash",
@@ -31,12 +31,12 @@ export const skills = [
 	{
 		name: "PostgreSQL",
 		icon: <PostgreSqlLogo />,
-		brandColor: "#4169E1",
+		brandColor: "#336791",
 	},
 	{
 		name: "MySQL",
 		icon: <MySQLLogo />,
-		brandColor: "#4169E1",
+		brandColor: "#00758F",
 	},
 	{
 		name: "Unreal Engine",
@@ -46,7 +46,7 @@ export const skills = [
 	{
 		name: "C++",
 		icon: <CppLogo />,
-		brandColor: "#00599C",
+		brandColor: "#659AD2",
 	},
 	{
 		name: "Unity",
@@ -56,12 +56,12 @@ export const skills = [
 	{
 		name: ".NET",
 		icon: <DotNetLogo />,
-		brandColor: "#68217A",
+		brandColor: "#1486CA",
 	},
 	{
 		name: "C#",
 		icon: <CsharpLogo />,
-		brandColor: "#68217A",
+		brandColor: "#9A5196",
 	},
 	{
 		name: "Azure",
@@ -69,13 +69,13 @@ export const skills = [
 		brandColor: "#007FFF",
 	},
 	{
-		name: "Python",
-		icon: <PythonLogo />,
-		brandColor: "#3776AB",
-	},
-	{
 		name: "Docker",
 		icon: <DockerLogo />,
-		brandColor: "#2496ED",
+		brandColor: "#039CC7",
+	},
+	{
+		name: "Python",
+		icon: <PythonLogo />,
+		brandColor: "#FFD445",
 	},
 ]
