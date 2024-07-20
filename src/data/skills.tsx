@@ -11,6 +11,7 @@ import { CsharpLogo } from "~/components/Svg/CsharpLogo"
 import { CppLogo } from "~/components/Svg/CppLogo"
 import { DockerLogo } from "~/components/Svg/DockerLogo"
 import { MySQLLogo } from "~/components/Svg/MySQLLogo"
+import { AWSLogo } from "~/components/Svg/AWSLogo"
 
 export const skills = [
 	{
@@ -67,6 +68,11 @@ export const skills = [
 		name: "Azure",
 		icon: <AzureLogo />,
 		brandColor: "#007FFF",
+	},
+	{
+		name: "AWS",
+		icon: <AWSLogo />,
+		brandColor: "#FF9900",
 	},
 	{
 		name: "Docker",
