@@ -1,84 +1,95 @@
 .section {
-	padding: 50px 20px;
 	text-align: center;
-	background-color: #000000;
-	color: #e0e0e0;
+	padding-block-end: var(--space-block);
 }
 
 .phrase {
-	font-size: 1rem;
-	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 16px;
+	padding: var(--space-inline);
+	color: var(--color-text-secondary);
 }
 
 .availableCircle {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background-color: green;
-  border-radius: 50%;
-  margin-left: 5px;
-  position: relative;
-  animation: circle-pulse 2s infinite ease-in-out;
+	--size: 8px;
+	--color-background: hsl(126 38% 48%);
+	position: relative;
+	inline-size: var(--size);
+	block-size: var(--size);
+	border-radius: 50%;
+	background: var(--color-background);
 }
 
-.buttonContainer {
-  max-width: 300px;
-  margin: 0 auto;
+.availableCircle::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 var(--color-background);
+	animation: circle-pulse 2s infinite;
 }
 
 .title {
-	font-size: 3rem;
-	font-weight: bold;
-	margin: 20px 0;
-	background: -webkit-linear-gradient(45deg, #ff6ec4, #7873f5);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	position: relative;
+	padding: var(--space-inline) 12px;
+	font: 900 clamp(42px, 34.4px + 2.375vw, 80px) / 1 var(--font-geist-sans);
+}
+
+.title::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-block: 1px dashed var(--color-stroke);
+	transition: border-block-color var(--theme-transition-duration);
+	pointer-events: none;
 }
 
 .introSubtitle {
-	font-size: 1.5rem;
-	margin: 20px 0;
+	padding: var(--space-inline);
+	font-size: clamp(18px, 17.296px + 0.141vw, 20px);
+	color: var(--color-text-secondary);
+	border-block-end: 1px dashed var(--color-stroke);
+	transition: border-block-end-color var(--theme-transition-duration);
+}
+
+.introSubtitle > strong {
+	color: var(--color-text);
+	font-weight: 500;
 }
 
 .actions {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 20px;
-	margin-top: 30px;
-}
-
-.actionBtn {
-	padding: 15px 30px;
-	border-radius: 50px;
-	font-weight: bold;
-	transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.actionBtn:hover {
-	background-color: #3700b3;
-	color: #ffffff;
-	cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
+	gap: 16px;
+	padding: var(--space-inline);
 }
 
 .copyEmailButton {
-	display: inline-block;
-	margin-top: 10px;
+	align-self: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 575px) {
 	.actions {
-		flex-direction: column;
-		gap: 10px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		max-inline-size: 580px;
+		margin-inline: auto;
 	}
 
-	.title {
-		font-size: 2.5rem;
+	.actionBtn {
+		flex: 1 0 250px;
 	}
+}
 
-	.introSubtitle {
-		font-size: 1.25rem;
+@media screen and (min-width: 768px) {
+	.section {
+		inline-size: fit-content;
+		padding-block: var(--space-block);
+		margin-inline: auto;
 	}
 }
 
