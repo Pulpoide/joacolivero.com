@@ -1,11 +1,6 @@
 import type { CoverProject } from "~/types"
 import { Tag } from "./tags"
 
-const IMAGES_BASE_PATH = "/assets/images/projects"
-const COVER_IMAGE_PATH = `${IMAGES_BASE_PATH}/cover`
-const MOBILE_IMAGE_PATH = `${IMAGES_BASE_PATH}/mobile`
-const DESKTOP_IMAGE_PATH = `${IMAGES_BASE_PATH}/desktop`
-
 export const projectMetadata = {
 	mercadolibrepricechart: {
 		slug: "mercadolibrepricechart",
@@ -24,18 +19,18 @@ export const projectMetadata = {
 export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.mercadolibrepricechart,
-		imageUrl: `${COVER_IMAGE_PATH}/dreflix.webp`,
+		imageUrl: `/assets/images/projects/cover/mercadolibre.png`,
 		description: "Visualiza un histograma detallado de los precios de productos en MercadoLibre.",
 	},
 	{
 		...projectMetadata.monedasAPI,
-		imageUrl: `${COVER_IMAGE_PATH}/vexara.webp`,
+		imageUrl: `/assets/images/projects/cover/monedasapi.png`,
 		description:
 			"API RESTful para obtener los precios más recientes de divisas extranjeras en Argentina.",
 	},
 	{
 		...projectMetadata.hillclimbracing,
-		imageUrl: `${COVER_IMAGE_PATH}/linkpeek.webp`,
+		imageUrl: `/assets/images/projects/cover/hcr.png`,
 		description:
 			"Hill Climb Racing recreado en Unity.",
 	},
