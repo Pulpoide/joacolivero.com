@@ -1,22 +1,55 @@
-import type { SVGProps } from "react"
+import type { SVGProps } from "react";
 
 export const DresanLogo = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		width={50}
-		height={25}
-		viewBox="0 30 200 35" // Adjusted viewBox
+		width={55}
+		height={55}
+		viewBox="0 -2 35 35" // Adjusted viewBox
 		fill="none"
 		{...props}
 	>
 		<path
-			stroke="currentColor"
+			stroke="white"
 			strokeWidth="1"
 			pathLength="1"
-			fill="currentColor"
+			fill="white"
 		/>
-		<path d="M10,80 L10,30 L60,10 L60,60 Z" fill="#E8E8E8" stroke="black"/>
-		<path d="M60,10 L110,30 L110,80 L60,60 Z" fill="#969696" stroke="black"/>
-		<path d="M10,80 L60,60 L110,80 L60,100 Z" fill="#E8E8E8" stroke="black"/>
+		<g
+			transform="translate(0,-289.0625)"
+		>
+			<g
+				aria-label="{}"
+				style={{
+					fontStyle: "normal",
+					fontWeight: "normal",
+					fontSize: "24.25199318px",
+					lineHeight: "1.25",
+					fontFamily: "sans-serif",
+					letterSpacing: "0px",
+					wordSpacing: "0px",
+					fill: "#ffffff",
+					fillOpacity: "1",
+					stroke: "none",
+					strokeWidth: "1"
+				}}
+				id="text892"
+			>
+				<path
+					style={{
+						fontStyle: "normal",
+						fontVariant: "normal",
+						fontWeight: "bold",
+						fontStretch: "normal",
+						fontFamily: "'Fira Code'",
+						strokeWidth: "1.64934897",
+						fill: "#ffffff"
+					}}
+					d="M 11.779297 3.1171875 C 7.3169299 3.1171875 5.618642 4.3052456 5.9824219 7.6035156 L 6.3476562 11.070312 C 6.5416723 12.889212 5.0614194 13.447266 3 13.447266 L 3 16.552734 C 5.0856714 16.552734 6.5416723 17.110797 6.3476562 18.929688 L 5.9824219 22.421875 C 5.642894 25.671645 7.3169299 26.882812 11.779297 26.882812 L 11.779297 24.214844 C 10.299925 24.214844 9.4021776 23.9001 9.5234375 22.6875 L 9.8867188 19.097656 C 10.177743 16.357176 8.7238695 15.38803 6.1289062 15 C 8.5783575 14.63622 10.177743 13.618564 9.8867188 10.902344 L 9.5234375 7.3125 C 9.4021776 6.0999 10.275673 5.7851562 11.779297 5.7851562 L 11.779297 3.1171875 z M 18.220703 3.1171875 L 18.220703 5.7851562 C 19.700075 5.7851562 20.597823 6.0999 20.476562 7.3125 L 20.113281 10.902344 C 19.822257 13.642814 21.30152 14.61197 23.896484 15 C 21.42278 15.36378 19.822257 16.381436 20.113281 19.097656 L 20.476562 22.6875 C 20.597822 23.9001 19.724327 24.214844 18.220703 24.214844 L 18.220703 26.882812 C 22.68307 26.882812 24.381358 25.694754 24.017578 22.396484 L 23.652344 18.929688 C 23.458328 17.110798 24.962832 16.552734 27 16.552734 L 27 13.447266 C 24.93858 13.447266 23.458328 12.889212 23.652344 11.070312 L 24.017578 7.578125 C 24.357106 4.328365 22.68307 3.1171875 18.220703 3.1171875 z "
+					transform="translate(0,289.0625)"
+					id="path894"
+				/>
+			</g>
+		</g>
 	</svg>
-)
+);
