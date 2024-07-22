@@ -9,7 +9,7 @@ export const HeroSection = () => {
   return (
     <section aria-labelledby="hero-title" className={styles.section}>
       <h1 id="hero-title" className={`text-gradient ${styles.title}`}>
-        Máximo Comperatore, Desarrollador Backend y de Videojuegos
+        Maximo Comperatore, Desarrollador Backend y de Videojuegos
       </h1>
       <div className={styles.buttonContainer}>
         <Button rounded="full" size="small" asChild className={styles.button}>

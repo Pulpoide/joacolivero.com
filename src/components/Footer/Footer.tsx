@@ -10,7 +10,7 @@ export const Footer = () => {
 		<footer className={styles.footer}>
 			<div className={styles.wrapper}>
         <span className={styles.year}>
-          &copy; {currentYear} - Máximo Comperatore
+          &copy; {currentYear} - Maximo Comperatore
         </span>
 				<div className={styles.linksWrapper}>
 					{socialMediaLinks.map(({ url, label, icon, className }) => (
