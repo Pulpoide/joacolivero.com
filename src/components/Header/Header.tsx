@@ -1,6 +1,6 @@
 import NextLink from "next/link"
 import { APP_ROUTES } from "~/constants"
-import { DresanLogo } from "~/components/Svg/DresanLogo"
+import { HomeLogo } from "~/components/Svg/HomeLogo"
 import { ThemeSwitcher } from "~/components/ThemeSwitcher"
 import { Button } from "~/components/Ui/Button"
 import { Link } from "~/components/Ui/Link"
@@ -13,7 +13,7 @@ export const Header = () => {
 		<header className={styles.header}>
 			<div className={styles.contentWrapper}>
 				<NextLink href="/" aria-label="Ir a la página de inicio">
-					<DresanLogo className={styles.dresanLogo} />
+					<HomeLogo className={styles.homeLogo} />
 				</NextLink>
 				<nav className={styles.nav}>
 					<ul className={styles.navList}>
