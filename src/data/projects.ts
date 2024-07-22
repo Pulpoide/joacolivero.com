@@ -109,10 +109,14 @@ export const projects = [
 		index: 2,
 		description:
 			"Este proyecto es una reimplementación del popular juego móvil Hill Climb Racing, construido con el motor de juegos Unity. Tiene como objetivo recrear la adictiva experiencia de juego con características y mejoras adicionales. Sumérgete en un mundo con un nivel hecho a mano, coleccionables, efectos de sonido inmersivos, una interfaz intuitiva y una física deliciosamente inestable diseñada para desafiar y entretener.",
-		mobileImages: [`${MOBILE_IMAGE_PATH}/linkpeek-1.webp`, `${MOBILE_IMAGE_PATH}/linkpeek-2.webp`],
+		mobileImages:
+			[
+				`/assets/images/projects/hillclimbracing/falling.png`,
+				`/assets/images/projects/hillclimbracing/celular.png`
+			],
 		desktopImages: [
-			`${DESKTOP_IMAGE_PATH}/linkpeek-1.webp`,
-			`${DESKTOP_IMAGE_PATH}/linkpeek-2.webp`,
+			`/assets/images/projects/hillclimbracing/mac.png`,
+			`/assets/images/projects/hillclimbracing/unity.png`
 		],
 		links: [
 			{
