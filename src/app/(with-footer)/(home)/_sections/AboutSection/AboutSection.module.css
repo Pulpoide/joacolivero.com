@@ -13,13 +13,14 @@
 
 .aboutMeContainer {
 	display: flex;
-	align-items: flex-start;
+	flex-direction: column;
+	align-items: center;
 	gap: 20px;
 }
 
 .textWrapper {
-	flex: 2;
 	line-height: 1.6;
+	text-align: center;
 }
 
 .paragraph {
@@ -31,9 +32,9 @@
 }
 
 .photoWrapper {
-	flex: 1;
 	display: flex;
 	justify-content: center;
+	width: 100%;
 }
 
 .photo {
@@ -42,4 +43,37 @@
 	height: auto;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+	.aboutMeContainer {
+		flex-direction: row;
+		align-items: center;
+		gap: 40px;
+	}
+
+	.textWrapper {
+		text-align: left;
+		flex: 1;
+	}
+
+	.photoWrapper {
+		flex: 1;
+		justify-content: center;
+	}
+
+	.photo {
+		max-width: 300px;
+	}
+}
+
+@media (max-width: 767px) {
+	.photoWrapper {
+		justify-content: center;
+		width: 100%;
+	}
+
+	.photo {
+		margin: 0 auto;
+	}
 }

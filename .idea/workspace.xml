@@ -11,11 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/projects/desktop/linkpeek-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/projects/desktop/linkpeek-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/projects/mobile/linkpeek-1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/projects/mobile/linkpeek-2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/projects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/AboutSection/AboutSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/AboutSection/AboutSection.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/AboutSection/AboutSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/AboutSection/AboutSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +148,7 @@
       <workItem from="1721660540307" duration="4584000" />
       <workItem from="1721673625137" duration="498000" />
       <workItem from="1721674140986" duration="861000" />
+      <workItem from="1721675023218" duration="947000" />
     </task>
     <servers />
   </component>

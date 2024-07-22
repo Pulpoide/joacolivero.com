@@ -6,6 +6,9 @@ export const AboutSection = () => {
     <section className="section-wrapper">
       <h2 className={styles.title}>Sobre mí</h2>
       <div className={styles.aboutMeContainer}>
+        <div className={styles.photoWrapper}>
+          <img src="/assets/images/maximo_comperatore.jpg" alt="Maximo Comperatore" className={styles.photo} />
+        </div>
         <div className={styles.textWrapper}>
           <p className={styles.paragraph}>
             Conoce a Maximo Comperatore, especializado en desarrollo Backend con .NET y desarrollo de videojuegos.
@@ -19,9 +22,6 @@ export const AboutSection = () => {
           <p className={styles.paragraph}>
             Busco siempre ampliar mi conocimiento y contribuir a proyectos que me apasionan. Estoy comprometido con mi desarrollo profesional, buscando oportunidades para crecer en el campo de la tecnología y el desarrollo de software.
           </p>
-        </div>
-        <div className={styles.photoWrapper}>
-          <img src="/assets/images/maximo_comperatore.jpg" alt="Maximo Comperatore" className={styles.photo} />
         </div>
       </div>
     </section>
