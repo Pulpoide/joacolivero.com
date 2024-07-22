@@ -25,19 +25,19 @@ export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.mercadolibrepricechart,
 		imageUrl: `${COVER_IMAGE_PATH}/dreflix.webp`,
-		description: "App de exploración de películas, al estilo de Amazon Prime Video y Crunchyroll.",
+		description: "Visualiza un histograma detallado de los precios de productos en MercadoLibre.",
 	},
 	{
 		...projectMetadata.monedasAPI,
 		imageUrl: `${COVER_IMAGE_PATH}/vexara.webp`,
 		description:
-			"Clon del e-commerce de Bershka, implementando el flujo principal de un e-commerce.",
+			"API RESTful para obtener los precios más recientes de divisas extranjeras en Argentina.",
 	},
 	{
 		...projectMetadata.hillclimbracing,
 		imageUrl: `${COVER_IMAGE_PATH}/linkpeek.webp`,
 		description:
-			"App para la gestión de links, haciendo scraping para la obtención de la información de la web.",
+			"Hill Climb Racing recreado en Unity.",
 	},
 ]
 
@@ -46,7 +46,7 @@ export const projects = [
 		...projectMetadata.mercadolibrepricechart,
 		index: 0,
 		description:
-			"Aplicación web para explorar películas, similar a Amazon Prime Video y Crunchyroll, con funcionalidades como scroll infinito, buscador de películas optimizado para navegación por teclado, similar al de YouTube, y un carrusel para promocionar películas con características como reproducción automática solo cuando esté visible en el viewport o la pestaña tenga el foco, entre otros detalles y funcionalidades.",
+			"Aplicación web que permite consultar precios de productos en MercadoLibre y visualizarlos en un histograma. Utiliza web scraping para obtener los precios, la API monedas-api (desarrollada por mí) para el tipo de cambio actualizado a dólares, y Matplotlib para generar gráficos claros y concisos que representan eficazmente la variabilidad de los precios.",
 		mobileImages: [`${MOBILE_IMAGE_PATH}/dreflix-1.webp`, `${MOBILE_IMAGE_PATH}/dreflix-2.webp`],
 		desktopImages: [`${DESKTOP_IMAGE_PATH}/dreflix-1.webp`, `${DESKTOP_IMAGE_PATH}/dreflix-2.webp`],
 		links: [
@@ -69,12 +69,12 @@ export const projects = [
 		...projectMetadata.monedasAPI,
 		index: 1,
 		description:
-			"Clon del ecommerce de Bershka, implementando funcionalidades principales como el flujo de autenticación con auth.js, el flujo de pago de productos mediante la pasarela de pagos MercadoPago, maquetación de la app con precisión pixel perfect, y diseño responsive sin usar JavaScript (como se hace originalmente). Además, se implementó código funcional en producción.",
+			"Monedas API es una aplicación robusta desarrollada con FastAPI, diseñada para proporcionar tasas de cambio de divisas en tiempo real mediante scraping de sitios web financieros. La API se enfoca principalmente en varias tasas de cambio en Argentina, incluyendo USD (blue, oficial, MEP, CCL), Euro, Real Brasileño, Peso Chileno, Peso Uruguayo, y más. También ofrece una función de conversión para convertir montos entre las monedas soportadas.",
 		mobileImages: [`${MOBILE_IMAGE_PATH}/vexara-1.webp`, `${MOBILE_IMAGE_PATH}/vexara-2.webp`],
 		desktopImages: [`${DESKTOP_IMAGE_PATH}/vexara-1.webp`, `${DESKTOP_IMAGE_PATH}/vexara-2.webp`],
 		links: [
 			{
-				label: "Visitar sitio",
+				label: "Visitar documentación",
 				url: "https://fastapiproject-1-eziw.onrender.com/docs",
 			},
 			{
@@ -92,7 +92,7 @@ export const projects = [
 		...projectMetadata.hillclimbracing,
 		index: 2,
 		description:
-			"Aplicación para gestionar enlaces, realizando scraping para obtener datos como el título, la descripción y la imagen usada en el Open Graph Protocol (OGP). Incluye un componente para gestionar etiquetas similar al TagsInput de GitHub. El enfoque principal es del lado del servidor, de manera que la mayoría de las peticiones se realicen en el servidor.",
+			"Este proyecto es una reimplementación del popular juego móvil Hill Climb Racing, construido con el motor de juegos Unity. Tiene como objetivo recrear la adictiva experiencia de juego con características y mejoras adicionales. Sumérgete en un mundo con un nivel hecho a mano, coleccionables, efectos de sonido inmersivos, una interfaz intuitiva y una física deliciosamente inestable diseñada para desafiar y entretener.",
 		mobileImages: [`${MOBILE_IMAGE_PATH}/linkpeek-1.webp`, `${MOBILE_IMAGE_PATH}/linkpeek-2.webp`],
 		desktopImages: [
 			`${DESKTOP_IMAGE_PATH}/linkpeek-1.webp`,
@@ -100,7 +100,7 @@ export const projects = [
 		],
 		links: [
 			{
-				label: "Visitar sitio",
+				label: "Juega en tu navegador",
 				url: "https://pyoneerc1.itch.io/hill-climb-racing-recreation",
 			},
 			{

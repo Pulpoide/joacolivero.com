@@ -5,7 +5,7 @@ export const DresanLogo = (props: SVGProps<SVGSVGElement>) => (
 		xmlns="http://www.w3.org/2000/svg"
 		width={55}
 		height={55}
-		viewBox="0 -2 35 35" // Adjusted viewBox
+		viewBox="0 -2 35 35"
 		fill="none"
 		{...props}
 	>

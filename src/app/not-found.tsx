@@ -4,7 +4,7 @@ import { Footer } from "~/components/Footer"
 import styles from "./not-found.module.css"
 
 export const metadata = {
-	title: "Dresan - 404",
+	title: "Max - 404",
 }
 
 export default function NotFound() {

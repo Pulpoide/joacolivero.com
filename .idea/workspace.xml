@@ -11,8 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/not-found.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Svg/DresanLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Svg/DresanLogo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/favicon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/projects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/projects.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +146,7 @@
       <workItem from="1721621514584" duration="6161000" />
       <workItem from="1721657519323" duration="1135000" />
       <workItem from="1721658676538" duration="1834000" />
-      <workItem from="1721660540307" duration="2687000" />
+      <workItem from="1721660540307" duration="3465000" />
     </task>
     <servers />
   </component>
