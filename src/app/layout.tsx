@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 	title: "Max - Backend developer",
 	description:
 		"Web personal de Maximo, donde encontrarás mi portafolio, habilidades, información de contacto y blog. Explora mi trabajo y contáctame si tienes un proyecto en mente.",
-	authors: [{ name: "Javier Andres - Dresan" }],
+	authors: [{ name: "Maximo Comperatore" }],
 	creator: "Maximo Comperatore",
 }
 

@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Svg/LinuxLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Svg/LinuxLogo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;SQL Dialects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Usuario\\AppData\\Local\\Programs\\IntelliJ IDEA Ultimate\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -141,7 +141,8 @@
       <workItem from="1721587497880" duration="12212000" />
       <workItem from="1721621514584" duration="6161000" />
       <workItem from="1721657519323" duration="1135000" />
-      <workItem from="1721658676538" duration="1328000" />
+      <workItem from="1721658676538" duration="1834000" />
+      <workItem from="1721660540307" duration="615000" />
     </task>
     <servers />
   </component>

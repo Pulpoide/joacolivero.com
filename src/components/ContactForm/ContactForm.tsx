@@ -42,12 +42,12 @@ export const ContactForm = () => {
 		<form ref={formRef} className={styles.form} action={formAction}>
 			<Label>
 				<span className={styles.labelWrapper}>Nombre</span>
-				<Input placeholder="Pepito Perez Pepian" name="name" autoComplete="name" required />
+				<Input placeholder="Alfredo Linux" name="name" autoComplete="name" required />
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Correo</span>
 				<Input
-					placeholder="pepito@perez.com"
+					placeholder="alfredlinux@gmail.com"
 					type="email"
 					name="email"
 					autoComplete="email"
@@ -56,7 +56,7 @@ export const ContactForm = () => {
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Mensaje</span>
-				<Textarea placeholder="Hola Dresan, (Tu increíble mensaje)" name="message" required />
+				<Textarea placeholder="Hola Max, [Insertar Mesnsaje]" name="message" required />
 			</Label>
 			<Button disabled={isPending} size="medium">
 				Enviar
