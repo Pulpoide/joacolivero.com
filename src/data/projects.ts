@@ -47,8 +47,16 @@ export const projects = [
 		index: 0,
 		description:
 			"Aplicación web que permite consultar precios de productos en MercadoLibre y visualizarlos en un histograma. Utiliza web scraping para obtener los precios, la API monedas-api (desarrollada por mí) para el tipo de cambio actualizado a dólares, y Matplotlib para generar gráficos claros y concisos que representan eficazmente la variabilidad de los precios.",
-		mobileImages: [`${MOBILE_IMAGE_PATH}/dreflix-1.webp`, `${MOBILE_IMAGE_PATH}/dreflix-2.webp`],
-		desktopImages: [`${DESKTOP_IMAGE_PATH}/dreflix-1.webp`, `${DESKTOP_IMAGE_PATH}/dreflix-2.webp`],
+		mobileImages:
+			[
+				`/assets/images/projects/mercadolibrepcmobile.png`,
+				`/assets/images/projects/mercadolibrepchistograma.png`
+			],
+		desktopImages:
+			[
+				`/assets/images/projects/mercadolibrepcmac.png`,
+				`/assets/images/projects/mercadolibrepcdiagrama.png`
+			],
 		links: [
 			{
 				label: "Visitar sitio",
