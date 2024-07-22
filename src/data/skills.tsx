@@ -16,10 +16,10 @@ import { AWSLogo } from "~/components/Svg/AWSLogo";
 export const skills = [
 	// Backend skills
 	{
-		name: "Bash",
-		icon: <BashLogo />,
-		brandColor: "#4EAA25",
-		url: "https://www.gnu.org/software/bash/",
+		name: "Python",
+		icon: <PythonLogo />,
+		brandColor: "#FFD445",
+		url: "https://www.python.org/",
 	},
 	{
 		name: "MongoDB",
@@ -58,10 +58,10 @@ export const skills = [
 		url: "https://aws.amazon.com/",
 	},
 	{
-		name: "Python",
-		icon: <PythonLogo />,
-		brandColor: "#FFD445",
-		url: "https://www.python.org/",
+		name: "Bash",
+		icon: <BashLogo />,
+		brandColor: "#4EAA25",
+		url: "https://www.gnu.org/software/bash/",
 	},
 	// .NET related skills
 	{

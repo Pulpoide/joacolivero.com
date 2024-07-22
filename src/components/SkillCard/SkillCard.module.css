@@ -1,5 +1,3 @@
-/* SkillCard.module.css */
-
 .card {
 	--line-offset: 1px;
 	position: relative;
@@ -7,16 +5,16 @@
 	justify-items: center;
 	align-content: center;
 	aspect-ratio: 1 / 1;
-	background-color: #030303; /* Ensure background is white or adjust as needed */
-	border-radius: 8px; /* Optional: Rounded corners */
-	overflow: hidden; /* Ensure contents don't overflow */
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
-	transition: box-shadow 0.3s, transform 0.3s; /* Smooth transition for box-shadow and transform */
+	background-color: #030303;
+	border-radius: 8px;
+	overflow: hidden;
+	-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s, transform 0.3s;
 }
 
 .card:hover {
-	transform: translateY(-4px); /* Lift effect on hover */
-	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+	transform: translateY(-4px);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .card::before,
@@ -48,26 +46,26 @@
 
 .card:hover .iconWrapper {
 	color: var(--color-brand, var(--color-text-secondary));
-	transform: translateY(-8px); /* Move the icon up on hover */
-	cursor: url('/assets/cursor/hand-pointer.png'), auto; /* Adjusted path for cursor */
+	transform: translateY(-8px);
+	cursor: url('/assets/cursor/hand-pointer.png'), auto;
 }
 
 .skillName {
 	font-size: 14px;
-	font-weight: 500; /* Slightly bolder text for better visibility */
-	color: var(--color-text-primary); /* Default text color */
+	font-weight: 500;
+	color: var(--color-text-primary);
 	position: absolute;
-	bottom: 12px; /* Position the text slightly above the bottom */
+	bottom: 12px;
 	left: 50%;
-	transform: translateX(-50%) translateY(10px); /* Center text horizontally and lift slightly */
+	transform: translateX(-50%) translateY(10px);
 	opacity: 0;
-	transition: opacity 150ms, transform 150ms; /* Smooth transition for opacity and transform */
+	transition: opacity 150ms, transform 150ms;
 }
 
 @media (hover: hover) {
 	.card:hover .skillName {
 		opacity: 1;
-		transform: translateX(-50%) translateY(0); /* Move text up on hover */
-		cursor: url('/assets/cursor/hand-pointer.png'), auto; /* Adjusted path for cursor */
+		transform: translateX(-50%) translateY(0);
+		cursor: url('/assets/cursor/hand-pointer.png'), auto;
 	}
 }
