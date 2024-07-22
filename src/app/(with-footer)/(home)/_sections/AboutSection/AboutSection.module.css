@@ -50,7 +50,7 @@
 
 .photoWrapper:hover .photo {
 	filter: grayscale(0%) brightness(100%);
-	transform: scale(1.1) rotate(5deg);
+	transform: scale(1.05) rotate(3deg);
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
