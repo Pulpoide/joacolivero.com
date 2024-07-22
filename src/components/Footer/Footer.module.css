@@ -26,3 +26,103 @@
 	gap: 16px;
 	flex-wrap: wrap;
 }
+
+/* Footer.module.css */
+.footer {
+	padding: 20px;
+	background-color: #030303;
+	text-align: center;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.year {
+	display: block;
+	margin-bottom: 10px;
+    color: #fff;
+}
+
+.linksWrapper {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+    color: #fff;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition: color 0.3s;
+    color: #fff;
+}
+
+.link:hover {
+	color: #0073b1;
+}
+
+.link i {
+	margin-right: 8px;
+	font-size: 1.2em;
+}
+
+/* Footer.module.css */
+.footer {
+	padding: 20px;
+	background-color: #000; /* Fondo negro */
+	text-align: center;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.year {
+	display: block;
+	margin-bottom: 10px;
+	color: #fff; /* Texto en blanco */
+}
+
+.linksWrapper {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	font-size: 16px;
+	transition: color 0.3s;
+}
+
+.link i {
+	margin-right: 8px;
+	font-size: 1.2em;
+}
+
+.link.linkedin:hover {
+	color: #0073b1; 
+}
+
+.link.github:hover {
+	color: #333;
+}
+
+.link.email:hover {
+	color: #5e5a5a;
+}
+
+.link.youtube:hover {
+	color: #FF0000;
+}
+
+.link.itchio:hover {
+	color: #fa5c5c;
+}

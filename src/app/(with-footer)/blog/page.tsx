@@ -4,8 +4,8 @@ import { PostCard } from "~/components/PostCard"
 import styles from "./page.module.css"
 
 export const metadata = {
-	title: "Dresan - Blog",
-	description: "Tutoriales simples sobre desarrollo web, enfocados mayormente en React.",
+	title: "Maximo Comperatore - Blog",
+	description: "Tutoriales simples sobre desarrollo de software y videojuegos.",
 }
 
 export default async function Blog() {
