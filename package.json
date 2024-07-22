@@ -36,5 +36,10 @@
   "optionalDependencies": {
     "@next/swc-win32-x64-msvc": "14.2.5"
   },
+  "scripts": {
+    "build": "pnpm install --frozen-lockfile && next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
   "packageManager": "pnpm@9.5.0"
 }
