@@ -10,7 +10,7 @@ import "~/styles/utils.css"
 
 export const metadata: Metadata = {
 	metadataBase: new URL(HOST_URL),
-	title: "Max - Backend developer",
+	title: "Max - Backend & Game Developer",
 	description:
 		"Web personal de Maximo, donde encontrarás mi portafolio, habilidades, información de contacto y blog. Explora mi trabajo y contáctame si tienes un proyecto en mente.",
 	authors: [{ name: "Maximo Comperatore" }],

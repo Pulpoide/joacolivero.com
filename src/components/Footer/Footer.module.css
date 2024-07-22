@@ -4,52 +4,34 @@
 	border-block-start: 1px solid var(--color-stroke);
 	font-size: clamp(20px, 19.024px + 0.259vw, 24px);
 	transition: border-block-start-color var(--theme-transition-duration);
+	background-color: #030303;
+	text-align: center; /* Centra el texto por defecto */
 }
 
 .wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
-	justify-content: space-between;
+	justify-content: center; /* Centra el contenido horizontalmente por defecto */
 	align-items: center;
 	max-inline-size: var(--max-inline-size);
 	margin-inline: auto;
 	padding-block: 32px;
 }
 
+/* Estilo general para la fecha y los enlaces */
 .year {
 	text-wrap: nowrap;
+	color: #fff;
+	font-size: clamp(14px, 1.5vw, 18px); /* Ajusta el tamaño de fuente según el tamaño de la pantalla */
 }
 
 .linksWrapper {
 	display: flex;
+	justify-content: center; /* Centra los enlaces horizontalmente por defecto */
 	gap: 16px;
 	flex-wrap: wrap;
-}
-
-/* Footer.module.css */
-.footer {
-	padding: 20px;
-	background-color: #030303;
-	text-align: center;
-}
-
-.wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-.year {
-	display: block;
-	margin-bottom: 10px;
-    color: #fff;
-}
-
-.linksWrapper {
-	display: flex;
-	justify-content: center;
-	gap: 15px;
-    color: #fff;
+	color: #fff;
 }
 
 .link {
@@ -57,8 +39,8 @@
 	align-items: center;
 	text-decoration: none;
 	font-size: 16px;
+	color: #fff;
 	transition: color 0.3s;
-    color: #fff;
 }
 
 .link:hover {
@@ -70,45 +52,8 @@
 	font-size: 1.2em;
 }
 
-/* Footer.module.css */
-.footer {
-	padding: 20px;
-	background-color: #000; /* Fondo negro */
-	text-align: center;
-}
-
-.wrapper {
-	max-width: 1200px;
-	margin: 0 auto;
-}
-
-.year {
-	display: block;
-	margin-bottom: 10px;
-	color: #fff; /* Texto en blanco */
-}
-
-.linksWrapper {
-	display: flex;
-	justify-content: center;
-	gap: 15px;
-}
-
-.link {
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-	font-size: 16px;
-	transition: color 0.3s;
-}
-
-.link i {
-	margin-right: 8px;
-	font-size: 1.2em;
-}
-
 .link.linkedin:hover {
-	color: #0073b1; 
+	color: #0073b1;
 }
 
 .link.github:hover {
@@ -125,4 +70,38 @@
 
 .link.itchio:hover {
 	color: #fa5c5c;
+}
+
+@media (min-width: 768px) {
+	.wrapper {
+		flex-direction: row; /* Cambia la dirección del flujo para pantallas grandes */
+		justify-content: space-between; /* Espacia el contenido a los bordes */
+	}
+
+	.year {
+		order: 1; /* Coloca el copyright a la izquierda */
+		margin-bottom: 0;
+	}
+
+	.linksWrapper {
+		order: 2; /* Coloca los enlaces a la derecha */
+		justify-content: flex-end; /* Alinea los enlaces a la derecha */
+		gap: 24px; /* Añade más espacio entre los enlaces en pantallas grandes */
+	}
+}
+
+@media (max-width: 767px) {
+	.footer {
+		padding: 20px;
+	}
+
+	.year {
+		font-size: 0.9em;
+		margin-bottom: 16px;
+	}
+
+	.linksWrapper {
+		flex-direction: row; /* Mantiene los enlaces en una fila horizontal en móvil */
+		justify-content: center; /* Centra los enlaces en móvil */
+	}
 }
