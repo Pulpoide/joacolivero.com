@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Svg/PythonLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Svg/PythonLogo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Svg/LinuxLogo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Svg/LinuxLogo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +141,7 @@
       <workItem from="1721587497880" duration="12212000" />
       <workItem from="1721621514584" duration="6161000" />
       <workItem from="1721657519323" duration="1135000" />
-      <workItem from="1721658676538" duration="1030000" />
+      <workItem from="1721658676538" duration="1328000" />
     </task>
     <servers />
   </component>
