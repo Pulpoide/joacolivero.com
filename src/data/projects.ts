@@ -49,13 +49,13 @@ export const projects = [
 			"Aplicación web que permite consultar precios de productos en MercadoLibre y visualizarlos en un histograma. Utiliza web scraping para obtener los precios, la API monedas-api (desarrollada por mí) para el tipo de cambio actualizado a dólares, y Matplotlib para generar gráficos claros y concisos que representan eficazmente la variabilidad de los precios.",
 		mobileImages:
 			[
-				`/assets/images/projects/mercadolibrepcmobile.png`,
-				`/assets/images/projects/mercadolibrepchistograma.png`
+				`/assets/images/projects/mercadolibre/mercadolibrepcmobile.png`,
+				`/assets/images/projects/mercadolibre/mercadolibrepchistograma.png`
 			],
 		desktopImages:
 			[
-				`/assets/images/projects/mercadolibrepcmac.png`,
-				`/assets/images/projects/mercadolibrepcdiagrama.png`
+				`/assets/images/projects/mercadolibre/mercadolibrepcmac.png`,
+				`/assets/images/projects/mercadolibre/mercadolibrepcdiagrama.png`
 			],
 		links: [
 			{
@@ -78,8 +78,16 @@ export const projects = [
 		index: 1,
 		description:
 			"Monedas API es una aplicación robusta desarrollada con FastAPI, diseñada para proporcionar tasas de cambio de divisas en tiempo real mediante scraping de sitios web financieros. La API se enfoca principalmente en varias tasas de cambio en Argentina, incluyendo USD (blue, oficial, MEP, CCL), Euro, Real Brasileño, Peso Chileno, Peso Uruguayo, y más. También ofrece una función de conversión para convertir montos entre las monedas soportadas.",
-		mobileImages: [`${MOBILE_IMAGE_PATH}/vexara-1.webp`, `${MOBILE_IMAGE_PATH}/vexara-2.webp`],
-		desktopImages: [`${DESKTOP_IMAGE_PATH}/vexara-1.webp`, `${DESKTOP_IMAGE_PATH}/vexara-2.webp`],
+		mobileImages:
+			[
+				`/assets/images/projects/monedasapi/json.png`,
+				`/assets/images/projects/monedasapi/iphone.png`
+			],
+		desktopImages:
+			[
+				`/assets/images/projects/monedasapi/mac.png`,
+				`/assets/images/projects/monedasapi/architecturediagram.png`
+			],
 		links: [
 			{
 				label: "Visitar documentación",
