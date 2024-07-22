@@ -5,30 +5,29 @@
 	font-size: clamp(20px, 19.024px + 0.259vw, 24px);
 	transition: border-block-start-color var(--theme-transition-duration);
 	background-color: #030303;
-	text-align: center; /* Centra el texto por defecto */
+	text-align: center;
 }
 
 .wrapper {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
-	justify-content: center; /* Centra el contenido horizontalmente por defecto */
+	justify-content: center;
 	align-items: center;
 	max-inline-size: var(--max-inline-size);
 	margin-inline: auto;
 	padding-block: 32px;
 }
 
-/* Estilo general para la fecha y los enlaces */
 .year {
 	text-wrap: nowrap;
 	color: #fff;
-	font-size: clamp(14px, 1.5vw, 18px); /* Ajusta el tamaño de fuente según el tamaño de la pantalla */
+	font-size: clamp(14px, 1.5vw, 18px);
 }
 
 .linksWrapper {
 	display: flex;
-	justify-content: center; /* Centra los enlaces horizontalmente por defecto */
+	justify-content: center;
 	gap: 16px;
 	flex-wrap: wrap;
 	color: #fff;
@@ -74,19 +73,19 @@
 
 @media (min-width: 768px) {
 	.wrapper {
-		flex-direction: row; /* Cambia la dirección del flujo para pantallas grandes */
-		justify-content: space-between; /* Espacia el contenido a los bordes */
+		flex-direction: row;
+		justify-content: space-between;
 	}
 
 	.year {
-		order: 1; /* Coloca el copyright a la izquierda */
+		order: 1;
 		margin-bottom: 0;
 	}
 
 	.linksWrapper {
-		order: 2; /* Coloca los enlaces a la derecha */
-		justify-content: flex-end; /* Alinea los enlaces a la derecha */
-		gap: 24px; /* Añade más espacio entre los enlaces en pantallas grandes */
+		order: 2;
+		justify-content: flex-end;
+		gap: 24px;
 	}
 }
 
@@ -101,7 +100,7 @@
 	}
 
 	.linksWrapper {
-		flex-direction: row; /* Mantiene los enlaces en una fila horizontal en móvil */
-		justify-content: center; /* Centra los enlaces en móvil */
+		flex-direction: row;
+		justify-content: center;
 	}
 }
