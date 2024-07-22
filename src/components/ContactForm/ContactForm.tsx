@@ -56,7 +56,7 @@ export const ContactForm = () => {
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Mensaje</span>
-				<Textarea placeholder="Hola Max, [Insertar Mesnsaje]" name="message" required />
+				<Textarea placeholder="Hola Max, [Insertar Mensaje]" name="message" required />
 			</Label>
 			<Button disabled={isPending} size="medium">
 				Enviar
