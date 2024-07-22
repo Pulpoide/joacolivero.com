@@ -12,7 +12,7 @@ export const HeroSection = () => {
         Máximo Comperatore, Desarrollador Backend y de Videojuegos
       </h1>
       <div className={styles.buttonContainer}>
-        <Button rounded="full" size="small" asChild>
+        <Button rounded="full" size="small" asChild className={styles.button}>
           <NextLink
             href="https://www.linkedin.com/in/maximo-comperatore-74399b278"
             target="_blank"

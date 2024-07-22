@@ -108,3 +108,39 @@
 		box-shadow: 0 0 0 0 hsl(126 38% 48% / 0);
 	}
 }
+
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+	margin: 16px 0;
+}
+
+.section {
+	text-align: center;
+	padding-block-end: var(--space-block);
+}
+
+.buttonContainer {
+	display: flex;
+	justify-content: center;
+	margin: 4px 0;
+}
+
+.title {
+	position: relative;
+	padding: var(--space-inline) 12px;
+	font: 900 clamp(42px, 34.4px + 2.375vw, 80px) / 1 var(--font-geist-sans);
+	border: none;
+	margin: 0; 
+}
+
+.title::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-block: 1px dashed var(--color-stroke);
+	transition: border-block-color var(--theme-transition-duration);
+	pointer-events: none;
+	/* Puedes comentar o eliminar esta línea si está causando problemas */
+	display: none; /* Elimina el borde si es necesario */
+}
