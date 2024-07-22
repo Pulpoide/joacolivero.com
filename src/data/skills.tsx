@@ -84,7 +84,7 @@ export const skills = [
 	},
 	// Game development skills
 	{
-		name: "Unreal Engine",
+		name: "Unreal",
 		icon: <UnrealLogo />,
 		brandColor: "",
 		url: "https://www.unrealengine.com/",
