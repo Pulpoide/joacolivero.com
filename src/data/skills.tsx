@@ -1,4 +1,4 @@
-import PythonLogo from "~/components/Svg/PythonLogo";
+import { PythonLogo } from "~/components/Svg/PythonLogo";
 import { MongoDbLogo } from "~/components/Svg/MongoDbLogo";
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo";
 import { AzureLogo } from "~/components/Svg/AzureLogo";
