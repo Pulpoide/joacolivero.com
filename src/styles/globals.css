@@ -138,17 +138,21 @@ a {
 	}
 }
 
-/* Global cursor style */
+@media screen and (max-width: 360px) {
+	:root {
+		--space-inline: 16px;
+		--space-block: 24px;
+	}
+}
+
 body {
 	cursor: url('~/public/assets/cursor/arrowhead.png'), auto;
 }
 
-/* Cursor for text elements */
 a, button, input, textarea {
 	cursor: url('~/public/assets/cursor/hand-pointer.png'), pointer;
 }
 
-/* Example of custom cursor on hover */
 .skillCard:hover {
 	cursor: url('~/public/assets/cursor/hand-pointer.png'), pointer;
 }
