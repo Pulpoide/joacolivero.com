@@ -1,4 +1,4 @@
-Fix sobre mi titulo font y color
+
 Logos en vez de links?
 Felchas y detallitos modernos
 Projectos y abajo open source
