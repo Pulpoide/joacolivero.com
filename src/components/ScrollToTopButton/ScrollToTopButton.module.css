@@ -13,14 +13,30 @@
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
-    transition: opacity 0.3s, background-color 0.3s;
+    transition: opacity 0.3s ease-in-out, background-color 0.3s, transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
     opacity: 0;
     visibility: hidden;
+    transform: translateY(50px);
 }
 
 .scrollToTop.show {
     opacity: 1;
     visibility: visible;
+    transform: translateY(0);
+}
+
+.scrollToTop.hide {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(50px);
+}
+
+.scrollToTop.up {
+    transform: rotate(0deg);
+}
+
+.scrollToTop.down {
+    transform: rotate(180deg);
 }
 
 .scrollToTop:hover {
