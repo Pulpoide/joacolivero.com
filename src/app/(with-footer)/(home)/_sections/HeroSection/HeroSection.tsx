@@ -23,7 +23,7 @@ export const HeroSection = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Disponible para trabajar <span className={styles.availableCircle}></span>
+            <span className={styles.availableCircle}></span>Disponible para trabajar
           </NextLink>
         </Button>
         <p className={styles.introSubtitle}>
