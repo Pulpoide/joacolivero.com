@@ -16,7 +16,8 @@
     transition: opacity 0.3s ease-in-out, background-color 0.3s, transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
     opacity: 0;
     visibility: hidden;
-    transform: translateY(50px);
+    transform: translateY(50px); 
+    font-size: 16px;
 }
 
 .scrollToTop.show {
@@ -41,4 +42,20 @@
 
 .scrollToTop:hover {
     background-color: #1f1f1f;
+}
+
+@media (min-width: 768px) {
+    .scrollToTop {
+        width: 75px;
+        height: 75px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .scrollToTop {
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+    }
 }
