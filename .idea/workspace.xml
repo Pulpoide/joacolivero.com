@@ -10,9 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/projects/cover/iPhone-13-PRO-localhost-V8-Jsw08bZ.webm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CopyEmailButton/CopyEmailButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CopyEmailButton/CopyEmailButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/swe-principles/page.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/blog/(posts)/swe-principles/page.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +153,7 @@
       <workItem from="1721685436489" duration="8605000" />
       <workItem from="1721702448673" duration="3108000" />
       <workItem from="1721705610378" duration="557000" />
-      <workItem from="1721706189798" duration="1137000" />
+      <workItem from="1721706189798" duration="1452000" />
     </task>
     <servers />
   </component>
