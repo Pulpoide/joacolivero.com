@@ -12,6 +12,11 @@ export const HeroSection = () => {
         Maximo Comperatore, Desarrollador Backend y de Videojuegos
       </h1>
       <div className={styles.buttonContainer}>
+      </div>
+      <div className={styles.intro}>
+        <p className={styles.introSubtitle}>
+          Un desarrollador pragmático con un fuerte enfoque en la calidad en cada etapa del desarrollo.
+        </p>
         <Button rounded="full" size="small" asChild className={styles.button}>
           <NextLink
             href="https://www.linkedin.com/in/maximo-comperatore-74399b278"
@@ -21,15 +26,11 @@ export const HeroSection = () => {
             Disponible para trabajar <span className={styles.availableCircle}></span>
           </NextLink>
         </Button>
-      </div>
-      <div className={styles.intro}>
         <p className={styles.introSubtitle}>
-          Soy un apasionado por la tecnología y el desarrollo de software.
-        </p>
-        <p className={styles.introSubtitle}>
-          Me encuentro en Mendoza, Argentina
+          Me encuentro en Mendoza, Argentina.
           <img className={styles.flag}
-            src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg" alt="Argentina Flag"
+            src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+            alt="Argentina Flag"
             width="30" height="20"
           />
         </p>

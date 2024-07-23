@@ -83,6 +83,19 @@
 	vertical-align: middle;
 }
 
+@media (min-width: 768px) {
+	.flag {
+		display: inline-block;
+	}
+}
+
+@media (max-width: 767px) {
+	.flag {
+		display: none;
+	}
+}
+
+
 @media screen and (min-width: 575px) {
 	.actions {
 		flex-direction: row;
