@@ -3,11 +3,13 @@ import { ProjectsSection } from "./_sections/ProjectsSection"
 import { AboutSection } from "./_sections/AboutSection"
 import { SkillsSection } from "./_sections/SkillsSection"
 import { ContactSection } from "./_sections/ContactSection"
+import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
 
 export default function Home() {
 	return (
 		<main>
 			<HeroSection />
+			<ScrollToTopButton />
 			<ProjectsSection />
 			<AboutSection />
 			<SkillsSection />
