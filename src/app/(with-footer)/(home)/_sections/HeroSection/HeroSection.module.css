@@ -16,7 +16,7 @@
 .title {
 	position: relative;
 	padding: var(--space-inline) 12px;
-	font: 900 clamp(42px, 34.4px + 2.375vw, 80px) / 1 var(--font-geist-sans);
+	font: 900 clamp(42px, 34px + 2.375vw, 80px) / 1 var(--font-geist-sans);
 }
 
 .title::after {
@@ -30,7 +30,7 @@
 
 .introSubtitle {
 	padding: var(--space-inline);
-	font-size: clamp(18px, 17.296px + 0.141vw, 20px);
+	font-size: clamp(18px, 17px + 0.141vw, 20px);
 	color: var(--color-text-secondary);
 	border-block-end: 1px dashed var(--color-stroke);
 	transition: border-block-end-color var(--theme-transition-duration);
@@ -134,12 +134,6 @@
 	}
 }
 
-.buttonContainer {
-	display: flex;
-	justify-content: center;
-	margin: 16px 0;
-}
-
 .section {
 	text-align: center;
 	padding-block-end: var(--space-block);
@@ -154,7 +148,7 @@
 .title {
 	position: relative;
 	padding: var(--space-inline) 12px;
-	font: 900 clamp(42px, 34.4px + 2.375vw, 80px) / 1 var(--font-geist-sans);
+	font: 900 clamp(42px, 34px + 2.375vw, 80px) / 1 var(--font-geist-sans);
 	border: none;
 	margin: 0; 
 }
