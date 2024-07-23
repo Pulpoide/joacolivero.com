@@ -1,3 +1,4 @@
+import Link from "next/link"
 import styles from "./layout.module.css"
 
 export default function PostsLayout({
@@ -10,6 +11,9 @@ export default function PostsLayout({
 			<article className={styles.article}>
 				{children}
 				<div className={styles.greetings}>Gracias por leer 💙</div>
+				<Link className={styles.goHomeLink} href="/blog">
+					← Volver al Blog
+				</Link>
 			</article>
 		</main>
 	)
