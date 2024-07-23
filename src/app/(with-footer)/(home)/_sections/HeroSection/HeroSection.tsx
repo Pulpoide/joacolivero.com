@@ -11,29 +11,32 @@ export const HeroSection = () => {
       <h1 id="hero-title" className={`text-gradient ${styles.title}`}>
         Maximo Comperatore, Desarrollador Backend y de Videojuegos
       </h1>
-      <div className={styles.buttonContainer}>
-      </div>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
           Un desarrollador pragmático con un fuerte enfoque en la calidad en cada etapa del desarrollo.
         </p>
+        <p className={styles.introSubtitle}>
+          Me encuentro en Mendoza, Argentina.
+          <img
+            className={styles.flag}
+            src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
+            alt="Argentina Flag"
+            width="30"
+            height="20"
+          />
+        </p>
+      </div>
+      <div className={styles.buttonContainer}>
         <Button rounded="full" size="small" asChild className={styles.button}>
           <NextLink
             href="https://www.linkedin.com/in/maximo-comperatore-74399b278"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+          >
             <span className={styles.availableCircle}></span>
             Disponible para nuevos proyectos
           </NextLink>
         </Button>
-        <p className={styles.introSubtitle}>
-          Me encuentro en Mendoza, Argentina.
-          <img className={styles.flag}
-            src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
-            alt="Argentina Flag"
-            width="30" height="20"
-          />
-        </p>
       </div>
       <div className={styles.actions}>
         <ContactDialog

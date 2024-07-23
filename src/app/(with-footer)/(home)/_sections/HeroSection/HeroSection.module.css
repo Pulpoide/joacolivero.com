@@ -76,7 +76,6 @@
 	}
 }
 
-
 @media screen and (min-width: 575px) {
 	.actions {
 		flex-direction: row;
@@ -101,7 +100,7 @@
 
 .availableCircle {
 	--size: 8px;
-	--color-background: #A3E635;
+	--color-background: #3ea914;
 	position: relative;
 	inline-size: var(--size);
 	block-size: var(--size);
@@ -121,28 +120,39 @@
 @keyframes circle-pulse {
 	0% {
 		transform: scale(0.875);
-		box-shadow: 0 0 0 0 #A3E635;
+		box-shadow: 0 0 0 0 #24720c;
 	}
 	50% {
 		transform: scale(1);
 		box-shadow: 0 0 0 4px hsl(126 38% 48% / 0);
 	}
-
 	100% {
 		transform: scale(0.875);
 		box-shadow: 0 0 0 0 hsl(126 38% 48% / 0);
 	}
 }
 
-.section {
-	text-align: center;
-	padding-block-end: var(--space-block);
-}
-
 .buttonContainer {
 	display: flex;
 	justify-content: center;
-	margin: 4px 0;
+	margin: 16px 0;
+}
+
+.button {
+	display: inline-block;
+	padding: 12px 24px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #0073b1;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	text-align: center;
+}
+
+.button:hover {
+	background-color: #005f8d;
 }
 
 .title {
@@ -150,7 +160,7 @@
 	padding: var(--space-inline) 12px;
 	font: 900 clamp(42px, 34px + 2.375vw, 80px) / 1 var(--font-geist-sans);
 	border: none;
-	margin: 0; 
+	margin: 0;
 }
 
 .title::after {
