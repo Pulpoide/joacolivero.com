@@ -10,7 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ac0a7e8-6ed3-4901-8db8-0e6eb0289525" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(with-footer)/(home)/_sections/HeroSection/HeroSection.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +153,7 @@
       <workItem from="1721685436489" duration="8605000" />
       <workItem from="1721702448673" duration="3108000" />
       <workItem from="1721705610378" duration="557000" />
-      <workItem from="1721706189798" duration="4084000" />
+      <workItem from="1721706189798" duration="4556000" />
     </task>
     <servers />
   </component>

@@ -65,7 +65,7 @@ export const skills = [
 	},
 	// .NET related skills
 	{
-		name: ".NET",
+		name: "DotNet",
 		icon: <DotNetLogo />,
 		brandColor: "#1486CA",
 		url: "https://dotnet.microsoft.com/",
