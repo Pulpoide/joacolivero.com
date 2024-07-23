@@ -2,7 +2,9 @@
 	--items-padding: 12px;
 	position: fixed;
 	inset: var(--header-block-size) 0;
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	block-size: calc(100dvh - var(--header-block-size));
 	padding-inline: var(--items-padding);
 	background-color: var(--color-background);
@@ -18,9 +20,15 @@
 }
 
 .navList {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	padding-block: 24px 48px;
 	list-style: none;
 	padding-inline-start: 0;
+	margin: 0;
+	width: 100%;
 }
 
 .navLink {
@@ -29,6 +37,8 @@
 	block-size: 48px;
 	padding-inline: var(--items-padding);
 	color: var(--color-text-secondary);
+	text-align: center;
+	width: 100%;
 }
 
 .optionsWrapper {
