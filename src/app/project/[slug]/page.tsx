@@ -15,7 +15,7 @@ export function generateMetadata({ params }: Props) {
 	if (!project) notFound()
 
 	return {
-		title: `Dresan - Proyecto | ${project.name}`,
+		title: `Max Comperatore - Proyecto | ${project.name}`,
 		description: project.description,
 	}
 }
