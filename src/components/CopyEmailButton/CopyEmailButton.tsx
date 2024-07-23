@@ -24,7 +24,7 @@ export const CopyEmailButton = () => {
 	return (
 		<div className={styles.wrapper}>
 			<div className={clsx(styles.toast, { [styles.enterToast]: displayFeedback })}>
-				¡Espero saber pronto de ti!
+				¡Espero saber pronto de vos 😎!
 			</div>
 			<button className={styles.button} type="button" onClick={handleOnClick}>
 				{DRESAN_EMAIL}
