@@ -21,9 +21,9 @@ export const HeroSection = () => {
           <NextLink
             href="https://www.linkedin.com/in/maximo-comperatore-74399b278"
             target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className={styles.availableCircle}></span>Disponible para trabajar
+            rel="noopener noreferrer">
+            <span className={styles.availableCircle}></span>
+            Disponible para nuevos proyectos
           </NextLink>
         </Button>
         <p className={styles.introSubtitle}>
