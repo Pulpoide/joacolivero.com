@@ -7,9 +7,4 @@ export const APP_ROUTES = [
 		href: "/blog",
 		label: "Blog",
 	},
-	{
-		href: "https://linkpeek.vercel.app/",
-		label: "Life Path",
-		target: "_blank",
-	},
 ]
