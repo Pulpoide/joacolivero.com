@@ -11,16 +11,19 @@ export const AboutSection = () => {
         </div>
         <div className={styles.textWrapper}>
           <p className={styles.paragraph}>
-            Conoce a Maximo Comperatore, especializado en desarrollo Backend con .NET y desarrollo de videojuegos.
+            Soy Máximo Comperatore, un aspirante a desarrollador especializado en Backend con .NET y desarrollo de videojuegos.
           </p>
           <p className={styles.paragraph}>
-            Actualmente, estudio Desarrollo de Videojuegos en la Universidad de Mendoza, preparándome para un futuro profesional en tecnología.
+            Actualmente, estoy cursando estudios en Desarrollo de Videojuegos en la Universidad de Mendoza, con el objetivo de prepararme para una carrera profesional en el sector tecnológico.
           </p>
           <p className={styles.paragraph}>
-            Mis aspiraciones son trabajar en proyectos útiles y desafiantes, que me permitan crecer y aprender en el campo de la tecnología.
+            Me destaco por ser una persona atenta al detalle, organizada, puntual y agradable. Además, soy un trabajador perseverante y miembro colaborativo de equipo, siempre dispuesto a aprender y mejorar mis habilidades.
           </p>
           <p className={styles.paragraph}>
-            Busco siempre ampliar mi conocimiento y contribuir a proyectos que me apasionan. Estoy comprometido con mi desarrollo profesional, buscando oportunidades para crecer en el campo de la tecnología y el desarrollo de software.
+            Mis aspiraciones profesionales incluyen trabajar en proyectos innovadores y desafiantes que me permitan crecer y desarrollar mis competencias, al mismo tiempo que potencie a quienes me rodean. Estoy constantemente buscando ampliar mi conocimiento, contribuyendo a iniciativas que se alineen con mis intereses y valores.
+          </p>
+          <p className={styles.paragraph}>
+            Comprometido con mi desarrollo profesional, estoy en la búsqueda de oportunidades que me permitan avanzar en el campo de la tecnología y el desarrollo de software, aportando mi dedicación y entusiasmo en cada proyecto que emprendo.
           </p>
         </div>
       </div>
