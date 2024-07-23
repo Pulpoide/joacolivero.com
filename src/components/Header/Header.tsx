@@ -34,7 +34,6 @@ export const Header = () => {
 							</Button>
 						}
 					/>
-					<ThemeSwitcher />
 				</div>
 				<MenuMobile />
 			</div>
