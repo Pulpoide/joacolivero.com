@@ -2,6 +2,7 @@ import { getPosts } from "~/helpers/get-posts"
 import { sortPostsByDate } from "~/helpers/sort-posts"
 import { PostCard } from "~/components/PostCard"
 import styles from "./page.module.css"
+import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
 
 export const metadata = {
 	title: "Max Comperatore - Blog",
@@ -20,6 +21,7 @@ export default async function Blog() {
 					<PostCard key={post.slug} {...post} />
 				))}
 			</div>
+			<ScrollToTopButton />
 		</main>
 	)
 }
