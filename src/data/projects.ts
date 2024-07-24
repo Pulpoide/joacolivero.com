@@ -76,7 +76,6 @@ export const projects = [
 		mobileImages:
 			[
 				`/assets/images/projects/monedasapi/json.png`,
-				`/assets/images/projects/monedasapi/iphone.png`
 			],
 		desktopImages:
 			[
