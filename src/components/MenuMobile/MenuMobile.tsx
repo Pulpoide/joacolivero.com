@@ -55,9 +55,9 @@ export const MenuMobile = () => {
 							</Button>
 						}
 					/>
-					{/* <div className={styles.themeWrapper}>
-						<span>Tema</span> <ThemeSwitcher />
-					</div> */}
+					<div className={styles.themeWrapper}>
+						<span>Idioma </span> <ThemeSwitcher />
+					</div>
 				</div>
 			</div>
 		</>
