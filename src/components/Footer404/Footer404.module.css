@@ -6,6 +6,7 @@
 	background-color: #030303;
 	text-align: center;
 	margin-block-start: -60px;
+	padding-block: 32px;
 }
 
 .wrapper {
@@ -16,7 +17,6 @@
 	align-items: center;
 	max-inline-size: var(--max-inline-size);
 	margin-inline: auto;
-	padding-block: 32px;
 }
 
 .year {
@@ -74,10 +74,12 @@
 @media (min-width: 768px) {
 	.footer {
 		margin-top: 20px;
+		padding-block: 32px;
 	}
+
 	.wrapper {
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: center;
 	}
 
 	.year {
@@ -87,9 +89,9 @@
 
 	.linksWrapper {
 		order: 2;
-		justify-content: flex-end;
+		justify-content: center;
 		gap: 24px;
-		margin-right: 58px;
+		margin-right: 0;
 	}
 }
 
