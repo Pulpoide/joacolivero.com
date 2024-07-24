@@ -106,10 +106,10 @@ export const projects = [
 		mobileImages:
 			[
 				`/assets/images/projects/hillclimbracing/falling.png`,
-				`/assets/images/projects/hillclimbracing/celular.png`
 			],
 		desktopImages: [
 			`/assets/images/projects/hillclimbracing/mac.png`,
+			`/assets/images/projects/hillclimbracing/hcr.gif`,
 			`/assets/images/projects/hillclimbracing/unity.png`
 		],
 		links: [
