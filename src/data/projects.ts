@@ -19,18 +19,18 @@ export const projectMetadata = {
 export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.mercadolibrepricechart,
-		imageUrl: `/assets/images/projects/cover/mercadolibre.png`,
+		imageUrl: `/assets/images/projects/cover/mercadolibre.webp`,
 		description: "Visualiza un histograma detallado de los precios de productos en MercadoLibre.",
 	},
 	{
 		...projectMetadata.monedasAPI,
-		imageUrl: `/assets/images/projects/cover/monedasapi.png`,
+		imageUrl: `/assets/images/projects/cover/monedasapi.webp`,
 		description:
 			"API RESTful para obtener los precios más recientes de divisas extranjeras en Argentina.",
 	},
 	{
 		...projectMetadata.hillclimbracing,
-		imageUrl: `/assets/images/projects/cover/hcr.png`,
+		imageUrl: `/assets/images/projects/cover/hcr.webp`,
 		description:
 			"Hill Climb Racing recreado en Unity.",
 	},
