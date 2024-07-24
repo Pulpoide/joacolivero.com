@@ -3,6 +3,7 @@ import { sortPostsByDate } from "~/helpers/sort-posts"
 import { PostCard } from "~/components/PostCard"
 import styles from "./page.module.css"
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
+import Link from "next/link"
 
 export const metadata = {
 	title: "Max Comperatore - Blog",
@@ -16,6 +17,9 @@ export default async function Blog() {
 	return (
 		<main className={styles.wrapper}>
 			<h1 className={styles.title}>Blog</h1>
+			<Link className={styles.goHomeLink} href="/">
+				← Volver a la página principal
+			</Link>
 			<div className={styles.postsWrapper}>
 				{sortedPosts.map((post) => (
 					<PostCard key={post.slug} {...post} />
