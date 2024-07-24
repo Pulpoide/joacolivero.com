@@ -100,3 +100,26 @@
 		display: none;
 	}
 }
+
+.menu {
+	--items-padding: 12px;
+	position: fixed;
+	inset: var(--header-block-size) 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	block-size: calc(100dvh - var(--header-block-size));
+	padding-inline: var(--items-padding);
+	background-color: rgba(0, 0, 0, 0.925);
+	overflow-y: auto;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 300ms, opacity 300ms, background-color var(--theme-transition-duration);
+	z-index: 100;
+}
+
+
+.menu.open {
+	visibility: visible;
+	opacity: 1;
+}
