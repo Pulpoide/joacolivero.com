@@ -8,7 +8,7 @@ export const APP_ROUTES = [
 		label: "Blog",
 	},
 	{
-		href: "/FAQ",
+		href: "/faq",
 		label: "FAQ",
 	}
 ]
