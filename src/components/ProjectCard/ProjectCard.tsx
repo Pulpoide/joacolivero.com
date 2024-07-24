@@ -19,7 +19,7 @@ export const ProjectCard: React.FC<Props> = ({ slug, imageUrl, name, description
 					alt=""
 					width={684}
 					height={385}
-					loading="eager"
+					loading="lazy"
 				/>
 			</figure>
 			<h3 className={styles.title}>{name}</h3>

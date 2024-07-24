@@ -24,6 +24,7 @@ export const HeroSection = () => {
             alt="Argentina Flag"
             width="30"
             height="20"
+            loading="lazy"
           />
         </p>
       </div>
