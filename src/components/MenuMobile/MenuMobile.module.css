@@ -115,7 +115,7 @@
 	visibility: hidden;
 	opacity: 0;
 	transition: visibility 300ms, opacity 300ms, background-color var(--theme-transition-duration);
-	z-index: 100;
+	z-index: 1000;
 }
 
 

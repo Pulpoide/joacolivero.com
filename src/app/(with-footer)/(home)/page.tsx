@@ -13,7 +13,6 @@ export default function Home() {
 			<Analytics/>
 			<SpeedInsights/>
 			<HeroSection />
-			<ScrollToTopButton />
 			<ProjectsSection />
 			<AboutSection />
 			<SkillsSection />
