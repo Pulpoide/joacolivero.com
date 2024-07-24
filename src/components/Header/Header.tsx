@@ -1,7 +1,7 @@
 import NextLink from "next/link"
 import { APP_ROUTES } from "~/constants"
 import { HomeLogo } from "~/components/Svg/HomeLogo"
-import { ThemeSwitcher } from "~/components/ThemeSwitcher"
+import { LanguageSwitcher } from "~/components/LanguageSwitcher"
 import { Button } from "~/components/Ui/Button"
 import { Link } from "~/components/Ui/Link"
 import { MenuMobile } from "~/components/MenuMobile"
@@ -34,7 +34,7 @@ export const Header = () => {
 							</Button>
 						}
 					/>
-					< ThemeSwitcher />
+					< LanguageSwitcher />
 				</div>
 				<MenuMobile />
 			</div>

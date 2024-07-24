@@ -7,7 +7,7 @@ import { toggleBodyOverflow } from "~/utils"
 import { useOnPathnameChange } from "~/hooks/use-on-pathname-change"
 import { Link } from "~/components/Ui/Link"
 import { Button } from "~/components/Ui/Button"
-import { ThemeSwitcher } from "~/components/ThemeSwitcher"
+import { LanguageSwitcher } from "~/components/LanguageSwitcher"
 import { ContactDialog } from "~/components/ContactDialog"
 import styles from "./MenuMobile.module.css"
 
@@ -56,7 +56,7 @@ export const MenuMobile = () => {
 						}
 					/>
 					<div className={styles.themeWrapper}>
-						<span>Idioma </span> <ThemeSwitcher />
+						<span>Idioma </span> <LanguageSwitcher />
 					</div>
 				</div>
 			</div>

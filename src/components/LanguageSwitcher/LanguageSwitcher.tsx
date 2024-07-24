@@ -1,9 +1,9 @@
 "use client"
 
 import { useState } from "react";
-import styles from "./ThemeSwitcher.module.css";
+import styles from "./LanguageSwitcher.module.css"
 
-export const ThemeSwitcher = () => {
+export const LanguageSwitcher = () => {
 	const [isSpanish, setIsSpanish] = useState(true);
 
 	const handleOnClick = () => {
@@ -30,4 +30,4 @@ export const ThemeSwitcher = () => {
 	)
 }
 
-export default ThemeSwitcher;
+export default LanguageSwitcher;
