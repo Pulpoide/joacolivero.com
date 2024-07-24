@@ -7,7 +7,14 @@ export const AboutSection = () => {
       <h2 className={styles.title}>Sobre mí</h2>
       <div className={styles.aboutMeContainer}>
         <div className={styles.photoWrapper}>
-          <img src="/assets/images/maximo_comperatore.jpg" alt="Maximo Comperatore" className={styles.photo} loading="lazy"/>
+          <img
+            src="/assets/images/maximo_comperatore.jpg"
+            alt="Maximo Comperatore"
+            className={styles.photo}
+            loading="lazy"
+            width={300}
+            height={300}
+          />
         </div>
         <div className={styles.textWrapper}>
           <p className={styles.paragraph}>

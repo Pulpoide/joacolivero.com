@@ -25,6 +25,8 @@ export const LanguageSwitcher = () => {
 				aria-hidden="true"
 				src={isSpanish ? "/assets/icons/spain.png" : "/assets/icons/uk.png"}
 				alt={`Switch to ${isSpanish ? "English" : "Spanish"}`}
+				height={24}
+				width={24}
 			/>
 		</button>
 	)
