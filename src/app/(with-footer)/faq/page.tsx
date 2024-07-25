@@ -167,7 +167,7 @@ const FAQ = () => {
           <li><a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank"
                  rel="noopener noreferrer">Computer Graphics</a></li>
           <li><a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer">Roadmap.sh</a></li>
-          <li>Comunidades de Discord</li>
+          <li>Comunidades de Discord, usa discord. Mucha gente te ayuda gratis y quiere verte triunfar.</li>
           <li>Reddit</li>
           <li>Documentación Oficial</li>
           <li><a href="https://fullstackopen.com/en/" target="_blank" rel="noopener noreferrer">Fullstack Open</a></li>
