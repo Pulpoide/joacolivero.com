@@ -184,7 +184,7 @@ const FAQ = () => {
         <p className={styles.paragraph}>
           Para estar al tanto de las últimas tendencias y tecnologías, sigo blogs de tecnología, tutoriales, y
           comunidades en Discord y Reddit. Sigo canales como Midudev y Fireship, y los canales oficiales de Unity y
-          Unreal para avances en gráficos. También sigo a personas relevantes en LinkedIn y asisto a conferencias como
+          Unreal para avances en gráficos. También sigo a personas relevantes en LinkedIn y veo conferencias como
           la GDC y Microsoft Build. Reviso repositorios en GitHub y consulto Product Hunt para novedades tecnológicas.
         </p>
       </section>
@@ -206,9 +206,9 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Mentores y Colaboradores</h2>
         <p className={styles.paragraph}>
-          Colin Schemale, Franco Yudica y Enzo Notario han sido fundamentales en mi carrera, brindándome consejos y
-          orientación. Aspiro a ser mentor para otros, compartiendo mi experiencia y ayudando a cultivar futuros
-          innovadores.
+          Colin Schmale, Franco Yudica y Enzo Notario han sido fundamentales en mi carrera, brindándome consejos y
+          orientación. Sin ellos, no estaría donde estoy hoy. También agradezco a mis compañeros de equipo en proyectos.
+          Aspiro a insipirar a otros y que me tengan como yo tengo a estos grandes mentores hoy en día.
         </p>
       </section>
 
