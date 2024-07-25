@@ -71,16 +71,16 @@ export const skills = [
 		url: "https://dotnet.microsoft.com/",
 	},
 	{
-		name: "C#",
-		icon: <CsharpLogo />,
-		brandColor: "#9A5196",
-		url: "https://docs.microsoft.com/en-us/dotnet/csharp/",
-	},
-	{
 		name: "Azure",
 		icon: <AzureLogo />,
 		brandColor: "#007FFF",
 		url: "https://azure.microsoft.com/",
+	},
+	{
+		name: "C#",
+		icon: <CsharpLogo />,
+		brandColor: "#9A5196",
+		url: "https://docs.microsoft.com/en-us/dotnet/csharp/",
 	},
 	// Game development skills
 	{
