@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 	metadataBase: new URL(HOST_URL),
 	title: "Max Comperatore - Backend & Game Developer",
 	description:
-		"Descubre los proyectos de Max Comperatore.",
+		"Explora el portafolio de Max Comperatore, un desarrollador pragmático enfocado en backend y desarrollo de videojuegos.",
 	authors: [{ name: "Maximo Comperatore" }],
 	creator: "Maximo Comperatore",
 }
