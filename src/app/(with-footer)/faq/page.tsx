@@ -52,9 +52,9 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>¿Frontend o Backend?</h2>
-        <p>
+      <section className={styles.section}>
+        <h2 className={styles.title}>¿Frontend o Backend?</h2>
+        <p className={styles.paragraph}>
           Me especializo en backend, aunque también puedo trabajar en frontend si es necesario. Prefiero el desarrollo
           del lado del servidor, relacionado con la programación de juegos y la gestión de bases de datos. Me gusta
           resolver problemas técnicos detrás de escena y optimizar el rendimiento. El backend me permite trabajar con
@@ -65,9 +65,9 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>¿Cómo te Ves en 5 Años?</h2>
-        <p>
+      <section className={styles.section}>
+        <h2 className={styles.title}>¿Cómo te Ves en 5 Años?</h2>
+        <p className={styles.paragraph}>
           En cinco años, me veo como un experto en backend y desarrollo de juegos, liderando equipos y compartiendo mi
           conocimiento como tutor. Aspiro a contribuir a tecnologías de vanguardia, optimizar procesos y desarrollar
           soluciones escalables y seguras. Me gustaría profundizar en inteligencia artificial y aprendizaje automático,
@@ -79,9 +79,9 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>¿Qué Buscas en un Nuevo Trabajo?</h2>
-        <p>
+      <section className={styles.section}>
+        <h2 className={styles.title}>¿Qué Buscas en un Nuevo Trabajo?</h2>
+        <p className={styles.paragraph}>
           Busco un entorno colaborativo con personas capaces y agradables para convertir ideas en realidad y aprender de
           los errores. Me interesa trabajar en proyectos que utilicen mis habilidades y aprender de mentores
           experimentados. Valoro un lugar que ofrezca oportunidades de crecimiento personal y profesional, con una
@@ -92,8 +92,8 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>Desafíos y Soluciones</h2>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Desafíos y Soluciones</h2>
         <ul>
           <li>
             <h3>Problemas con Modelos de Juego</h3>
@@ -153,8 +153,8 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>Recursos Educativos Recomendados</h2>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Recursos Educativos Recomendados</h2>
         <ul>
           <li><a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank"
                  rel="noopener noreferrer">Computer Graphics</a></li>
@@ -179,9 +179,9 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>Mantenerse Actualizado</h2>
-        <p>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Mantenerse Actualizado</h2>
+        <p className={styles.paragraph}>
           Para estar al tanto de las últimas tendencias y tecnologías, sigo blogs de tecnología, tutoriales, y
           comunidades en Discord y Reddit. Sigo canales como Midudev y Fireship, y los canales oficiales de Unity y
           Unreal para avances en gráficos. También sigo a personas relevantes en LinkedIn y asisto a conferencias como
@@ -191,9 +191,9 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>¿Qué Te Gusta Hacer en Tiempo Libre?</h2>
-        <p>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
+        <p className={styles.paragraph}>
           En mi tiempo libre, disfruto desarrollando proyectos y colaborando con la comunidad de desarrollo. Me gusta
           correr, ver videos de bromas en YouTube, comer y ver películas animadas. Escucho música variada, incluyendo
           EDM, salsa y rap urbano. Andar en moto y explorar lugares abandonados para disfrutar de asados en la montaña
@@ -203,9 +203,9 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>Mentores e Influencias</h2>
-        <p>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Mentores y Colaboradores</h2>
+        <p className={styles.paragraph}>
           Colin Schemale, Franco Yudica y Enzo Notario han sido fundamentales en mi carrera, brindándome consejos y
           orientación. Aspiro a ser mentor para otros, compartiendo mi experiencia y ayudando a cultivar futuros
           innovadores.
@@ -214,7 +214,7 @@ const FAQ = () => {
 
       <br />
 
-      <section>
+      <section className={styles.section}>
         <h2>Experiencias Clave</h2>
         <ul>
           <li>
@@ -258,8 +258,8 @@ const FAQ = () => {
 
       <br />
 
-      <section>
-        <h2>Innovación en Proyectos</h2>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Innovación en Proyectos</h2>
         <p>
           <strong>Situación:</strong> Proyecto MercadoLibre Price Charts, resolviendo la pregunta "¿Cuánto sale esto en
           internet?".
@@ -269,35 +269,32 @@ const FAQ = () => {
         </p>
       </section>
 
-      <section>
-        <h2>Decisión de Grupo</h2>
-        <p>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Adaptabilidad y Aprendizaje</h2>
+        <p className={styles.paragraph}>
           <strong>Situación:</strong> Decidimos usar Unity en lugar de Unreal Engine en un proyecto de equipo.
         </p>
-        <p>
+        <p className={styles.paragraph}>
           <strong>Acción:</strong> Acepté la decisión y aprendí más sobre Unity.
         </p>
-        <p>
+        <p className={styles.paragraph}>
           <strong>Resultado:</strong> Contribuí entusiastamente al proyecto.
         </p>
-        <p>
+        <p className={styles.paragraph}>
           <strong>Reflexión:</strong> Adaptarse a decisiones del grupo y aprender nuevas herramientas es beneficioso
           para el proyecto y el desarrollo personal.
         </p>
       </section>
 
-      <section>
-        <h2>Logros Destacados</h2>
-        <p>
-          <a href="https://www.youtube.com/watch?v=0bmn0hEgJLQ" target="_blank" rel="noopener noreferrer">Enlace a video
-            favorito</a>
-        </p>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Logros Destacados</h2>
+        <p className={styles.paragraph}> WIP </p>
       </section>
 
       <br />
 
-      <section>
-        <h2>Canciones Favoritas</h2>
+      <section className={styles.section}>
+        <h2 className={styles.title}>Canciones Favoritas</h2>
         <ul>
           <li>Runaway (U & I) - Galantis</li>
           <li>Good 4 Me - Vindata</li>
