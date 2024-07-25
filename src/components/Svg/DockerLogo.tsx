@@ -5,7 +5,7 @@ export const DockerLogo = (props: SVGProps<SVGSVGElement>) => (
 		xmlns="http://www.w3.org/2000/svg"
 		width={60}
 		height={60}
-		viewBox="-1.5 0 18 18"
+		viewBox="-1.5 -1 18 18"
 		fill="none"
 		{...props}
 	>
