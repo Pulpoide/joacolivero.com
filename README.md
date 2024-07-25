@@ -49,6 +49,9 @@ Este proyecto es un fork del portafolio original de [Dresan](https://dresan.dev)
 - **utils**: Contiene funciones utilitarias utilizadas en todo el proyecto.
 - **data**: Contiene los datos utilizados en todo el proyecto.
 
+> [!NOTE]
+> Este proyecto utiliza NEXT.js, TypeScript y CSS.
+
 ## Instalación
 
 Para instalar las dependencias del proyecto, ejecuta:
