@@ -13,6 +13,14 @@ const FAQ = () => {
     <div className={styles.container}>
       <ScrollToTopButton />
 
+      Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?
+      Un objetivo que le llevó mucho tiempo alcanzar y por el que aún está trabajando.
+      Un proyecto del que está especialmente orgulloso y por qué.
+      Un momento en el que tuvo que aprender algo nuevo rápidamente.
+      Un proyecto que le gustaría hacer en el futuro.
+      Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento.
+      Lo más interesante que ha aprendido por su cuenta y que le ha ayudado a desempeñar mejor su trabajo
+
       <h1 className={styles.title}>FAQ - Preguntas Frecuentes</h1>
 
       <Link className={styles.goHomeLink} href="/">
@@ -194,10 +202,9 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
         <p className={styles.paragraph}>
-          En mi tiempo libre, disfruto desarrollando proyectos y colaborando con la comunidad de desarrollo. Me gusta
-          correr, ver videos de bromas en YouTube, comer y ver películas animadas. Escucho música variada, incluyendo
-          EDM, salsa y rap urbano. Andar en moto y explorar lugares abandonados para disfrutar de asados en la montaña
-          son pasatiempos que valoro. Descubrir nueva música es uno de mis pasatiempos favoritos.
+          En mi tiempo libre, disfruto desarrollando proyectos y colaborando con la comunidad de desarrollo.
+          Me apasiona correr, ver videos de bromas en YouTube, y disfrutar de películas animadas.
+          También valoro andar en moto, explorar lugares abandonados para disfrutar de asados en la montaña, y descubrir nueva música :).
         </p>
       </section>
 
@@ -259,30 +266,13 @@ const FAQ = () => {
       <br />
 
       <section className={styles.section}>
-        <h2 className={styles.title}>Innovación en Proyectos</h2>
-        <p>
+        <h2 className={styles.title}>Lo más innovador que ha hecho y por qué lo considera innovador</h2>
+          <p>
           <strong>Situación:</strong> Proyecto MercadoLibre Price Charts, resolviendo la pregunta "¿Cuánto sale esto en
           internet?".
         </p>
         <p>
           <strong>Resultado:</strong> Solución efectiva para la visualización de precios en línea en Argentina.
-        </p>
-      </section>
-
-      <section className={styles.section}>
-        <h2 className={styles.title}>Adaptabilidad y Aprendizaje</h2>
-        <p className={styles.paragraph}>
-          <strong>Situación:</strong> Decidimos usar Unity en lugar de Unreal Engine en un proyecto de equipo.
-        </p>
-        <p className={styles.paragraph}>
-          <strong>Acción:</strong> Acepté la decisión y aprendí más sobre Unity.
-        </p>
-        <p className={styles.paragraph}>
-          <strong>Resultado:</strong> Contribuí entusiastamente al proyecto.
-        </p>
-        <p className={styles.paragraph}>
-          <strong>Reflexión:</strong> Adaptarse a decisiones del grupo y aprender nuevas herramientas es beneficioso
-          para el proyecto y el desarrollo personal.
         </p>
       </section>
 
