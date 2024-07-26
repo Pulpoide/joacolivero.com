@@ -13,3 +13,12 @@
 .title > span:last-of-type {
 	justify-self: self-end;
 }
+
+@media (min-width: 768px) {
+	.title {
+            display: grid;
+            font-size: clamp(1rem, 0.1rem + 6vw, 6rem);
+            font-weight: 900;
+            line-height: normal;
+	}
+}
