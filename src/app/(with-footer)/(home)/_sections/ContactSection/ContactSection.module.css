@@ -4,7 +4,7 @@
 }
 
 .title {
-	display: grid;
+	text-align: center;
 	font-size: clamp(2rem, 0.4rem + 8vw, 10rem);
 	font-weight: 900;
 	line-height: normal;
