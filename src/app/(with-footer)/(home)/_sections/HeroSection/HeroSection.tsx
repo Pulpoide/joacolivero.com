@@ -5,6 +5,7 @@ import { ContactDialog } from "~/components/ContactDialog";
 import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import styles from "./HeroSection.module.css";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
+import Clock from "~/components/Clock/Clock";
 
 export const HeroSection = () => {
   return (
@@ -25,7 +26,7 @@ export const HeroSection = () => {
             width="30"
             height="20"
             loading="lazy"
-          />
+          /> <br/> <Clock />
         </p>
       </div>
       <div className={styles.buttonContainer}>
