@@ -23,6 +23,17 @@ export default async function Blog() {
 			<p>
 				note: (wip, esto va al lado del ultimo project card), hacerla pagina standalone igual y sacar el link del menu y que click en el boton al final de los proyectos traiga aca y listo
 			</p>
+			- rendimientos mercado pago
+			- unreal engine project cleaner
+			- The great chocolate caper
+			- hangman
+			- array utils
+			- the dungeon
+			- pixelated drift
+			- foss (free open source software) (nada todavia)
+
+			ponerle tags a los proyectos, y un boton para ver todos los proyectos con ese tag filter thingy
+			sin animo de lucro poner. fafafear.
 			<ScrollToTopButton />
 		</main>
 	)

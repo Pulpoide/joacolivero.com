@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Max Comperatore - FAQ',
-  description: 'Frequently Asked Questions about Max Comperatore\'s career, interests, and experiences in programming and game development.',
+  description: 'Preguntas personales para reflexionar, y practicar para entrevistas de trabajo.',
 };
 
 const FAQ = () => {
