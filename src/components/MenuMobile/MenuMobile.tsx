@@ -10,6 +10,7 @@ import { Button } from "~/components/Ui/Button"
 import { LanguageSwitcher } from "~/components/LanguageSwitcher"
 import { ContactDialog } from "~/components/ContactDialog"
 import styles from "./MenuMobile.module.css"
+import { ThemeSwitcher } from "../ThemeSwitcher"
 
 export const MenuMobile = () => {
 	const [open, setOpen] = useState(false)
@@ -55,6 +56,9 @@ export const MenuMobile = () => {
 							</Button>
 						}
 					/>
+					<div className={styles.themeWrapper}>
+						<span>Tema </span> <ThemeSwitcher />
+					</div>
 					<div className={styles.themeWrapper}>
 						<span>Idioma </span> <LanguageSwitcher />
 					</div>

@@ -7,6 +7,7 @@ import { Link } from "~/components/Ui/Link"
 import { MenuMobile } from "~/components/MenuMobile"
 import { ContactDialog } from "~/components/ContactDialog"
 import styles from "./Header.module.css"
+import { ThemeSwitcher } from "../ThemeSwitcher"
 
 export const Header = () => {
 	return (
@@ -34,6 +35,7 @@ export const Header = () => {
 							</Button>
 						}
 					/>
+					< ThemeSwitcher />
 					< LanguageSwitcher />
 				</div>
 				<MenuMobile />
