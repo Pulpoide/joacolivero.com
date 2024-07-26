@@ -1,71 +1,71 @@
 .card {
-	--line-offset: 1px;
-	position: relative;
-	display: grid;
-	justify-items: center;
-	align-content: center;
-	aspect-ratio: 1 / 1;
-	background-color: #030303;
-	border-radius: 8px;
-	overflow: hidden;
-	-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	transition: box-shadow 0.3s, transform 0.3s;
+    --line-offset: 1px;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    aspect-ratio: 1 / 1;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px var(--shadow-color);
+    transition: box-shadow var(--theme-transition-duration), transform var(--theme-transition-duration), background-color var(--theme-transition-duration);
 }
 
 .card:hover {
-	transform: translateY(-4px);
-	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px var(--shadow-color);
 }
 
 .card::before,
 .card::after {
-	content: "";
-	position: absolute;
-	background-color: var(--color-stroke);
-	z-index: 1;
-	transition: background-color var(--theme-transition-duration);
+    content: "";
+    position: absolute;
+    background-color: var(--color-stroke);
+    z-index: 1;
+    transition: background-color var(--theme-transition-duration);
 }
 
 .card::after {
-	inline-size: 100vw;
-	block-size: 1px;
-	inset-inline-start: 0;
-	inset-block-start: calc(var(--line-offset) * -1);
+    inline-size: 100vw;
+    block-size: 1px;
+    inset-inline-start: 0;
+    inset-block-start: calc(var(--line-offset) * -1);
 }
 
 .card::before {
-	block-size: 100vh;
-	inline-size: 1px;
-	inset-block-start: 0;
-	inset-inline-start: calc(var(--line-offset) * -1);
+    block-size: 100vh;
+    inline-size: 1px;
+    inset-block-start: 0;
+    inset-inline-start: calc(var(--line-offset) * -1);
 }
 
 .iconWrapper {
-	transition: color var(--theme-transition-duration), transform var(--theme-transition-duration);
+    transition: color var(--theme-transition-duration), transform var(--theme-transition-duration);
 }
 
 .card:hover .iconWrapper {
-	color: var(--color-brand, var(--color-text-secondary));
-	transform: translateY(-8px);
-	cursor: url('/assets/cursor/hand-pointer.png'), auto;
+    color: var(--color-brand);
+    transform: translateY(-8px);
+    cursor: url('/assets/cursor/hand-pointer.png'), auto;
 }
 
 .skillName {
-	font-size: 14px;
-	font-weight: 500;
-	color: var(--color-text-primary);
-	position: absolute;
-	bottom: 12px;
-	left: 50%;
-	transform: translateX(-50%) translateY(10px);
-	opacity: 0;
-	transition: opacity 150ms, transform 150ms;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--color-text-primary);
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    opacity: 0;
+    transition: opacity 150ms, transform 150ms;
 }
 
 @media (hover: hover) {
-	.card:hover .skillName {
-		opacity: 1;
-		transform: translateX(-50%) translateY(0);
-		cursor: url('/assets/cursor/hand-pointer.png'), auto;
-	}
+    .card:hover .skillName {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+        cursor: url('/assets/cursor/hand-pointer.png'), auto;
+    }
 }
