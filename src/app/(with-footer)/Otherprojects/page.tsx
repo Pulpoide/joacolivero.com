@@ -34,6 +34,8 @@ export default async function Blog() {
 
 			ponerle tags a los proyectos, y un boton para ver todos los proyectos con ese tag filter thingy
 			sin animo de lucro poner. fafafear.
+			Este mismo portfolio esta hecho de manera responsive para cualquier dispositivo, con un diseño minimalista y elegante, hecho a codigo limpio y con ayuda de TailwindCSS optimized. 98 page speed. 100 seo.
+			
 			<ScrollToTopButton />
 		</main>
 	)
