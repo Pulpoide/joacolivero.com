@@ -26,7 +26,7 @@ export const HeroSection = () => {
             width="30"
             height="20"
             loading="lazy"
-          /> <br/> <Clock />
+          /> <br/> <Clock className={styles.clock} />
         </p>
       </div>
       <div className={styles.buttonContainer}>

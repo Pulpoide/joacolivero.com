@@ -1,0 +1,17 @@
+.clock {
+    font-size: 1em;
+    color: var(--color-highlight);
+    font-weight: bold;
+    margin-top: 8px;
+    display: inline-block;
+    padding: 4px 8px;
+    background: var(--color-background);
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.clock:hover {
+    background: var(--color-hover-background);
+    color: var(--color-hover-text);
+}

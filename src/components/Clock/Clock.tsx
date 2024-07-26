@@ -1,20 +1,27 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
+import styles from './Clock.module.css';
 
-const Clock: React.FC = () => {
+const Clock: React.FC<{ className?: string }> = ({ className }) => {
 	const [time, setTime] = useState<Date>(new Date());
 
 	useEffect(() => {
 		const updateClock = () => {
-			const now = new Date();
-			setTime(now);
+			setTime(new Date());
 		};
 
-		const timerId = setInterval(updateClock, 60000);
-		updateClock();
+		const now = new Date();
+		const delay = (60 - now.getSeconds()) * 1000;
 
-		return () => clearInterval(timerId);
+		const timeoutId = setTimeout(() => {
+			updateClock();
+
+			const intervalId = setInterval(updateClock, 60000);
+			return () => clearInterval(intervalId);
+		}, delay);
+
+		return () => clearTimeout(timeoutId);
 	}, []);
 
 	const formatTime = (date: Date): string => {
@@ -32,7 +39,7 @@ const Clock: React.FC = () => {
 	};
 
 	return (
-		<span>{getLocalTime(time)} (GMT-3)</span>
+		<span className={`${styles.clock} ${className}`}>{getLocalTime(time)} (GMT-3)</span>
 	);
 };
 
