@@ -1,5 +1,4 @@
 import { PythonLogo } from "~/components/Svg/PythonLogo";
-import { GitLogo } from "~/components/Svg/GitLogo";
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo";
 import { AzureLogo } from "~/components/Svg/AzureLogo";
 import { BashLogo } from "~/components/Svg/BashLogo";
@@ -9,7 +8,6 @@ import { UnityLogo } from "~/components/Svg/UnityLogo";
 import { UnrealLogo } from "~/components/Svg/UnrealEngineLogo";
 import { CsharpLogo } from "~/components/Svg/CsharpLogo";
 import { CppLogo } from "~/components/Svg/CppLogo";
-import { DockerLogo } from "~/components/Svg/DockerLogo";
 import { MySQLLogo } from "~/components/Svg/MySQLLogo";
 import { ExpressLogo } from "~/components/Svg/ExpressLogo";
 
@@ -44,18 +42,6 @@ export const skills = [
 		icon: <MySQLLogo />,
 		brandColor: "#00758F",
 		url: "https://www.mysql.com/",
-	},
-	{
-		name: "Docker",
-		icon: <DockerLogo />,
-		brandColor: "#039CC7",
-		url: "https://www.docker.com/",
-	},
-	{
-		name: "Git",
-		icon: <GitLogo />,
-		brandColor: "#dd4c35",
-		url: "https://git-scm.com/",
 	},
 	{
 		name: "Bash",

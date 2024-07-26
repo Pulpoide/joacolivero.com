@@ -3,18 +3,50 @@
 }
 
 .skillWrapper {
-	--min-inline-size: 150px;
+	--min-inline-size: 80px;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(var(--min-inline-size), 1fr));
+	grid-template-columns: repeat(6, minmax(var(--min-inline-size), 1fr));
+	gap: 16px;
 	max-inline-size: 1200px;
 	margin: 32px auto 0;
 	border: 1px solid var(--color-stroke);
 	overflow: hidden;
 	transition: border-color var(--theme-transition-duration);
+	justify-content: center;
 }
 
-@media screen and (max-width: 360px) {
+.skillCardImage {
+	width: 50px;
+	height: 50px;
+	object-fit: contain;
+}
+
+@media screen and (max-width: 1024px) {
 	.skillWrapper {
-		--min-inline-size: 125px;
+		grid-template-columns: repeat(4, minmax(150px, 1fr));
+	}
+	.skillCardImage {
+		width: 75px;
+		height: 75px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.skillWrapper {
+		grid-template-columns: repeat(3, minmax(150px, 1fr));
+	}
+	.skillCardImage {
+		width: 75px;
+		height: 75px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.skillWrapper {
+		grid-template-columns: repeat(2, minmax(125px, 1fr));
+	}
+	.skillCardImage {
+		width: 60px;
+		height: 60px;
 	}
 }
