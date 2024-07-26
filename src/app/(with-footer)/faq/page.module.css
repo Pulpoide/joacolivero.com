@@ -72,16 +72,6 @@ body.dark .paragraph {
     color: #f1f1f1;
 }
 
-body.dark .goHomeLink:hover {
-    background-color: #f1f1f1;
-    color: #ffffff;
-}
-
 body.light .paragraph {
     color: #030303;
-}
-
-body.light .goHomeLink:hover {
-    background-color: #030303;
-    color: #000000;
 }
