@@ -1,23 +1,31 @@
 "use client"
 
-import { useState } from "react";
-import styles from "./LanguageSwitcher.module.css"
+import { useState, useEffect } from "react";
+import styles from "./LanguageSwitcher.module.css";
 
 export const LanguageSwitcher = () => {
 	const [isSpanish, setIsSpanish] = useState(true);
 
-	const handleOnClick = () => {
-		setIsSpanish(!isSpanish);
-		localStorage.setItem("language", isSpanish ? "en" : "es");
-		// Reload the page to apply the new language. prefferably done live
+	useEffect(() => {
+		const savedLanguage = localStorage.getItem("language");
+		if (savedLanguage) {
+			setIsSpanish(savedLanguage === "es");
+		}
+	}, []);
 
+	const handleOnClick = () => {
+		const newLanguage = isSpanish ? "en" : "es";
+		setIsSpanish(!isSpanish);
+		localStorage.setItem("language", newLanguage);
+
+		document.documentElement.lang = newLanguage;
 	};
 
 	return (
 		<button
 			className={styles.button}
 			onClick={handleOnClick}
-			title={`Cambiar a ${isSpanish ? "Inglés" : "Español"}`}
+			title={isSpanish ? "Cambiar a inglés" : "Switch to Spanish"}
 			aria-live="polite"
 		>
 			<img
@@ -29,7 +37,7 @@ export const LanguageSwitcher = () => {
 				width={24}
 			/>
 		</button>
-	)
+	);
 }
 
 export default LanguageSwitcher;
