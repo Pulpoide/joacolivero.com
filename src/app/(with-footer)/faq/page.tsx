@@ -27,7 +27,7 @@ const FAQ = () => {
         ← Volver a la página principal
       </Link>
 
-      <Link className={styles.goHomeLink} href="/">
+      <Link className={styles.goHomeLink} href="/blog">
         ← Ir al Blog
       </Link>
 
