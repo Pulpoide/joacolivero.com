@@ -14,7 +14,7 @@ export const HeroSection = () => {
       </h1>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
-          Un desarrollador pragmático con un fuerte enfoque en la calidad en cada etapa del desarrollo.
+          Desarrollador y estudiante pragmático con un fuerte enfoque en la calidad de cada etapa del desarrollo.
         </p>
         <p className={styles.introSubtitle}>
           Me encuentro en Mendoza, Argentina.
