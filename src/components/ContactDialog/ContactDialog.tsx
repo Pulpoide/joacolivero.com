@@ -1,5 +1,6 @@
 import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "~/components/Ui/Dialog"
-import { ContactForm } from "~/components/ContactForm"
+import ContactForm from "../ContactForm/ContactForm"
+
 
 interface Props {
 	trigger: React.ReactNode
