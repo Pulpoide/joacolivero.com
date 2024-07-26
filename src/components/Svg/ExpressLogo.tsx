@@ -5,7 +5,7 @@ export const ExpressLogo = (props: SVGProps<SVGSVGElement>) => (
 		xmlns="http://www.w3.org/2000/svg"
 		width={55}
 		height={55}
-		viewBox="-4 -3 32 32"
+		viewBox="-4 -4 32 32"
 		fill="none"
 		{...props}
 	>

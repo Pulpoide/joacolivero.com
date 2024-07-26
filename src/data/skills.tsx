@@ -3,7 +3,7 @@ import { GitLogo } from "~/components/Svg/GitLogo";
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo";
 import { AzureLogo } from "~/components/Svg/AzureLogo";
 import { BashLogo } from "~/components/Svg/BashLogo";
-import { TypeScriptLogo } from "~/components/Svg/TypeScriptLogo";
+import { TypescriptLogo } from "~/components/Svg/TypeScriptLogo";
 import { DotNetLogo } from "~/components/Svg/DotNetLogo";
 import { UnityLogo } from "~/components/Svg/UnityLogo";
 import { UnrealLogo } from "~/components/Svg/UnrealEngineLogo";
@@ -23,7 +23,7 @@ export const skills = [
 	},
 	{
 		name: "TypeScript",
-		icon: <TypeScriptLogo />,
+		icon: <TypescriptLogo />,
 		brandColor: "#3178C6",
 		url: "https://www.typescriptlang.org/",
 	},
