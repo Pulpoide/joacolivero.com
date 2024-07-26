@@ -195,7 +195,7 @@ const FAQ = () => {
         <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
         <p className={styles.paragraph}>
           En mi tiempo libre, disfruto desarrollando proyectos y colaborando con la comunidad de desarrollo.
-          Me apasiona correr, ver videos de bromas en YouTube, y disfrutar de películas animadas.
+          Me apasiona correr, ver videos de bromas en YouTube, disfrutar de películas animadas y jugar a juegos indie en Steam.
           También valoro andar en moto, explorar lugares abandonados para disfrutar de asados en la montaña, y descubrir nueva música :).
         </p>
       </section>
