@@ -13,15 +13,7 @@ const FAQ = () => {
     <div className={styles.container}>
       <ScrollToTopButton />
 
-      Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?
-      Un objetivo que le llevó mucho tiempo alcanzar y por el que aún está trabajando.
-      Un proyecto del que está especialmente orgulloso y por qué.
-      Un momento en el que tuvo que aprender algo nuevo rápidamente.
-      Un proyecto que le gustaría hacer en el futuro.
-      Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento.
-      Lo más interesante que ha aprendido por su cuenta y que le ha ayudado a desempeñar mejor su trabajo
-
-      <h1 className={styles.title}>FAQ - Preguntas Frecuentes</h1>
+      <h1 className={styles.title}>FAQ - Preguntas Frecuentes (EN CONSTRUCCION)</h1>
 
       <Link className={styles.goHomeLink} href="/">
         ← Volver a la página principal
@@ -209,6 +201,16 @@ const FAQ = () => {
       </section>
 
       <br />
+
+      otras buenas preguntas:
+
+      Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?
+      Un objetivo que le llevó mucho tiempo alcanzar y por el que aún está trabajando.
+      Un proyecto del que está especialmente orgulloso y por qué.
+      Un momento en el que tuvo que aprender algo nuevo rápidamente.
+      Un proyecto que le gustaría hacer en el futuro.
+      Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento.
+      Lo más interesante que ha aprendido por su cuenta y que le ha ayudado a desempeñar mejor su trabajo
 
       <section className={styles.section}>
         <h2 className={styles.title}>Mentores y Colaboradores</h2>

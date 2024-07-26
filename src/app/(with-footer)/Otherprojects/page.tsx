@@ -16,11 +16,13 @@ export default async function Blog() {
 
 	return (
 		<main className={styles.wrapper}>
-			<h1 className={styles.title}>Blog</h1>
+			<h1 className={styles.title}>Otros proyectos (EN CONSTRUCCION)</h1>
 			<Link className={styles.goHomeLink} href="/">
 				← Volver a la página principal
 			</Link>
-			(wip, esto va al lado del ultimo project card)
+			<p>
+				note: (wip, esto va al lado del ultimo project card), hacerla pagina standalone igual y sacar el link del menu y que click en el boton al final de los proyectos traiga aca y listo
+			</p>
 			<ScrollToTopButton />
 		</main>
 	)
