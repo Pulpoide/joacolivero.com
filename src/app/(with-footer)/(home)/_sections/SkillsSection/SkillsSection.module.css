@@ -17,6 +17,7 @@
 
 .skillCard {
 	outline: none;
+	-webkit-tap-highlight-color: transparent;
 }
 
 .skillCard:focus {
