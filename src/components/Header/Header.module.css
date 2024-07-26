@@ -11,7 +11,7 @@
 	backdrop-filter: saturate(180%) blur(5px);
 	border-block-end: 1px solid var(--color-stroke);
 	transition: border-block-end-color var(--theme-transition-duration),
-		background-color var(--theme-transition-duration);
+	background-color var(--theme-transition-duration);
 }
 
 .contentWrapper {
@@ -36,6 +36,7 @@
 .homeLogo {
 	transition: transform 0.3s ease, filter 0.3s ease, color 0.5s ease;
 	color: #ffffff;
+	animation: flicker 4s linear, lightOn 5s forwards;
 }
 
 .homeLogo:hover {
@@ -77,5 +78,26 @@
 @keyframes fill {
 	to {
 		fill: currentColor;
+	}
+}
+
+@keyframes flicker {
+	0%, 8%, 18%, 30%, 42%, 50%, 60%, 70%, 85%, 100% {
+		opacity: 1;
+	}
+	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 80%, 90% {
+		opacity: 0.2;
+	}
+	10%, 20%, 28%, 40%, 48%, 58%, 68%, 78%, 88%, 95% {
+		opacity: 0.5;
+	}
+}
+
+@keyframes lightOn {
+	0% {
+		filter: brightness(0);
+	}
+	100% {
+		filter: brightness(1);
 	}
 }
