@@ -38,7 +38,7 @@ export default async function Blog() {
 				<p>Esta sección es sin ánimo de lucro.</p>
 			</div>
 			<div className={styles.performance}>
-				Este portfolio está optimizado para cualquier dispositivo con un diseño minimalista, limpio y elegante, utilizando TailwindCSS. Puntuaciones de PageSpeed: 98 en velocidad de página y 100 en SEO.
+				Este portfolio está optimizado para cualquier dispositivo con un diseño minimalista, limpio y elegante, utilizando TailwindCSS. Puntuaciones de PageSpeed: 98 en velocidad de página y 100 en SEO. Responsivo a todos los dispositivos y a light mode tambien.
 			</div>
 			<ScrollToTopButton />
 		</main>
