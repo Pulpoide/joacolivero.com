@@ -74,6 +74,7 @@ const ContactForm = () => {
 			const domainMatch = email.match(domainRegex);
 			if (domainMatch && domainMatch[1]) {
 				const lookupKey = domainMatch[1].toLowerCase() + '.com';
+				// @ts-ignore
 				const correctDomain = domainCorrections[lookupKey];
 				if (correctDomain) {
 					email = email.replace(domainRegex, '@' + correctDomain);
