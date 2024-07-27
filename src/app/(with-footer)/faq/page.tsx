@@ -65,10 +65,11 @@ const FAQ = () => {
           necesario.
         </p>
         <p className={styles.paragraph}>
-          Disfruto especialmente del trabajo del lado del servidor, ya que implica resolver problemas complejos con
-          eficiencia y seguridad.
-          La gestión de bases de datos, la creación y mantenimiento de APIs, y la optimización del rendimiento son
-          aspectos que encuentro especialmente interesantes y desafiantes.
+          Disfruto particularmente del desarrollo del lado del servidor,
+          donde enfrento problemas complejos con un enfoque en la eficiencia y la seguridad.
+          La gestión de bases de datos, el diseño y mantenimiento de APIs,
+          y la mejora continua del rendimiento son aspectos que encuentro fascinantes ya
+          que contribuyen a la creación de aplicaciones robustas y escalables.
         </p>
       </section>
 
