@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './page.module.css';
 import ScrollToTopButton from '~/components/ScrollToTopButton/ScrollToTopButton';
 import Link from 'next/link';
+import TextDecorator from '~/components/TextDecorator/TextDecorator';
 
 export const metadata = {
   title: 'Max Comperatore - FAQ',
@@ -109,89 +110,193 @@ const FAQ = () => {
       <br />
 
       <section className={styles.section}>
-        <h2 className={styles.title}>Desafíos y Soluciones</h2>
-        <ul>
-          <li>
-            <h3>Problemas con Modelos de Juego</h3>
-            <p>
-              <strong>Situación:</strong> En "Pixelated Drift", los edificios pesaban un gigabyte cada uno, impidiendo
-              el empaquetado.
-            </p>
-            <p>
-              <strong>Acción:</strong> Intenté reducir los polígonos en Blender sin éxito.
-            </p>
-            <p>
-              <strong>Resultado:</strong> Subí el juego a itch.io y el editor a Google Drive, permitiendo a los usuarios
-              jugar.
-            </p>
-            <p>
-              <strong>Reflexión:</strong> Persistir y mantener una mentalidad abierta es clave para encontrar soluciones
-              alternativas.
-            </p>
-          </li>
-          <li>
-            <h3>Expiración de Funciones Serverless</h3>
-            <p>
-              <strong>Situación:</strong> La función en el proyecto MercadoLibre Price Chart expiraba debido a tiempos
-              de respuesta largos.
-            </p>
-            <p>
-              <strong>Acción:</strong> Implementé Fly.io para manejar tareas asincrónicas y reescribí el código en Flask
-              y FastAPI.
-            </p>
-            <p>
-              <strong>Resultado:</strong> Las búsquedas se completaron sin problemas y los cuadros de precios se
-              mostraron correctamente.
-            </p>
-            <p>
-              <strong>Reflexión:</strong> Aprender nuevas tecnologías y pedir ayuda a la comunidad son fundamentales
-              para resolver problemas.
-            </p>
-          </li>
-          <li>
-            <h3>Creación de un Portafolio Profesional</h3>
-            <p>
-              <strong>Situación:</strong> Quería crear un portafolio impresionante con pocos recursos.
-            </p>
-            <p>
-              <strong>Acción:</strong> Forkee el portafolio de DRESAN, optimizándolo y adaptándolo a mis necesidades.
-            </p>
-            <p>
-              <strong>Resultado:</strong> Creé un portafolio destacado, aprendiendo y adaptando lo que otros habían
-              hecho.
-            </p>
-            <p>
-              <strong>Reflexión:</strong> Observar y adaptar el trabajo de otros es una excelente manera de mejorar.
-            </p>
-          </li>
-        </ul>
+        <h2 className={styles.title}>¿Qué Aprendiste Recientemente?</h2>
+        <p className={styles.paragraph}>
+          Recientemente, he estado explorando la creación de aplicaciones web con React y Next.js, y he profundizado en
+          el desarrollo de APIs RESTful con Node.js y Express. También he estado investigando sobre gráficos por
+          computadora y aprendiendo a optimizar el rendimiento de aplicaciones en Unity y Unreal Engine.
+        </p>
+        <p className={styles.paragraph}>
+          Además, he estado practicando la resolución de problemas con algoritmos y estructuras de datos, y he
+          mejorado mi habilidad para trabajar en equipo y comunicarme de manera efectiva con mis compañeros de
+          proyecto.
+        </p>
       </section>
 
-      <br />
-
+      (
       <section className={styles.section}>
         <h2 className={styles.title}>Recursos Educativos Recomendados</h2>
         <ul>
-          <li><a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank"
-                 rel="noopener noreferrer">Computer Graphics</a></li>
-          <li><a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer">Roadmap.sh</a></li>
-          <li>Comunidades de Discord, usa discord. Mucha gente te ayuda gratis y quiere verte triunfar.</li>
-          <li>Reddit</li>
-          <li>Documentación Oficial</li>
-          <li><a href="https://fullstackopen.com/en/" target="_blank" rel="noopener noreferrer">Fullstack Open</a></li>
-          <li><a href="https://www.learncpp.com" target="_blank" rel="noopener noreferrer">Learn CPP</a></li>
-          <li><a href="https://www.bigocheatsheet.com" target="_blank" rel="noopener noreferrer">Big O Cheat Sheet</a>
+          <li>
+            <TextDecorator
+              color="blue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              <a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank" rel="noopener noreferrer">
+                Computer Graphics
+              </a>
+            </TextDecorator>
           </li>
-          <li><a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">Microsoft Learn</a></li>
-          <li>draw.io</li>
-          <li>Khan Academy</li>
-          <li>ChatGPT</li>
-          <li>Wikipedia y Libros</li>
-          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-          <li><a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">Perplexity</a></li>
-          <li><a href="https://trello.com" target="_blank" rel="noopener noreferrer">Trello</a></li>
+          <li>
+            <TextDecorator
+              color="blue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              <a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer">
+                Roadmap.sh
+              </a>
+            </TextDecorator>
+          </li>
+          <li>
+            <TextDecorator
+              color="blue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              Comunidades de Discord
+            </TextDecorator>
+          </li>
+          <li>
+            <TextDecorator
+              color="blue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              Reddit
+            </TextDecorator>
+          </li>
+          <li>
+            <TextDecorator
+              color="blue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              Documentación Oficial
+            </TextDecorator>
+          </li>
+          <li>
+            <TextDecorator
+              color="blue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              <a href="https://fullstackopen.com/en/" target="_blank" rel="noopener noreferrer">
+                Fullstack Open
+              </a>
+            </TextDecorator>
+          </li>
+          <li>
+            <TextDecorator
+              color="blue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              <a href="https://www.learncpp.com" target="_blank" rel="noopener noreferrer">
+                Learn CPP
+              </a>
+            </TextDecorator>
+          </li>
+          <li>
+            <TextDecorator
+              color="blue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              <a href="https://www.bigocheatsheet.com" target="_blank" rel="noopener noreferrer">
+                Big O Cheat Sheet
+              </a>
+            </TextDecorator>
+            <ul className={styles.linkList}>
+              <li>
+                <TextDecorator
+                  color="blue"
+                  isUnderlined={true}
+                  style={{ fontSize: "16px" }}
+                >
+                  <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">
+                    Microsoft Learn
+                  </a>
+                </TextDecorator>
+              </li>
+              <li>
+                <TextDecorator
+                  color="blue"
+                  isUnderlined={true}
+                  style={{ fontSize: "16px" }}
+                >
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    GitHub
+                  </a>
+                </TextDecorator>
+              </li>
+              <li>
+                <TextDecorator
+                  color="blue"
+                  isUnderlined={true}
+                  style={{ fontSize: "16px" }}
+                >
+                  <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">
+                    Perplexity
+                  </a>
+                </TextDecorator>
+              </li>
+              <li>
+                <TextDecorator
+                  color="blue"
+                  isUnderlined={true}
+                  style={{ fontSize: "16px" }}
+                >
+                  <a href="https://trello.com" target="_blank" rel="noopener noreferrer">
+                    Trello
+                  </a>
+                </TextDecorator>
+              </li>
+              <li>
+                <TextDecorator
+                  color="blue"
+                  isUnderlined={true}
+                  style={{ fontSize: "16px" }}
+                >
+                  draw.io
+                </TextDecorator>
+              </li>
+              <li>
+                <TextDecorator
+                  color="blue"
+                  isUnderlined={true}
+                  style={{ fontSize: "16px" }}
+                >
+                  Khan Academy
+                </TextDecorator>
+              </li>
+              <li>
+                <TextDecorator
+                  color="blue"
+                  isUnderlined={true}
+                  style={{ fontSize: "16px" }}
+                >
+                  ChatGPT
+                </TextDecorator>
+              </li>
+              <li>
+                <TextDecorator
+                  color="blue"
+                  isUnderlined={true}
+                  style={{ fontSize: "16px" }}
+                >
+                  Wikipedia y Libros
+                </TextDecorator>
+              </li>
+            </ul>
+          </li>
         </ul>
       </section>
+
+
+
+      <br />
 
       <br />
 
