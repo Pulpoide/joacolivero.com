@@ -7,7 +7,7 @@ import { DotNetLogo } from "~/components/Svg/DotNetLogo";
 import { UnityLogo } from "~/components/Svg/UnityLogo";
 import { UnrealLogo } from "~/components/Svg/UnrealEngineLogo";
 import { CsharpLogo } from "~/components/Svg/CsharpLogo";
-import { CppLogo } from "~/components/Svg/CppLogo";
+import CppLogo from "~/components/Svg/CppLogo";
 import { MySQLLogo } from "~/components/Svg/MySQLLogo";
 import { ExpressLogo } from "~/components/Svg/ExpressLogo";
 
