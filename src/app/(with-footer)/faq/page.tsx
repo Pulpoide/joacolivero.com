@@ -27,7 +27,8 @@ const FAQ = () => {
         <h2 className={styles.title}>Recorrido en Programación</h2>
         <p className={styles.paragraph}>
           Mi interés en la programación comenzó en 2022, impulsado por mi pasión por los videojuegos. Empecé con cursos
-          básicos y un bootcamp, y consolidé mi entusiasmo al colaborar en la aplicación de Android "War Report for Clash of
+          básicos y un bootcamp, y consolidé mi entusiasmo al colaborar en la aplicación de Android "War Report for
+          Clash of
           Clans". Esta experiencia reforzó mi decisión de seguir una carrera en programación.
         </p>
         <p className={styles.paragraph}>
@@ -76,12 +77,13 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>¿Cómo te Ves en 5 Años?</h2>
         <p className={styles.paragraph}>
-          En cinco años, me veo como un experto en backend y desarrollo de juegos, liderando equipos y compartiendo mi
-          conocimiento como tutor. Aspiro a contribuir a tecnologías de vanguardia, optimizar procesos y desarrollar
-          soluciones escalables y seguras. Me gustaría profundizar en inteligencia artificial y aprendizaje automático,
-          integrando estas tecnologías en el desarrollo de juegos y aplicaciones backend. También quiero ser un mentor,
-          participando en comunidades de programación y ofreciendo talleres y charlas. En lo personal, busco equilibrar
-          mi vida profesional y personal, disfrutando de mis hobbies y contribuyendo a proyectos innovadores.
+          En cinco años, me visualizo como un experto en backend y desarrollo de juegos, liderando equipos de alto
+          rendimiento y compartiendo mi conocimiento como mentor. Aspiro a contribuir al avance de tecnologías de
+          vanguardia, optimizar procesos complejos y desarrollar soluciones escalables y seguras.
+        </p>
+        <p className={styles.paragraph}>
+          En lo personal, busco mantener un equilibrio saludable entre mi vida profesional y personal, disfrutando de
+          mis pasatiempos y participando en proyectos innovadores que generen un impacto positivo en la sociedad.
         </p>
       </section>
 
@@ -203,22 +205,27 @@ const FAQ = () => {
         <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
         <p className={styles.paragraph}>
           En mi tiempo libre, disfruto desarrollando proyectos y colaborando con la comunidad de desarrollo.
-          Me apasiona correr, ver videos de bromas en YouTube, disfrutar de películas animadas y jugar a juegos indie en Steam.
-          También valoro andar en moto, explorar lugares abandonados para disfrutar de asados en la montaña, y descubrir nueva música :).
+          Me apasiona correr, ver videos de bromas en YouTube, disfrutar de películas animadas y jugar a juegos indie en
+          Steam.
+          También valoro andar en moto, explorar lugares abandonados para disfrutar de asados en la montaña, y descubrir
+          nueva música :).
         </p>
       </section>
 
       <br />
 
-      otras buenas preguntas:
-
-      Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?
-      Un objetivo que le llevó mucho tiempo alcanzar y por el que aún está trabajando.
-      Un proyecto del que está especialmente orgulloso y por qué.
-      Un momento en el que tuvo que aprender algo nuevo rápidamente.
-      Un proyecto que le gustaría hacer en el futuro.
-      Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento.
-      Lo más interesante que ha aprendido por su cuenta y que le ha ayudado a desempeñar mejor su trabajo
+      <section className={styles.section}>
+        <h2 className={styles.title}>Preguntas Conductuales</h2>
+        <ul className={styles.paragraph}>
+          <li>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?</li>
+          <li>Un objetivo que le llevó mucho tiempo alcanzar y por el que aún está trabajando.</li>
+          <li>Un proyecto del que está especialmente orgulloso y por qué.</li>
+          <li>Un momento en el que tuvo que aprender algo nuevo rápidamente.</li>
+          <li>Un proyecto que le gustaría hacer en el futuro.</li>
+          <li>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento.</li>
+          <li>Lo más interesante que ha aprendido por su cuenta y que le ha ayudado a desempeñar mejor su trabajo.</li>
+        </ul>
+      </section>
 
       <section className={styles.section}>
         <h2 className={styles.title}>Mentores y Colaboradores</h2>
@@ -277,7 +284,7 @@ const FAQ = () => {
 
       <section className={styles.section}>
         <h2 className={styles.title}>Lo más innovador que ha hecho y por qué lo considera innovador</h2>
-          <p>
+        <p>
           <strong>Situación:</strong> Proyecto MercadoLibre Price Charts, resolviendo la pregunta "¿Cuánto sale esto en
           internet?".
         </p>
@@ -308,6 +315,6 @@ const FAQ = () => {
       </section>
     </div>
   );
-  };
+};
 
 export default FAQ;
