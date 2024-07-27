@@ -47,7 +47,6 @@
 .card:hover .iconWrapper {
     color: var(--color-brand);
     transform: translateY(-8px);
-    cursor: url('/assets/cursor/hand-pointer.png'), auto;
 }
 
 .skillName {
@@ -66,6 +65,5 @@
     .card:hover .skillName {
         opacity: 1;
         transform: translateX(-50%) translateY(0);
-        cursor: url('/assets/cursor/hand-pointer.png'), auto;
     }
 }
