@@ -26,7 +26,7 @@ export const skills = [
 	{
 		name: "Express",
 		icon: <ExpressLogo />,
-		brandColor: "",
+		brandColor: "#828282"
 	},
 	{
 		name: "PostgreSQL",
@@ -47,7 +47,7 @@ export const skills = [
 	{
 		name: "DotNet",
 		icon: <DotNetLogo />,
-		brandColor: "#1486CA",
+		brandColor: "#5027D5",
 	},
 	{
 		name: "Azure",
@@ -57,18 +57,18 @@ export const skills = [
 	{
 		name: "C#",
 		icon: <CsharpLogo />,
-		brandColor: "#9A5196",
+		brandColor: "#A27ADD",
 	},
 	// Game development skills
 	{
 		name: "Unity",
 		icon: <UnityLogo />,
-		brandColor: "",
+		brandColor: "#818181",
 	},
 	{
 		name: "Unreal",
 		icon: <UnrealLogo />,
-		brandColor: "",
+		brandColor: "#818181",
 	},
 	{
 		name: "C++",

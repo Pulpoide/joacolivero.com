@@ -10,11 +10,13 @@
     overflow: hidden;
     box-shadow: 0 4px 8px var(--shadow-color);
     transition: box-shadow var(--theme-transition-duration), transform var(--theme-transition-duration), background-color var(--theme-transition-duration);
+    user-select: none;
 }
 
 .card:hover {
     transform: translateY(-4px);
     box-shadow: 0 6px 12px var(--shadow-color);
+    user-select: none;
 }
 
 .card::before,
@@ -24,6 +26,7 @@
     background-color: var(--color-stroke);
     z-index: 1;
     transition: background-color var(--theme-transition-duration);
+    user-select: none;
 }
 
 .card::after {
@@ -31,6 +34,7 @@
     block-size: 1px;
     inset-inline-start: 0;
     inset-block-start: calc(var(--line-offset) * -1);
+    user-select: none;
 }
 
 .card::before {
@@ -38,15 +42,18 @@
     inline-size: 1px;
     inset-block-start: 0;
     inset-inline-start: calc(var(--line-offset) * -1);
+    user-select: none;
 }
 
 .iconWrapper {
     transition: color var(--theme-transition-duration), transform var(--theme-transition-duration);
+    user-select: none;
 }
 
 .card:hover .iconWrapper {
     color: var(--color-brand);
     transform: translateY(-8px);
+    user-select: none;
 }
 
 .skillName {
@@ -66,5 +73,6 @@
     .card:hover .skillName {
         opacity: 1;
         transform: translateX(-50%) translateY(0);
+        user-select: none;
     }
 }
