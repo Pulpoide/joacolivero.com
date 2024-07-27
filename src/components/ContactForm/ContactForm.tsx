@@ -15,6 +15,7 @@ const ContactForm = () => {
 
 	const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
+		// @ts-ignore
 		const formData = new FormData(formRef.current);
 
 		fetch("https://formspree.io/f/xzzpebvr", {
