@@ -27,13 +27,15 @@ const FAQ = () => {
         <h2 className={styles.title}>Recorrido en Programación</h2>
         <p className={styles.paragraph}>
           Mi interés en la programación comenzó en 2022, impulsado por mi pasión por los videojuegos. Empecé con cursos
-          básicos como Pseint y bootcamps de Egg, y consolidé mi entusiasmo al colaborar en la aplicación "War Report
-          for Clash of Clans". Esta experiencia reforzó mi decisión de seguir una carrera en programación.
+          básicos y un bootcamp, y consolidé mi entusiasmo al colaborar en la aplicación de Android "War Report for Clash of
+          Clans". Esta experiencia reforzó mi decisión de seguir una carrera en programación.
         </p>
         <p className={styles.paragraph}>
-          Actualmente, estoy en el segundo semestre de Desarrollo de Juegos, enfocándome en gráficos por computadora y
-          backend. Busco colaborar con personas con intereses similares, inspirar a otros y contribuir positivamente al
-          mundo a través de la tecnología. A mis 19 años, continúo aprendiendo y buscando oportunidades de colaboración.
+          Actualmente, estoy cursando el segundo semestre de la carrera de Desarrollo de Juegos, con un enfoque
+          particular en gráficos por computadora y backend. Mi objetivo es colaborar con personas que compartan
+          intereses similares, inspirar a otros y contribuir de manera positiva al mundo a través de la tecnología.
+          Tengo 19 años, pero ya estoy dedicado al aprendizaje continuo y en busca de oportunidades para mejorar y
+          colaborar en proyectos significativos.
         </p>
       </section>
 
@@ -42,11 +44,14 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Motivaciones para Estudiar Programación</h2>
         <p className={styles.paragraph}>
-          Siempre me ha fascinado convertir ideas abstractas en soluciones prácticas mediante el código. Mi interés en
-          videojuegos como Rocket League y Subnautica ha sido una gran motivación. Disfruto resolver problemas, aprender
-          de los errores y colaborar en proyectos. La programación combina técnica y creatividad, y ver cómo mi trabajo
-          se convierte en software funcional es extremadamente gratificante. La posibilidad de contribuir a proyectos
-          innovadores y en constante evolución me inspira profundamente.
+          Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas a través del código. Mi interés
+          en videojuegos ha sido una gran motivación. La programación combina técnica y creatividad, y ver cómo mi
+          trabajo se convierte en software que resuelve necesidades reales es extremadamente gratificante.
+        </p>
+        <p className={styles.paragraph}>
+          La posibilidad de contribuir a proyectos innovadores y en constante
+          evolución me inspira profundamente. Además, valoro mucho el carácter colaborativo de la comunidad de
+          desarrolladores, donde nunca dejas de aprender y siempre encuentras personas amables y dispuestas a ayudar.
         </p>
       </section>
 
@@ -55,11 +60,14 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>¿Frontend o Backend?</h2>
         <p className={styles.paragraph}>
-          Me especializo en backend, aunque también puedo trabajar en frontend si es necesario. Prefiero el desarrollo
-          del lado del servidor, relacionado con la programación de juegos y la gestión de bases de datos. Me gusta
-          resolver problemas técnicos detrás de escena y optimizar el rendimiento. El backend me permite trabajar con
-          tecnologías como bases de datos, APIs y servicios en la nube, ampliando mis habilidades. Valoro la
-          colaboración con otros desarrolladores para garantizar la calidad del producto final.
+          Me especializo en el desarrollo backend, aunque también tengo la capacidad de trabajar en frontend cuando es
+          necesario.
+        </p>
+        <p className={styles.paragraph}>
+          Disfruto especialmente del trabajo del lado del servidor, ya que implica resolver problemas complejos con
+          eficiencia y seguridad.
+          La gestión de bases de datos, la creación y mantenimiento de APIs, y la optimización del rendimiento son
+          aspectos que encuentro especialmente interesantes y desafiantes.
         </p>
       </section>
 
