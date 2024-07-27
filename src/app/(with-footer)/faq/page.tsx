@@ -305,8 +305,11 @@ const FAQ = () => {
         <p className={styles.paragraph}>
           Para estar al tanto de las últimas tendencias y tecnologías, sigo blogs de tecnología, tutoriales, y
           comunidades en Discord y Reddit. Sigo canales como Midudev y Fireship, y los canales oficiales de Unity y
-          Unreal para avances en gráficos. También sigo a personas relevantes en LinkedIn y veo conferencias como
-          la GDC y Microsoft Build. Reviso repositorios en GitHub y consulto Product Hunt para novedades tecnológicas.
+          Unreal para avances en gráficos.
+        </p>
+        <p className={styles.paragraph}>
+        También sigo a personas relevantes en LinkedIn y veo conferencias como
+        la GDC y Microsoft Build. Reviso repositorios en GitHub y consulto Product Hunt para novedades tecnológicas.
         </p>
       </section>
 

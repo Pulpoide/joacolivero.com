@@ -2,12 +2,30 @@
 
 import React from 'react';
 
-const TextDecorator = ({ children, color, isUnderlined, isHighlighted, isBold, font, style }) => {
+interface TextDecoratorProps {
+	children: React.ReactNode;
+	color?: string;
+	isUnderlined?: boolean;
+	isHighlighted?: boolean;
+	isBold?: boolean;
+	font?: string;
+	style?: React.CSSProperties;
+}
+
+const TextDecorator: React.FC<TextDecoratorProps> = ({
+																											 children,
+																											 color = '#000000',
+																											 isUnderlined = false,
+																											 isHighlighted = false,
+																											 isBold = false,
+																											 font = 'Arial',
+																											 style = {},
+																										 }) => {
 	const textStyle = {
-		color: color || '#000000',
+		color,
 		textDecoration: isUnderlined ? 'underline' : 'none',
 		fontWeight: isBold ? 'bold' : 'normal',
-		fontFamily: font || 'Arial',
+		fontFamily: font,
 		backgroundColor: isHighlighted ? '#ffff00' : 'transparent',
 		...style,
 	};
