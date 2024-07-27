@@ -15,7 +15,6 @@ const ContactForm = () => {
 
 	const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
-		// @ts-ignore
 		const formData = new FormData(formRef.current);
 
 		fetch("https://formspree.io/f/xzzpebvr", {
@@ -42,6 +41,48 @@ const ContactForm = () => {
 			});
 	};
 
+	const correctEmail = (event: { target: { value: any; }; }) => {
+		let email = event.target.value;
+		email = email.trim();
+
+		const domainCorrections = {
+			'gamil.com': 'gmail.com',
+			'hotamil.com': 'hotmail.com',
+			'yhaoo.com': 'yahoo.com',
+			'outlok.com': 'outlook.com',
+			'gmai.com': 'gmail.com',
+			'mail.com': 'gmail.com',
+			'hot.com': 'hotmail.com',
+			'gmali.com': 'gmail.com',
+			'gmial.com': 'gmail.com',
+			'tlok.com': 'outlook.com',
+			'gmal.com': 'gmail.com',
+			'yaho.com': 'yahoo.com',
+			'iahoo.com': 'yahoo.com',
+			'hotmai.com': 'hotmail.com',
+			'hotmaiil.com': 'hotmail.com',
+			'hotmal.com': 'hotmail.com',
+			'hotmial.com': 'hotmail.com',
+			'hotmil.com': 'hotmail.com',
+			'gmaail.com': 'gmail.com',
+		};
+
+		const domainRegex = /@(gamil|hotamil|yhaoo|outlok|gmai|mail|hot|gmali|gmial|tlok|gmal|yaho|iahoo|hotmai|hotmaiil|hotmal|hotmail|hotmil|gmaail)\.com$/i;
+
+		if (domainRegex.test(email)) {
+			const domainMatch = email.match(domainRegex);
+			if (domainMatch && domainMatch[1]) {
+				const lookupKey = domainMatch[1].toLowerCase() + '.com';
+				const correctDomain = domainCorrections[lookupKey];
+				if (correctDomain) {
+					email = email.replace(domainRegex, '@' + correctDomain);
+				}
+			}
+		}
+
+		event.target.value = email;
+	};
+
 	return (
 		<form ref={formRef} onSubmit={handleSubmit} className={styles.form} method="POST">
 			<Label>
@@ -55,6 +96,7 @@ const ContactForm = () => {
 					type="email"
 					name="email"
 					autoComplete="email"
+					onBlur={correctEmail}
 					required
 				/>
 			</Label>
