@@ -9,8 +9,9 @@ import { Link } from "~/components/Ui/Link"
 import { Button } from "~/components/Ui/Button"
 import { LanguageSwitcher } from "~/components/LanguageSwitcher"
 import { ContactDialog } from "~/components/ContactDialog"
-import styles from "./MenuMobile.module.css"
 import { ThemeSwitcher } from "../ThemeSwitcher"
+import styles from "./MenuMobile.module.css"
+import { track } from '@vercel/analytics';
 
 export const MenuMobile = () => {
 	const [open, setOpen] = useState(false)
@@ -21,8 +22,12 @@ export const MenuMobile = () => {
 	})
 
 	const handleOnClick = () => {
-		setOpen(!open)
-		toggleBodyOverflow(!open)
+		const newOpenState = !open
+		setOpen(newOpenState)
+		toggleBodyOverflow(newOpenState)
+
+		document.documentElement.setAttribute('data-feature-flag-menu', newOpenState ? 'open' : 'closed')
+		track('Menu Toggle', {}, { flags: [newOpenState ? 'menu-open' : 'menu-closed'] })
 	}
 
 	return (
