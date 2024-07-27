@@ -93,11 +93,16 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>¿Qué Buscas en un Nuevo Trabajo?</h2>
         <p className={styles.paragraph}>
-          Busco un entorno colaborativo con personas capaces y agradables para convertir ideas en realidad y aprender de
-          los errores. Me interesa trabajar en proyectos que utilicen mis habilidades y aprender de mentores
-          experimentados. Valoro un lugar que ofrezca oportunidades de crecimiento personal y profesional, con una
-          comunicación efectiva y apoyo mutuo. Estoy entusiasmado por asumir nuevos desafíos y responsabilidades en un
-          entorno de aprendizaje continuo.
+          Busco un entorno colaborativo donde pueda trabajar junto a profesionales competentes y comprometidos.
+        </p>
+        <p className={styles.paragraph}>
+          Me interesa participar en proyectos que aprovechen al máximo mis habilidades y conocimientos. Valoro
+          especialmente los lugares que promuevan el crecimiento personal y profesional, respaldados por una
+          comunicación efectiva y un sólido apoyo mutuo.
+        </p>
+        <p className={styles.paragraph}>
+          Estoy entusiasmado por asumir nuevos desafíos y responsabilidades en un entorno que favorezca el aprendizaje
+          continuo y la evolución profesional.
         </p>
       </section>
 
