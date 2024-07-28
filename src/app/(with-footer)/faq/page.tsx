@@ -27,10 +27,9 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Recorrido en Programación</h2>
         <p className={styles.paragraph}>
-          Mi interés en la programación comenzó en 2022, impulsado por mi pasión por los videojuegos. Empecé con cursos
-          básicos y un bootcamp, y consolidé mi entusiasmo al colaborar en la aplicación de Android "War Report for
-          Clash of
-          Clans". Esta experiencia reforzó mi decisión de seguir una carrera en programación.
+          Mi camino en la programación comenzó en 2021, impulsado por mi interés por los videojuegos. Empecé con cursos
+          básicos y bootcamps de desarollo web, y consolidé mi entusiasmo al colaborar en la aplicación de Android "War Report for
+          Clash of Clans". Esta experiencia reforzó mi decisión de seguir una carrera en programación.
         </p>
         <p className={styles.paragraph}>
           Actualmente, estoy cursando el segundo semestre de la carrera de Desarrollo de Juegos, con un enfoque
@@ -46,8 +45,8 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Motivaciones para Estudiar Programación</h2>
         <p className={styles.paragraph}>
-          Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas a través del código. Mi interés
-          en videojuegos ha sido una gran motivación. La programación combina técnica y creatividad, y ver cómo mi
+          Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas a través del código.
+          La programación combina técnica y creatividad, y ver cómo mi
           trabajo se convierte en software que resuelve necesidades reales es extremadamente gratificante.
         </p>
         <p className={styles.paragraph}>
@@ -113,7 +112,10 @@ const FAQ = () => {
         <h2 className={styles.title}>¿Qué Aprendiste Recientemente?</h2>
         <p className={styles.paragraph}>
           Recientemente, he estado explorando la creación de aplicaciones web con React y Next.js, y he profundizado en
-          el desarrollo de APIs RESTful con Node.js y Express. También he estado investigando sobre gráficos por
+          el desarrollo de APIs RESTful con Node.js y Express.
+        </p>
+        <p className={styles.paragraph}>
+          También he estado investigando sobre gráficos por
           computadora y aprendiendo a optimizar el rendimiento de aplicaciones en Unity y Unreal Engine. Y SQL, mucho SQL.
         </p>
         <p className={styles.paragraph}>
@@ -123,7 +125,6 @@ const FAQ = () => {
         </p>
       </section>
 
-      (
       <section className={styles.section}>
         <h2 className={styles.title}>Recursos Educativos Recomendados</h2>
         <ul>
@@ -310,7 +311,7 @@ const FAQ = () => {
           Y aveces le doy una mirada a <TextDecorator color="skyblue" isUnderlined={false}>Discord</TextDecorator> y <TextDecorator color="skyblue" isUnderlined={false}>Reddit</TextDecorator> para ver de que se habla en la comunidad de desarrollo.
         </p>
         <p className={styles.paragraph}>
-        También sigo a personas relevantes en LinkedIn y veo conferencias como
+        También sigo algunas Top Voices en LinkedIn y veo conferencias como
         la GDC y Microsoft Build. Reviso repositorios en GitHub y consulto Product Hunt para novedades tecnológicas.
         </p>
       </section>
@@ -320,11 +321,12 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
         <p className={styles.paragraph}>
-          En mi tiempo libre, disfruto desarrollando proyectos y colaborando con la comunidad de desarrollo.
-          Me apasiona correr, ver videos de bromas en YouTube, disfrutar de películas animadas y jugar a juegos indie en
-          Steam.
-          También valoro andar en moto, explorar lugares abandonados para disfrutar de asados en la montaña, y descubrir
-          nueva música :).
+          En mi tiempo libre, me dedico a desarrollar proyectos y colaborar activamente con la comunidad de desarrollo. Disfruto correr, ver videos de analisis de videojuegos,
+          y soy un entusiasta de las películas animadas.
+        </p>
+        <p className={styles.paragraph}>
+          Además, me apasiona jugar a juegos indie en Steam.
+          También valoro la experiencia de andar en moto, explorar lugares abandonados para disfrutar de asados en la montaña, y descubrir nueva música.
         </p>
       </section>
 
@@ -333,48 +335,55 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Preguntas Conductuales</h2>
         <ul className={styles.paragraph}>
-            <li> Lo más innovador que ha hecho y por qué lo considera innovador?</li>
+            <li><strong>Lo más innovador que ha hecho y por qué lo considera innovador?</strong></li>
             <p>
               Definitivamente, la creación de la aplicación "Mercado Libre Price Chart" fue un proyecto innovador para mí.
               Resuleve un problema común de los usuarios de Mercado Libre y Argentina en general, que es la falta de información sobre la distribución de precios de un producto
-              en una economía bastante extraña.
+              en una economía particularmente extraña.
             </p>
-            <li>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?</li>
+          <br/>
+            <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?</strong></li>
             <p>
               Durante la creación de este portfolio, no sabía cómo hacer para traducir el contenido de todas las páginas a inglés.
               Investigué y pregunté a Santiago Ariel, que me enseñó a hacerlas con Next.js y React-i18n. Un grande. (WIP)
             </p>
-            <li>Un objetivo que le llevó mucho tiempo alcanzar y por el que aún está trabajando.</li>
+          <br/>
+            <li><strong>Un objetivo que te llevó mucho tiempo alcanzar y por el que aún estás trabajando?</strong></li>
             <p>
               Ser un experto en backend y desarrollo de juegos. Aún estoy en el camino, pero cada día me acerco más a mi objetivo.
             </p>
-            <li>Un momento en el que tuvo que aprender algo nuevo rápidamente.</li>
+          <br/>
+            <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
             <p>
               Quería hacer una API de dolares en Argentina similar a la DolarAPI, no sabia como hacerlo, pero con FastAPI y unos
               web scrappers, pude hacerlo con éxito. Esta API es consumida por mi otro projecto, "Mercado Libre Price Chart".
             </p>
-            <li>Un proyecto que le gustaría hacer en el futuro.</li>
+          <br/>
+            <li><strong>Un proyecto que le gustaría hacer en el futuro?</strong></li>
+              <blockquote>
+              Un motor de juegos propio, escrito en raw DX12. Y contrubir a open source, y hacer APIS copadas (WIP)
+              </blockquote>
+          <br/>
+            <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento</strong></li>
             <p>
-              Un motor de juegos propio, escrito en raw DX12. Y contrubir a open source, y hacer apis copadas (WIP)
+              Durante una game jam (hackaton pero enfocada a desarollo de juegos), un compañero no sabía muy bien como hacer Blueprints en Unreal Engine.
+              Le enseñé, resolvimos problemas, revisamos todo codigo juntos y logramos terminar el proyecto a tiempo.
             </p>
-            <li>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento.</li>
-            <p>
-              Durante una game jam, un compañero no sabía muy bien como hacer Blueprints en Unreal Engine.
-              Le enseñé, resolvimos problmas, revisamos todo codigo juntos y logramos terminar el proyecto a tiempo.
-            </p>
-            <li>Lo más interesante que ha aprendido por su cuenta y que le ha ayudado a desempeñar mejor su trabajo.
-            </li>
         </ul>
       </section>
 
       <section className={styles.section}>
         <h2 className={styles.title}>Mentores y Colaboradores</h2>
         <p className={styles.paragraph}>
-          Colin Schmale, Franco Yudica y Enzo Notario han sido fundamentales en mi carrera, brindándome consejos y
-          orientación. Sin ellos, no estaría donde estoy hoy. (bue)
-          También agradezco a mis compañeros de equipo en proyectos de la Universidad, que me han enseñado mucho y me han apoyado en todo momento.
-          Tambien agradezco a los usuarios de varios discord de programacion ene spanol, siempre dispuestos a ayudar, apoyar, y dar feedback. Gracias de verdad.
-          Aspiro a insipirar a otros.
+          Colin Schmale, Franco Yudica y Enzo Notario han sido claves en mi carrera, brindándome consejos,
+          orientación y apoyo. Sin ellos, no estaría donde estoy hoy. (bue)
+        </p>
+        <p className={styles.paragraph}>
+          Quiero agradecer mis compañeros de equipo en proyectos de la Universidad, que me han enseñado mucho y me han apoyado en todo momento.
+        </p>
+        <p className={styles.paragraph}>
+          Finalmente, agradezco a los usuarios de varios discord de programacion en espanol, siempre dispuestos a ayudar, apoyar, y dar feedback. Gracias de verdad.
+          Aspiro a ser como estas figuras, y ayudar a otros como ellos me ayudaron a mi.
         </p>
       </section>
 
