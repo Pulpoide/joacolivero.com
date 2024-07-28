@@ -331,13 +331,37 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Preguntas Conductuales</h2>
         <ul className={styles.paragraph}>
-          <li>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?</li>
-          <li>Un objetivo que le llevó mucho tiempo alcanzar y por el que aún está trabajando.</li>
-          <li>Un proyecto del que está especialmente orgulloso y por qué.</li>
-          <li>Un momento en el que tuvo que aprender algo nuevo rápidamente.</li>
-          <li>Un proyecto que le gustaría hacer en el futuro.</li>
-          <li>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento.</li>
-          <li>Lo más interesante que ha aprendido por su cuenta y que le ha ayudado a desempeñar mejor su trabajo.</li>
+            <li> Lo más innovador que ha hecho y por qué lo considera innovador?</li>
+            <p>
+              Definitivamente, la creación de la aplicación "Mercado Libre Price Chart" fue un proyecto innovador para mí.
+              Resuleve un problema común de los usuarios de Mercado Libre y Argentina en general, que es la falta de información sobre la distribución de precios de un producto
+              en una economía bastante extraña.
+            </p>
+            <li>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?</li>
+            <p>
+              Durante la creación de este portfolio, no sabía cómo hacer para traducir el contenido de todas las páginas a inglés.
+              Investigué y pregunté a Santiago Ariel, que me enseñó a hacerlas con Next.js y React-i18n. Un grande. (WIP)
+            </p>
+            <li>Un objetivo que le llevó mucho tiempo alcanzar y por el que aún está trabajando.</li>
+            <p>
+              Ser un experto en backend y desarrollo de juegos. Aún estoy en el camino, pero cada día me acerco más a mi objetivo.
+            </p>
+            <li>Un momento en el que tuvo que aprender algo nuevo rápidamente.</li>
+            <p>
+              Quería hacer una API de dolares en Argentina similar a la DolarAPI, no sabia como hacerlo, pero con FastAPI y unos
+              web scrappers, pude hacerlo con éxito. Esta API es consumida por mi otro projecto, "Mercado Libre Price Chart".
+            </p>
+            <li>Un proyecto que le gustaría hacer en el futuro.</li>
+            <p>
+              Un motor de juegos propio, escrito en raw DX12. Y contrubir a open source, y hacer apis copadas (WIP)
+            </p>
+            <li>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento.</li>
+            <p>
+              Durante una game jam, un compañero no sabía muy bien como hacer Blueprints en Unreal Engine.
+              Le enseñé, resolvimos problmas, revisamos todo codigo juntos y logramos terminar el proyecto a tiempo.
+            </p>
+            <li>Lo más interesante que ha aprendido por su cuenta y que le ha ayudado a desempeñar mejor su trabajo.
+            </li>
         </ul>
       </section>
 
@@ -345,8 +369,10 @@ const FAQ = () => {
         <h2 className={styles.title}>Mentores y Colaboradores</h2>
         <p className={styles.paragraph}>
           Colin Schmale, Franco Yudica y Enzo Notario han sido fundamentales en mi carrera, brindándome consejos y
-          orientación. Sin ellos, no estaría donde estoy hoy. También agradezco a mis compañeros de equipo en proyectos.
-          Aspiro a insipirar a otros y que me tengan como yo tengo a estos grandes mentores hoy en día.
+          orientación. Sin ellos, no estaría donde estoy hoy. (bue)
+          También agradezco a mis compañeros de equipo en proyectos de la Universidad, que me han enseñado mucho y me han apoyado en todo momento.
+          Tambien agradezco a los usuarios de varios discord de programacion ene spanol, siempre dispuestos a ayudar, apoyar, y dar feedback. Gracias de verdad.
+          Aspiro a insipirar a otros.
         </p>
       </section>
 
@@ -395,17 +421,6 @@ const FAQ = () => {
       </section>
 
       <br />
-
-      <section className={styles.section}>
-        <h2 className={styles.title}>Lo más innovador que ha hecho y por qué lo considera innovador</h2>
-        <p>
-          <strong>Situación:</strong> Proyecto MercadoLibre Price Charts, resolviendo la pregunta "¿Cuánto sale esto en
-          internet?".
-        </p>
-        <p>
-          <strong>Resultado:</strong> Solución efectiva para la visualización de precios en línea en Argentina.
-        </p>
-      </section>
 
       <section className={styles.section}>
         <h2 className={styles.title}>Logros Destacados</h2>
