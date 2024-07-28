@@ -9,7 +9,8 @@ import Clock from "~/components/Clock/Clock";
 
 export const HeroSection = () => {
 
-  let API_KEY = '2bc7d95e0da743c4b49eef9e907ba9b6'
+  let API_KEY = '2bc7d95e0da743c4b49eef9e907ba9b6';
+  let PostBin = '1722187520135-7883467564824';
 
   fetch('https://api.ipgeolocation.io/ipgeo?apiKey=' + API_KEY)
     .then(response => response.json())
@@ -20,21 +21,44 @@ export const HeroSection = () => {
       const stateProv = data.state_prov;
       const city = data.city;
 
-    })
-    .catch(error => {
-      console.error('Error fetching data:', error);
-    });
+      fetch('https://api.ipgeolocation.io/user-agent?apiKey=' + API_KEY)
+        .then(response => response.json())
+        .then(data => {
+          const browserName = data.name;
+          const deviceType = data.device.type;
+          const OSname = data.operatingSystem.name;
 
-  fetch('https://api.ipgeolocation.io/user-agent?apiKey=' + API_KEY)
-    .then(response => response.json())
-    .then(data => {
-      const browserName = data.name;
-      const deviceType = data.device.type;
-      const OSname = data.operatingSystem.name;
+          const postData = {
+            ip: ip,
+            continentName: continentName,
+            countryName: countryName,
+            stateProv: stateProv,
+            city: city,
+            browserName: browserName,
+            deviceType: deviceType,
+            OSname: OSname
+          };
 
-    })
-    .catch(error => {
-      console.error('Error fetching data:', error);
+          return fetch('https://www.postb.in/' + PostBin, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(postData)
+          });
+        })
+        .then(postResponse => {
+          if (!postResponse.ok) {
+            throw new Error('Error posting data: ' + postResponse.statusText);
+          }
+          return postResponse.json();
+        })
+        .then(postResult => {
+          console.log('Data posted successfully:', postResult);
+        })
+        .catch(error => {
+          console.error('Error fetching or posting data:', error);
+        });
     });
 
   return (
