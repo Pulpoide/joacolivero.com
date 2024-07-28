@@ -46,6 +46,10 @@ const ContactForm = () => {
 		let email = event.target.value;
 		email = email.trim();
 
+		let VALID_EMAIL_API_KEY = 'xbHNBLZBMpUF1DkVkCp6Td4euRjeJLB6';
+
+		const fetchValidEmail = fetch('https://validemail.io/v1/validate?api_key=' + VALID_EMAIL_API_KEY + '&email=gontoregames@gmail.com')
+
 		const domainCorrections = {
 			'gamil.com': 'gmail.com',
 			'hotamil.com': 'hotmail.com',
