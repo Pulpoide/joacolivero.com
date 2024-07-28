@@ -14,7 +14,7 @@ const FAQ = () => {
     <div className={styles.container}>
       <ScrollToTopButton />
 
-      <h1 className={styles.title}>FAQ - Preguntas Frecuentes (EN CONSTRUCCION)</h1>
+      <h1 className={styles.title}>FAQ - Preguntas Frecuentes</h1>
 
       <Link className={styles.goHomeLink} href="/">
         ← Volver a la página principal
@@ -391,7 +391,7 @@ const FAQ = () => {
 
       <section className={styles.section}>
         <h2>Experiencias Clave</h2>
-        <p>
+        <p className={styles.paragraph}>
         S T A R R APPROACH
           Situation
           Task
@@ -416,6 +416,8 @@ const FAQ = () => {
           <li>Overkill - RIOT</li>
         </ul>
       </section>
+      <br/>
+      <img  src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920" alt="Max Comperatore"/>
     </div>
   );
 };
