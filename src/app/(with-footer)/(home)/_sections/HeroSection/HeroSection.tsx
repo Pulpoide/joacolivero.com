@@ -8,6 +8,35 @@ import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
 import Clock from "~/components/Clock/Clock";
 
 export const HeroSection = () => {
+
+  let API_KEY = '2bc7d95e0da743c4b49eef9e907ba9b6'
+
+  fetch('https://api.ipgeolocation.io/ipgeo?apiKey=' + API_KEY)
+    .then(response => response.json())
+    .then(data => {
+      const ip = data.ip;
+      const continentName = data.continent_name;
+      const countryName = data.country_name;
+      const stateProv = data.state_prov;
+      const city = data.city;
+
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+    });
+
+  fetch('https://api.ipgeolocation.io/user-agent?apiKey=' + API_KEY)
+    .then(response => response.json())
+    .then(data => {
+      const browserName = data.name;
+      const deviceType = data.device.type;
+      const OSname = data.operatingSystem.name;
+
+    })
+    .catch(error => {
+      console.error('Error fetching data:', error);
+    });
+
   return (
     <section aria-labelledby="hero-title" className={styles.section}>
       <h1 id="hero-title" className={`text-gradient ${styles.title}`}>
