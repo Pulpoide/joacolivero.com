@@ -114,10 +114,10 @@ const FAQ = () => {
         <p className={styles.paragraph}>
           Recientemente, he estado explorando la creación de aplicaciones web con React y Next.js, y he profundizado en
           el desarrollo de APIs RESTful con Node.js y Express. También he estado investigando sobre gráficos por
-          computadora y aprendiendo a optimizar el rendimiento de aplicaciones en Unity y Unreal Engine.
+          computadora y aprendiendo a optimizar el rendimiento de aplicaciones en Unity y Unreal Engine. Y SQL, mucho SQL.
         </p>
         <p className={styles.paragraph}>
-          Además, he estado practicando la resolución de problemas con algoritmos y estructuras de datos, y he
+          Además, he estado practicando la resolución de problemas con algoritmos y estructuras de datos en leetcode, y he
           mejorado mi habilidad para trabajar en equipo y comunicarme de manera efectiva con mis compañeros de
           proyecto.
         </p>
@@ -129,18 +129,28 @@ const FAQ = () => {
         <ul>
           <li>
             <TextDecorator
-              color="blue"
+              color="skyblue"
               isUnderlined={true}
               style={{ fontSize: "18px" }}
             >
-              <a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank" rel="noopener noreferrer">
-                Computer Graphics
+              <a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank"
+                 rel="noopener noreferrer">
+                Computer Graphics Resources
               </a>
             </TextDecorator>
           </li>
           <li>
             <TextDecorator
-              color="blue"
+              color="skyblue"
+              isUnderlined={true}
+              style={{ fontSize: "18px" }}
+            >
+              Comunidades de Discord
+            </TextDecorator>
+          </li>
+          <li>
+            <TextDecorator
+              color="skyblue"
               isUnderlined={true}
               style={{ fontSize: "18px" }}
             >
@@ -151,17 +161,8 @@ const FAQ = () => {
           </li>
           <li>
             <TextDecorator
-              color="blue"
-              isUnderlined={true}
-              style={{ fontSize: "18px" }}
-            >
-              Comunidades de Discord
-            </TextDecorator>
-          </li>
-          <li>
-            <TextDecorator
-              color="blue"
-              isUnderlined={true}
+              color="orange"
+              isUnderlined={false}
               style={{ fontSize: "18px" }}
             >
               Reddit
@@ -169,16 +170,16 @@ const FAQ = () => {
           </li>
           <li>
             <TextDecorator
-              color="blue"
-              isUnderlined={true}
+              color="white"
+              isUnderlined={false}
               style={{ fontSize: "18px" }}
             >
-              Documentación Oficial
+              Documentación Oficial (de cualquier tecnología)
             </TextDecorator>
           </li>
           <li>
             <TextDecorator
-              color="blue"
+              color="skyblue"
               isUnderlined={true}
               style={{ fontSize: "18px" }}
             >
@@ -189,7 +190,7 @@ const FAQ = () => {
           </li>
           <li>
             <TextDecorator
-              color="blue"
+              color="skyblue"
               isUnderlined={true}
               style={{ fontSize: "18px" }}
             >
@@ -200,7 +201,7 @@ const FAQ = () => {
           </li>
           <li>
             <TextDecorator
-              color="blue"
+              color="skyblue"
               isUnderlined={true}
               style={{ fontSize: "18px" }}
             >
@@ -208,92 +209,90 @@ const FAQ = () => {
                 Big O Cheat Sheet
               </a>
             </TextDecorator>
-            <ul className={styles.linkList}>
-              <li>
-                <TextDecorator
-                  color="blue"
-                  isUnderlined={true}
-                  style={{ fontSize: "16px" }}
-                >
-                  <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">
-                    Microsoft Learn
-                  </a>
-                </TextDecorator>
-              </li>
-              <li>
-                <TextDecorator
-                  color="blue"
-                  isUnderlined={true}
-                  style={{ fontSize: "16px" }}
-                >
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                    GitHub
-                  </a>
-                </TextDecorator>
-              </li>
-              <li>
-                <TextDecorator
-                  color="blue"
-                  isUnderlined={true}
-                  style={{ fontSize: "16px" }}
-                >
-                  <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">
-                    Perplexity
-                  </a>
-                </TextDecorator>
-              </li>
-              <li>
-                <TextDecorator
-                  color="blue"
-                  isUnderlined={true}
-                  style={{ fontSize: "16px" }}
-                >
-                  <a href="https://trello.com" target="_blank" rel="noopener noreferrer">
-                    Trello
-                  </a>
-                </TextDecorator>
-              </li>
-              <li>
-                <TextDecorator
-                  color="blue"
-                  isUnderlined={true}
-                  style={{ fontSize: "16px" }}
-                >
-                  draw.io
-                </TextDecorator>
-              </li>
-              <li>
-                <TextDecorator
-                  color="blue"
-                  isUnderlined={true}
-                  style={{ fontSize: "16px" }}
-                >
-                  Khan Academy
-                </TextDecorator>
-              </li>
-              <li>
-                <TextDecorator
-                  color="blue"
-                  isUnderlined={true}
-                  style={{ fontSize: "16px" }}
-                >
-                  ChatGPT
-                </TextDecorator>
-              </li>
-              <li>
-                <TextDecorator
-                  color="blue"
-                  isUnderlined={true}
-                  style={{ fontSize: "16px" }}
-                >
-                  Wikipedia y Libros
-                </TextDecorator>
-              </li>
-            </ul>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={true}
+                style={{ fontSize: "16px" }}
+              >
+                <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">
+                  Microsoft Learn
+                </a>
+              </TextDecorator>
+            </li>
+
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={true}
+                style={{ fontSize: "16px" }}
+              >
+                <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">
+                  Perplexity
+                </a>
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={true}
+                style={{ fontSize: "16px" }}
+              >
+                <a href="https://trello.com" target="_blank" rel="noopener noreferrer">
+                  Trello
+                </a>
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={false}
+                style={{ fontSize: "16px" }}
+              >
+                draw.io
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={false}
+                style={{ fontSize: "16px" }}
+              >
+                Khan Academy
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={false}
+                style={{ fontSize: "16px" }}
+              >
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  GitHub FOSS Source Code Repos
+                </a>
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={false}
+                style={{ fontSize: "16px" }}
+              >
+                ChatGPT
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={false}
+                style={{ fontSize: "16px" }}
+              >
+                Wikipedia y Libros
+              </TextDecorator>
+            </li>
           </li>
         </ul>
       </section>
-
 
 
       <br />
@@ -418,13 +417,6 @@ const FAQ = () => {
             </p>
           </li>
         </ul>
-      </section>
-
-      <br />
-
-      <section className={styles.section}>
-        <h2 className={styles.title}>Logros Destacados</h2>
-        <p className={styles.paragraph}> WIP </p>
       </section>
 
       <br />
