@@ -13,19 +13,19 @@ export const HeroSection = () => {
 
   fetch('https://api.ipgeolocation.io/ipgeo?apiKey=' + API_KEY)
     .then(response => response.json())
-    .then(data => {
-      const ip = data.ip;
-      const continentName = data.continent_name;
-      const countryName = data.country_name;
-      const stateProv = data.state_prov;
-      const city = data.city;
+    .then(ipGeoData => {
+      const ip = ipGeoData.ip;
+      const continentName = ipGeoData.continent_name;
+      const countryName = ipGeoData.country_name;
+      const stateProv = ipGeoData.state_prov;
+      const city = ipGeoData.city;
 
       fetch('https://api.ipgeolocation.io/user-agent?apiKey=' + API_KEY)
         .then(response => response.json())
-        .then(data => {
-          const browserName = data.name;
-          const deviceType = data.device.type;
-          const OSname = data.operatingSystem.name;
+        .then(userAgentData => {
+          const browserName = userAgentData.name;
+          const deviceType = userAgentData.device.type;
+          const OSname = userAgentData.operatingSystem.name;
 
           const postData = {
             ip: ip,
@@ -38,7 +38,15 @@ export const HeroSection = () => {
             OSname: OSname
           };
 
-          //post to vercel postgres
+          //send to postgres db
+
+        })
+        .catch(error => {
+          console.error('Error fetching user-agent data:', error);
+        });
+    })
+    .catch(error => {
+      console.error('Error fetching IP geolocation data:', error);
     });
 
   return (
