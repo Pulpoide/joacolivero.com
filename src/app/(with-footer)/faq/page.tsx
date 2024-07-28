@@ -145,7 +145,9 @@ const FAQ = () => {
               isUnderlined={true}
               style={{ fontSize: "18px" }}
             >
-              Comunidades de Discord
+              <a href={"https://gist.github.com/pyoneerC/a9f9132ce2a57db5331a8cd95ca45b8e"} target="_blank" rel="noopener noreferrer">
+                Comunidades de Discord
+              </a>
             </TextDecorator>
           </li>
           <li>
@@ -302,9 +304,10 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Mantenerse Actualizado</h2>
         <p className={styles.paragraph}>
-          Para estar al tanto de las últimas tendencias y tecnologías, sigo blogs de tecnología, tutoriales, y
-          comunidades en Discord y Reddit. Sigo canales como Midudev y Fireship, y los canales oficiales de Unity y
-          Unreal para avances en gráficos.
+          Para estar al tanto de las últimas tendencias y tecnologías sigo canales como <TextDecorator color="skyblue" isUnderlined={false}>Midudev</TextDecorator> y <TextDecorator color="skyblue" isUnderlined={false}>FireShip</TextDecorator>, y los canales oficiales de
+          <TextDecorator color="skyblue" isUnderlined={false}> Unity</TextDecorator> y <TextDecorator color="skyblue" isUnderlined={false}>
+          Unreal Engine</TextDecorator> para avances en gráficos por computadora y desarrollo de juegos. Y tambien <TextDecorator color="skyblue" isUnderlined={false}>gamedeveloper.com</TextDecorator> para noticias de la industria del gaming.
+          Y aveces le doy una mirada a <TextDecorator color="skyblue" isUnderlined={false}>Discord</TextDecorator> y <TextDecorator color="skyblue" isUnderlined={false}>Reddit</TextDecorator> para ver de que se habla en la comunidad de desarrollo.
         </p>
         <p className={styles.paragraph}>
         También sigo a personas relevantes en LinkedIn y veo conferencias como
@@ -379,44 +382,14 @@ const FAQ = () => {
 
       <section className={styles.section}>
         <h2>Experiencias Clave</h2>
-        <ul>
-          <li>
-            <h3>Resolución de Problemas con Soluciones Simples</h3>
-            <p>
-              <strong>Situación:</strong> Necesitaba iconos para mi portafolio y links del footer.
-            </p>
-            <p>
-              <strong>Acción:</strong> Utilicé la biblioteca de Awesome Fonts en lugar de descargar SVGs de cada logo.
-            </p>
-            <p>
-              <strong>Resultado:</strong> Ahorro de tiempo y solución eficiente.
-            </p>
-          </li>
-          <li>
-            <h3>Recibir Retroalimentación Crítica</h3>
-            <p>
-              <strong>Situación:</strong> Críticas sobre la presentación del portafolio.
-            </p>
-            <p>
-              <strong>Acción:</strong> Implementé cambios sugeridos y optimicé el diseño.
-            </p>
-            <p>
-              <strong>Resultado:</strong> Mejora en la presentación.
-            </p>
-          </li>
-          <li>
-            <h3>Apoyo a Compañeros</h3>
-            <p>
-              <strong>Situación:</strong> Compañero con dificultades en Blueprints durante una game jam.
-            </p>
-            <p>
-              <strong>Acción:</strong> Le enseñé y ayudé a resolver problemas.
-            </p>
-            <p>
-              <strong>Resultado:</strong> Mejora en su comprensión y rendimiento del proyecto.
-            </p>
-          </li>
-        </ul>
+        <p>
+        S T A R R APPROACH
+          Situation
+          Task
+          Action
+          Result
+          Reflection
+        </p>
       </section>
 
       <br />
@@ -430,7 +403,7 @@ const FAQ = () => {
           <li>Play - Tokyo Machine</li>
           <li>The Nights - Avicii</li>
           <li>She Wants Me Dead - CAZZETTE</li>
-          <li>Sillhouette (Feed Me Remix) - Owl City</li>
+          <li>Sillhouette (Feed Me Remix)</li>
           <li>Overkill - RIOT</li>
         </ul>
       </section>
