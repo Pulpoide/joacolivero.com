@@ -10,7 +10,6 @@ import Clock from "~/components/Clock/Clock";
 export const HeroSection = () => {
 
   let API_KEY = '2bc7d95e0da743c4b49eef9e907ba9b6';
-  let PostBin = '1722187520135-7883467564824';
 
   fetch('https://api.ipgeolocation.io/ipgeo?apiKey=' + API_KEY)
     .then(response => response.json())
@@ -39,26 +38,7 @@ export const HeroSection = () => {
             OSname: OSname
           };
 
-          return fetch('https://www.postb.in/' + PostBin, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(postData)
-          });
-        })
-        .then(postResponse => {
-          if (!postResponse.ok) {
-            throw new Error('Error posting data: ' + postResponse.statusText);
-          }
-          return postResponse.json();
-        })
-        .then(postResult => {
-          console.log('Data posted successfully:', postResult);
-        })
-        .catch(error => {
-          console.error('Error fetching or posting data:', error);
-        });
+          //post to vercel postgres
     });
 
   return (
