@@ -111,17 +111,12 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>¿Qué Aprendiste Recientemente?</h2>
         <p className={styles.paragraph}>
-          Recientemente, he estado explorando la creación de aplicaciones web con React y Next.js, y he profundizado en
+          Recientemente, he estado explorando la creación de páginas web con Next.js y React, y he profundizado en
           el desarrollo de APIs RESTful con Node.js y Express.
         </p>
         <p className={styles.paragraph}>
-          También he estado investigando sobre gráficos por
-          computadora y aprendiendo a optimizar el rendimiento de aplicaciones en Unity y Unreal Engine. Y SQL, mucho SQL.
-        </p>
-        <p className={styles.paragraph}>
-          Además, he estado practicando la resolución de problemas con algoritmos y estructuras de datos en leetcode, y he
-          mejorado mi habilidad para trabajar en equipo y comunicarme de manera efectiva con mis compañeros de
-          proyecto.
+          Además, he estado practicando la resolución de problemas con algoritmos y estructuras de datos en LeetCode, y he
+          mejorado mi habilidad para trabajar en equipo y comunicarme de manera efectiva.
         </p>
       </section>
 
@@ -307,12 +302,13 @@ const FAQ = () => {
         <p className={styles.paragraph}>
           Para estar al tanto de las últimas tendencias y tecnologías sigo canales como <TextDecorator color="skyblue" isUnderlined={false}>Midudev</TextDecorator> y <TextDecorator color="skyblue" isUnderlined={false}>FireShip</TextDecorator>, y los canales oficiales de
           <TextDecorator color="skyblue" isUnderlined={false}> Unity</TextDecorator> y <TextDecorator color="skyblue" isUnderlined={false}>
-          Unreal Engine</TextDecorator> para avances en gráficos por computadora y desarrollo de juegos. Y tambien <TextDecorator color="skyblue" isUnderlined={false}>gamedeveloper.com</TextDecorator> para noticias de la industria del gaming.
-          Y aveces le doy una mirada a <TextDecorator color="skyblue" isUnderlined={false}>Discord</TextDecorator> y <TextDecorator color="skyblue" isUnderlined={false}>Reddit</TextDecorator> para ver de que se habla en la comunidad de desarrollo.
+          Unreal Engine</TextDecorator> para avances en gráficos por computadora y desarrollo de juegos.
         </p>
         <p className={styles.paragraph}>
-        También sigo algunas Top Voices en LinkedIn y veo conferencias como
-        la GDC y Microsoft Build. Reviso repositorios en GitHub y consulto Product Hunt para novedades tecnológicas.
+        A la vez reviso repositorios tendencia en GitHub y consulto Product Hunt para novedades tecnológicas.
+        </p>
+        <p className={styles.paragraph}>
+          Finalmente, le doy una mirada a <TextDecorator color="skyblue" isUnderlined={false}>Discord</TextDecorator> y <TextDecorator color="skyblue" isUnderlined={false}>Reddit</TextDecorator> para ver de que se habla en la comunidad de desarrollo.
         </p>
       </section>
 
@@ -335,40 +331,63 @@ const FAQ = () => {
       <section className={styles.section}>
         <h2 className={styles.title}>Preguntas Conductuales</h2>
         <ul className={styles.paragraph}>
-            <li><strong>Lo más innovador que ha hecho y por qué lo considera innovador?</strong></li>
-            <p>
-              Definitivamente, la creación de la aplicación "Mercado Libre Price Chart" fue un proyecto innovador para mí.
-              Resuleve un problema común de los usuarios de Mercado Libre y Argentina en general, que es la falta de información sobre la distribución de precios de un producto
-              en una economía particularmente extraña.
-            </p>
-          <br/>
-            <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?</strong></li>
-            <p>
-              Durante la creación de este portfolio, no sabía cómo hacer para traducir el contenido de todas las páginas a inglés.
-              Investigué y pregunté a Santiago Ariel, que me enseñó a hacerlas con Next.js y React-i18n. Un grande. (WIP)
-            </p>
-          <br/>
-            <li><strong>Un objetivo que te llevó mucho tiempo alcanzar y por el que aún estás trabajando?</strong></li>
-            <p>
-              Ser un experto en backend y desarrollo de juegos. Aún estoy en el camino, pero cada día me acerco más a mi objetivo.
-            </p>
-          <br/>
-            <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
-            <p>
-              Quería hacer una API de dolares en Argentina similar a la DolarAPI, no sabia como hacerlo, pero con FastAPI y unos
-              web scrappers, pude hacerlo con éxito. Esta API es consumida por mi otro projecto, "Mercado Libre Price Chart".
-            </p>
-          <br/>
-            <li><strong>Un proyecto que le gustaría hacer en el futuro?</strong></li>
-              <blockquote>
-              Un motor de juegos propio, escrito en raw DX12. Y contrubir a open source, y hacer APIS copadas (WIP)
-              </blockquote>
-          <br/>
-            <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento</strong></li>
-            <p>
-              Durante una game jam (hackaton pero enfocada a desarollo de juegos), un compañero no sabía muy bien como hacer Blueprints en Unreal Engine.
-              Le enseñé, resolvimos problemas, revisamos todo codigo juntos y logramos terminar el proyecto a tiempo.
-            </p>
+          <li><strong>Lo más innovador que ha hecho y por qué lo considera innovador?</strong></li>
+          <p>
+            Definitivamente, la creación de la aplicación "Mercado Libre Price Chart" fue un proyecto innovador para mí.
+            Resuleve un problema común de los usuarios de Mercado Libre y Argentina en general, que es la falta de
+            información sobre la distribución de precios de un producto
+            en una economía particularmente extraña.
+          </p>
+          <br />
+          <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
+            resolviste?</strong></li>
+          <p>
+            Durante la creación de este portfolio, no sabía cómo hacer para traducir el contenido de todas las páginas a
+            inglés.
+            Investigué y pregunté a Santiago Ariel, que me enseñó a hacerlas con Next.js y React-i18n. Un grande. (WIP)
+          </p>
+          <br />
+          <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
+          <p>
+            Quería crear una API para obtener el precio actualizado de dólares en Argentina, utilizando web scrapers y
+            con el objetivo de aprender. Al principio, no sabía cómo hacerlo, pero con Python, FASTAPI y dedicando
+            tiempo a leer la documentación, logré desarrollarla con éxito.
+          </p>
+          <br />
+          <p>
+            Esta API, llamada Monedas-API, logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
+          </p>
+          <br />
+           <p>
+             Actualmente, es consumida por mi otro proyecto, "Mercado Libre Price Chart".
+           </p>
+          <br />
+          <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
+          <blockquote>
+            <ul>
+              <li>Una red neuronal compleja para hacer simulaciones en motores gráficos.</li>
+              <li>Una APIs del precio del combustible y relacionadas a Argentina.</li>
+              <li>Una página web en formato de librería virtual, donde los usuarios puedan compartir libros,
+                portfolios, y más.
+              </li>
+              <li>Un juego de autos a control remoto en Unreal Engine.</li>
+              <li>Un motor de juegos propio, en DX12.</li>
+              <li>Un bot de Discord versátil y complejo.</li>
+              <li>Contribuir a proyectos de código abierto.</li>
+            </ul>
+          </blockquote>
+          <br />
+          <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su
+            rendimiento</strong></li>
+          <p>
+            Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de
+            Unreal Engine.
+          </p>
+          <br />
+          <p>
+            Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al final,
+            logramos terminar el proyecto a tiempo y con éxito.
+          </p>
         </ul>
       </section>
 
@@ -376,28 +395,17 @@ const FAQ = () => {
         <h2 className={styles.title}>Mentores y Colaboradores</h2>
         <p className={styles.paragraph}>
           Colin Schmale, Franco Yudica y Enzo Notario han sido claves en mi carrera, brindándome consejos,
-          orientación y apoyo. Sin ellos, no estaría donde estoy hoy. (bue)
+          orientación y apoyo constante.
         </p>
         <p className={styles.paragraph}>
-          Quiero agradecer mis compañeros de equipo en proyectos de la Universidad, que me han enseñado mucho y me han apoyado en todo momento.
+          Quiero agradecer a mis compañeros de equipo en proyectos de la Universidad, quienes me han enseñado y apoyado
+          en todo momento.
         </p>
         <p className={styles.paragraph}>
-          Finalmente, agradezco a los usuarios de varios discord de programacion en espanol, siempre dispuestos a ayudar, apoyar, y dar feedback. Gracias de verdad.
-          Aspiro a ser como estas figuras, y ayudar a otros como ellos me ayudaron a mi.
+          Finalmente, agradezco a los usuarios de varios servidores de Discord de programación en español, siempre dispuestos a ayudar, apoyar y dar su opinión.
         </p>
-      </section>
-
-      <br />
-
-      <section className={styles.section}>
-        <h2>Experiencias Clave</h2>
         <p className={styles.paragraph}>
-        S T A R R APPROACH
-          Situation
-          Task
-          Action
-          Result
-          Reflection
+          Aspiro a seguir el ejemplo de estos individuos y a ayudar a otros de la misma manera en que ellos me ayudaron a mí.
         </p>
       </section>
 
