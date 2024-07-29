@@ -50,16 +50,17 @@ const FAQ = () => {
           <p className={styles.paragraph}>
             Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas mediante la programación, un
             campo donde la técnica se fusiona con la creatividad.
-            <br/><br/>
-              Mi temprana fascinación por los juegos y su desarrollo me ha llevado a dedicarme a la creación de
-              software, donde encuentro una profunda satisfacción al desarrollar soluciones tecnológicas que satisfacen
-              necesidades concretas.
+            <br /><br />
+            Mi temprana fascinación por los juegos y su desarrollo me ha llevado a dedicarme a la creación de
+            software, donde encuentro una profunda satisfacción al desarrollar soluciones tecnológicas que satisfacen
+            necesidades concretas.
 
           </p>
           <p className={styles.paragraph}>
             La constante evolución de la tecnología ofrece oportunidades únicas para contribuir a proyectos innovadores,
             y valoro profundamente el carácter colaborativo de la comunidad de desarrolladores,
-            que no solo enriquece mi aprendizaje continuo sino que también fortalece conexiones con colegas generosos y solidarios.
+            que no solo enriquece mi aprendizaje continuo sino que también fortalece conexiones con colegas generosos y
+            solidarios.
           </p>
 
         </section>
@@ -275,158 +276,174 @@ const FAQ = () => {
         <section className={styles.section}>
           <h2 className={styles.title}>Mantenerse Actualizado</h2>
           <p className={styles.paragraph}>
-            Para estar al tanto de las últimas tendencias y tecnologías sigo canales como
+            Para estar al tanto de las últimas tendencias y tecnologías, sigo canales como&nbsp;
             <TextDecorator color="skyblue" isUnderlined={true}>
               <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer">Midudev</a>
-          </TextDecorator>,
-          <TextDecorator color="skyblue" isUnderlined={true}>
-            <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer">Fireship</a>
-          </TextDecorator>,
-          <TextDecorator color="skyblue" isUnderlined={true}>
-            <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer">Unity</a>
-          </TextDecorator> y
-          <TextDecorator color="skyblue" isUnderlined={true}>
-            <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer">Unreal Engine</a>
-          </TextDecorator> para avances en gráficos por computadora y desarrollo de juegos.
-        </p>
-        <p className={styles.paragraph}>
-          A la vez reviso repositorios tendencia en GitHub y consulto Product Hunt para novedades tecnológicas.
-        </p>
-        <p className={styles.paragraph}>
-          Finalmente, le doy una mirada a <TextDecorator color="skyblue"
-                                                         isUnderlined={false}>Discord</TextDecorator> y <TextDecorator
-          color="skyblue" isUnderlined={false}>Reddit</TextDecorator> para ver de que se habla en la comunidad de
-          desarrollo.
-        </p>
-      </section>
-      <br />
-      <section className={styles.section}>
-        <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
-        <p className={styles.paragraph}>
-          En mi tiempo libre, me dedico a desarrollar proyectos y colaborar activamente con la comunidad de desarrollo.
-          Disfruto correr, caminar, ver videos de análisis de videojuegos, actualidad, y películas animadas.
-        </p>
-        <p className={styles.paragraph}>
-          Además, me apasiona jugar a juegos de creadores independientes en Steam. Valoro la experiencia de andar en
-          moto, explorar lugares abandonados para disfrutar de asados en la montaña y descubrir nueva música.
-          A veces, utilizo FL Studio para componer música.
-        </p>
-      </section>
-      <br />
-      <section className={styles.section}>
-        <h2 className={styles.title}>Preguntas Conductuales</h2>
-        <ul className={styles.paragraph}>
-          <li><strong>Lo más innovador que ha hecho y por qué lo considera innovador?</strong></li>
-          <p>
-            Definitivamente, la creación de la aplicación <TextDecorator color="skyblue" isUnderlined={true}>
-            <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer">Mercado Libre Price
-              Chart</a>
+            </TextDecorator>,&nbsp;
+            <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer">Fireship</a>
+            </TextDecorator>,&nbsp;
+            <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer">Unity</a>
+            </TextDecorator> y&nbsp;
+            <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer">Unreal Engine</a>
+            </TextDecorator>.
+          </p>
+          <p className={styles.paragraph}>
+            A la vez, reviso repositorios tendencia en GitHub mientras le doy una mirada a&nbsp;
+            <TextDecorator color="skyblue" isUnderlined={false}>
+              Discord
+            </TextDecorator> y&nbsp;
+            <TextDecorator color="skyblue" isUnderlined={false}>
+              Reddit
+            </TextDecorator> para ver de qué se habla en la comunidad de desarrollo.
+          </p>
+        </section>
+        <br />
+        <section className={styles.section}>
+          <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
+          <p className={styles.paragraph}>
+            En mi tiempo libre, me dedico a desarrollar proyectos y colaborar activamente con la comunidad de
+            desarrollo.
+            Disfruto correr, caminar, ver videos de análisis de videojuegos, actualidad, y películas animadas.
+          </p>
+          <p className={styles.paragraph}>
+            Además, me apasiona jugar a juegos de creadores independientes en Steam. Valoro la experiencia de andar en
+            moto, explorar lugares abandonados para disfrutar de asados en la montaña y descubrir nueva música.
+            A veces, utilizo FL Studio para componer música.
+          </p>
+        </section>
+        <br />
+        <section className={styles.section}>
+          <h2 className={styles.title}>Preguntas Conductuales</h2>
+          <ul className={styles.paragraph}>
+            <li><strong>Lo más innovador que ha hecho y por qué lo considera innovador?</strong></li>
+            <p>
+              Definitivamente, la creación de la aplicación <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer">Mercado Libre Price
+                Chart</a>
 
-          </TextDecorator> es uno de los proyectos más innovadores que he realizado.
-            <br /><br />
-            Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina:
-            la incertidumbre sobre el valor real de los productos en un contexto económico volátil.
-          </p>
-          <br />
-          <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
-            resolviste?</strong></li>
-          <p>
-            Durante el desarrollo de este portafolio, enfrenté el desafío de traducir todo el contenido manualmente a inglés.
-            <br /><br />
-            Gracias a la orientación de Santiago Ariel, aprendí a implementar las traducciones utilizando Next.js y React-i18n.
-          </p>
-          <br />
-          <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
-          <p>
-            Quería crear una API para obtener el precio actualizado de dólares en Argentina, utilizando web scrapers y
-            con el objetivo de aprender. Al principio, no sabía cómo hacerlo, pero con Python, FASTAPI y dedicando
-            tiempo a leer la documentación, logré desarrollarla con éxito.
-          </p>
-          <br />
-          <p>
-            Esta API, llamada <TextDecorator color="skyblue" isUnderlined={true}>
-            <a href="https://github.com/pyoneerC/monedas-api" target="_blank" rel="noopener noreferrer">Monedas-API</a>
+            </TextDecorator> es uno de los proyectos más innovadores que he realizado.
+              <br /><br />
+              Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina:
+              la incertidumbre sobre el valor real de los productos en un contexto económico volátil.
+            </p>
+            <br />
+            <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
+              resolviste?</strong></li>
+            <p>
+              Durante el desarrollo de este portafolio, me enfrenté al desafío de traducir manualmente todo el contenido
+              al inglés, lo cual era engorroso y tedioso.
+              <br /><br />
+              Gracias a la orientación de <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://github.com/santiagoarielv98" target="_blank" rel="noopener noreferrer">Santiago Ariel</a>
+            </TextDecorator>, aprendí a implementar traducciones automáticas utilizando Translation.io,
+              optimizando así el proceso y mejorando la eficiencia del desarrollo.
+            </p>
+            <br />
+            <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
+            <p>
+              Quería crear una API para obtener el precio actualizado de dólares en Argentina, utilizando web scrapers y
+              con el fin de aprender. Al principio, no sabía cómo hacerlo, pero con Python, FASTAPI y dedicando
+              tiempo a leer la documentación, logré desarrollarla con éxito.
+            </p>
+            <br />
+            <p>
+              Esta API, llamada <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://github.com/pyoneerC/monedas-api" target="_blank"
+                 rel="noopener noreferrer">Monedas-API</a>
 
-          </TextDecorator>
-            , logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
-          </p>
-          <br />
-          <p>
-            Actualmente, es consumida por mi otro proyecto, <TextDecorator color="skyblue" isUnderlined={true}>
-            <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer">Mercado Libre Price
-              Chart</a>
+            </TextDecorator>
+              , logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
+            </p>
+            <br />
+            <p>
+              Actualmente, es consumida por mi otro proyecto, <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer">Mercado Libre Price
+                Chart</a>
 
-          </TextDecorator>.
+            </TextDecorator>.
+            </p>
+            <br />
+            <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
+            <blockquote>
+              <ul>
+                <li>Una red neuronal compleja para hacer simulaciones en motores gráficos.</li>
+                <li>Una APIs del precio del combustible y relacionadas a Argentina.</li>
+                <li>Una página web en formato de librería virtual, donde los usuarios puedan compartir libros,
+                  portfolios, y más.
+                </li>
+                <li>Un juego de autos a control remoto en Unreal Engine.</li>
+                <li>Un motor de juegos propio, en DX12.</li>
+                <li>Un bot de Discord versátil y complejo.</li>
+                <li>Contribuir a proyectos de código abierto.</li>
+              </ul>
+            </blockquote>
+            <br />
+            <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su
+              rendimiento</strong></li>
+            <p>
+              Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de
+              Unreal Engine.
+            </p>
+            <br />
+            <p>
+              Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al final,
+              logramos terminar el proyecto a tiempo y con éxito.
+            </p>
+          </ul>
+        </section>
+        <section className={styles.section}>
+          <h2 className={styles.title}>Mentores y Colaboradores</h2>
+          <p className={styles.paragraph}>
+            Quiero expresar mi profundo agradecimiento a&nbsp;
+            <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://twitter.com/colinschmale" target="_blank" rel="noopener noreferrer">Colin Schmale</a>
+            </TextDecorator>,&nbsp;
+            <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://github.com/FrancoYudica" target="_blank" rel="noopener noreferrer">Franco Yudica</a>
+            </TextDecorator>, y &nbsp;
+            <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://github.com/enzonotario" target="_blank" rel="noopener noreferrer">Enzo Notario</a>
+            </TextDecorator>, quienes han sido fundamentales en mi carrera por sus valiosos consejos y constante apoyo.
           </p>
-          <br />
-          <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
-          <blockquote>
-            <ul>
-              <li>Una red neuronal compleja para hacer simulaciones en motores gráficos.</li>
-              <li>Una APIs del precio del combustible y relacionadas a Argentina.</li>
-              <li>Una página web en formato de librería virtual, donde los usuarios puedan compartir libros,
-                portfolios, y más.
-              </li>
-              <li>Un juego de autos a control remoto en Unreal Engine.</li>
-              <li>Un motor de juegos propio, en DX12.</li>
-              <li>Un bot de Discord versátil y complejo.</li>
-              <li>Contribuir a proyectos de código abierto.</li>
-            </ul>
-          </blockquote>
-          <br />
-          <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su
-            rendimiento</strong></li>
-          <p>
-            Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de
-            Unreal Engine.
+          <p className={styles.paragraph}>
+            También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores de
+            Discord de programación en español, cuya disposición para ayudar y compartir sus conocimientos ha sido
+            crucial para mi desarrollo profesional.
           </p>
-          <br />
-          <p>
-            Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al final,
-            logramos terminar el proyecto a tiempo y con éxito.
+          <p className={styles.paragraph}>
+            Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando la
+            cultura de colaboración y aprendizaje mutuo.
           </p>
-        </ul>
-      </section>
-      <section className={styles.section}>
-        <h2 className={styles.title}>Mentores y Colaboradores</h2>
-        <p className={styles.paragraph}>
-          Colin Schmale, Franco Yudica y Enzo Notario han sido claves en mi carrera, brindándome consejos,
-          orientación y apoyo constante.
+        </section>
+        <br />
+        <section className={styles.section}>
+          <h2 className={styles.title}>Canciones Favoritas</h2>
+          <ul>
+            <li>Runaway (U & I) - Galantis</li>
+            <li>Good 4 Me - Vindata</li>
+            <li>Cutting Shapes - Don Diablo</li>
+            <li>Play - Tokyo Machine</li>
+            <li>The Nights - Avicii</li>
+            <li>She Wants Me Dead - CAZZETTE</li>
+            <li>Sillhouette (Feed Me Remix)</li>
+            <li>Overkill - RIOT</li>
+          </ul>
+        </section>
+        <br /><img
+        src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
+        alt="Max Comperatore" /><br />
+        <p className={styles.paragraph} style={{ textAlign: "center" }}>
+          ¡Muchas gracias por leer!
+          <br/><br/>
+          Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
+          saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
+          encontrar los enlaces en el pie de página a continuación.
         </p>
-        <p className={styles.paragraph}>
-          Quiero agradecer a mis compañeros de equipo en proyectos de la Universidad, quienes me han enseñado y apoyado
-          en todo momento.
-        </p>
-        <p className={styles.paragraph}>
-          Finalmente, agradezco a los usuarios de varios servidores de Discord de programación en español, siempre
-          dispuestos a ayudar, apoyar y dar su opinión.
-        </p>
-        <p className={styles.paragraph}>
-          Aspiro a seguir el ejemplo de estos individuos y a ayudar a otros de la misma manera en que ellos me ayudaron
-          a mí.
-        </p>
-      </section>
-      <br />
-      <section className={styles.section}>
-        <h2 className={styles.title}>Canciones Favoritas</h2>
-        <ul>
-          <li>Runaway (U & I) - Galantis</li>
-          <li>Good 4 Me - Vindata</li>
-          <li>Cutting Shapes - Don Diablo</li>
-          <li>Play - Tokyo Machine</li>
-          <li>The Nights - Avicii</li>
-          <li>She Wants Me Dead - CAZZETTE</li>
-          <li>Sillhouette (Feed Me Remix)</li>
-          <li>Overkill - RIOT</li>
-        </ul>
-      </section>
-      <br /><img
-      src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
-      alt="Max Comperatore" /><br /><p className={styles.paragraph} style={{ textAlign: "center" }}>
-      Gracias por leer! Si tienes alguna pregunta o sugerencia, no dudes en contactarme.
-    </p>
-    </div>
-  </>
+      </div>
+    </>
   );
 };
 
