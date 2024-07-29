@@ -48,15 +48,20 @@ const FAQ = () => {
         <section className={styles.section}>
           <h2 className={styles.title}>Motivaciones para Estudiar Programación</h2>
           <p className={styles.paragraph}>
-            Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas a través del código.
-            La programación combina técnica y creatividad, y ver cómo mi
-            trabajo se convierte en software que resuelve necesidades reales es extremadamente gratificante.
+            Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas mediante la programación, un
+            campo donde la técnica se fusiona con la creatividad.
+            <br/><br/>
+              Mi temprana fascinación por los juegos y su desarrollo me ha llevado a dedicarme a la creación de
+              software, donde encuentro una profunda satisfacción al desarrollar soluciones tecnológicas que satisfacen
+              necesidades concretas.
+
           </p>
           <p className={styles.paragraph}>
-            La posibilidad de contribuir a proyectos innovadores y en constante
-            evolución me inspira profundamente. Además, valoro mucho el carácter colaborativo de la comunidad de
-            desarrolladores, donde nunca dejas de aprender y siempre encuentras personas amables y dispuestas a ayudar.
+            La constante evolución de la tecnología ofrece oportunidades únicas para contribuir a proyectos innovadores,
+            y valoro profundamente el carácter colaborativo de la comunidad de desarrolladores,
+            que no solo enriquece mi aprendizaje continuo sino que también fortalece conexiones con colegas generosos y solidarios.
           </p>
+
         </section>
 
         <br />
@@ -68,11 +73,10 @@ const FAQ = () => {
             necesario.
           </p>
           <p className={styles.paragraph}>
-            Disfruto particularmente del desarrollo del lado del servidor,
-            donde enfrento problemas complejos con un enfoque en la eficiencia y la seguridad.
-            La gestión de bases de datos, el diseño y mantenimiento de APIs,
-            y la mejora continua del rendimiento son aspectos que encuentro fascinantes, ya
-            que contribuyen a la creación de aplicaciones robustas y escalables.
+            Disfruto particularmente del desarrollo del lado del servidor, donde enfrento problemas complejos con un
+            enfoque en la eficiencia y la seguridad. La gestión de bases de datos, el diseño y mantenimiento de APIs, y
+            la mejora continua del rendimiento son aspectos que encuentro cruciales, ya que contribuyen a la creación
+            de aplicaciones robustas y escalables.
           </p>
         </section>
 
@@ -135,7 +139,29 @@ const FAQ = () => {
               >
                 <a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank"
                    rel="noopener noreferrer">
-                  Computer Graphics Resources
+                  Recursos de gráficos por computadora
+                </a>
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={true}
+                style={{ fontSize: "18px" }}
+              >
+                <a href="https://www.bigocheatsheet.com" target="_blank" rel="noopener noreferrer">
+                  Hoja de Referencia de Notación Big O
+                </a>
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={false}
+                style={{ fontSize: "16px" }}
+              >
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                  Repositorios de Código Abierto en GitHub
                 </a>
               </TextDecorator>
             </li>
@@ -154,30 +180,10 @@ const FAQ = () => {
             <li>
               <TextDecorator
                 color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "18px" }}
-              >
-                <a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer">
-                  Roadmap.sh
-                </a>
-              </TextDecorator>
-            </li>
-            <li>
-              <TextDecorator
-                color="orange"
                 isUnderlined={false}
-                style={{ fontSize: "18px" }}
+                style={{ fontSize: "16px" }}
               >
-                Reddit
-              </TextDecorator>
-            </li>
-            <li>
-              <TextDecorator
-                color="white"
-                isUnderlined={false}
-                style={{ fontSize: "18px" }}
-              >
-                Documentación Oficial (de cualquier tecnología)
+                Wikipedia y Libros
               </TextDecorator>
             </li>
             <li>
@@ -188,6 +194,33 @@ const FAQ = () => {
               >
                 <a href="https://fullstackopen.com/en/" target="_blank" rel="noopener noreferrer">
                   Fullstack Open
+                </a>
+              </TextDecorator>
+            </li>
+            <li><TextDecorator
+              color="skyblue"
+              isUnderlined={true} style={{ fontSize: "16px" }}
+            >
+              <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">Microsoft Learn</a>
+            </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={false}
+                style={{ fontSize: "16px" }}
+              >
+                Khan Academy
+              </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={true}
+                style={{ fontSize: "18px" }}
+              >
+                <a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer">
+                  Roadmap.sh
                 </a>
               </TextDecorator>
             </li>
@@ -202,25 +235,6 @@ const FAQ = () => {
                 </a>
               </TextDecorator>
             </li>
-            <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "18px" }}
-              >
-                <a href="https://www.bigocheatsheet.com" target="_blank" rel="noopener noreferrer">
-                  Big O Cheat Sheet
-                </a>
-              </TextDecorator>
-            </li>
-
-            <li><TextDecorator
-              color="skyblue"
-              isUnderlined={true} style={{ fontSize: "16px" }}
-            >
-              <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">Microsoft Learn</a>
-            </TextDecorator>
-            </li>
 
             <li>
               <TextDecorator
@@ -231,6 +245,16 @@ const FAQ = () => {
                 <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">
                   Perplexity
                 </a>
+              </TextDecorator>
+            </li>
+
+            <li>
+              <TextDecorator
+                color="skyblue"
+                isUnderlined={false}
+                style={{ fontSize: "16px" }}
+              >
+                draw.io
               </TextDecorator>
             </li>
             <li>
@@ -244,63 +268,16 @@ const FAQ = () => {
                 </a>
               </TextDecorator>
             </li>
-            <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                draw.io
-              </TextDecorator>
-            </li>
-            <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                Khan Academy
-              </TextDecorator>
-            </li>
-            <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                  GitHub FOSS Source Code Repos
-                </a>
-              </TextDecorator>
-            </li>
-            <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                ChatGPT
-              </TextDecorator>
-            </li>
-            <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                Wikipedia y Libros
-              </TextDecorator>
-            </li>
           </ul>
-      </section>
+        </section>
 
-      <br /><br />
-      <section className={styles.section}>
-        <h2 className={styles.title}>Mantenerse Actualizado</h2>
-        <p className={styles.paragraph}>
-          Para estar al tanto de las últimas tendencias y tecnologías sigo canales como
-          <TextDecorator color="skyblue" isUnderlined={true}>
-            <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer">Midudev</a>
+        <br /><br />
+        <section className={styles.section}>
+          <h2 className={styles.title}>Mantenerse Actualizado</h2>
+          <p className={styles.paragraph}>
+            Para estar al tanto de las últimas tendencias y tecnologías sigo canales como
+            <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer">Midudev</a>
           </TextDecorator>,
           <TextDecorator color="skyblue" isUnderlined={true}>
             <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer">Fireship</a>
