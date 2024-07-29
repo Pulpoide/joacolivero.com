@@ -434,9 +434,10 @@ const FAQ = () => {
         </section>
         <br /><img
         src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
-        alt="Max Comperatore" /><br />
+        alt="Unreal Engine 5" className={styles.image} />
+        <br/>
         <p className={styles.paragraph} style={{ textAlign: "center" }}>
-          ¡Muchas gracias por leer!
+          ¡Muchas gracias por leer hasta el final!
           <br/><br/>
           Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
           saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
