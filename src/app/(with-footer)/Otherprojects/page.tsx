@@ -4,7 +4,7 @@ import { PostCard } from "~/components/PostCard";
 import styles from "./page.module.css";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
 import Link from "next/link";
-import { coverProjects } from "~/data/projects";
+import { coverProjects } from "~/data/otherprojects";
 import { ProjectCard } from "~/components/ProjectCard";
 
 export const metadata = {
@@ -21,7 +21,7 @@ export default async function Blog() {
 			<h2 className={styles.title}>Otros proyectos</h2>
 			<div className={styles.projectsWrapper}>
 				{coverProjects.map((project) => (
-					<ProjectCard key={project.name} {...project} />
+					<><ProjectCard key={project.name} {...project} /><ScrollToTopButton /></>
 				))}
 			</div>
 		</section>
