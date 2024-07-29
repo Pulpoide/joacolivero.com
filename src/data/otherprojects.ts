@@ -14,6 +14,26 @@ export const projectMetadata = {
 		slug: "hangman",
 		name: "Hangman",
 	},
+	calculadorarendimientosmercadopago: {
+		slug: "calculadorarendimientosmercadopago",
+		name: "Calculadora de Rendimientos MercadoPago",
+	},
+	pixelateddrift: {
+		slug: "pixelateddrift",
+		name: "Pixelated Drift",
+	},
+	portfolio: {
+		slug: "portfolio",
+		name: "Portfolio",
+	},
+	thedungeon: {
+		slug: "thedungeon",
+		name: "The Dungeon",
+	},
+	thegreatchocolatecaper: {
+		slug: "thegreatchocolatecaper",
+		name: "The Great Chocolate Caper",
+	},
 }
 
 export const coverProjects: CoverProject[] = [
@@ -33,5 +53,35 @@ export const coverProjects: CoverProject[] = [
 		imageUrl: `/assets/images/projects/otherprojectscover/hangman.webp`,
 		description:
 			"Implementación del juego clásico \"El Ahorcado\" en 333 líneas de código, disponible para jugar en línea",
+	},
+	{
+		...projectMetadata.calculadorarendimientosmercadopago,
+		imageUrl: `/assets/images/projects/otherprojectscover/calculadorarendimientosmercadopago.webp`,
+		description:
+			"Herramienta web diseñada para calcular la ganancia de inversiones a lo largo del tiempo, ofreciendo una interfaz intuitiva y respuestas inmediatas.",
+	},
+	{
+		...projectMetadata.pixelateddrift,
+		imageUrl: `/assets/images/projects/otherprojectscover/pixelateddrift.webp`,
+		description:
+			"Simulador de manejo ambientado en una ciudad gótica con gráficos al estilo de la PlayStation 2.",
+	},
+	{
+		...projectMetadata.portfolio,
+		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.webp`,
+		description:
+			"Sitio web personal que muestra mis proyectos y habilidades en desarrollo de software y videojuegos. Su backend cuenta con...y su diseño ... insiprado por...",
+	},
+	{
+		...projectMetadata.thedungeon,
+		imageUrl: `/assets/images/projects/otherprojectscover/thedungeon.webp`,
+		description:
+			"Prototipo de juego de puzzles y terror que desafía a los jugadores con acertijos envolventes en un ambiente oscuro y misterioso.",
+	},
+	{
+		...projectMetadata.thegreatchocolatecaper,
+		imageUrl: `/assets/images/projects/otherprojectscover/thegreatchocolatecaper.webp`,
+		description:
+			"Simulador interactivo donde el jugador asume el papel de una bola de chocolate intentando escapar de una casa laberíntica llena de robots hambrientos.",
 	},
 ]
