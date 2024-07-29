@@ -421,21 +421,53 @@ const FAQ = () => {
         <br />
         <section className={styles.section}>
           <h2 className={styles.title}>Canciones Favoritas</h2>
+          <p className={styles.paragraph}>
+            Una selección que te hará bailar como un cyborg con exceso de cafeína.
+          </p>
           <ul>
-            <li>Runaway (U & I) - Galantis</li>
-            <li>Good 4 Me - Vindata</li>
-            <li>Cutting Shapes - Don Diablo</li>
-            <li>Play - Tokyo Machine</li>
-            <li>The Nights - Avicii</li>
-            <li>She Wants Me Dead - CAZZETTE</li>
-            <li>Sillhouette (Feed Me Remix)</li>
-            <li>Overkill - RIOT</li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=Tt3F2x0RuZI" target="_blank" rel="noopener noreferrer">Runaway (U
+                & I) - Galantis</a>
+            </TextDecorator>
+            </li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=xY66ucVK-RM" target="_blank" rel="noopener noreferrer">Good 4 Me
+                - Vindata</a>
+            </TextDecorator></li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=zubYYZ0fTyQ" target="_blank" rel="noopener noreferrer">Cutting
+                Shapes - Don Diablo</a>
+            </TextDecorator></li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=RhR_Z5wVvJM" target="_blank" rel="noopener noreferrer">Play -
+                Tokyo Machine</a>
+            </TextDecorator></li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=XmIgg9De9hY" target="_blank" rel="noopener noreferrer">The Nights
+                - Avicii</a>
+            </TextDecorator></li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=j43PGdl03WA" target="_blank" rel="noopener noreferrer">She Wants
+                Me Dead - CAZZETTE</a>
+            </TextDecorator></li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=FgApngD5faY" target="_blank" rel="noopener noreferrer">Sillhouette
+                (Feed Me Remix)</a>
+            </TextDecorator></li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=qcE__zJ4L6E" target="_blank" rel="noopener noreferrer">Still -
+                Glacier</a>
+            </TextDecorator></li>
+            <li><TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=A8pOVirjGF0" target="_blank" rel="noopener noreferrer">Overkill -
+                RIOT</a>
+            </TextDecorator></li>
           </ul>
         </section>
         <br /><img
         src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
         alt="Unreal Engine 5" className={styles.image} />
-        <br/>
+        <br />
         <p className={styles.paragraph} style={{ textAlign: "center" }}>
           ¡Muchas gracias por leer hasta el final!
           <br/><br/>
