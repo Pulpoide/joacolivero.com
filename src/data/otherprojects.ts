@@ -70,7 +70,7 @@ export const coverProjects: CoverProject[] = [
 		...projectMetadata.portfolio,
 		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.webp`,
 		description:
-			"Este sitio web destaca por su diseño negro y robusto backend, obteniendo puntuaciones perfectas en Rendimiento y Accesibilidad, y excelentes en Recomendaciones y SEO. Incorpora avanzadas APIs, almacenamiento de datos y validación de formularios.",
+			"Este sitio web destaca por su diseño negro y robusto backend, obteniendo puntuaciones casi perfectas en Rendimiento, Accesibilidad y SEO. Incorpora avanzadas APIs, almacenamiento de datos y validación de formularios.",
 	},
 	{
 		...projectMetadata.thedungeon,
