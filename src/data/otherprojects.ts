@@ -70,7 +70,7 @@ export const coverProjects: CoverProject[] = [
 		...projectMetadata.portfolio,
 		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.webp`,
 		description:
-			"Sitio web personal que muestra mis proyectos y habilidades en desarrollo de software y videojuegos. Su backend cuenta con...y su diseño ... insiprado por...",
+			"Este sitio web destaca por su diseño negro y robusto backend, obteniendo puntuaciones perfectas en Rendimiento y Accesibilidad, y excelentes en Recomendaciones y SEO. Incorpora avanzadas APIs, almacenamiento de datos y validación de formularios.",
 	},
 	{
 		...projectMetadata.thedungeon,

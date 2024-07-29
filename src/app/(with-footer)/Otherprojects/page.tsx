@@ -15,7 +15,7 @@ export default async function Blog() {
 	const sortedPosts = sortPostsByDate({ posts });
 
 	return (
-		<section className="section-wrapper">
+		<section className={styles.projectsWrapper}>
 			<h2 className={styles.title}>Otros proyectos</h2>
 			<div className={styles.projectsWrapper}>
 				{coverProjects.map((project) => (
