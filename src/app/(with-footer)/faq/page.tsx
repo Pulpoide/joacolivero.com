@@ -441,7 +441,7 @@ const FAQ = () => {
               </li>
               <li>
                     <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
-                    <a href="https://www.youtube.com/watch?v=j43PGdl03WA" target="_blank" rel="noopener noreferrer">She Wants Me Dead - CAZZETTE</a>
+                    <a href="https://www.youtube.com/watch?v=j43PGdl03WA" target="_blank" rel="noopener noreferrer">She Wants Me Dead - CAZZ</a>
                     </span>
               </li>
               <li>
