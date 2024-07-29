@@ -13,7 +13,7 @@ export const metadata = {
 export default async function Blog() {
 	const posts = await getPosts();
 	const sortedPosts = sortPostsByDate({ posts });
-	
+
 	return (
 		<section className={styles.projectsWrapper}>
 			<h2 className={styles.title}>Otros proyectos</h2>
