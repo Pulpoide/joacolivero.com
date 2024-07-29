@@ -13,14 +13,14 @@ export const metadata = {
 export default async function Blog() {
 	const posts = await getPosts();
 	const sortedPosts = sortPostsByDate({ posts });
-
+	
 	return (
 		<section className={styles.projectsWrapper}>
 			<h2 className={styles.title}>Otros proyectos</h2>
 			<div className={styles.projectsWrapper}>
 				{coverProjects.map((project) => (
 					<>
-						<ProjectCard key={project.name} className={styles.cardStyle} {...project} />
+						<ProjectCard key={project.name}  {...project} />
 						<ScrollToTopButton />
 					</>
 				))}
