@@ -114,139 +114,108 @@ const FAQ = () => {
           <h2 className={styles.title}>Recursos Educativos Recomendados</h2>
           <ul>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "18px" }}
-              >
-                <a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank"
-                   rel="noopener noreferrer">
-                  Recursos de gráficos por computadora
-                </a>
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
+        <a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank"
+           rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "inherit" }}>
+        Recursos de gráficos por computadora
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "18px" }}
-              >
-                <a href="https://www.bigocheatsheet.com" target="_blank" rel="noopener noreferrer">
-                  Hoja de Referencia de Notación Big O
-                </a>
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
+        <a href="https://www.bigocheatsheet.com" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Hoja de Referencia de Notación Big O
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                  Repositorios de Código Abierto en GitHub
-                </a>
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "none", fontSize: "16px" }}>
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Repositorios de Código Abierto en GitHub
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "18px" }}
-              >
-                <a href={"https://gist.github.com/pyoneerC/a9f9132ce2a57db5331a8cd95ca45b8e"} target="_blank"
-                   rel="noopener noreferrer">
-                  Comunidades de Discord
-                </a>
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
+        <a href="https://gist.github.com/pyoneerC/a9f9132ce2a57db5331a8cd95ca45b8e" target="_blank"
+           rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "inherit" }}>
+        Comunidades de Discord
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                Wikipedia y Libros
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "none", fontSize: "16px" }}>
+        <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Wikipedia y Libros
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "18px" }}
-              >
-                <a href="https://fullstackopen.com/en/" target="_blank" rel="noopener noreferrer">
-                  Fullstack Open
-                </a>
-              </TextDecorator>
-            </li>
-            <li><TextDecorator
-              color="skyblue"
-              isUnderlined={true} style={{ fontSize: "16px" }}
-            >
-              <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer">Microsoft Learn</a>
-            </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
+        <a href="https://fullstackopen.com/en/" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Fullstack Open
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                Khan Academy
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
+        <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Microsoft Learn
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "18px" }}
-              >
-                <a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer">
-                  Roadmap.sh
-                </a>
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
+        <a href="https://www.khanacademy.org" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Khan Academy
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "18px" }}
-              >
-                <a href="https://www.learncpp.com" target="_blank" rel="noopener noreferrer">
-                  Learn CPP
-                </a>
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
+        <a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Roadmap.sh
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "16px" }}
-              >
-                <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer">
-                  Perplexity
-                </a>
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
+        <a href="https://www.learncpp.com" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Learn CPP
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={false}
-                style={{ fontSize: "16px" }}
-              >
-                draw.io
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
+        <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Perplexity
+        </a>
+        </span>
             </li>
             <li>
-              <TextDecorator
-                color="skyblue"
-                isUnderlined={true}
-                style={{ fontSize: "16px" }}
-              >
-                <a href="https://trello.com" target="_blank" rel="noopener noreferrer">
-                  Trello
-                </a>
-              </TextDecorator>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
+        <a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        draw.io
+        </a>
+        </span>
+            </li>
+            <li>
+        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
+        <a href="https://trello.com" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Trello
+        </a>
+        </span>
             </li>
           </ul>
         </section>
@@ -256,46 +225,45 @@ const FAQ = () => {
           <p className={styles.paragraph}>
             Para estar al tanto de las últimas tendencias y tecnologías, sigo canales como&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-    <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer"
-       style={{ color: "inherit", textDecoration: "inherit" }}>
+      <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
       Midudev
-    </a>
-  </span>
+      </a>
+      </span>
             ,&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-    <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer"
-       style={{ color: "inherit", textDecoration: "inherit" }}>
+      <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
       Fireship
-    </a>
-  </span>
+      </a>
+      </span>
             ,&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-    <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer"
-       style={{ color: "inherit", textDecoration: "inherit" }}>
+      <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
       Unreal Engine
-    </a>
-  </span>
+      </a>
+      </span>
             &nbsp;y&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-    <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer"
-       style={{ color: "inherit", textDecoration: "inherit" }}>
+      <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
       Unity
-    </a>
-  </span>
+      </a>
+      </span>
             .
           </p>
           <p className={styles.paragraph}>
             A la vez, reviso repositorios tendencia en GitHub mientras le doy una mirada a&nbsp;
             <span style={{ color: "skyblue", textDecoration: "none", fontFamily: "inherit", fontSize: "inherit" }}>
-    Discord
-  </span>
+      Discord
+      </span>
             &nbsp;y&nbsp;
             <span style={{ color: "skyblue", textDecoration: "none", fontFamily: "inherit", fontSize: "inherit" }}>
-    Reddit
-  </span>
+      Reddit
+      </span>
             &nbsp;para ver de qué se habla en la comunidad de desarrollo.
           </p>
-
         </section>
         <br />
         <section className={styles.section}>
@@ -320,51 +288,48 @@ const FAQ = () => {
               Definitivamente, la creación de la aplicación&nbsp;
               <span
                 style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-    <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
-       style={{ color: "inherit", textDecoration: "inherit" }}>
-      Mercado Libre Price Chart
-    </a>
-  </span>&nbsp;
+        <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Mercado Libre Price Chart
+        </a>
+        </span>&nbsp;
               es uno de los proyectos más innovadores que he realizado.
-
-
               <br /><br />
               Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina:
               la incertidumbre sobre el valor real de los productos en un contexto económico volátil.
-          </p>
-          <br />
-          <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
-            resolviste?</strong>
-          </li>
-          <p>
-            Durante el desarrollo de este portafolio, me enfrenté al desafío de traducir manualmente todo el contenido
-            al inglés, lo cual era engorroso y tedioso.
-            <br /><br />
-
-            Gracias a la orientación de &nbsp;
-                <span
-                  style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-    <a href="https://github.com/santiagoarielv98" target="_blank" rel="noopener noreferrer"
-       style={{ color: "inherit", textDecoration: "inherit" }}>
-      Santiago Ariel
-    </a>
-  </span>
-                , aprendí a implementar traducciones automáticas utilizando Translation.io, optimizando así el proceso y
-                mejorando la eficiencia del desarrollo.
             </p>
-              <br />
-              <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
-              <p>
-                Quería crear una API para obtener el precio actualizado de dólares en Argentina, utilizando web scrapers
-                y
-                con el fin de aprender. Al principio, no sabía cómo hacerlo, pero con Python, FASTAPI y dedicando
-                tiempo a leer la documentación, logré desarrollarla con éxito.
-              </p>
-              <br />
-              <p>
-                Esta API, llamada{" "}
-                <span
-                  style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
+            <br />
+            <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
+              resolviste?</strong>
+            </li>
+            <p>
+              Durante el desarrollo de este portafolio, me enfrenté al desafío de traducir manualmente todo el contenido
+              al inglés, lo cual era engorroso y tedioso.
+              <br /><br />
+              Gracias a la orientación de &nbsp;
+              <span
+                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
+        <a href="https://github.com/santiagoarielv98" target="_blank" rel="noopener noreferrer"
+           style={{ color: "inherit", textDecoration: "inherit" }}>
+        Santiago Ariel
+        </a>
+        </span>
+              , aprendí a implementar traducciones automáticas utilizando Translation.io, optimizando así el proceso y
+              mejorando la eficiencia del desarrollo.
+            </p>
+            <br />
+            <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
+            <p>
+              Quería crear una API para obtener el precio actualizado de dólares en Argentina, utilizando web scrapers
+              y
+              con el fin de aprender. Al principio, no sabía cómo hacerlo, pero con Python, FASTAPI y dedicando
+              tiempo a leer la documentación, logré desarrollarla con éxito.
+            </p>
+            <br />
+            <p>
+              Esta API, llamada{" "}
+              <span
+                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
         <a
           href="https://github.com/pyoneerC/monedas-api"
           target="_blank"
@@ -374,13 +339,13 @@ const FAQ = () => {
         Monedas-API
         </a>
         </span>
-                , logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
-              </p>
-              <br />
-              <p>
-                Actualmente, es consumida por mi otro proyecto,{" "}
-                <span
-                  style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
+              , logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
+            </p>
+            <br />
+            <p>
+              Actualmente, es consumida por mi otro proyecto,{" "}
+              <span
+                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
         <a
           href="https://maxcomperatore.store"
           target="_blank"
@@ -390,37 +355,37 @@ const FAQ = () => {
         Mercado Libre Price Chart
         </a>
         </span>
-                .
-              </p>
-              <br />
-              <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
-              <blockquote>
-                <ul>
-                  <li>Una red neuronal compleja para hacer simulaciones en motores gráficos.</li>
-                  <li>Una APIs del precio del combustible y relacionadas a Argentina.</li>
-                  <li>Una página web en formato de librería virtual, donde los usuarios puedan compartir libros,
-                    portfolios, y más.
-                  </li>
-                  <li>Un juego de autos a control remoto en Unreal Engine.</li>
-                  <li>Un motor de juegos propio, en DX12.</li>
-                  <li>Un bot de Discord versátil y complejo.</li>
-                  <li>Contribuir a proyectos de código abierto.</li>
-                </ul>
-              </blockquote>
-              <br />
-              <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su
-                rendimiento</strong>
-              </li>
-              <p>
-                Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de
-                Unreal Engine.
-              </p>
-              <br />
-              <p>
-                Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al
-                final,
-                logramos terminar el proyecto a tiempo y con éxito.
-              </p>
+              .
+            </p>
+            <br />
+            <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
+            <blockquote>
+              <ul>
+                <li>Una red neuronal compleja para hacer simulaciones en motores gráficos.</li>
+                <li>Una APIs del precio del combustible y relacionadas a Argentina.</li>
+                <li>Una página web en formato de librería virtual, donde los usuarios puedan compartir libros,
+                  portfolios, y más.
+                </li>
+                <li>Un juego de autos a control remoto en Unreal Engine.</li>
+                <li>Un motor de juegos propio, en DX12.</li>
+                <li>Un bot de Discord versátil y complejo.</li>
+                <li>Contribuir a proyectos de código abierto.</li>
+              </ul>
+            </blockquote>
+            <br />
+            <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su
+              rendimiento</strong>
+            </li>
+            <p>
+              Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de
+              Unreal Engine.
+            </p>
+            <br />
+            <p>
+              Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al
+              final,
+              logramos terminar el proyecto a tiempo y con éxito.
+            </p>
           </ul>
         </section>
         <section className={styles.section}>
