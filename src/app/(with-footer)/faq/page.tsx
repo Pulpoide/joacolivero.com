@@ -3,28 +3,22 @@ import styles from './page.module.css';
 import ScrollToTopButton from '~/components/ScrollToTopButton/ScrollToTopButton';
 import Link from 'next/link';
 import TextDecorator from '~/components/TextDecorator/TextDecorator';
-
 export const metadata = {
   title: 'Max Comperatore - FAQ',
   description: 'Preguntas personales para reflexionar, y practicar para entrevistas de trabajo.',
 };
-
 const FAQ = () => {
   return (
     <>
       <div className={styles.container}>
         <ScrollToTopButton />
-
         <h1 className={styles.title}>FAQ - Preguntas Frecuentes</h1>
-
         <Link className={styles.goHomeLink} href="/">
           ← Volver a la página principal
         </Link>
-
         <Link className={styles.goHomeLink} href="/blog">
           ← Ir al Blog
         </Link>
-
         <section className={styles.section}>
           <h2 className={styles.title}>Recorrido en Programación</h2>
           <p className={styles.paragraph}>
@@ -42,9 +36,7 @@ const FAQ = () => {
             colaborar en proyectos significativos.
           </p>
         </section>
-
         <br />
-
         <section className={styles.section}>
           <h2 className={styles.title}>Motivaciones para Estudiar Programación</h2>
           <p className={styles.paragraph}>
@@ -54,7 +46,6 @@ const FAQ = () => {
             Mi temprana fascinación por los juegos y su desarrollo me ha llevado a dedicarme a la creación de
             software, donde encuentro una profunda satisfacción al desarrollar soluciones tecnológicas que satisfacen
             necesidades concretas.
-
           </p>
           <p className={styles.paragraph}>
             La constante evolución de la tecnología ofrece oportunidades únicas para contribuir a proyectos innovadores,
@@ -62,11 +53,8 @@ const FAQ = () => {
             que no solo enriquece mi aprendizaje continuo sino que también fortalece conexiones con colegas generosos y
             solidarios.
           </p>
-
         </section>
-
         <br />
-
         <section className={styles.section}>
           <h2 className={styles.title}>¿Frontend o Backend?</h2>
           <p className={styles.paragraph}>
@@ -80,9 +68,7 @@ const FAQ = () => {
             de aplicaciones robustas y escalables.
           </p>
         </section>
-
         <br />
-
         <section className={styles.section}>
           <h2 className={styles.title}>¿Cómo te Ves en 5 Años?</h2>
           <p className={styles.paragraph}>
@@ -95,9 +81,7 @@ const FAQ = () => {
             mis pasatiempos y participando en proyectos innovadores que generen un impacto positivo en la sociedad.
           </p>
         </section>
-
         <br />
-
         <section className={styles.section}>
           <h2 className={styles.title}>¿Qué Buscas en un Nuevo Trabajo?</h2>
           <p className={styles.paragraph}>
@@ -113,9 +97,7 @@ const FAQ = () => {
             continuo y la evolución profesional.
           </p>
         </section>
-
         <br />
-
         <section className={styles.section}>
           <h2 className={styles.title}>¿Qué Aprendiste Recientemente?</h2>
           <p className={styles.paragraph}>
@@ -128,7 +110,6 @@ const FAQ = () => {
             mejorado mi habilidad para trabajar en equipo y comunicarme de manera efectiva.
           </p>
         </section>
-
         <section className={styles.section}>
           <h2 className={styles.title}>Recursos Educativos Recomendados</h2>
           <ul>
@@ -236,7 +217,6 @@ const FAQ = () => {
                 </a>
               </TextDecorator>
             </li>
-
             <li>
               <TextDecorator
                 color="skyblue"
@@ -248,7 +228,6 @@ const FAQ = () => {
                 </a>
               </TextDecorator>
             </li>
-
             <li>
               <TextDecorator
                 color="skyblue"
@@ -271,7 +250,6 @@ const FAQ = () => {
             </li>
           </ul>
         </section>
-
         <br /><br />
         <section className={styles.section}>
           <h2 className={styles.title}>Mantenerse Actualizado</h2>
@@ -279,25 +257,31 @@ const FAQ = () => {
             Para estar al tanto de las últimas tendencias y tecnologías, sigo canales como&nbsp;
             <TextDecorator color="skyblue" isUnderlined={true}>
               <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer">Midudev</a>
-            </TextDecorator>,&nbsp;
+            </TextDecorator>
+            ,&nbsp;
             <TextDecorator color="skyblue" isUnderlined={true}>
               <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer">Fireship</a>
-            </TextDecorator>,&nbsp;
+            </TextDecorator>
+            ,&nbsp;
             <TextDecorator color="skyblue" isUnderlined={true}>
               <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer">Unity</a>
-            </TextDecorator> y&nbsp;
+            </TextDecorator>
+            y&nbsp;
             <TextDecorator color="skyblue" isUnderlined={true}>
               <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer">Unreal Engine</a>
-            </TextDecorator>.
+            </TextDecorator>
+            .
           </p>
           <p className={styles.paragraph}>
             A la vez, reviso repositorios tendencia en GitHub mientras le doy una mirada a&nbsp;
             <TextDecorator color="skyblue" isUnderlined={false}>
               Discord
-            </TextDecorator> y&nbsp;
+            </TextDecorator>
+            y&nbsp;
             <TextDecorator color="skyblue" isUnderlined={false}>
               Reddit
-            </TextDecorator> para ver de qué se habla en la comunidad de desarrollo.
+            </TextDecorator>
+            para ver de qué se habla en la comunidad de desarrollo.
           </p>
         </section>
         <br />
@@ -320,25 +304,29 @@ const FAQ = () => {
           <ul className={styles.paragraph}>
             <li><strong>Lo más innovador que ha hecho y por qué lo considera innovador?</strong></li>
             <p>
-              Definitivamente, la creación de la aplicación <TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer">Mercado Libre Price
-                Chart</a>
-
-            </TextDecorator> es uno de los proyectos más innovadores que he realizado.
+              Definitivamente, la creación de la aplicación
+              <TextDecorator color="skyblue" isUnderlined={true}>
+                <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer">Mercado Libre Price
+                  Chart</a>
+              </TextDecorator>
+              es uno de los proyectos más innovadores que he realizado.
               <br /><br />
               Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina:
               la incertidumbre sobre el valor real de los productos en un contexto económico volátil.
             </p>
             <br />
             <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
-              resolviste?</strong></li>
+              resolviste?</strong>
+            </li>
             <p>
               Durante el desarrollo de este portafolio, me enfrenté al desafío de traducir manualmente todo el contenido
               al inglés, lo cual era engorroso y tedioso.
               <br /><br />
-              Gracias a la orientación de <TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://github.com/santiagoarielv98" target="_blank" rel="noopener noreferrer">Santiago Ariel</a>
-            </TextDecorator>, aprendí a implementar traducciones automáticas utilizando Translation.io,
+              Gracias a la orientación de
+              <TextDecorator color="skyblue" isUnderlined={true}>
+                <a href="https://github.com/santiagoarielv98" target="_blank" rel="noopener noreferrer">Santiago Ariel</a>
+              </TextDecorator>
+              , aprendí a implementar traducciones automáticas utilizando Translation.io,
               optimizando así el proceso y mejorando la eficiencia del desarrollo.
             </p>
             <br />
@@ -350,20 +338,21 @@ const FAQ = () => {
             </p>
             <br />
             <p>
-              Esta API, llamada <TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://github.com/pyoneerC/monedas-api" target="_blank"
-                 rel="noopener noreferrer">Monedas-API</a>
-
-            </TextDecorator>
+              Esta API, llamada
+              <TextDecorator color="skyblue" isUnderlined={true}>
+                <a href="https://github.com/pyoneerC/monedas-api" target="_blank"
+                   rel="noopener noreferrer">Monedas-API</a>
+              </TextDecorator>
               , logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
             </p>
             <br />
             <p>
-              Actualmente, es consumida por mi otro proyecto, <TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer">Mercado Libre Price
-                Chart</a>
-
-            </TextDecorator>.
+              Actualmente, es consumida por mi otro proyecto,
+              <TextDecorator color="skyblue" isUnderlined={true}>
+                <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer">Mercado Libre Price
+                  Chart</a>
+              </TextDecorator>
+              .
             </p>
             <br />
             <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
@@ -382,7 +371,8 @@ const FAQ = () => {
             </blockquote>
             <br />
             <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su
-              rendimiento</strong></li>
+              rendimiento</strong>
+            </li>
             <p>
               Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de
               Unreal Engine.
@@ -398,78 +388,86 @@ const FAQ = () => {
           <h2 className={styles.title}>Mentores y Colaboradores</h2>
           <p className={styles.paragraph}>
             Quiero expresar mi profundo agradecimiento a&nbsp;
-            <TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://twitter.com/colinschmale" target="_blank" rel="noopener noreferrer">Colin Schmale</a>
-            </TextDecorator>,&nbsp;
-            <TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://github.com/FrancoYudica" target="_blank" rel="noopener noreferrer">Franco Yudica</a>
-            </TextDecorator>, y &nbsp;
-            <TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://github.com/enzonotario" target="_blank" rel="noopener noreferrer">Enzo Notario</a>
-            </TextDecorator>, quienes han sido fundamentales en mi carrera por sus valiosos consejos y constante apoyo.
+            <a href="https://twitter.com/colinschmale" target="_blank" rel="noopener noreferrer"
+               style={{ color: "skyblue", textDecoration: "underline" }}>Colin Schmale</a>,&nbsp;
+            <a href="https://github.com/FrancoYudica" target="_blank" rel="noopener noreferrer"
+               style={{ color: "skyblue", textDecoration: "underline" }}>Franco Yudica</a>,&nbsp;y&nbsp;
+            <a href="https://github.com/enzonotario" target="_blank" rel="noopener noreferrer"
+               style={{ color: "skyblue", textDecoration: "underline" }}>Enzo Notario</a>, quienes han sido
+            fundamentales en mi carrera por sus valiosos consejos y constante apoyo.
           </p>
-          <p className={styles.paragraph}>
-            También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores de
-            Discord de programación en español, cuya disposición para ayudar y compartir sus conocimientos ha sido
-            crucial para mi desarrollo profesional.
-          </p>
-          <p className={styles.paragraph}>
-            Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando la
-            cultura de colaboración y aprendizaje mutuo.
-          </p>
-        </section>
-        <br />
-        <section className={styles.section}>
-          <h2 className={styles.title}>Canciones Favoritas</h2>
+        <p className={styles.paragraph}>
+          También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores de
+          Discord de programación en español, cuya disposición para ayudar y compartir sus conocimientos ha sido
+          crucial para mi desarrollo profesional.
+        </p>
+        <p className={styles.paragraph}>
+          Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando la
+          cultura de colaboración y aprendizaje mutuo.
+        </p>
+      </section>
+      <br />
+      <section className={styles.section}>
+        <h2 className={styles.title}>Canciones Favoritas</h2>
           <p className={styles.paragraph}>
             Una selección que te hará bailar como un cyborg con exceso de cafeína.
           </p>
           <ul>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=Tt3F2x0RuZI" target="_blank" rel="noopener noreferrer">Runaway (U
-                & I) - Galantis</a>
-            </TextDecorator>
-            </li>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=xY66ucVK-RM" target="_blank" rel="noopener noreferrer">Good 4 Me
-                - Vindata</a>
-            </TextDecorator></li>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=zubYYZ0fTyQ" target="_blank" rel="noopener noreferrer">Cutting
-                Shapes - Don Diablo</a>
-            </TextDecorator></li>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=RhR_Z5wVvJM" target="_blank" rel="noopener noreferrer">Play -
-                Tokyo Machine</a>
-            </TextDecorator></li>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=XmIgg9De9hY" target="_blank" rel="noopener noreferrer">The Nights
-                - Avicii</a>
-            </TextDecorator></li>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=j43PGdl03WA" target="_blank" rel="noopener noreferrer">She Wants
-                Me Dead - CAZZETTE</a>
-            </TextDecorator></li>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=FgApngD5faY" target="_blank" rel="noopener noreferrer">Sillhouette
-                (Feed Me Remix)</a>
-            </TextDecorator></li>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=qcE__zJ4L6E" target="_blank" rel="noopener noreferrer">Still -
-                Glacier</a>
-            </TextDecorator></li>
-            <li>
-              <TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=A8pOVirjGF0" target="_blank" rel="noopener noreferrer">
-                Overkill - RIOT
-              </a>
-            </TextDecorator>
-            </li>
-            <li>
-              <TextDecorator color="skyblue" isUnderlined={true}>
-                <a href="https://www.youtube.com/watch?v=mype6RcMMmY" target="_blank" rel="noopener noreferrer">Jungle Fury - RIOT</a>
-            </TextDecorator>
-            </li>
+            <ul>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=Tt3F2x0RuZI" target="_blank" rel="noopener noreferrer">Runaway (U & I) - Galantis</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=xY66ucVK-RM" target="_blank" rel="noopener noreferrer">Good 4 Me - Vindata</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=zubYYZ0fTyQ" target="_blank" rel="noopener noreferrer">Cutting Shapes - Don Diablo</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=RhR_Z5wVvJM" target="_blank" rel="noopener noreferrer">Play - Tokyo Machine</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=XmIgg9De9hY" target="_blank" rel="noopener noreferrer">The Nights - Avicii</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=j43PGdl03WA" target="_blank" rel="noopener noreferrer">She Wants Me Dead - CAZZETTE</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=FgApngD5faY" target="_blank" rel="noopener noreferrer">Silhouette (Feed Me Remix)</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=qcE__zJ4L6E" target="_blank"
+                       rel="noopener noreferrer">Still - Glacier</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=A8pOVirjGF0" target="_blank"
+                       rel="noopener noreferrer">Overkill - RIOT</a>
+                    </span>
+              </li>
+              <li>
+                    <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
+                    <a href="https://www.youtube.com/watch?v=mype6RcMMmY" target="_blank"
+                       rel="noopener noreferrer">Jungle Fury - RIOT</a>
+                    </span>
+              </li>
+            </ul>
           </ul>
         </section>
         <br /><img
@@ -477,8 +475,10 @@ const FAQ = () => {
         alt="Unreal Engine 5" className={styles.image} />
         <br />
         <p className={styles.paragraph} style={{ textAlign: "center" }}>
-          ¡Muchas gracias por leer hasta el final!
-          <br/><br/>
+    <span className={styles.paragraph} style={{ color: "lime" }}>
+    ¡Muchas gracias por leer hasta el final!
+    </span>
+          <br /><br />
           Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
           saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
           encontrar los enlaces en el pie de página a continuación.
@@ -487,5 +487,4 @@ const FAQ = () => {
     </>
   );
 };
-
 export default FAQ;
