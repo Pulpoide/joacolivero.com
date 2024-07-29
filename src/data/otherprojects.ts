@@ -53,7 +53,7 @@ export const coverProjects: CoverProject[] = [
 		...projectMetadata.portfolio,
 		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.webp`,
 		description:
-			"Este sitio web destaca por su diseño negro y backend robusto, es completamente responsivo, logra altas puntuaciones en Rendimiento, Accesibilidad y SEO e integra eficientemente APIs, almacenamiento de datos y validación de formularios.",
+			"Este sitio web, con diseño en negro y backend robusto, es completamente responsivo y alcanza altas puntuaciones en Rendimiento, Accesibilidad y SEO. Incorpora APIs, almacenamiento de datos y validación de formularios, y utiliza despliegue automático con CI/CD para actualizaciones eficientes.",
 	},
 	{
 		...projectMetadata.thegreatchocolatecaper,
