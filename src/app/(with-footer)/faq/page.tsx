@@ -458,10 +458,18 @@ const FAQ = () => {
               <a href="https://www.youtube.com/watch?v=qcE__zJ4L6E" target="_blank" rel="noopener noreferrer">Still -
                 Glacier</a>
             </TextDecorator></li>
-            <li><TextDecorator color="skyblue" isUnderlined={true}>
-              <a href="https://www.youtube.com/watch?v=A8pOVirjGF0" target="_blank" rel="noopener noreferrer">Overkill -
-                RIOT</a>
-            </TextDecorator></li>
+            <li>
+              <TextDecorator color="skyblue" isUnderlined={true}>
+              <a href="https://www.youtube.com/watch?v=A8pOVirjGF0" target="_blank" rel="noopener noreferrer">
+                Overkill - RIOT
+              </a>
+            </TextDecorator>
+            </li>
+            <li>
+              <TextDecorator color="skyblue" isUnderlined={true}>
+                <a href="https://www.youtube.com/watch?v=mype6RcMMmY" target="_blank" rel="noopener noreferrer">Jungle Fury - RIOT</a>
+            </TextDecorator>
+            </li>
           </ul>
         </section>
         <br /><img
