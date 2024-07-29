@@ -38,9 +38,10 @@ export const projectMetadata = {
 
 export const coverProjects: CoverProject[] = [
 	{
-		...projectMetadata.unrealengineprojectcleaner,
-		imageUrl: `/assets/images/projects/otherprojectscover/unrealengineprojectcleaner.webp`,
-		description: "Script de línea de comandos que optimiza el mantenimiento de proyectos de Unreal Engine eliminando carpetas temporales de forma efectiva, segura y rápida.",
+		...projectMetadata.thedungeon,
+		imageUrl: `/assets/images/projects/otherprojectscover/thedungeon.webp`,
+		description:
+			"Prototipo de juego de puzzles y terror que desafía a los jugadores con acertijos envolventes en un ambiente oscuro y misterioso.",
 	},
 	{
 		...projectMetadata.arrayutils,
@@ -49,16 +50,16 @@ export const coverProjects: CoverProject[] = [
 			"Colección de funciones adaptadas de la Biblioteca de Plantillas Estándar (STL) de C++, diseñadas para interoperar con el lenguaje de scripting de Unreal Engine.",
 	},
 	{
-		...projectMetadata.hangman,
-		imageUrl: `/assets/images/projects/otherprojectscover/hangman.webp`,
+		...projectMetadata.portfolio,
+		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.webp`,
 		description:
-			"Implementación del juego clásico \"El Ahorcado\" en 333 líneas de código, disponible para jugar en línea",
+			"Este sitio web destaca por su diseño negro y backend robusto, es completamente responsivo, logra altas puntuaciones en Rendimiento, Accesibilidad y SEO e integra eficientemente APIs, almacenamiento de datos y validación de formularios.",
 	},
 	{
-		...projectMetadata.calculadorarendimientosmercadopago,
-		imageUrl: `/assets/images/projects/otherprojectscover/calculadorarendimientosmercadopago.webp`,
+		...projectMetadata.thegreatchocolatecaper,
+		imageUrl: `/assets/images/projects/otherprojectscover/thegreatchocolatecaper.webp`,
 		description:
-			"Herramienta web diseñada para calcular la ganancia de inversiones a lo largo del tiempo, ofreciendo una interfaz intuitiva y respuestas inmediatas.",
+			"Simulador interactivo donde el jugador asume el papel de una bola de chocolate intentando escapar de una casa laberíntica llena de robots hambrientos.",
 	},
 	{
 		...projectMetadata.pixelateddrift,
@@ -67,21 +68,20 @@ export const coverProjects: CoverProject[] = [
 			"Simulador de manejo ambientado en una ciudad gótica con gráficos al estilo de la PlayStation 2.",
 	},
 	{
-		...projectMetadata.portfolio,
-		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.webp`,
+		...projectMetadata.calculadorarendimientosmercadopago,
+		imageUrl: `/assets/images/projects/otherprojectscover/calculadorarendimientosmercadopago.webp`,
 		description:
-			"Este sitio web destaca por su diseño negro y backend robusto, es completamente responsivo, logra altas puntuaciones en Rendimiento, Accesibilidad y SEO e integra eficientemente APIs, almacenamiento de datos y validación de formularios.",
+			"Herramienta web diseñada para calcular la ganancia de inversiones a lo largo del tiempo, ofreciendo una interfaz intuitiva y respuestas inmediatas.",
 	},
 	{
-		...projectMetadata.thedungeon,
-		imageUrl: `/assets/images/projects/otherprojectscover/thedungeon.webp`,
-		description:
-			"Prototipo de juego de puzzles y terror que desafía a los jugadores con acertijos envolventes en un ambiente oscuro y misterioso.",
+		...projectMetadata.unrealengineprojectcleaner,
+		imageUrl: `/assets/images/projects/otherprojectscover/unrealengineprojectcleaner.webp`,
+		description: "Script de línea de comandos que optimiza el mantenimiento de proyectos de Unreal Engine eliminando carpetas temporales de forma efectiva, segura y rápida.",
 	},
 	{
-		...projectMetadata.thegreatchocolatecaper,
-		imageUrl: `/assets/images/projects/otherprojectscover/thegreatchocolatecaper.webp`,
+		...projectMetadata.hangman,
+		imageUrl: `/assets/images/projects/otherprojectscover/hangman.webp`,
 		description:
-			"Simulador interactivo donde el jugador asume el papel de una bola de chocolate intentando escapar de una casa laberíntica llena de robots hambrientos.",
+			"Implementación del juego clásico \"El Ahorcado\" en 333 líneas de código, disponible para jugar en línea",
 	},
 ]
