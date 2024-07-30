@@ -11,7 +11,7 @@ import { LanguageSwitcher } from "~/components/LanguageSwitcher"
 import { ContactDialog } from "~/components/ContactDialog"
 import { ThemeSwitcher } from "../ThemeSwitcher"
 import styles from "./MenuMobile.module.css"
-import { track } from '@vercel/analytics';
+import { track } from '@vercel/analytics'
 
 export const MenuMobile = () => {
 	const [open, setOpen] = useState(false)

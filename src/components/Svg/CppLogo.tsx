@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const CppLogo = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
 	<svg
@@ -34,6 +34,6 @@ const CppLogo = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGEle
 			fill="#000"
 		/>
 	</svg>
-);
+)
 
-export default CppLogo;
+export default CppLogo
