@@ -1,13 +1,13 @@
-import styles from "./SkillCard.module.css";
+import styles from "./SkillCard.module.css"
 
 interface Props {
-	icon: React.ReactNode;
-	brandColor: string;
-	name: string;
+	icon: React.ReactNode
+	brandColor: string
+	name: string
 }
 
 export const SkillCard: React.FC<Props> = ({ icon, brandColor, name }) => {
-	const customProperties = { "--color-brand": brandColor } as React.CSSProperties;
+	const customProperties = { "--color-brand": brandColor } as React.CSSProperties
 
 	return (
 		<a className={styles.card} style={customProperties}>
@@ -16,5 +16,5 @@ export const SkillCard: React.FC<Props> = ({ icon, brandColor, name }) => {
 				<span className={styles.skillName}>{name}</span>
 			</div>
 		</a>
-	);
-};
+	)
+}

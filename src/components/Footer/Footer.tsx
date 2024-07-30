@@ -1,10 +1,10 @@
-import { socialMediaLinks } from "~/data/links";
-import { Link } from "~/components/Ui/Link";
-import styles from "./Footer.module.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import { socialMediaLinks } from "~/data/links"
+import { Link } from "~/components/Ui/Link"
+import styles from "./Footer.module.css"
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
 export const Footer = () => {
-	const currentYear = new Date().getFullYear();
+	const currentYear = new Date().getFullYear()
 
 	return (
 		<footer className={styles.footer}>
@@ -21,5 +21,5 @@ export const Footer = () => {
 				</div>
 			</div>
 		</footer>
-	);
+	)
 }

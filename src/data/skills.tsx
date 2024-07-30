@@ -75,4 +75,4 @@ export const skills = [
 		icon: <CppLogo />,
 		brandColor: "#659AD2",
 	},
-];
+]

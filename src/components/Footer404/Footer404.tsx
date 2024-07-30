@@ -1,7 +1,7 @@
-import { socialMediaLinks } from "~/data/links";
-import { Link } from "~/components/Ui/Link";
-import styles from "./Footer404.module.css";
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import { socialMediaLinks } from "~/data/links"
+import { Link } from "~/components/Ui/Link"
+import styles from "./Footer404.module.css"
+import '@fortawesome/fontawesome-free/css/all.min.css'
 
 export const Footer404 = () => {
 
@@ -17,5 +17,5 @@ export const Footer404 = () => {
 				</div>
 			</div>
 		</footer>
-	);
+	)
 }

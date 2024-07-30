@@ -29,4 +29,4 @@ export const socialMediaLinks = [
 		icon: "fab fa-itch-io",
 		className: "itchio",
 	},
-];
+]

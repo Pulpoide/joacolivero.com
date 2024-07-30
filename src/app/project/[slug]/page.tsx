@@ -12,7 +12,9 @@ interface Props {
 export function generateMetadata({ params }: Props) {
 	const project = getProjectBySlug(params.slug)
 
-	if (!project) notFound()
+	if (!project) {
+		return notFound()
+	}
 
 	return {
 		title: `Max Comperatore - Proyecto | ${project.name}`,
