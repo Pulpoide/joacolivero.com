@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import type { CoverProject } from '~/types';
 import styles from './ProjectCard.module.css';
 
