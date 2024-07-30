@@ -6,7 +6,7 @@ import { ProjectCard } from "~/components/OtherProjectCard"
 export const metadata = {
 	title: "Max Comperatore - Blog",
 	description: "Tutoriales sobre desarrollo de software y videojuegos.",
-};
+}
 
 export default async function Blog() {
 
