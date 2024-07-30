@@ -1,9 +1,7 @@
-import { getPosts } from "~/helpers/get-posts";
-import { sortPostsByDate } from "~/helpers/sort-posts";
-import styles from "./page.module.css";
-import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
-import { coverProjects } from "~/data/otherprojects";
-import { ProjectCard } from "~/components/OtherProjectCard";
+import styles from "./page.module.css"
+import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
+import { coverProjects } from "~/data/otherprojects"
+import { ProjectCard } from "~/components/OtherProjectCard"
 
 export const metadata = {
 	title: "Max Comperatore - Blog",
@@ -11,8 +9,6 @@ export const metadata = {
 };
 
 export default async function Blog() {
-	const posts = await getPosts();
-	const sortedPosts = sortPostsByDate({ posts });
 
 	return (
 		<section className={styles.projectsWrapper}>
@@ -26,6 +22,5 @@ export default async function Blog() {
 				))}
 			</div>
 		</section>
-	);
+	)
 }
-

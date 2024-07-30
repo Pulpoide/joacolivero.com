@@ -6,7 +6,7 @@ Este proyecto es un fork del portafolio original de [Dresan](https://dresan.dev)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/pyoneerc/maxcomperatore.com)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fmaxcomperatore.com)
 ![GitHub License](https://img.shields.io/github/license/pyoneerc/maxcomperatore.com)
-
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/pyoneerc/maxcomperatore.com)
 
 ## Tabla de Contenidos
 

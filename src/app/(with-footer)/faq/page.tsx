@@ -24,8 +24,8 @@ const FAQ = () => {
             Mi camino en la programación comenzó en 2021, impulsado por mi interés por los videojuegos. Empecé con
             cursos
             básicos y bootcamps de desarollo web, y consolidé mi entusiasmo al colaborar en la aplicación de Android
-            "War Report for
-            Clash of Clans". Esta experiencia reforzó mi decisión de seguir una carrera en programación.
+            &quot;War Report for
+            Clash of Clans&quot;. Esta experiencia reforzó mi decisión de seguir una carrera en programación.
           </p>
           <p className={styles.paragraph}>
             Actualmente, estoy cursando el segundo semestre de la carrera de Desarrollo de Juegos, con un enfoque
@@ -488,6 +488,7 @@ const FAQ = () => {
         </p>
       </div>
     </>
-  );
-};
-export default FAQ;
+  )
+}
+
+export default FAQ
