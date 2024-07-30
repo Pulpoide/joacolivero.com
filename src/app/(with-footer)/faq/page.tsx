@@ -196,14 +196,6 @@ const FAQ = () => {
             </li>
             <li>
         <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
-        <a href="https://www.perplexity.ai" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Perplexity
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
         <a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer"
            style={{ color: "inherit", textDecoration: "inherit" }}>
         draw.io
