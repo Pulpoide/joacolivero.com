@@ -52,7 +52,7 @@ export const HeroSection = () => {
   return (
     <section aria-labelledby="hero-title" className={styles.section}>
       <h1 id="hero-title" className={`text-gradient ${styles.title}`}>
-        Max Comperatore, Desarrollador .NET y de Videojuegos
+        Max Comperatore, Desarrollador Backend y de Videojuegos
       </h1>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>

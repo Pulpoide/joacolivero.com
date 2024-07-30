@@ -1,16 +1,7 @@
 .section {
 	text-align: center;
 	padding-block-end: var(--space-block);
-}
-
-.phrase {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 16px;
-	padding: var(--space-inline);
-	color: var(--color-text-secondary);
+	padding-block-start: var(--space-block);
 }
 
 .title {
@@ -29,7 +20,7 @@
 }
 
 .introSubtitle {
-	padding: var(--space-inline);
+	padding: 10px;
 	font-size: clamp(18px, 17px + 0.141vw, 20px);
 	color: var(--color-text-secondary);
 	border-block-end: 1px dashed var(--color-stroke);
@@ -109,10 +100,16 @@
 
 	.section {
 		padding-block: var(--space-block-sm);
+		padding-top: 100px;
+		padding-bottom: 100px;
 	}
 
 	.buttonContainer {
 		margin: 8px 0;
+	}
+
+	.title {
+		margin-top: 60px;
 	}
 }
 
@@ -189,18 +186,4 @@
 	transition: border-block-color var(--theme-transition-duration);
 	pointer-events: none;
 	display: none;
-}
-
-@media screen and (min-width: 1025px) {
-	.actions {
-		gap: 8px;
-	}
-
-	.section {
-		padding-block: var(--space-block-sm);
-	}
-
-	.buttonContainer {
-		margin: 8px 0;
-	}
 }
