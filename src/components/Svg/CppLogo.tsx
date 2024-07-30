@@ -3,8 +3,8 @@ import React from 'react'
 const CppLogo = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
-		width={55}
-		height={55}
+		width={52}
+		height={52}
 		viewBox="2 2 30 30"
 		fill="none"
 		{...props}

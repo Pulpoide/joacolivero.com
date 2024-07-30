@@ -1,7 +1,7 @@
 import { PythonLogo } from "~/components/Svg/PythonLogo"
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo"
 import { AzureLogo } from "~/components/Svg/AzureLogo"
-import { BashLogo } from "~/components/Svg/BashLogo"
+import { RustLogo } from "~/components/Svg/RustLogo"
 import { TypescriptLogo } from "~/components/Svg/TypeScriptLogo"
 import { DotNetLogo } from "~/components/Svg/DotNetLogo"
 import { UnityLogo } from "~/components/Svg/UnityLogo"
@@ -33,27 +33,27 @@ export const skills = [
 		icon: <PostgreSqlLogo />,
 		brandColor: "#336791",
 	},
-	{
-		name: "MySQL",
-		icon: <MySQLLogo />,
-		brandColor: "#00758F",
-	},
-	{
-		name: "Bash",
-		icon: <BashLogo />,
-		brandColor: "#4EAA25",
-	},
+	//{
+	//	name: "MySQL",
+	//	icon: <MySQLLogo />,
+	//	brandColor: "#00758F",
+	//},
+	//{
+	//	name: "Rust",
+	//	icon: <RustLogo />,
+	//	brandColor: "#7A4929",
+	//},
 	// .NET related skills
-	{
-		name: "DotNet",
-		icon: <DotNetLogo />,
-		brandColor: "#5027D5",
-	},
-	{
-		name: "Azure",
-		icon: <AzureLogo />,
-		brandColor: "#007FFF",
-	},
+	//{
+	//	name: "DotNet",
+	//	icon: <DotNetLogo />,
+	//	brandColor: "#5027D5",
+	//},
+	//{
+	//	name: "Azure",
+	//	icon: <AzureLogo />,
+	//	brandColor: "#007FFF",
+	//},
 	{
 		name: "C#",
 		icon: <CsharpLogo />,
