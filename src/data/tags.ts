@@ -23,4 +23,5 @@ export const Tag = {
 	javascript: "JavaScript",
 	powershell: "PowerShell",
 	cli: "CLI",
+	rust: "Rust",
 }

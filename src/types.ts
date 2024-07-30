@@ -12,3 +12,8 @@ export interface Post {
 	emoji: string
 	publishedOn: string
 }
+
+export interface CoverProjectOther extends CoverProject {
+	tags?: string[]
+	link?: string
+}

@@ -19,3 +19,21 @@
     gap: 45px;
     padding: 20px;
 }
+
+.tag {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    cursor: url("/assets/cursor/hand-pointer.png"), auto;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.tag:hover {
+    background-color: #333; /* Cambio de color al pasar el ratón */
+}
