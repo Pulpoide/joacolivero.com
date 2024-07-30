@@ -101,7 +101,7 @@ export const HeroSection = () => {
         </Button>
         <CopyEmailSmallButton className={styles.copyEmailButton} />
         <ScrollToTopButton />
-        <img src="assets/images/projects/otherprojectscover/portfolio.webp" alt="Max Comperatore - Desarrollador Backend y de Videojuegos" style={{display: "none"}} />
+        <img src="assets/images/projects/otherprojectscover/portfolio.webp" alt="Max Comperatore - Desarrollador Backend y de Videojuegos" style={{opacity: 0}} />
       </div>
     </section>
   );
