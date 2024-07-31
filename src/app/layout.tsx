@@ -31,18 +31,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<meta property="og:title" content="Max Comperatore - Desarrollador Backend y de Videojuegos" />
 			<meta property="og:description"
 						content="Portafolio personal de Max Comperatore que muestra proyectos y habilidades en desarrollo backend y de videojuegos."
-						style={{ width: 1200, height: 628 }} />
+						style={{ width: 1200, height: 630 }} />
 			<meta property="og:image"
 						content="https://maxcomperatore.com/assets/images/projects/otherprojectscover/portfolio.webp" />
 			{/* Twitter */}
 			<meta name="twitter:card" content="summary_large_image" />
+			<meta property="twitter:title" content="Max Comperatore - Desarrollador Backend y de Videojuegos" />
+			<meta property="twitter:description"
+						content="Portafolio personal de Max Comperatore que muestra proyectos y habilidades en desarrollo backend y de videojuegos." />
+			<meta property="twitter:image"
+						content="https://maxcomperatore.com/assets/images/projects/otherprojectscover/portfolio.webp" style={{ width: 1200, height: 630 }} />
 			<meta property="og:url" content="https://maxcomperatore.com/" />
 			<meta property="og:title" content="Max Comperatore - Desarrollador Backend y de Videojuegos" />
 			<meta property="og:description"
 						content="Portafolio personal de Max Comperatore que muestra proyectos y habilidades en desarrollo backend y de videojuegos." />
 			<meta property="og:image"
 						content="https://maxcomperatore.com/assets/images/projects/otherprojectscover/portfolio.webp"
-						style={{ width: 1200, height: 628 }} />
+						style={{ width: 1200, height: 630 }} />
 			<meta property="twitter:creator" content="@pyoneerC" />
 			<meta property="twitter:site" content="@pyoneerC" />
 
