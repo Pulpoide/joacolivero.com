@@ -20,7 +20,7 @@ export default async function Blog() {
 			<Link className={styles.goHomeLink} href="/">
 				← Volver a la página principal
 			</Link>
-			<Link className={styles.goHomeLink} href="/">
+			<Link className={styles.goHomeLink} href="/faq">
 				← Ir al FAQ
 			</Link>
 			<div className={styles.postsWrapper}>

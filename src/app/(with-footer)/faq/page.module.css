@@ -31,12 +31,19 @@
     max-width: 200px;
     width: 100%;
     box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.goHomeLink:hover {
-    background-color: #211f1f;
+.dark .goHomeLink:hover {
+    background-color: #1F1F1F;
+    color: #fff;
     border-radius: 5px;
-    transition: background-color 0.3s;
+}
+
+.white .goHomeLink:hover {
+    background-color: #e3e3e3;
+    color: #000;
+    border-radius: 5px;
 }
 
 .section {
