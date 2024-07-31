@@ -90,6 +90,7 @@ export const coverProjects: CoverProjectOther[] = [
 		imageUrl: `/assets/images/projects/otherprojectscover/unrealengineprojectcleaner.webp`,
 		description: "Script de línea de comandos que optimiza el mantenimiento de proyectos de Unreal Engine eliminando carpetas temporales de forma efectiva, segura y rápida.",
 		tags: [Tag.powershell, Tag.cli],
+		link: "https://github.com/pyoneerC/Unreal-Engine-Project-Cleaner"
 	},
 	{
 		...projectMetadata.hangman,
@@ -97,5 +98,6 @@ export const coverProjects: CoverProjectOther[] = [
 		description:
 			"Implementación del juego clásico \"El Ahorcado\" en 333 líneas de código, disponible para jugar en línea",
 		tags: [Tag.cPlusPlus, Tag.cli],
+		link: "https://github.com/pyoneerC/hangman"
 	},
 ]
