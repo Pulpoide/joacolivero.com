@@ -11,6 +11,9 @@ export const ProjectsSection = () => {
 					<ProjectCard key={project.name} {...project} />
 				))}
 			</div>
+			<a href={"/Otherprojects"} className={styles.link}>
+				Ver más proyectos
+			</a>
 		</section>
 	)
 }

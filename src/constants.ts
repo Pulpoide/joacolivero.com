@@ -11,8 +11,4 @@ export const APP_ROUTES = [
 		href: "/faq",
 		label: "FAQ",
 	},
-	{
-		href: "/Otherprojects",
-		label: "Otros projectos",
-	},
 ]
