@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<title>{metadata.title}</title>
 			<meta name="description"
-						content="Portafolio personal de Max Comperatore que muestra proyectos y habilidades en desarrollo backend y de videojuegos." />
+						content="Descubre soluciones avanzadas en backend y desarrollo de videojuegos con Max." />
 			<meta name="author" content="Max Comperatore" />
 			<meta name="creator" content="Max Comperatore" />
 			<meta property="og:image"
@@ -30,21 +30,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			<meta property="og:url" content="https://maxcomperatore.com/" />
 			<meta property="og:title" content="Max Comperatore - Desarrollador Backend y de Videojuegos" />
 			<meta property="og:description"
-						content="Portafolio personal de Max Comperatore que muestra proyectos y habilidades en desarrollo backend y de videojuegos."
-						style={{ width: 1200, height: 630 }} />
+						content="Descubre soluciones avanzadas en backend y desarrollo de videojuegos con Max." />
 			<meta property="og:image"
-						content="https://maxcomperatore.com/assets/images/projects/otherprojectscover/portfolio.webp" />
+						content="https://maxcomperatore.com/assets/images/projects/otherprojectscover/portfolio.webp"
+						style={{ width: 1200, height: 630 }} />
 			{/* Twitter */}
 			<meta name="twitter:card" content="summary_large_image" />
 			<meta property="twitter:title" content="Max Comperatore - Desarrollador Backend y de Videojuegos" />
 			<meta property="twitter:description"
-						content="Portafolio personal de Max Comperatore que muestra proyectos y habilidades en desarrollo backend y de videojuegos." />
+						content="Descubre soluciones avanzadas en backend y desarrollo de videojuegos con Max." />
 			<meta property="twitter:image"
-						content="https://maxcomperatore.com/assets/images/projects/otherprojectscover/portfolio.webp" style={{ width: 1200, height: 630 }} />
+						content="https://maxcomperatore.com/assets/images/projects/otherprojectscover/portfolio.webp"
+						style={{ width: 1200, height: 630 }} />
 			<meta property="og:url" content="https://maxcomperatore.com/" />
 			<meta property="og:title" content="Max Comperatore - Desarrollador Backend y de Videojuegos" />
 			<meta property="og:description"
-						content="Portafolio personal de Max Comperatore que muestra proyectos y habilidades en desarrollo backend y de videojuegos." />
+						content="Descubre soluciones avanzadas en backend y desarrollo de videojuegos con Max." />
 			<meta property="og:image"
 						content="https://maxcomperatore.com/assets/images/projects/otherprojectscover/portfolio.webp"
 						style={{ width: 1200, height: 630 }} />
