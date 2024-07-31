@@ -6,7 +6,7 @@ export const ContactSection = () => {
 	return (
 		<section className={clsx("section-wrapper", styles.section)}>
 			<h2 className={styles.title}>
-				<span>¿Quieres colaborar en un proyecto?</span>
+				<span>¿Quieres iniciar un proyecto?</span>
 			</h2>
 			<CopyEmailButton />
 		</section>
