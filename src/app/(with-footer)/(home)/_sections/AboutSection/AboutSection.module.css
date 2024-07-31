@@ -1,5 +1,5 @@
 .section-wrapper {
-	padding: 20px;
+	padding: 20px 40px; 
 	max-width: 1200px;
 	margin: 0 auto;
 }
@@ -29,7 +29,6 @@
 	font-size: 1.1em;
 	color: var(--text-color);
 	margin-bottom: 15px;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 	text-align: justify;
 }
 
@@ -56,7 +55,7 @@
 	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	.aboutMeContainer {
 		flex-direction: row;
 		align-items: center;
@@ -78,6 +77,21 @@
 	}
 }
 
+@media (min-width: 1025px) {
+	.section-wrapper {
+		padding: 20px 100px;
+	}
+
+	.textWrapper, .paragraph {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.aboutMeContainer {
+		padding: 20px 80px;
+	}
+}
+
 @media (max-width: 767px) {
 	.photoWrapper {
 		justify-content: center;
@@ -89,30 +103,20 @@
 	}
 }
 
+@media (min-width: 1024px) {
+	.paragraph {
+		margin-bottom: 30px;
+	}
+}
+
 body.dark .title,
 body.dark .textWrapper,
 body.dark .paragraph {
 	color: #f1f1f1;
 }
 
-body.dark .photo {
-	filter: grayscale(100%) brightness(50%);
-}
-
-body.dark .photoWrapper:hover .photo {
-	filter: grayscale(0%) brightness(70%);
-}
-
 body.light .title,
 body.light .textWrapper,
 body.light .paragraph {
 	color: #030303;
-}
-
-body.light .photo {
-	filter: grayscale(100%) brightness(70%);
-}
-
-body.light .photoWrapper:hover .photo {
-	filter: grayscale(0%) brightness(100%);
 }
