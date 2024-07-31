@@ -1,3 +1,4 @@
+/* General Styles */
 .menu {
 	--items-padding: 12px;
 	position: fixed;
@@ -7,11 +8,13 @@
 	justify-content: center;
 	block-size: calc(100dvh - var(--header-block-size));
 	padding-inline: var(--items-padding);
-	background-color: var(--color-background);
 	overflow-y: auto;
 	visibility: hidden;
 	opacity: 0;
 	transition: visibility 300ms, opacity 300ms, background-color var(--theme-transition-duration);
+	z-index: 1000;
+	backdrop-filter: blur(10px); /* Add blur to background */
+	background: rgba(0, 0, 0, 0.8); /* Dark overlay */
 }
 
 .menu.open {
@@ -39,6 +42,14 @@
 	color: var(--color-text-secondary);
 	text-align: center;
 	width: 100%;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.navLink:hover {
+	background-color: var(--color-hover-background);
+	color: var(--color-hover-text);
 }
 
 .optionsWrapper {
@@ -50,6 +61,18 @@
 
 .contactButton {
 	margin-inline: var(--items-padding);
+	background-color: var(--color-button-background);
+	color: var(--color-button-text);
+	border: none;
+	padding: 12px;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 1em;
+}
+
+.contactButton:hover {
+	background-color: var(--color-button-hover-background);
 }
 
 .themeWrapper {
@@ -75,6 +98,7 @@
 	background-color: transparent;
 	padding-inline: 0;
 	-webkit-tap-highlight-color: transparent;
+	cursor: pointer;
 }
 
 .buttonLine {
@@ -101,25 +125,56 @@
 	}
 }
 
-.menu {
-	--items-padding: 12px;
-	position: fixed;
-	inset: var(--header-block-size) 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	block-size: calc(100dvh - var(--header-block-size));
-	padding-inline: var(--items-padding);
-	background-color: rgba(0, 0, 0, 0.925);
-	overflow-y: auto;
-	visibility: hidden;
-	opacity: 0;
-	transition: visibility 300ms, opacity 300ms, background-color var(--theme-transition-duration);
-	z-index: 1000;
+/* Dark Theme */
+.dark .menu {
+	background-color: rgba(0, 0, 0, 0.9);
 }
 
+.dark .navLink {
+	color: #e0e0e0;
+}
 
-.menu.open {
-	visibility: visible;
-	opacity: 1;
+.dark .navLink:hover {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.dark .contactButton {
+	background-color: #444444;
+	color: #e0e0e0;
+}
+
+.dark .contactButton:hover {
+	background-color: #555555;
+}
+
+.dark .themeWrapper {
+	border-block-start-color: #444444;
+}
+
+/* Light Theme */
+.light .menu {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.light .navLink {
+	color: #333333;
+}
+
+.light .navLink:hover {
+	background-color: #eeeeee;
+	color: #333333;
+}
+
+.light .contactButton {
+	background-color: #dddddd;
+	color: #333333;
+}
+
+.light .contactButton:hover {
+	background-color: #cccccc;
+}
+
+.light .themeWrapper {
+	border-block-start-color: #dddddd;
 }
