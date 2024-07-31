@@ -28,7 +28,7 @@ const ContactForm = () => {
 			.then(response => response.json())
 			.then(data => {
 				if (data.ok) {
-					setResponseMessage("Gracias por tu mensaje ❤️, responderé lo antes posible.")
+					setResponseMessage("Gracias por tu consulta. Responderé a la brevedad.")
 					setHasError(false)
 					formRef.current?.reset()
 				} else {
