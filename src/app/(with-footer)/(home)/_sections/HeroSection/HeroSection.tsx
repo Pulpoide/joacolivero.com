@@ -52,8 +52,9 @@ export const HeroSection = () => {
   return (
     <section aria-labelledby="hero-title" className={styles.section}>
       <h1 id="hero-title" className={`text-gradient ${styles.title}`}>
-        Max Comperatore, Desarrollador Backend y de Videojuegos
+        Max Comperatore
       </h1>
+      <h2 className={styles.subtitle}>Desarrollador Backend y de Videojuegos</h2>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
           Desarrollador y estudiante pragmático, centrado en la calidad en cada fase del desarrollo.
@@ -67,7 +68,7 @@ export const HeroSection = () => {
             width="30"
             height="20"
             loading="lazy"
-          /> <br/> <Clock className={styles.clock} />
+          /> <br /> <Clock className={styles.clock} />
         </p>
       </div>
       <div className={styles.buttonContainer}>
