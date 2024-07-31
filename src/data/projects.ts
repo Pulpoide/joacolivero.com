@@ -10,9 +10,9 @@ export const projectMetadata = {
 		slug: "monedasAPI",
 		name: "Monedas API",
 	},
-	hillclimbracing: {
-		slug: "hillclimbracing",
-		name: "Hill Climb Racing",
+	TheDungeon: {
+		slug: "the-dungeon",
+		name: "The Dungeon",
 	},
 }
 
@@ -29,10 +29,10 @@ export const coverProjects: CoverProject[] = [
 			"API RESTful para obtener los precios más recientes de divisas extranjeras en Argentina.",
 	},
 	{
-		...projectMetadata.hillclimbracing,
-		imageUrl: `/assets/images/projects/cover/hcr.webp`,
+		...projectMetadata.TheDungeon,
+		imageUrl: `/assets/images/projects/otherprojectscover/thedungeon.webp`,
 		description:
-			"Hill Climb Racing recreado en Unity.",
+			"Juego de puzzles y terror que combina acertijos desafiantes en un entorno oscuro y misterioso."
 	},
 ]
 
@@ -99,7 +99,7 @@ export const projects = [
 		],
 	},
 	{
-		...projectMetadata.hillclimbracing,
+		...projectMetadata.TheDungeon,
 		index: 2,
 		description:
 			"Este proyecto es una reimplementación del popular juego móvil Hill Climb Racing, construido con el motor de juegos Unity. Tiene como objetivo recrear la adictiva experiencia de juego con características y mejoras adicionales. Sumérgete en un mundo con un nivel hecho a mano, coleccionables, efectos de sonido inmersivos, una interfaz intuitiva y una física deliciosamente inestable diseñada para desafiar y entretener.",
@@ -124,8 +124,9 @@ export const projects = [
 		],
 		tags:
 		[
-			Tag.unity,
-			Tag.cSharp
+			Tag.unrealEngine,
+			Tag.blueprints,
+			Tag.cPlusPlus
 		],
 	},
 ]
