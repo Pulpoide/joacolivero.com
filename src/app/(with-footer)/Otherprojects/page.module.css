@@ -1,39 +1,119 @@
-.cardStyle {
-    margin: 20px;
-    padding: 15px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease-in-out;
-    width: 300px;
-    box-sizing: border-box;
-}
-
-.cardStyle:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-}
-
 .projectsWrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 45px;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
     padding: 20px;
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 45px;
+    width: 100%;
+    padding: 20px;
+}
+
+@media (max-width: 1200px) {
+    .projectsGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .projectsGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .projectsGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.projectCard {
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #e3e3e3;
+    color: #000;
+    border-radius: 10px;
+}
+
+@keyframes hoverEffect {
+
+    0%,
+    100% {
+        transform: scale(1.05) rotate(0deg) translate(0, 0);
+    }
+
+    33% {
+        transform: scale(1.05) rotate(3deg) translate(3px, -3px);
+    }
+
+    66% {
+        transform: scale(1.05) rotate(-3deg) translate(-3px, 3px);
+    }
+
+    99% {
+        transform: scale(1.05) rotate(0deg) translate(0, 0);
+    }
+}
+
+.projectCard:hover {
+    animation: hoverEffect 0.5s ease-in-out forwards;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .tag {
     display: inline-block;
     background-color: #000;
-    color: #fff;
+    color: #e3e3e3;
     padding: 5px 10px;
     margin: 5px;
     font-size: 14px;
     border-radius: 20px;
     font-weight: 500;
-    text-transform: lowercase;
-    cursor: url("/assets/cursor/hand-pointer.png"), auto;
-    transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .tag:hover {
-    background-color: #333; /* Cambio de color al pasar el ratón */
+    background-color: #333;
+}
+
+.dark .projectCard {
+    background-color: #333;
+    color: #5e5a5a;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.dark .projectCard:hover {
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.15);
+}
+
+.dark .tag {
+    background-color: #5e5a5a;
+    color: #000;
+}
+
+.dark .tag:hover {
+    background-color: #ccc;
+}
+
+@media (max-width: 600px) {
+    .projectCard {
+        padding: 10px;
+        width: calc(100% - 40px);
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .tag {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
 }
