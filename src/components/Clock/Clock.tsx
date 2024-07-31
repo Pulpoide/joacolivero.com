@@ -27,16 +27,17 @@ const Clock = ({ className }) => {
 		return () => clearTimeout(timeoutId);
 	}, []);
 
-	const formatTime = (date) => {
+	const formatTime = (date: Date) => {
 		const options = {
 			hour: '2-digit',
 			minute: '2-digit',
 			hour12: false,
 		};
+		// @ts-ignore
 		return date.toLocaleTimeString('es-AR', options);
 	};
 
-	const getLocalTime = (date) => {
+	const getLocalTime = (date: Date) => {
 		const localTime = new Date(date.toLocaleString('en-US', { timeZone: 'America/Argentina/Buenos_Aires' }));
 		return formatTime(localTime);
 	};
