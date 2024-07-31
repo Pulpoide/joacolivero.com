@@ -19,7 +19,7 @@
     margin-bottom: 15px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     text-align: justify;
-    padding: 0 20px;
+    padding: 0 210px;
 }
 
 .goHomeLink {
@@ -72,6 +72,24 @@
 
     .section {
         padding: 0 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .title {
+        padding: 0 10px; 
+    }
+
+    .paragraph {
+        padding: 0 50px;
+    }
+
+    .section {
+        padding: 0 10px;
+    }
+
+    .goHomeLink {
+        padding: 8px;
     }
 }
 
