@@ -7,7 +7,6 @@
 	justify-content: center;
 	block-size: var(--header-block-size);
 	padding-inline: 24px;
-	background-color: hsl(var(--color-background-hsl) / 0.8);
 	backdrop-filter: saturate(180%) blur(5px);
 	border-block-end: 1px solid var(--color-stroke);
 	transition: border-block-end-color var(--theme-transition-duration),
@@ -35,14 +34,12 @@
 
 .homeLogo {
 	transition: transform 0.3s ease, filter 0.3s ease, color 0.5s ease;
-	color: #ffffff;
 	animation: flicker 4s linear, lightOn 5s forwards;
 }
 
 .homeLogo:hover {
 	filter: brightness(1.3);
 	transform: rotate(-6deg) scale(1.1);
-	color: #656363;
 }
 
 .nav {
@@ -82,13 +79,40 @@
 }
 
 @keyframes flicker {
-	0%, 8%, 18%, 30%, 42%, 50%, 60%, 70%, 85%, 100% {
+	0%,
+	8%,
+	18%,
+	30%,
+	42%,
+	50%,
+	60%,
+	70%,
+	85%,
+	100% {
 		opacity: 1;
 	}
-	5%, 15%, 25%, 35%, 45%, 55%, 65%, 75%, 80%, 90% {
+	5%,
+	15%,
+	25%,
+	35%,
+	45%,
+	55%,
+	65%,
+	75%,
+	80%,
+	90% {
 		opacity: 0.2;
 	}
-	10%, 20%, 28%, 40%, 48%, 58%, 68%, 78%, 88%, 95% {
+	10%,
+	20%,
+	28%,
+	40%,
+	48%,
+	58%,
+	68%,
+	78%,
+	88%,
+	95% {
 		opacity: 0.5;
 	}
 }
@@ -100,4 +124,42 @@
 	100% {
 		filter: brightness(1);
 	}
+}
+
+.light {
+	--color-background: hsl(0, 0%, 100%);
+	--color-stroke: hsl(0, 0%, 80%);
+	--theme-transition-duration: 0.3s;
+}
+
+.light .header {
+	background-color: var(--color-background);
+	border-block-end-color: var(--color-stroke);
+}
+
+.light .homeLogo {
+	color: #000;
+}
+
+.light .homeLogo:hover {
+	color: #333;
+}
+
+.dark {
+	--color-background: hsl(0, 0%, 10%);
+	--color-stroke: hsl(0, 0%, 20%);
+	--theme-transition-duration: 0.3s;
+}
+
+.dark .header {
+	background-color: var(--color-background);
+	border-block-end-color: var(--color-stroke);
+}
+
+.dark .homeLogo {
+	color: #fff;
+}
+
+.dark .homeLogo:hover {
+	color: #ccc;
 }
