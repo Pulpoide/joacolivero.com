@@ -93,12 +93,12 @@ const ContactForm = () => {
 		<form ref={formRef} onSubmit={handleSubmit} className={styles.form} method="POST">
 			<Label>
 				<span className={styles.labelWrapper}>Nombre</span>
-				<Input placeholder="Alfredo Linux" name="name" autoComplete="name" required />
+				<Input placeholder="Ingrese su nombre completo" name="name" autoComplete="name" required />
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Correo</span>
 				<Input
-					placeholder="alfredlinux@gmail.com"
+					placeholder="ejemplo@correo.com"
 					type="email"
 					name="email"
 					autoComplete="email"
@@ -108,7 +108,7 @@ const ContactForm = () => {
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Mensaje</span>
-				<Textarea placeholder="Hola Max, [Insertar Mensaje]" name="message" required />
+				<Textarea placeholder="Escriba su mensaje aquí" name="message" required />
 			</Label>
 			<Button type="submit" size="medium">
 				Enviar
