@@ -18,7 +18,7 @@ export const AboutSection = () => {
 				</div>
 				<div className={styles.textWrapper}>
 					<p className={styles.paragraph}>
-						Conoce a <strong>Máximo Comperatore</strong>, un aspirante a desarrollador especializado en <strong>Backend con .NET</strong> y <strong>Desarrollo de Videojuegos</strong>.
+						Conoce a <strong>Máximo Comperatore</strong>, un aspirante a desarrollador especializado en <strong>Backend</strong> y <strong>Desarrollo de Videojuegos</strong>.
 					</p>
 					<p className={styles.paragraph}>
 						Actualmente, estoy cursando estudios en <strong>Desarrollo de Videojuegos en la Universidad de Mendoza</strong> y también soy <strong>autodidacta</strong>, buscando constantemente nuevas formas de expandir mis conocimientos y habilidades.

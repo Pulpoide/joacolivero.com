@@ -96,7 +96,7 @@ export const coverProjects: CoverProjectOther[] = [
 		...projectMetadata.hangman,
 		imageUrl: `/assets/images/projects/otherprojectscover/hangman.webp`,
 		description:
-			"Implementación del juego clásico \"El Ahorcado\" en 333 líneas de código, disponible para jugar en línea",
+			"Implementación del juego clásico \"El Ahorcado\" en 333 líneas de código, disponible para jugar en línea.",
 		tags: [Tag.cPlusPlus, Tag.cli],
 		link: "https://github.com/pyoneerC/hangman"
 	},
