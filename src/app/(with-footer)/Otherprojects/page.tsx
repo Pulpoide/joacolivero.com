@@ -21,12 +21,12 @@ export default function Blog() {
 					<div key={project.name} className={styles.projectCard}>
 						<a href={project.link} target="_blank" rel="noopener noreferrer">
 							<ProjectCard {...project} />
+						</a>
 							<div className={styles.tags}>
 								{project.tags?.map((tag) => (
 									<span key={tag} className={styles.tag}>{tag}</span>
 								))}
 							</div>
-						</a>
 					</div>
 				))}
 			</div>
