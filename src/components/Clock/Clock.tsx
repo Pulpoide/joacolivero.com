@@ -5,6 +5,7 @@ import styles from './Clock.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClock } from '@fortawesome/free-solid-svg-icons';
 
+// @ts-ignore
 const Clock = ({ className }) => {
 	const [time, setTime] = useState(new Date());
 
