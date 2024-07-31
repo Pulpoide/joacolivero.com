@@ -1,14 +1,10 @@
 import { PythonLogo } from "~/components/Svg/PythonLogo"
 import { PostgreSqlLogo } from "~/components/Svg/PostgreSqlLogo"
-import { AzureLogo } from "~/components/Svg/AzureLogo"
-import { RustLogo } from "~/components/Svg/RustLogo"
 import { TypescriptLogo } from "~/components/Svg/TypeScriptLogo"
-import { DotNetLogo } from "~/components/Svg/DotNetLogo"
 import { UnityLogo } from "~/components/Svg/UnityLogo"
 import { UnrealLogo } from "~/components/Svg/UnrealEngineLogo"
 import { CsharpLogo } from "~/components/Svg/CsharpLogo"
 import CppLogo from "~/components/Svg/CppLogo"
-import { MySQLLogo } from "~/components/Svg/MySQLLogo"
 import { ExpressLogo } from "~/components/Svg/ExpressLogo"
 
 export const skills = [
