@@ -12,7 +12,7 @@ export default function Blog() {
 	return (
 		<section className={styles.projectsWrapper}>
 			<h2 className={styles.title}>Otros proyectos</h2>
-			<p className={styles.description}>
+			<p className={styles.paragraph}>
 				Estos son algunos de los proyectos que he desarrollado en mi tiempo libre.
 			</p>
 
