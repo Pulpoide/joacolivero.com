@@ -1,17 +1,24 @@
-"use client"
+"use client";
 
-import { useTheme } from "next-themes"
-import styles from "./ThemeSwitcher.module.css"
+import { useEffect, useState } from "react";
+import { useTheme } from "next-themes";
+import styles from "./ThemeSwitcher.module.css";
 
 export const ThemeSwitcher = () => {
-	const { theme, setTheme } = useTheme()
-	const isLightMode = theme === "light"
-	const oppositeThemeName = isLightMode ? "oscuro" : "claro"
+	const { theme, setTheme } = useTheme();
+	const [isLightMode, setIsLightMode] = useState(theme === "light");
+
+	useEffect(() => {
+		setIsLightMode(theme === "light");
+	}, [theme]);
+
+	const oppositeThemeName = isLightMode ? "oscuro" : "claro";
 
 	const handleOnClick = () => {
-		const oppositeTheme = isLightMode ? "dark" : "light"
-		setTheme(oppositeTheme)
-	}
+		const oppositeTheme = isLightMode ? "dark" : "light";
+		setTheme(oppositeTheme);
+		setIsLightMode(!isLightMode);
+	};
 
 	return (
 		<button
@@ -48,5 +55,5 @@ export const ThemeSwitcher = () => {
 				</g>
 			</svg>
 		</button>
-	)
-}
+	);
+};
