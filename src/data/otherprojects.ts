@@ -57,7 +57,7 @@ export const coverProjects: CoverProjectOther[] = [
 		...projectMetadata.portfolio,
 		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.webp`,
 		description:
-			"Este sitio web, con diseño en negro y backend robusto, es completamente responsivo y alcanza altas puntuaciones en Rendimiento, Accesibilidad y SEO. Incorpora APIs, almacenamiento de datos y validación de formularios, y utiliza despliegue automático con CI/CD para actualizaciones eficientes.",
+			"Sitio web con diseño oscuro y backend robusto, optimizado para alto rendimiento, accesibilidad y SEO. Incorpora APIs avanzadas, gestión de datos y validación de formularios, con despliegue automático vía CI/CD.",
 		tags: [Tag.typescript, Tag.nextjs, Tag.css, Tag.postgreSQL],
 		link: "https://github.com/pyoneerC/maxcomperatore.com"
 	},
