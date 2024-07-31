@@ -6,6 +6,8 @@
 	display: grid;
 	gap: 32px;
 	margin-block-start: 32px;
+	position: relative;
+	justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,9 +18,31 @@
 	}
 }
 
+@media screen and (min-width: 1200px) {
+	.projectsWrapper {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}
+
+.projectCard {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.buttonWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column: 1 / -1;
+	grid-row: auto;
+	justify-self: center;
+	margin-top: 32px;
+}
+
 .link {
 	display: inline-block;
-	margin: 40px auto;
 	padding: 12px 24px;
 	font-size: 1.25rem;
 	color: #fff;
@@ -27,18 +51,57 @@
 	border-radius: 5px;
 	text-align: center;
 	text-decoration: none;
-	transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+	transition: background-color 0.3s ease, box-shadow 0.3s ease;
 	cursor: pointer;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .link:hover {
 	background-color: #1F1F1F;
-	transform: translateY(-2px);
 	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .link:active {
-	transform: translateY(0);
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 767px) {
+	.buttonWrapper {
+		grid-column: 1 / -1;
+		justify-content: center;
+		margin: 20px auto;
+	}
+
+	.link {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.projectsWrapper {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		max-inline-size: var(--max-inline-size);
+		margin: 48px auto 0;
+	}
+	.buttonWrapper {
+		grid-column: 1 / -1;
+		justify-content: center;
+		margin: 20px auto;
+	}
+	.link {
+		display: block;
+		margin: auto;
+		text-align: center;
+		width: 100%;
+		justify-content: center;
+
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.projectsWrapper {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
 }

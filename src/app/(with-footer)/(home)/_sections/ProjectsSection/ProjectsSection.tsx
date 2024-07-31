@@ -1,6 +1,6 @@
-import { coverProjects } from "~/data/projects"
-import { ProjectCard } from "~/components/ProjectCard"
-import styles from "./ProjectsSection.module.css"
+import { coverProjects } from "~/data/projects";
+import { ProjectCard } from "~/components/ProjectCard";
+import styles from "./ProjectsSection.module.css";
 
 export const ProjectsSection = () => {
 	return (
@@ -10,10 +10,12 @@ export const ProjectsSection = () => {
 				{coverProjects.map((project) => (
 					<ProjectCard key={project.name} {...project} />
 				))}
+				<div className={"styles.button-wrapper"}>
+					<a href="/Otherprojects" className={styles.link}>
+						Ver más proyectos
+					</a>
+				</div>
 			</div>
-			<a href={"/Otherprojects"} className={styles.link}>
-				Ver más proyectos
-			</a>
 		</section>
-	)
-}
+	);
+};

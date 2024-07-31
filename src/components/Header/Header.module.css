@@ -7,7 +7,7 @@
 	justify-content: center;
 	block-size: var(--header-block-size);
 	padding-inline: 24px;
-	backdrop-filter: saturate(180%) blur(5px);
+	backdrop-filter: saturate(180%) blur(1px);
 	border-block-end: 1px solid var(--color-stroke);
 	transition: border-block-end-color var(--theme-transition-duration),
 	background-color var(--theme-transition-duration);
