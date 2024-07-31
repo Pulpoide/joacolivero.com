@@ -20,6 +20,9 @@ export default async function Blog() {
 			<Link className={styles.goHomeLink} href="/">
 				← Volver a la página principal
 			</Link>
+			<Link className={styles.goHomeLink} href="/">
+				← Ir al FAQ
+			</Link>
 			<div className={styles.postsWrapper}>
 				{sortedPosts.map((post) => (
 					<PostCard key={post.slug} {...post} />
