@@ -18,11 +18,11 @@ Este proyecto es un fork del portafolio original de [Dresan](https://dresan.dev)
 - [Licencia](#licencia)
 - [Contacto](#contacto)
 
-![Captura de Pantalla en IPHONE X](/public/assets/readme/iphonex.png)
+![Captura de Pantalla en IPHONE X](/public/assets/readme/iphonex.jpg)
 ---
-![Captura de Pantalla en MAC](/public/assets/readme/mac.png)
+![Captura de Pantalla en MAC](/public/assets/readme/mac.jpg)
 ---
-![Captura de Pantalla en TABLET](/public/assets/readme/tablet.png)
+![Captura de Pantalla en TABLET](/public/assets/readme/tablet.jpg)
 
 ## Estructura del Proyecto
 
