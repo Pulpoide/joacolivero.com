@@ -102,7 +102,7 @@ export const projects = [
 		...projectMetadata.TheDungeon,
 		index: 2,
 		description:
-			"Este proyecto es una reimplementación del popular juego móvil Hill Climb Racing, construido con el motor de juegos Unity. Tiene como objetivo recrear la adictiva experiencia de juego con características y mejoras adicionales. Sumérgete en un mundo con un nivel hecho a mano, coleccionables, efectos de sonido inmersivos, una interfaz intuitiva y una física deliciosamente inestable diseñada para desafiar y entretener.",
+			"Este juego combina terror y puzzles, ofreciendo acertijos complejos, una atmósfera siniestra y música envolvente. Diseñado con el objetivo de aprender y mejorar habilidades en desarrollo de juegos, ¿podrás superar todos los desafíos y sobrevivir para ver el final?",
 		mobileImages:
 			[
 				`/assets/images/projects/hillclimbracing/falling.png`,
@@ -114,12 +114,12 @@ export const projects = [
 		],
 		links: [
 			{
-				label: "Juega en tu navegador",
-				url: "https://pyoneerc1.itch.io/hill-climb-racing-recreation",
+				label: "Ver en itch.io",
+				url: "https://pyoneerc1.itch.io/the-dungeon",
 			},
 			{
-				label: "Ver código",
-				url: "https://github.com/pyoneerC/Hill-Climb-Racing",
+				label: "Ver vídeos del juego",
+				url: "https://www.youtube.com/playlist?list=PLRFx0xkqiuISCnQBv0af1v3Kn7fOHcoLT",
 			},
 		],
 		tags:
