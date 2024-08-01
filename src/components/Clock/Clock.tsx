@@ -44,10 +44,10 @@ const Clock = ({ className }) => {
 
 	return (
 		<span className={`${styles.clock} ${className}`}>
-			<FontAwesomeIcon icon={faClock} className={styles.clockIcon} />
+			<i className="fas fa-clock-four" style={{ marginRight: '8px', fontSize: '15px' }} />
 			{getLocalTime(time)} (GMT-3)
         </span>
 	);
 };
 
-export default Clock;
+export default Clock

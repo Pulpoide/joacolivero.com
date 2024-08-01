@@ -4,8 +4,8 @@ import { coverProjects } from "~/data/otherprojects";
 import { ProjectCard } from "~/components/OtherProjectCard";
 
 export const metadata = {
-	title: "Max Comperatore - Blog",
-	description: "Tutoriales sobre desarrollo de software y videojuegos.",
+	title: "Max Comperatore - Otros proyectos",
+	description: "Proyectos personales de Max Comperatore."
 }
 
 export default function Blog() {
@@ -13,7 +13,7 @@ export default function Blog() {
 		<section className={styles.projectsWrapper}>
 			<h2 className={styles.title}>Otros proyectos</h2>
 			<p className={styles.paragraph}>
-				Estos son algunos de los proyectos que he desarrollado en mi tiempo libre.
+				Algunos proyectos personales que he desarrollado en mi tiempo libre.
 			</p>
 
 			<div className={styles.projectsGrid}>
@@ -22,11 +22,11 @@ export default function Blog() {
 						<a href={project.link} target="_blank" rel="noopener noreferrer">
 							<ProjectCard {...project} />
 						</a>
-							<div className={styles.tags}>
-								{project.tags?.map((tag) => (
-									<span key={tag} className={styles.tag}>{tag}</span>
-								))}
-							</div>
+						<div className={styles.tags}>
+							{project.tags?.map((tag) => (
+								<span key={tag} className={styles.tag}>{tag}</span>
+							))}
+						</div>
 					</div>
 				))}
 			</div>
