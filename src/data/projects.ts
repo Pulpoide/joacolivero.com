@@ -105,10 +105,10 @@ export const projects = [
 			"Este juego combina terror y puzzles, ofreciendo acertijos complejos, una atmósfera siniestra y música envolvente. Diseñado con el objetivo de aprender y mejorar habilidades en desarrollo de juegos, ¿podrás superar todos los desafíos y sobrevivir para ver el final?",
 		mobileImages:
 			[
-				`/assets/images/projects/hillclimbracing/falling.png`,
+				`/assets/images/projects/hillclimbracing/library.webp`,
 			],
 		desktopImages: [
-			`/assets/images/projects/hillclimbracing/hcr.gif`,
+			`/assets/images/projects/hillclimbracing/library.webp`,
 			`/assets/images/projects/hillclimbracing/streamer.webp`,
 			`/assets/images/projects/hillclimbracing/unity.png`
 		],
