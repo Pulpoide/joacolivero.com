@@ -1,6 +1,5 @@
 import NextLink from "next/link";
 import { Button } from "~/components/Ui/Button";
-import { ArrowDown } from "~/components/Svg/ArrowDown";
 import { ContactDialog } from "~/components/ContactDialog";
 import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import styles from "./HeroSection.module.css";
@@ -68,7 +67,11 @@ export const HeroSection = () => {
             width="30"
             height="20"
             loading="lazy"
-          /> <br /> <Clock className={styles.clock} />
+          /> <br />
+          <p>
+            3 hours ahead of you
+          </p>
+          <Clock className={styles.clock} />
         </p>
       </div>
       <div className={styles.buttonContainer}>
