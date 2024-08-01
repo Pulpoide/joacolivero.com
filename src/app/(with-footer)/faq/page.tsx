@@ -15,25 +15,31 @@ const FAQ = () => {
         <ScrollToTopButton />
         <h1 className={styles.title}>FAQ - Preguntas Frecuentes</h1>
         <Link className={styles.goHomeLink} href="/">
-          ← Volver a la página principal
+          <i className="fas fa-home"></i>
+          Volver a la página principal
         </Link>
         <Link className={styles.goHomeLink} href="/blog">
-          ← Ir al Blog
+          <i className="fas fa-book-open-reader"></i>
+          Ir al Blog
         </Link>
         <section className={styles.section}>
           <h2 className={styles.title}>Recorrido en Programación</h2>
           <p className={styles.paragraph}>
-            Mi camino en la programación comenzó en 2021, impulsado por mi interés por los videojuegos. Empecé con
-            cursos
-            básicos y bootcamps de desarollo web, y consolidé mi entusiasmo al colaborar en la aplicación de Android
-            &quot;War Report for
-            Clash of Clans&quot;. Esta experiencia reforzó mi decisión de seguir una carrera en programación.
+            Mi camino en la programación comenzó en <strong>2021</strong>, impulsado por mi interés por
+            los <strong>videojuegos</strong>. Empecé con
+            cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en la aplicación de
+            Android
+            <em>"War Report for Clash of Clans"</em>. Esta experiencia reforzó mi decisión de seguir una <strong>carrera
+            en programación</strong>.
           </p>
           <p className={styles.paragraph}>
-            Actualmente, estoy cursando el segundo semestre de la carrera de Desarrollo de Juegos, con un enfoque
-            particular en gráficos por computadora y backend. Mi objetivo es colaborar con personas que compartan
+            Actualmente, estoy cursando el segundo semestre de la carrera de <strong>Desarrollo de Juegos</strong>, con
+            un enfoque
+            particular en <strong>gráficos por computadora y backend</strong>. Mi objetivo es colaborar con personas que
+            compartan
             intereses similares, inspirar a otros y contribuir de manera positiva al mundo a través de la tecnología.
-            Tengo 19 años, pero ya estoy dedicado al aprendizaje continuo y en busca de oportunidades para mejorar y
+            Tengo <strong>19 años</strong>, pero ya estoy dedicado al <strong>aprendizaje continuo</strong> y en busca
+            de oportunidades para mejorar y
             colaborar en proyectos significativos.
           </p>
         </section>
@@ -41,7 +47,8 @@ const FAQ = () => {
         <section className={styles.section}>
           <h2 className={styles.title}>Motivaciones para Estudiar Programación</h2>
           <p className={styles.paragraph}>
-            Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas mediante la programación, un
+            Siempre me ha fascinado <strong>transformar ideas abstractas en soluciones prácticas</strong> mediante la
+            programación, un
             campo donde la técnica se fusiona con la creatividad.
             <br /><br />
             Mi temprana fascinación por los juegos y su desarrollo me ha llevado a dedicarme a la creación de
@@ -50,7 +57,7 @@ const FAQ = () => {
           </p>
           <p className={styles.paragraph}>
             La constante evolución de la tecnología ofrece oportunidades únicas para contribuir a proyectos innovadores,
-            y valoro profundamente el carácter colaborativo de la comunidad de desarrolladores,
+            y valoro profundamente el carácter <strong>colaborativo</strong> de la comunidad de desarrolladores,
             que no solo enriquece mi aprendizaje continuo sino que también fortalece conexiones con colegas generosos y
             solidarios.
           </p>
@@ -59,16 +66,19 @@ const FAQ = () => {
         <section className={styles.section}>
           <h2 className={styles.title}>¿Frontend o Backend?</h2>
           <p className={styles.paragraph}>
-            Me especializo en el desarrollo backend, aunque también tengo la capacidad de trabajar en frontend cuando es
+            Me especializo en el <strong>desarrollo backend</strong>, aunque también tengo la capacidad de trabajar en
+            frontend cuando es
             necesario.
           </p>
           <p className={styles.paragraph}>
             Disfruto particularmente del desarrollo del lado del servidor, donde enfrento problemas complejos con un
-            enfoque en la eficiencia y la seguridad. La gestión de bases de datos, el diseño y mantenimiento de APIs, y
+            enfoque en la eficiencia y la seguridad. La gestión de bases de datos, el diseño y
+            mantenimiento de APIs, y
             la mejora continua del rendimiento son aspectos que encuentro cruciales, ya que contribuyen a la creación
             de aplicaciones robustas y escalables.
           </p>
         </section>
+
         <br />
         <section className={styles.section}>
           <h2 className={styles.title}>¿Cómo te Ves en 5 Años?</h2>

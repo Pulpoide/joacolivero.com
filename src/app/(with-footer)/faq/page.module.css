@@ -23,27 +23,42 @@
 }
 
 .goHomeLink {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 12px 20px;
     font-size: 16px;
-    max-width: 200px;
-    width: 100%;
-    box-sizing: border-box;
-    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: 2px solid transparent;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    width: auto;
+    max-width: 300px;
 }
 
-.dark .goHomeLink:hover {
-    background-color: #1F1F1F;
-    color: #fff;
-    border-radius: 5px;
+.goHomeLink:hover {
+    color: #ffffff;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-.white .goHomeLink:hover {
-    background-color: #e3e3e3;
-    color: #000;
-    border-radius: 5px;
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+    .goHomeLink {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+}
+
+.goHomeLink i {
+    margin-right: 8px;
 }
 
 .section {
