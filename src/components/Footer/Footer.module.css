@@ -69,15 +69,15 @@
 }
 
 .footer .wrapper .year {
-	display: flex;        /* Aligns children (svg and text) inline */
-	align-items: center;  /* Vertically centers the svg and text */
-	gap: 8px;             /* Adds space between the svg and the text */
-	font-size: 16px;      /* Adjust font size as needed */
-	color: #fff;          /* Adjust color as needed */
+	display: flex;      
+	align-items: center;
+	gap: 8px;
+	font-size: 16px;
+	color: #fff;
 }
 
 .icon {
-	flex-shrink: 0;       /* Prevents the icon from shrinking */
+	flex-shrink: 0;
 }
 
 @media (min-width: 768px) {
