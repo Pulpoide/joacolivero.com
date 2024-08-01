@@ -40,7 +40,7 @@ const FAQ = () => {
           <p className={styles.paragraph}>
             Mi camino en la programación comenzó en <strong>2021</strong>, impulsado por mi interés por
             los <strong>videojuegos</strong>. Empecé con
-            cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en la aplicación 
+            cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en la aplicación
             <em>"War Report for Clash of Clans"</em>. Esta experiencia reforzó mi decisión de seguir una <strong>carrera
             en programación</strong>.
           </p>
@@ -229,54 +229,57 @@ const FAQ = () => {
         <section className={styles.section}>
           <h2 className={styles.title}>Mantenerse Actualizado</h2>
           <p className={styles.paragraph}>
-            Para estar al tanto de las últimas <strong>tendencias y tecnologías</strong>, sigo canales como&nbsp;
+            Para estar al tanto de las últimas <strong>tendencias y tecnologías</strong>, sigo canales influyentes
+            como&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-            <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer"
-               style={{ color: "inherit", textDecoration: "inherit" }}>
-                Midudev
-            </a>
-        </span>,&nbsp;
+      <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
+        Midudev
+      </a>
+    </span>,&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-            <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer"
-               style={{ color: "inherit", textDecoration: "inherit" }}>
-                Fireship
-            </a>
-        </span>,&nbsp;
+      <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
+        Fireship
+      </a>
+    </span>,&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-            <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer"
-               style={{ color: "inherit", textDecoration: "inherit" }}>
-                Unreal Engine
-            </a>
-        </span>&nbsp;y&nbsp;
+      <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
+        Unreal Engine
+      </a>
+    </span>&nbsp;y&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-            <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer"
-               style={{ color: "inherit", textDecoration: "inherit" }}>
-                Unity
-            </a>
-        </span>.
+      <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
+        Unity
+      </a>
+    </span>.
           </p>
           <p className={styles.paragraph}>
-            A la vez, reviso <em>repositorios tendencia en GitHub</em> mientras le doy una mirada a&nbsp;
+            Asimismo, exploro <em>repositorios de tendencia en GitHub</em> y participo en discusiones sobre tecnología
+            en&nbsp;
             <span style={{ color: "skyblue", textDecoration: "none", fontFamily: "inherit", fontSize: "inherit" }}>
-            Discord
-        </span>&nbsp;y&nbsp;
+    Discord
+    </span>&nbsp;y&nbsp;
             <span style={{ color: "skyblue", textDecoration: "none", fontFamily: "inherit", fontSize: "inherit" }}>
-            Reddit
-        </span>&nbsp;para ver de qué se habla en la <strong>comunidad de desarrollo</strong>.
+    Reddit
+    </span>.
           </p>
         </section>
         <br />
         <section className={styles.section}>
           <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
           <p className={styles.paragraph}>
-            En mi tiempo libre, me dedico a desarrollar proyectos y colaborar activamente con la <strong>comunidad de
-            desarrollo</strong>.
-            Disfruto <em>correr, caminar, ver videos de análisis de videojuegos, actualidad, y películas animadas</em>.
+            Durante mi tiempo libre, me dedico al desarrollo de proyectos y a la colaboración en diversas iniciativas
+            tecnológicas. Entre mis actividades preferidas se encuentran <em>correr, caminar, analizar videojuegos,
+            seguir las últimas noticias y disfrutar de películas animadas</em>.
           </p>
           <p className={styles.paragraph}>
-            Además, me apasiona jugar a juegos de creadores independientes en Steam. Valoro la experiencia de andar en
-            moto, explorar lugares abandonados para disfrutar de asados en la montaña y descubrir nueva música.
-            A veces, utilizo FL Studio para componer música.
+            Asimismo, soy aficionado a los videojuegos de desarrolladores independientes disponibles en Steam, disfruto
+            explorando lugares abandonados y me deleito en la tranquilidad de la naturaleza. Ocasionalmente, me aventuro
+            en la composición de pistas musicales utilizando FL Studio, lo que me permite fusionar creatividad y
+            técnica.
           </p>
         </section>
         <br />
@@ -386,84 +389,87 @@ const FAQ = () => {
             <strong>fundamentales</strong> en mi carrera por sus valiosos consejos y constante apoyo.
           </p>
           <p className={styles.paragraph}>
-            También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores de&nbsp;
-            <strong>Discord de programación en español</strong>, cuya disposición para ayudar y compartir sus conocimientos ha sido&nbsp;
+            También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores
+            de&nbsp;
+            <strong>Discord de programación en español</strong>, cuya disposición para ayudar y compartir sus
+            conocimientos ha sido&nbsp;
             <em>crucial</em> para mi desarrollo profesional.
           </p>
           <p className={styles.paragraph}>
-            Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando la&nbsp;
+            Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando
+            la&nbsp;
             <strong>cultura de colaboración y aprendizaje mutuo</strong>.
           </p>
         </section>
-          <br />
-          <section className={styles.section}>
-            <h2 className={styles.title}>Canciones Favoritas</h2>
-            <p className={styles.paragraph}>
-              Una selección que te hará bailar como un cyborg con exceso de cafeína.
-            </p>
+        <br />
+        <section className={styles.section}>
+          <h2 className={styles.title}>Canciones Favoritas</h2>
+          <p className={styles.paragraph}>
+            Una selección que te hará bailar como un cyborg con exceso de cafeína.
+          </p>
+          <ul>
             <ul>
-              <ul>
-                <li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=Tt3F2x0RuZI" target="_blank" rel="noopener noreferrer">Runaway (U & I) - Galantis</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=xY66ucVK-RM" target="_blank" rel="noopener noreferrer">Good 4 Me - Vindata</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=zubYYZ0fTyQ" target="_blank" rel="noopener noreferrer">Cutting Shapes - Don</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=RhR_Z5wVvJM" target="_blank" rel="noopener noreferrer">Play - Tokyo Machine</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=XmIgg9De9hY" target="_blank" rel="noopener noreferrer">The Nights - Avicii</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=j43PGdl03WA" target="_blank" rel="noopener noreferrer">She Wants Me Dead - CAZZ</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=FgApngD5faY" target="_blank" rel="noopener noreferrer">Silhouette (Feed Me Remix)</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=qcE__zJ4L6E" target="_blank"
              rel="noopener noreferrer">Still - Glacier</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=A8pOVirjGF0" target="_blank"
              rel="noopener noreferrer">Overkill - RIOT</a>
           </span>
-                </li>
-                <li>
+              </li>
+              <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=mype6RcMMmY" target="_blank"
              rel="noopener noreferrer">Jungle Fury - RIOT</a>
           </span>
-                </li>
-              </ul>
+              </li>
             </ul>
-          </section>
-          <br /><img
-          src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
-          alt="Unreal Engine 5" className={styles.image} />
-          <br />
-          <img src={"/assets/images/faq_pic_m_c.webp"} alt="Max Comperatore" className={styles.image} />
+          </ul>
+        </section>
+        <br /><img
+        src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
+        alt="Unreal Engine 5" className={styles.image} />
+        <br />
+        <img src={"/assets/images/faq_pic_m_c.webp"} alt="Max Comperatore" className={styles.image} />
         <p className={styles.paragraph} style={{ textAlign: "center" }}>
   <span className={styles.paragraph} style={{ color: "lime" }}>
   ¡Muchas gracias por leer hasta el final!
