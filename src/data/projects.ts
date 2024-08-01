@@ -106,11 +106,11 @@ export const projects = [
 		mobileImages:
 			[
 				`/assets/images/projects/hillclimbracing/library.webp`,
+				`/assets/images/projects/hillclimbracing/thedungeon.gif`
 			],
 		desktopImages: [
-			`/assets/images/projects/hillclimbracing/library.webp`,
 			`/assets/images/projects/hillclimbracing/streamer.webp`,
-			`/assets/images/projects/hillclimbracing/unity.png`
+			`/assets/images/projects/hillclimbracing/pistol.webp`,
 		],
 		links: [
 			{

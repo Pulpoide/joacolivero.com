@@ -126,19 +126,6 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>¿Qué Aprendiste Recientemente?</h2>
-          <p className={styles.paragraph}>
-            Recientemente, he estado explorando la creación de páginas web
-            con <strong>Next.js</strong> y <strong>React</strong>, y he profundizado en el desarrollo de <strong>APIs
-            RESTful</strong> con <strong>Node.js</strong> y <strong>Express</strong>.
-          </p>
-          <p className={styles.paragraph}>
-            Además, he estado practicando la resolución de problemas con algoritmos y estructuras de datos
-            en <strong>LeetCode</strong>, y he mejorado mi habilidad para trabajar en equipo y comunicarme de manera
-            efectiva.
-          </p>
-        </section>
-        <section className={styles.section}>
           <h2 className={styles.title}>Recursos Educativos Recomendados</h2>
           <ul>
             <li>
