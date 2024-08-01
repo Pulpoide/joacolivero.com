@@ -84,6 +84,17 @@ export const HeroSection = () => {
         </Button>
       </div>
       <div className={styles.actions}>
+        <Button className={styles.actionBtn} variant="outlined">
+          <i className="fa-regular fa-circle-down"></i>
+          <NextLink
+            href="/assets/files/maximocomperatoreresume.pdf"
+            target="_blank"
+            prefetch={false}
+          >
+            Descargar Currículum
+
+          </NextLink>
+        </Button>
         <ContactDialog
           trigger={
             <Button className={styles.actionBtn} type="button">
@@ -91,15 +102,6 @@ export const HeroSection = () => {
             </Button>
           }
         />
-        <Button className={styles.actionBtn} variant="outlined" asChild>
-          <NextLink
-            href="/assets/files/maximocomperatoreresume.pdf"
-            target="_blank"
-            prefetch={false}
-          >
-            Descargar Curriculum <ArrowDown />
-          </NextLink>
-        </Button>
         <CopyEmailSmallButton className={styles.copyEmailButton} />
         <ScrollToTopButton />
       </div>

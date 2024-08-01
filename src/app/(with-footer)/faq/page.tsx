@@ -475,7 +475,7 @@ const FAQ = () => {
   <span className={styles.paragraph} style={{ color: "lime" }}>
   ¡Muchas gracias por leer hasta el final!
   </span>
-          <i className="fa-regular fa-face-smile"></i>
+          <i className="fa-regular fa-face-grin-beam"></i>
           <br /><br />
           Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
           saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
