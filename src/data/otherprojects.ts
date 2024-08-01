@@ -26,9 +26,9 @@ export const projectMetadata = {
 		slug: "portfolio",
 		name: "Portfolio",
 	},
-	thedungeon: {
-		slug: "thedungeon",
-		name: "The Dungeon",
+	HillClimbRacing: {
+		slug: "hillclimbracing",
+		name: "Hill Climb Racing",
 	},
 	thegreatchocolatecaper: {
 		slug: "thegreatchocolatecaper",
@@ -38,12 +38,12 @@ export const projectMetadata = {
 
 export const coverProjects: CoverProjectOther[] = [
 	{
-		...projectMetadata.thedungeon,
-		imageUrl: `/assets/images/projects/otherprojectscover/thedungeon.webp`,
+		...projectMetadata.HillClimbRacing,
+		imageUrl: `/assets/images/projects/cover/hcr.webp`,
 		description:
-			"Prototipo de juego de puzzles y terror que desafía a los jugadores con acertijos envolventes en un ambiente oscuro y misterioso.",
-		tags: [Tag.unrealEngine, Tag.cPlusPlus, Tag.blueprints],
-		link: "https://pyoneerc1.itch.io/the-dungeon"
+			"Reimplementación de Hill Climb Racing en Unity, optimizando la experiencia original con mejoras en física, interfaz, y efectos sonoros para una jugabilidad más desafiante y envolvente.",
+		tags: [Tag.unity, Tag.cSharp],
+		link: "https://github.com/pyoneerC/Hill-Climb-Racing"
 	},
 	{
 		...projectMetadata.arrayutils,
