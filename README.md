@@ -1,6 +1,6 @@
 # Portafolio de Max Comperatore
 
-Este proyecto es un fork del portafolio original de [Dresan](https://dresan.dev). Incluye varias mejoras y personalizaciones para satisfacer necesidades específicas.
+Este proyecto es un fork del portafolio original de [Dresan](https://dresan.dev). Incluye varias mejoras y personalizaciones para satisfacer necesidades específicas (+500 commits).
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/pyoneerC/maxcomperatore.com)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/pyoneerc/maxcomperatore.com)
