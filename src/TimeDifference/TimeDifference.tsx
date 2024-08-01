@@ -2,11 +2,10 @@ import React from 'react';
 import styles from './TimeDifference.module.css';
 
 const TimeDifference = () => {
-	const mendozaTimezoneOffset = -3 * 60;
 
 	const localTimezoneOffset = new Date().getTimezoneOffset();
 
-	const timeDifference = (localTimezoneOffset - mendozaTimezoneOffset) / 60;
+	const timeDifference = (localTimezoneOffset - 180) / 60;
 
 	let message;
 	if (timeDifference === 0) {
