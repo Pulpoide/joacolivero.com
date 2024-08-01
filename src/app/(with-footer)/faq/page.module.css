@@ -49,7 +49,6 @@
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Media queries para responsividad */
 @media (max-width: 768px) {
     .goHomeLink {
         font-size: 14px;

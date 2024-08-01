@@ -4,6 +4,7 @@ import { PostCard } from "~/components/PostCard"
 import styles from "./page.module.css"
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
 import Link from "next/link"
+import React from "react"
 
 export const metadata = {
 	title: "Max Comperatore - Blog",
@@ -18,10 +19,12 @@ export default async function Blog() {
 		<main className={styles.wrapper}>
 			<h1 className={styles.title}>Blog</h1>
 			<Link className={styles.goHomeLink} href="/">
-				← Volver a la página principal
+				<i className="fas fa-home"></i>
+				Volver a la página principal
 			</Link>
 			<Link className={styles.goHomeLink} href="/faq">
-				← Ir al FAQ
+				<i className="fas fa-question"></i>
+				 Ir al FAQ
 			</Link>
 			<div className={styles.postsWrapper}>
 				{sortedPosts.map((post) => (
