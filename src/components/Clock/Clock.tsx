@@ -44,7 +44,7 @@ const Clock = ({ className }) => {
 
 	return (
 		<span className={`${styles.clock} ${className}`}>
-			<i className="fas fa-clock-four" style={{ marginRight: '8px', fontSize: '15px' }} />
+			<i className="fa-regular fa-clock" style={{ marginRight: '8px', fontSize: '15px' }} />
 			{getLocalTime(time)} (GMT-3)
         </span>
 	);
