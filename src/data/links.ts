@@ -1,32 +1,33 @@
+
 export const socialMediaLinks = [
 	{
 		label: "LinkedIn",
 		url: "https://www.linkedin.com/in/maximo-comperatore-74399b278",
-		icon: "fab fa-linkedin-in",
+		icon: "LinkedInIcon",
 		className: "linkedin",
 	},
 	{
 		label: "GitHub",
 		url: "https://github.com/pyoneerC",
-		icon: "fab fa-github",
+		icon: "GithubIcon",
 		className: "github",
 	},
 	{
 		label: "Email",
 		url: "mailto:maxcomperatore@gmail.com",
-		icon: "fas fa-envelope",
+		icon: "EmailIcon",
 		className: "email",
 	},
 	{
 		label: "YouTube",
 		url: "https://www.youtube.com/channel/UCgZDAjllREu-3YeU-961EBg",
-		icon: "fab fa-youtube",
+		icon: "YoutubeIcon",
 		className: "youtube",
 	},
 	{
 		label: "itch.io",
 		url: "https://pyoneerc1.itch.io/",
-		icon: "fab fa-itch-io",
+		icon: "ItchioIcon",
 		className: "itchio",
 	},
-]
+];

@@ -7,3 +7,5 @@ export const YoutubeIcon = (props: SVGProps<SVGSVGElement>) => (
 <path d="M10 9l5 3l-5 3z" />
 	</svg>
 )
+
+export default YoutubeIcon

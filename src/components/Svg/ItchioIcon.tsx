@@ -10,3 +10,5 @@ export const ItchioIcon = (props: SVGProps<SVGSVGElement>) => (
 <path d="M12 14v4" />
 	</svg>
 )
+
+export default ItchioIcon
