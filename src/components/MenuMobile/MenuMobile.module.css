@@ -13,7 +13,7 @@
 	transition: visibility 300ms, opacity 300ms, background-color var(--theme-transition-duration);
 	z-index: 1000;
 	backdrop-filter: blur(10px);
-	background: #e3e3e3;
+	background: rgb(0, 0, 0, 0.8);
 }
 
 .menu.open {
@@ -48,7 +48,7 @@
 
 .navLink:hover {
 	background-color: var(--color-hover-background);
-	color: #FF0000;
+	color: var(--color-hover-text);
 }
 
 .optionsWrapper {
@@ -81,6 +81,7 @@
 	block-size: 72px;
 	padding-inline: var(--items-padding);
 	color: var(--color-text-secondary);
+	border-block-start: 1px dashed var(--color-stroke);
 	transition: border-block-start-color var(--theme-transition-duration);
 }
 
