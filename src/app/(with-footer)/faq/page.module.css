@@ -1,9 +1,8 @@
 .title {
-    font-size: 2em;
-    margin: 16px 0 20px 0;
     text-align: center;
-    letter-spacing: 1px;
-    padding: 0 20px;
+    font-size: 44px;
+    padding-block: 32px;
+    margin-bottom: 4px;
 }
 
 .faqContainer {
@@ -46,6 +45,10 @@
     max-width: 300px;
 }
 
+.goHomeLink svg {
+    margin-right: 8px;
+}
+
 .goHomeLink:hover {
     color: #5e5a5a;
     background-color: var(--primary-color);
@@ -53,15 +56,27 @@
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
+.goHomeLink i {
+    margin-right: 8px;
+}
+
+.dark .goHomeLink:hover {
+    background-color: #1F1F1F;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.white .goHomeLink:hover {
+    background-color: #e3e3e3;
+    color: #000;
+    border-radius: 5px;
+}
+
 @media (max-width: 768px) {
     .goHomeLink {
         font-size: 14px;
         padding: 10px 18px;
     }
-}
-
-.goHomeLink i {
-    margin-right: 8px;
 }
 
 .section {

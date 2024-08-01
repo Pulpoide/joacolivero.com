@@ -5,6 +5,7 @@ import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import styles from "./HeroSection.module.css";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
 import Clock from "~/components/Clock/Clock";
+import TimeDifference from "~/TimeDifference/TimeDifference"
 
 export const HeroSection = () => {
 
@@ -68,7 +69,7 @@ export const HeroSection = () => {
             height="20"
             loading="lazy"
           /> <br />
-            3 hours ahead of you
+          <TimeDifference />
           <Clock className={styles.clock} />
         </p>
       </div>
