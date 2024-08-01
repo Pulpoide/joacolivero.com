@@ -83,42 +83,46 @@ const FAQ = () => {
         <section className={styles.section}>
           <h2 className={styles.title}>¿Cómo te Ves en 5 Años?</h2>
           <p className={styles.paragraph}>
-            En cinco años, me visualizo como un experto en backend y desarrollo de juegos, liderando equipos de alto
-            rendimiento y compartiendo mi conocimiento como mentor. Aspiro a contribuir al avance de tecnologías de
-            vanguardia, optimizar procesos complejos y desarrollar soluciones escalables y seguras.
+            En cinco años, me visualizo como un <strong>experto en backend y desarrollo de juegos</strong>,
+            liderando <strong>equipos de alto rendimiento</strong> y compartiendo mi conocimiento como mentor. Aspiro a
+            contribuir al avance de <strong>tecnologías de vanguardia</strong>, optimizar procesos complejos y
+            desarrollar soluciones escalables y seguras.
           </p>
           <p className={styles.paragraph}>
-            En lo personal, busco mantener un equilibrio saludable entre mi vida profesional y personal, disfrutando de
-            mis pasatiempos y participando en proyectos innovadores que generen un impacto positivo en la sociedad.
+            En lo personal, busco mantener un <em>equilibrio saludable entre mi vida profesional y personal</em>,
+            disfrutando de mis pasatiempos y participando en proyectos innovadores que generen un impacto positivo en la
+            sociedad.
           </p>
         </section>
         <br />
         <section className={styles.section}>
           <h2 className={styles.title}>¿Qué Buscas en un Nuevo Trabajo?</h2>
           <p className={styles.paragraph}>
-            Busco un entorno colaborativo donde pueda trabajar junto a profesionales competentes y comprometidos.
+            Busco un entorno <strong>colaborativo</strong> donde pueda trabajar junto a profesionales competentes y
+            comprometidos.
           </p>
           <p className={styles.paragraph}>
             Me interesa participar en proyectos que aprovechen al máximo mis habilidades y conocimientos. Valoro
-            especialmente los lugares que promuevan el crecimiento personal y profesional, respaldados por una
+            especialmente los lugares que promuevan el <em>crecimiento personal y profesional</em>, respaldados por una
             comunicación efectiva y un sólido apoyo mutuo.
           </p>
           <p className={styles.paragraph}>
-            Estoy entusiasmado por asumir nuevos desafíos y responsabilidades en un entorno que favorezca el aprendizaje
-            continuo y la evolución profesional.
+            Estoy entusiasmado por asumir nuevos desafíos y responsabilidades en un entorno que favorezca el <strong>aprendizaje
+            continuo</strong> y la <strong>evolución profesional</strong>.
           </p>
         </section>
         <br />
         <section className={styles.section}>
           <h2 className={styles.title}>¿Qué Aprendiste Recientemente?</h2>
           <p className={styles.paragraph}>
-            Recientemente, he estado explorando la creación de páginas web con Next.js y React, y he profundizado en
-            el desarrollo de APIs RESTful con Node.js y Express.
+            Recientemente, he estado explorando la creación de páginas web
+            con <strong>Next.js</strong> y <strong>React</strong>, y he profundizado en el desarrollo de <strong>APIs
+            RESTful</strong> con <strong>Node.js</strong> y <strong>Express</strong>.
           </p>
           <p className={styles.paragraph}>
-            Además, he estado practicando la resolución de problemas con algoritmos y estructuras de datos en LeetCode,
-            y he
-            mejorado mi habilidad para trabajar en equipo y comunicarme de manera efectiva.
+            Además, he estado practicando la resolución de problemas con algoritmos y estructuras de datos
+            en <strong>LeetCode</strong>, y he mejorado mi habilidad para trabajar en equipo y comunicarme de manera
+            efectiva.
           </p>
         </section>
         <section className={styles.section}>
