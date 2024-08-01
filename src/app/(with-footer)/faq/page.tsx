@@ -13,7 +13,7 @@ const FAQ = () => {
     <>
       <div className={styles.container}>
         <ScrollToTopButton />
-        <h1 className={styles.title}>FAQ - Preguntas Frecuentes</h1>
+        <h1 className={styles.title}>FAQ</h1>
         <Link className={styles.goHomeLink} href="/">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
                stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
@@ -40,8 +40,7 @@ const FAQ = () => {
           <p className={styles.paragraph}>
             Mi camino en la programación comenzó en <strong>2021</strong>, impulsado por mi interés por
             los <strong>videojuegos</strong>. Empecé con
-            cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en la aplicación de
-            Android
+            cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en la aplicación 
             <em>"War Report for Clash of Clans"</em>. Esta experiencia reforzó mi decisión de seguir una <strong>carrera
             en programación</strong>.
           </p>
