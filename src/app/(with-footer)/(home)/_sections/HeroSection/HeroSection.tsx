@@ -56,7 +56,7 @@ export const HeroSection = () => {
       <h2 className={styles.subtitle}>Desarrollador Backend y de Videojuegos</h2>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
-          Desarrollador y estudiante pragmático, centrado en la calidad en cada fase del desarrollo.
+          Programador y estudiante pragmático, centrado en la calidad en cada fase del desarrollo.
         </p>
         <p className={styles.introSubtitle}>
           Me encuentro en Mendoza, Argentina.
