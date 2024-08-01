@@ -230,55 +230,49 @@ const FAQ = () => {
         <section className={styles.section}>
           <h2 className={styles.title}>Mantenerse Actualizado</h2>
           <p className={styles.paragraph}>
-            Para estar al tanto de las últimas tendencias y tecnologías, sigo canales como&nbsp;
+            Para estar al tanto de las últimas <strong>tendencias y tecnologías</strong>, sigo canales como&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-      <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer"
-         style={{ color: "inherit", textDecoration: "inherit" }}>
-      Midudev
-      </a>
-      </span>
-            ,&nbsp;
+            <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer"
+               style={{ color: "inherit", textDecoration: "inherit" }}>
+                Midudev
+            </a>
+        </span>,&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-      <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer"
-         style={{ color: "inherit", textDecoration: "inherit" }}>
-      Fireship
-      </a>
-      </span>
-            ,&nbsp;
+            <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer"
+               style={{ color: "inherit", textDecoration: "inherit" }}>
+                Fireship
+            </a>
+        </span>,&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-      <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer"
-         style={{ color: "inherit", textDecoration: "inherit" }}>
-      Unreal Engine
-      </a>
-      </span>
-            &nbsp;y&nbsp;
+            <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer"
+               style={{ color: "inherit", textDecoration: "inherit" }}>
+                Unreal Engine
+            </a>
+        </span>&nbsp;y&nbsp;
             <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-      <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer"
-         style={{ color: "inherit", textDecoration: "inherit" }}>
-      Unity
-      </a>
-      </span>
-            .
+            <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer"
+               style={{ color: "inherit", textDecoration: "inherit" }}>
+                Unity
+            </a>
+        </span>.
           </p>
           <p className={styles.paragraph}>
-            A la vez, reviso repositorios tendencia en GitHub mientras le doy una mirada a&nbsp;
+            A la vez, reviso <em>repositorios tendencia en GitHub</em> mientras le doy una mirada a&nbsp;
             <span style={{ color: "skyblue", textDecoration: "none", fontFamily: "inherit", fontSize: "inherit" }}>
-      Discord
-      </span>
-            &nbsp;y&nbsp;
+            Discord
+        </span>&nbsp;y&nbsp;
             <span style={{ color: "skyblue", textDecoration: "none", fontFamily: "inherit", fontSize: "inherit" }}>
-      Reddit
-      </span>
-            &nbsp;para ver de qué se habla en la comunidad de desarrollo.
+            Reddit
+        </span>&nbsp;para ver de qué se habla en la <strong>comunidad de desarrollo</strong>.
           </p>
         </section>
         <br />
         <section className={styles.section}>
           <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
           <p className={styles.paragraph}>
-            En mi tiempo libre, me dedico a desarrollar proyectos y colaborar activamente con la comunidad de
-            desarrollo.
-            Disfruto correr, caminar, ver videos de análisis de videojuegos, actualidad, y películas animadas.
+            En mi tiempo libre, me dedico a desarrollar proyectos y colaborar activamente con la <strong>comunidad de
+            desarrollo</strong>.
+            Disfruto <em>correr, caminar, ver videos de análisis de videojuegos, actualidad, y películas animadas</em>.
           </p>
           <p className={styles.paragraph}>
             Además, me apasiona jugar a juegos de creadores independientes en Steam. Valoro la experiencia de andar en
@@ -295,20 +289,18 @@ const FAQ = () => {
               Definitivamente, la creación de la aplicación&nbsp;
               <span
                 style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-        <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Mercado Libre Price Chart
-        </a>
-        </span>&nbsp;
-              es uno de los proyectos más innovadores que he realizado.
+                <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
+                   style={{ color: "inherit", textDecoration: "inherit" }}>
+                    Mercado Libre Price Chart
+                </a>
+            </span>&nbsp;es uno de los proyectos más innovadores que he realizado.
               <br /><br />
               Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina:
-              la incertidumbre sobre el valor real de los productos en un contexto económico volátil.
+              la <strong>incertidumbre sobre el valor real de los productos</strong> en un contexto económico volátil.
             </p>
             <br />
             <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
-              resolviste?</strong>
-            </li>
+              resolviste?</strong></li>
             <p>
               Durante el desarrollo de este portafolio, me enfrenté al desafío de traducir manualmente todo el contenido
               al inglés, lo cual era engorroso y tedioso.
@@ -316,53 +308,42 @@ const FAQ = () => {
               Gracias a la orientación de &nbsp;
               <span
                 style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-        <a href="https://github.com/santiagoarielv98" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Santiago Ariel
-        </a>
-        </span>
-              , aprendí a implementar traducciones automáticas utilizando Translation.io, optimizando así el proceso y
+                <a href="https://github.com/santiagoarielv98" target="_blank" rel="noopener noreferrer"
+                   style={{ color: "inherit", textDecoration: "inherit" }}>
+                    Santiago Ariel
+                </a>
+            </span>, aprendí a implementar traducciones automáticas utilizando Translation.io, optimizando así el
+              proceso y
               mejorando la eficiencia del desarrollo.
             </p>
             <br />
             <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
             <p>
               Quería crear una API para obtener el precio actualizado de dólares en Argentina, utilizando web scrapers
-              y
-              con el fin de aprender. Al principio, no sabía cómo hacerlo, pero con Python, FASTAPI y dedicando
+              y con el fin de aprender. Al principio, no sabía cómo hacerlo, pero con Python, FASTAPI y dedicando
               tiempo a leer la documentación, logré desarrollarla con éxito.
             </p>
             <br />
             <p>
-              Esta API, llamada{" "}
+              Esta API, llamada&nbsp;
               <span
                 style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-        <a
-          href="https://github.com/pyoneerC/monedas-api"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "inherit", textDecoration: "inherit" }}
-        >
-        Monedas-API
-        </a>
-        </span>
-              , logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
+                <a href="https://github.com/pyoneerC/monedas-api" target="_blank" rel="noopener noreferrer"
+                   style={{ color: "inherit", textDecoration: "inherit" }}>
+                    Monedas-API
+                </a>
+            </span>, logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
             </p>
             <br />
             <p>
-              Actualmente, es consumida por mi otro proyecto,{" "}
+              Actualmente, es consumida por mi otro proyecto,&nbsp;
               <span
                 style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-        <a
-          href="https://maxcomperatore.store"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{ color: "inherit", textDecoration: "inherit" }}
-        >
-        Mercado Libre Price Chart
-        </a>
-        </span>
-              .
+                <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
+                   style={{ color: "inherit", textDecoration: "inherit" }}>
+                    Mercado Libre Price Chart
+                </a>
+            </span>.
             </p>
             <br />
             <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
@@ -381,8 +362,7 @@ const FAQ = () => {
             </blockquote>
             <br />
             <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su
-              rendimiento</strong>
-            </li>
+              rendimiento</strong></li>
             <p>
               Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de
               Unreal Engine.
@@ -390,8 +370,7 @@ const FAQ = () => {
             <br />
             <p>
               Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al
-              final,
-              logramos terminar el proyecto a tiempo y con éxito.
+              final, logramos terminar el proyecto a tiempo y con éxito.
             </p>
           </ul>
         </section>
@@ -404,99 +383,100 @@ const FAQ = () => {
             <a href="https://github.com/FrancoYudica" target="_blank" rel="noopener noreferrer"
                style={{ color: "skyblue", textDecoration: "underline" }}>Franco Yudica</a>,&nbsp;y&nbsp;
             <a href="https://github.com/enzonotario" target="_blank" rel="noopener noreferrer"
-               style={{ color: "skyblue", textDecoration: "underline" }}>Enzo Notario</a>, quienes han sido
-            fundamentales en mi carrera por sus valiosos consejos y constante apoyo.
+               style={{ color: "skyblue", textDecoration: "underline" }}>Enzo Notario</a>, quienes han sido&nbsp;
+            <strong>fundamentales</strong> en mi carrera por sus valiosos consejos y constante apoyo.
           </p>
           <p className={styles.paragraph}>
-            También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores de
-            Discord de programación en español, cuya disposición para ayudar y compartir sus conocimientos ha sido
-            crucial para mi desarrollo profesional.
+            También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores de&nbsp;
+            <strong>Discord de programación en español</strong>, cuya disposición para ayudar y compartir sus conocimientos ha sido&nbsp;
+            <em>crucial</em> para mi desarrollo profesional.
           </p>
           <p className={styles.paragraph}>
-            Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando la
-            cultura de colaboración y aprendizaje mutuo.
+            Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando la&nbsp;
+            <strong>cultura de colaboración y aprendizaje mutuo</strong>.
           </p>
         </section>
-        <br />
-        <section className={styles.section}>
-          <h2 className={styles.title}>Canciones Favoritas</h2>
-          <p className={styles.paragraph}>
-            Una selección que te hará bailar como un cyborg con exceso de cafeína.
-          </p>
-          <ul>
+          <br />
+          <section className={styles.section}>
+            <h2 className={styles.title}>Canciones Favoritas</h2>
+            <p className={styles.paragraph}>
+              Una selección que te hará bailar como un cyborg con exceso de cafeína.
+            </p>
             <ul>
-              <li>
+              <ul>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=Tt3F2x0RuZI" target="_blank" rel="noopener noreferrer">Runaway (U & I) - Galantis</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=xY66ucVK-RM" target="_blank" rel="noopener noreferrer">Good 4 Me - Vindata</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=zubYYZ0fTyQ" target="_blank" rel="noopener noreferrer">Cutting Shapes - Don</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=RhR_Z5wVvJM" target="_blank" rel="noopener noreferrer">Play - Tokyo Machine</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=XmIgg9De9hY" target="_blank" rel="noopener noreferrer">The Nights - Avicii</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=j43PGdl03WA" target="_blank" rel="noopener noreferrer">She Wants Me Dead - CAZZ</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=FgApngD5faY" target="_blank" rel="noopener noreferrer">Silhouette (Feed Me Remix)</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=qcE__zJ4L6E" target="_blank"
              rel="noopener noreferrer">Still - Glacier</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=A8pOVirjGF0" target="_blank"
              rel="noopener noreferrer">Overkill - RIOT</a>
           </span>
-              </li>
-              <li>
+                </li>
+                <li>
           <span className={styles.paragraph} style={{ color: "skyblue", textDecoration: "underline" }}>
           <a href="https://www.youtube.com/watch?v=mype6RcMMmY" target="_blank"
              rel="noopener noreferrer">Jungle Fury - RIOT</a>
           </span>
-              </li>
+                </li>
+              </ul>
             </ul>
-          </ul>
-        </section>
-        <br /><img
-        src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
-        alt="Unreal Engine 5" className={styles.image} />
-        <br />
-        <p className={styles.paragraph} style={{ textAlign: "center" }}>
+          </section>
+          <br /><img
+          src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
+          alt="Unreal Engine 5" className={styles.image} />
+          <br />
+          <img src={"/assets/images/faq_pic_m_c.webp"} alt="Max Comperatore" className={styles.image} />
+          <p className={styles.paragraph} style={{ textAlign: "center" }}>
   <span className={styles.paragraph} style={{ color: "lime" }}>
   ¡Muchas gracias por leer hasta el final!
   </span>
-          <br /><br />
-          Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
-          saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
-          encontrar los enlaces en el pie de página a continuación.
-        </p>
+            <br /><br />
+            Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
+            saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
+            encontrar los enlaces en el pie de página a continuación.
+          </p>
       </div>
     </>
-  )
+)
 }
 
 export default FAQ
