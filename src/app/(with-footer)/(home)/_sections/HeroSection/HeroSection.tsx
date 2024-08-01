@@ -68,9 +68,7 @@ export const HeroSection = () => {
             height="20"
             loading="lazy"
           /> <br />
-          <p>
             3 hours ahead of you
-          </p>
           <Clock className={styles.clock} />
         </p>
       </div>
