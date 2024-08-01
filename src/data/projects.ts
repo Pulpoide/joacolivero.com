@@ -108,8 +108,8 @@ export const projects = [
 				`/assets/images/projects/hillclimbracing/falling.png`,
 			],
 		desktopImages: [
-			`/assets/images/projects/hillclimbracing/mac.png`,
 			`/assets/images/projects/hillclimbracing/hcr.gif`,
+			`/assets/images/projects/hillclimbracing/streamer.webp`,
 			`/assets/images/projects/hillclimbracing/unity.png`
 		],
 		links: [
