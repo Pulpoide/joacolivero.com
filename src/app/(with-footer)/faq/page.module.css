@@ -14,6 +14,10 @@
     padding: 0 20px;
 }
 
+.goHomeLink svg {
+    margin-right: 8px;
+}
+
 .paragraph {
     font-size: 1.1em;
     margin-bottom: 15px;
@@ -43,7 +47,7 @@
 }
 
 .goHomeLink:hover {
-    color: #ffffff;
+    color: #5e5a5a;
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);

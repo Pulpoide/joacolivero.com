@@ -15,13 +15,20 @@ const FAQ = () => {
         <ScrollToTopButton />
         <h1 className={styles.title}>FAQ - Preguntas Frecuentes</h1>
         <Link className={styles.goHomeLink} href="/">
-          <i className="fas fa-home"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+               className="icon icon-tabler icons-tabler-outline icon-tabler-home">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+            <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+            <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+          </svg>
           Volver a la página principal
         </Link>
         <Link className={styles.goHomeLink} href="/blog">
-          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
-            <g fill="none" stroke="currentColor" stroke-width="4">
-              <path stroke-linecap="round" stroke-linejoin="round"
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 48 48">
+            <g fill="none" stroke="currentColor" strokeWidth="4">
+              <path strokeLinecap="round" strokeLinejoin="round"
                     d="M24 21v23c-3.291-4-13.371-4-18-4V18c9.874 0 16.114 2 18 3m0 0v23c3.291-4 13.371-4 18-4V18c-9.874 0-16.114 2-18 3" />
               <circle cx="24" cy="12" r="8" />
             </g>
