@@ -89,6 +89,9 @@
 }
 
 @media screen and (max-width: 768px) {
+	.navLink::before {
+		display: none;
+	}
 	.navLink svg {
 		width: 9vw;
 		height: auto;
