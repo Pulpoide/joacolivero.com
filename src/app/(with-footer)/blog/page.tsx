@@ -23,8 +23,8 @@ export default async function Blog() {
 				Volver a la página principal
 			</Link>
 			<Link className={styles.goHomeLink} href="/faq">
-				<i className="fas fa-question"></i>
-				 Ir al FAQ
+				<i className="fa-regular fa-circle-question"></i>
+				Ir al FAQ
 			</Link>
 			<div className={styles.postsWrapper}>
 				{sortedPosts.map((post) => (

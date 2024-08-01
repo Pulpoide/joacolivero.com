@@ -19,7 +19,13 @@ const FAQ = () => {
           Volver a la página principal
         </Link>
         <Link className={styles.goHomeLink} href="/blog">
-          <i className="fas fa-book-open-reader"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+            <g fill="none" stroke="currentColor" stroke-width="4">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M24 21v23c-3.291-4-13.371-4-18-4V18c9.874 0 16.114 2 18 3m0 0v23c3.291-4 13.371-4 18-4V18c-9.874 0-16.114 2-18 3" />
+              <circle cx="24" cy="12" r="8" />
+            </g>
+          </svg>
           Ir al Blog
         </Link>
         <section className={styles.section}>
@@ -465,18 +471,19 @@ const FAQ = () => {
           alt="Unreal Engine 5" className={styles.image} />
           <br />
           <img src={"/assets/images/faq_pic_m_c.webp"} alt="Max Comperatore" className={styles.image} />
-          <p className={styles.paragraph} style={{ textAlign: "center" }}>
+        <p className={styles.paragraph} style={{ textAlign: "center" }}>
   <span className={styles.paragraph} style={{ color: "lime" }}>
   ¡Muchas gracias por leer hasta el final!
   </span>
-            <br /><br />
-            Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
-            saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
-            encontrar los enlaces en el pie de página a continuación.
-          </p>
+          <i className="fa-regular fa-face-smile"></i>
+          <br /><br />
+          Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
+          saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
+          encontrar los enlaces en el pie de página a continuación.
+        </p>
       </div>
     </>
-)
+  )
 }
 
 export default FAQ
