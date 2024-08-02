@@ -30,7 +30,7 @@ export const coverProjects: CoverProject[] = [
 	},
 	{
 		...projectMetadata.TheDungeon,
-		imageUrl: `/assets/images/projects/otherprojectscover/thedungeon.avif`,
+		imageUrl: `/assets/images/projects/cover/thedungeon.avif`,
 		description:
 			"Juego de puzzles y terror que combina acertijos desafiantes en un entorno oscuro y misterioso."
 	},
@@ -105,12 +105,12 @@ export const projects = [
 			"Este juego combina terror y puzzles, ofreciendo acertijos complejos, una atmósfera siniestra y música envolvente. Diseñado con el objetivo de aprender y mejorar habilidades en desarrollo de juegos, ¿podrás superar todos los desafíos y sobrevivir para ver el final?",
 		mobileImages:
 			[
-				`/assets/images/projects/hillclimbracing/library.avif`,
-				`/assets/images/projects/hillclimbracing/thedungeon.gif`
+				`/assets/images/projects/thedungeon/library.avif`,
+				`/assets/images/projects/thedungeon/thedungeon.gif`
 			],
 		desktopImages: [
-			`/assets/images/projects/hillclimbracing/streamer.avif`,
-			`/assets/images/projects/hillclimbracing/pistol.avif`,
+			`/assets/images/projects/thedungeon/streamer.avif`,
+			`/assets/images/projects/thedungeon/pistol.avif`,
 		],
 		links: [
 			{

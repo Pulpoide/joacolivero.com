@@ -27,7 +27,7 @@ export const projectMetadata = {
 		name: "Portfolio",
 	},
 	HillClimbRacing: {
-		slug: "hillclimbracing",
+		slug: "thedungeon",
 		name: "Hill Climb Racing",
 	},
 	thegreatchocolatecaper: {
@@ -39,7 +39,7 @@ export const projectMetadata = {
 export const coverProjects: CoverProjectOther[] = [
 	{
 		...projectMetadata.HillClimbRacing,
-		imageUrl: `/assets/images/projects/cover/hcr.avif`,
+		imageUrl: `/assets/images/projects/otherprojectscover/hcr.avif`,
 		description:
 			"Reimplementación de Hill Climb Racing en Unity, optimizando la experiencia original con mejoras en física, interfaz, y efectos sonoros para una jugabilidad más desafiante y envolvente.",
 		tags: [Tag.unity, Tag.cSharp],
