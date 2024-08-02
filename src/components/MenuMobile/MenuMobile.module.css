@@ -81,9 +81,16 @@
 	block-size: 72px;
 	padding-inline: var(--items-padding);
 	color: var(--color-text-secondary);
-	border-block-start: 1px dashed var(--color-stroke);
 	transition: border-block-start-color var(--theme-transition-duration);
 }
+
+.themeWrapper > * {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .button {
 	--size: 32px;
