@@ -27,7 +27,7 @@ export const AboutSection = () => {
 						Destaco por ser una persona <strong>atenta al detalle, organizada y agradable</strong>. Además, soy un trabajador perseverante y miembro colaborativo de equipo, siempre dispuesto a aprender y mejorar mis habilidades.
 					</p>
 					<p className={styles.paragraph}>
-						Busco involucrarme en proyectos innovadores y desafiantes que me permitan expandir mis competencias y, al mismo tiempo, potenciar a quienes trabajan a mi alrededor.
+						Estoy interesado en involucrarme en iniciativas que me permitan ampliar mis habilidades y contribuir al crecimiento profesional de los equipos con los que colaboro.
 					</p>
 				</div>
 			</div>
