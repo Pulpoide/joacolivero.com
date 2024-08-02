@@ -30,7 +30,7 @@ export const coverProjects: CoverProject[] = [
 	},
 	{
 		...projectMetadata.TheDungeon,
-		imageUrl: `/assets/images/projects/otherprojectscover/thedungeon.webp`,
+		imageUrl: `/assets/images/projects/otherprojectscover/thedungeon.avif`,
 		description:
 			"Juego de puzzles y terror que combina acertijos desafiantes en un entorno oscuro y misterioso."
 	},
@@ -44,13 +44,13 @@ export const projects = [
 			"Aplicación web que permite consultar precios de productos en MercadoLibre y visualizarlos en un histograma. Utiliza web scraping para obtener los precios, la API monedas-api (desarrollada por mí) para el tipo de cambio actualizado a dólares, y Matplotlib para generar gráficos claros y concisos que representan eficazmente la variabilidad de los precios.",
 		mobileImages:
 			[
-				`/assets/images/projects/mercadolibre/mercadolibrepcmobile.webp`,
-				`/assets/images/projects/mercadolibre/mercadolibrepchistograma.webp`
+				`/assets/images/projects/mercadolibre/mercadolibrepcmobile.avif`,
+				`/assets/images/projects/mercadolibre/mercadolibrepchistograma.avif`
 			],
 		desktopImages:
 			[
-				`/assets/images/projects/mercadolibre/mercadolibrepcmac.webp`,
-				`/assets/images/projects/mercadolibre/mercadolibrepcdiagrama.webp`
+				`/assets/images/projects/mercadolibre/mercadolibrepcmac.avif`,
+				`/assets/images/projects/mercadolibre/mercadolibrepcdiagrama.avif`
 			],
 		links: [
 			{
@@ -75,12 +75,12 @@ export const projects = [
 			"Monedas API es una aplicación robusta y dinámica desarrollada con FastAPI, que proporciona tasas de cambio de divisas en tiempo real mediante extracción de datos de sitios web financieros. Se centra en tasas de cambio en Argentina, incluyendo USD (blue, oficial, MEP, CCL), Euro, Real Brasileño y más. Desplegada en un servidor HTTP, ofrece acceso remoto a través de solicitudes RESTful.",
 		mobileImages:
 			[
-				`/assets/images/projects/monedasapi/json.webp`,
+				`/assets/images/projects/monedasapi/json.avif`,
 			],
 		desktopImages:
 			[
-				`/assets/images/projects/monedasapi/mac.webp`,
-				`/assets/images/projects/monedasapi/architecturediagram.webp`
+				`/assets/images/projects/monedasapi/mac.avif`,
+				`/assets/images/projects/monedasapi/architecturediagram.avif`
 			],
 		links: [
 			{

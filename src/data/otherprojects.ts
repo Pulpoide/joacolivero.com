@@ -47,7 +47,7 @@ export const coverProjects: CoverProjectOther[] = [
 	},
 	{
 		...projectMetadata.arrayutils,
-		imageUrl: `/assets/images/projects/otherprojectscover/arrayutils.webp`,
+		imageUrl: `/assets/images/projects/otherprojectscover/arrayutils.avif`,
 		description:
 			"Colección de funciones adaptadas de la Biblioteca de Plantillas Estándar (STL) de C++, diseñadas para interoperar con el lenguaje de scripting de Unreal Engine.",
 		tags: [Tag.unrealEngine, Tag.cPlusPlus, Tag.blueprints],
@@ -55,7 +55,7 @@ export const coverProjects: CoverProjectOther[] = [
 	},
 	{
 		...projectMetadata.portfolio,
-		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.webp`,
+		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.avif`,
 		description:
 			"Sitio web con diseño oscuro y backend robusto, optimizado para alto rendimiento, accesibilidad y SEO. Incorpora APIs avanzadas, gestión de datos y validación de formularios, con despliegue automático vía CI/CD.",
 		tags: [Tag.typescript, Tag.nextjs, Tag.css, Tag.postgreSQL],
@@ -63,7 +63,7 @@ export const coverProjects: CoverProjectOther[] = [
 	},
 	{
 		...projectMetadata.thegreatchocolatecaper,
-		imageUrl: `/assets/images/projects/otherprojectscover/thegreatchocolatecaper.webp`,
+		imageUrl: `/assets/images/projects/otherprojectscover/thegreatchocolatecaper.avif`,
 		description:
 			"Simulador interactivo donde el jugador asume el papel de una bola de chocolate intentando escapar de una casa laberíntica llena de robots hambrientos.",
 		tags: [Tag.unrealEngine, Tag.cPlusPlus, Tag.blueprints],
@@ -71,7 +71,7 @@ export const coverProjects: CoverProjectOther[] = [
 	},
 	{
 		...projectMetadata.pixelateddrift,
-		imageUrl: `/assets/images/projects/otherprojectscover/pixelateddrift.webp`,
+		imageUrl: `/assets/images/projects/otherprojectscover/pixelateddrift.avif`,
 		description:
 			"Simulador de manejo ambientado en una ciudad gótica con gráficos al estilo de la PlayStation 2.",
 		tags: [Tag.unrealEngine, Tag.cPlusPlus, Tag.blueprints],
@@ -79,7 +79,7 @@ export const coverProjects: CoverProjectOther[] = [
 	},
 	{
 		...projectMetadata.calculadorarendimientosmercadopago,
-		imageUrl: `/assets/images/projects/otherprojectscover/calculadorarendimientosmercadopago.webp`,
+		imageUrl: `/assets/images/projects/otherprojectscover/calculadorarendimientosmercadopago.avif`,
 		description:
 			"Herramienta web diseñada para calcular la ganancia de inversiones a lo largo del tiempo, ofreciendo una interfaz intuitiva y respuestas inmediatas.",
 		tags: [Tag.javascript, Tag.html, Tag.css],
@@ -87,14 +87,14 @@ export const coverProjects: CoverProjectOther[] = [
 	},
 	{
 		...projectMetadata.unrealengineprojectcleaner,
-		imageUrl: `/assets/images/projects/otherprojectscover/unrealengineprojectcleaner.webp`,
+		imageUrl: `/assets/images/projects/otherprojectscover/unrealengineprojectcleaner.avif`,
 		description: "Script de línea de comandos que optimiza el mantenimiento de proyectos de Unreal Engine eliminando carpetas temporales de forma efectiva, segura y rápida.",
 		tags: [Tag.powershell, Tag.cli],
 		link: "https://github.com/pyoneerC/Unreal-Engine-Project-Cleaner"
 	},
 	{
 		...projectMetadata.hangman,
-		imageUrl: `/assets/images/projects/otherprojectscover/hangman.webp`,
+		imageUrl: `/assets/images/projects/otherprojectscover/hangman.avif`,
 		description:
 			"Implementación del juego clásico \"El Ahorcado\" en 333 líneas de código, disponible para jugar en línea.",
 		tags: [Tag.cPlusPlus, Tag.cli],
