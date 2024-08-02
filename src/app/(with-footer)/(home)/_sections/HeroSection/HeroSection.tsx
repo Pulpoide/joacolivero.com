@@ -5,7 +5,7 @@ import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import styles from "./HeroSection.module.css";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
 import Clock from "~/components/Clock/Clock";
-import TimeDifference from "~/components/TimeDifference/TimeDifference"
+import ArgentinaFlag from "~/components/Svg/ArgentinaFlag"
 
 export const HeroSection = () => {
 
@@ -60,15 +60,9 @@ export const HeroSection = () => {
           Programador y estudiante pragmático, centrado en la calidad en cada fase del desarrollo.
         </p>
         <p className={styles.introSubtitle}>
-          Me encuentro en Mendoza, Argentina.
-          <img
-            className={styles.flag}
-            src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg"
-            alt="Argentina Flag"
-            width="30"
-            height="20"
-            loading="lazy"
-          /> <br />
+          Me encuentro en Mendoza, Argentina
+          <ArgentinaFlag className={styles.flag} />
+           <br />
           {/*<TimeDifference />*/}
           <Clock className={styles.clock} />
         </p>
