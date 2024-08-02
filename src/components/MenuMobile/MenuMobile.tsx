@@ -61,10 +61,11 @@ export const MenuMobile = () => {
 							</Button>
 						}
 					/>
-					<div className={styles.themeWrapper}>
+					<div className={styles.block}/>
+					<div className={styles.themeWrapper2}>
 						<span>Idioma </span> <LanguageSwitcher />
 					</div>
-					<div className={styles.themeWrapper2}>
+					<div className={styles.themeWrapper}>
 						<span>Tema </span> <ThemeSwitcher />
 					</div>
 				</div>

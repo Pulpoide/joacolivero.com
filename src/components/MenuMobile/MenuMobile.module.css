@@ -74,40 +74,40 @@
 	background-color: var(--color-button-hover-background);
 }
 
+.block {
+	border-block-start: 1px dashed var(--color-stroke);
+}
+
 .themeWrapper {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	block-size: 72px;
-	padding-inline: var(--items-padding);
-	color: var(--color-text-secondary);
-	transition: border-block-start-color var(--theme-transition-duration);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ block-size: 80px;
+ padding-inline: var(--items-padding);
+ color: var(--color-text-secondary);
+ transition: border-block-start-color var(--theme-transition-duration);
 }
 
 .themeWrapper > * {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+ flex: 1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 
 .themeWrapper2 {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	block-size: 72px;
-	padding-inline: var(--items-padding);
-	color: var(--color-text-secondary);
-	transition: border-block-start-color var(--theme-transition-duration);
+ display: flex;
+ padding-inline: var(--items-padding);
+ color: var(--color-text-secondary);
+ transition: border-block-start-color var(--theme-transition-duration);
 }
 
 .themeWrapper2 > * {
-	flex: 1;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+ flex: 1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
-
 
 .button {
 	--size: 32px;
@@ -118,12 +118,10 @@
 	inline-size: var(--size);
 	block-size: var(--size);
 	margin-inline-start: auto;
-	background-color: transparent;
 	padding-inline: 0;
 	-webkit-tap-highlight-color: transparent;
 	cursor: pointer;
 }
-
 .buttonLine {
 	inline-size: 80%;
 	block-size: 3px;
