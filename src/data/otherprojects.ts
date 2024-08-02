@@ -39,7 +39,7 @@ export const projectMetadata = {
 export const coverProjects: CoverProjectOther[] = [
 	{
 		...projectMetadata.HillClimbRacing,
-		imageUrl: `/assets/images/projects/cover/hcr.webp`,
+		imageUrl: `/assets/images/projects/cover/hcr.avif`,
 		description:
 			"Reimplementación de Hill Climb Racing en Unity, optimizando la experiencia original con mejoras en física, interfaz, y efectos sonoros para una jugabilidad más desafiante y envolvente.",
 		tags: [Tag.unity, Tag.cSharp],

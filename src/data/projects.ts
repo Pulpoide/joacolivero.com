@@ -19,12 +19,12 @@ export const projectMetadata = {
 export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.mercadolibrepricechart,
-		imageUrl: `/assets/images/projects/cover/mercadolibre.webp`,
+		imageUrl: `/assets/images/projects/cover/mercadolibre.avif`,
 		description: "Visualiza un histograma detallado de los precios de productos en MercadoLibre.",
 	},
 	{
 		...projectMetadata.monedasAPI,
-		imageUrl: `/assets/images/projects/cover/monedasapi.webp`,
+		imageUrl: `/assets/images/projects/cover/monedasapi.avif`,
 		description:
 			"API RESTful para obtener los precios más recientes de divisas extranjeras en Argentina.",
 	},
@@ -105,12 +105,12 @@ export const projects = [
 			"Este juego combina terror y puzzles, ofreciendo acertijos complejos, una atmósfera siniestra y música envolvente. Diseñado con el objetivo de aprender y mejorar habilidades en desarrollo de juegos, ¿podrás superar todos los desafíos y sobrevivir para ver el final?",
 		mobileImages:
 			[
-				`/assets/images/projects/hillclimbracing/library.webp`,
+				`/assets/images/projects/hillclimbracing/library.avif`,
 				`/assets/images/projects/hillclimbracing/thedungeon.gif`
 			],
 		desktopImages: [
-			`/assets/images/projects/hillclimbracing/streamer.webp`,
-			`/assets/images/projects/hillclimbracing/pistol.webp`,
+			`/assets/images/projects/hillclimbracing/streamer.avif`,
+			`/assets/images/projects/hillclimbracing/pistol.avif`,
 		],
 		links: [
 			{
