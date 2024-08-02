@@ -108,7 +108,7 @@ export const HeroSection = () => {
         <ContactDialog
           trigger={
             <Button className={styles.actionBtn} type="button">
-              Contáctame
+              Contactar
             </Button>
           }
         />
