@@ -58,9 +58,21 @@
 	margin-block-start: auto;
 }
 
-.contactButton {
+.dark .contactButton {
+	background-color: #dddddd;
+	color: var(--color-text);
 	margin-inline: var(--items-padding);
-	color: var(--text-color);
+	padding: 12px;
+	border: 1px solid var(--color-stroke);
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.light .contactButton {
+	background-color: #333333;
+	color: var(--color-text);
+	margin-inline: var(--items-padding);
 	padding: 12px;
 	border: 1px solid var(--color-stroke);
 	border-radius: 5px;
