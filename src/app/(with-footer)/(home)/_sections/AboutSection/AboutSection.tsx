@@ -8,7 +8,7 @@ export const AboutSection = () => {
 			<div className={styles.aboutMeContainer}>
 				<div className={styles.photoWrapper}>
 					<img
-						src="/assets/images/maximo_comperatore.webp"
+						src="/assets/images/maximo_comperatore.avif"
 						alt="Maximo Comperatore"
 						className={styles.photo}
 						loading="lazy"
