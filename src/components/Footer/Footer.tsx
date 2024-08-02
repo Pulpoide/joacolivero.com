@@ -7,7 +7,7 @@ import { YoutubeIcon } from "~/components/Svg/YoutubeIcon"
 import { GithubIcon } from "~/components/Svg/GithubIcon"
 import EmailIcon2 from "~/components/Svg/EmailIcon2"
 
-const iconComponents = {
+const iconComponents: any = {
 	LinkedInIcon : < LinkedInIcon />,
 	GithubIcon : < GithubIcon />,
 	EmailIcon : < EmailIcon2 />,
