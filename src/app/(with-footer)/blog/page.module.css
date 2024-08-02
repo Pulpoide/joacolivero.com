@@ -50,8 +50,8 @@
 	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
-.goHomeLink i {
-	margin-right: 8px;
+.goHomeLink svg {
+	margin-right: 4px;
 }
 
 .dark .goHomeLink:hover {

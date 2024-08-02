@@ -36,13 +36,14 @@ const FAQ = () => {
           Ir al Blog
         </Link>
         <section className={styles.section}>
-          <h2 className={styles.title}>Recorrido en Programación</h2>
+          <h2 className={styles.title1}>Recorrido en Programación</h2>
           <p className={styles.paragraph}>
             Mi camino en la programación comenzó en <strong>2021</strong>, impulsado por mi interés por
             los <strong>videojuegos</strong>. Empecé con
             cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en la aplicación
             <em>"War Report for Clash of Clans"</em>. Esta experiencia reforzó mi decisión de seguir una <strong>carrera
             en programación</strong>.
+            <br/><br/>
           </p>
           <p className={styles.paragraph}>
             Actualmente, estoy cursando el segundo semestre de la carrera de <strong>Desarrollo de Juegos</strong>, con
@@ -57,7 +58,7 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>Motivaciones para Estudiar Programación</h2>
+          <h2 className={styles.title1}>Motivaciones para Estudiar Programación</h2>
           <p className={styles.paragraph}>
             Siempre me ha fascinado <strong>transformar ideas abstractas en soluciones prácticas</strong> mediante la
             programación, un
@@ -76,7 +77,7 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>¿Frontend o Backend?</h2>
+          <h2 className={styles.title1}>¿Frontend o Backend?</h2>
           <p className={styles.paragraph}>
             Me especializo en el <strong>desarrollo backend</strong>, aunque también tengo la capacidad de trabajar en
             frontend cuando es
@@ -93,7 +94,7 @@ const FAQ = () => {
 
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>¿Cómo te Ves en 5 Años?</h2>
+          <h2 className={styles.title1}>¿Cómo te Ves en 5 Años?</h2>
           <p className={styles.paragraph}>
             En cinco años, me visualizo como un <strong>experto en backend y desarrollo de juegos</strong>,
             liderando <strong>equipos de alto rendimiento</strong> y compartiendo mi conocimiento como mentor. Aspiro a
@@ -108,7 +109,7 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>¿Qué Buscas en un Nuevo Trabajo?</h2>
+          <h2 className={styles.title1}>¿Qué Buscas en un Nuevo Trabajo?</h2>
           <p className={styles.paragraph}>
             Busco un entorno <strong>colaborativo</strong> donde pueda trabajar junto a profesionales competentes y
             comprometidos.
@@ -125,7 +126,7 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>Recursos Educativos Recomendados</h2>
+          <h2 className={styles.title1}>Recursos Educativos Recomendados</h2>
           <ul>
             <li>
         <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
@@ -227,7 +228,7 @@ const FAQ = () => {
         </section>
         <br /><br />
         <section className={styles.section}>
-          <h2 className={styles.title}>Mantenerse Actualizado</h2>
+          <h2 className={styles.title1}>Mantenerse Actualizado</h2>
           <p className={styles.paragraph}>
             Para estar al tanto de las últimas <strong>tendencias y tecnologías</strong>, sigo canales influyentes
             como&nbsp;
@@ -269,7 +270,7 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>Hobbies y Pasatiempos</h2>
+          <h2 className={styles.title1}>Hobbies y Pasatiempos</h2>
           <p className={styles.paragraph}>
             Durante mi tiempo libre, me dedico al desarrollo de proyectos y a la colaboración en diversas iniciativas
             tecnológicas. Entre mis actividades preferidas se encuentran <em>correr, caminar, analizar videojuegos,
@@ -284,7 +285,7 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>Preguntas Conductuales</h2>
+          <h2 className={styles.title1}>Preguntas Conductuales</h2>
           <ul className={styles.paragraph}>
             <li><strong>Lo más innovador que ha hecho y por qué lo considera innovador?</strong></li>
             <p>
@@ -377,7 +378,7 @@ const FAQ = () => {
           </ul>
         </section>
         <section className={styles.section}>
-          <h2 className={styles.title}>Mentores y Colaboradores</h2>
+          <h2 className={styles.title1}>Mentores y Colaboradores</h2>
           <p className={styles.paragraph}>
             Quiero expresar mi profundo agradecimiento a&nbsp;
             <a href="https://twitter.com/colinschmale" target="_blank" rel="noopener noreferrer"
@@ -403,7 +404,7 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title}>Canciones Favoritas</h2>
+          <h2 className={styles.title1}>Canciones Favoritas</h2>
           <p className={styles.paragraph}>
             Una selección que te hará bailar como un cyborg con exceso de cafeína.
           </p>
@@ -474,7 +475,15 @@ const FAQ = () => {
   <span className={styles.paragraph} style={{ color: "lime" }}>
   ¡Muchas gracias por leer hasta el final!
   </span>
-          <i className="fa-regular fa-face-grin-beam"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+               className="icon icon-tabler icons-tabler-outline icon-tabler-mood-smile-beam">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
+            <path d="M10 10c-.5 -1 -2.5 -1 -3 0" />
+            <path d="M17 10c-.5 -1 -2.5 -1 -3 0" />
+            <path d="M14.5 15a3.5 3.5 0 0 1 -5 0" />
+          </svg>
           <br /><br />
           Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
           saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
