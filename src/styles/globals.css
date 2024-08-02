@@ -53,7 +53,7 @@ body {
 	--color-background: hsl(0 0% 1%);
 	--color-themed-background: hsl(0 0% 4%);
 	--color-background-secondary: hsl(0 0% 6%);
-	--color-stroke: hsl(0 0% 12%);
+	--color-stroke: hsl(0, 0%, 12%);
 	--color-themed-stroke: hsl(0 0% 100% / 0.14);
 
 	--text-gradient: linear-gradient(180deg, hsl(0 0% 100%), hsl(0 0% 68%));
