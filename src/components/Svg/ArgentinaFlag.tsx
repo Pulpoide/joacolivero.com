@@ -1,5 +1,5 @@
 import * as React from "react";
-const ArgentinaFlag = (props) => (
+const ArgentinaFlag = (props: React.JSX.IntrinsicAttributes & React.SVGProps<SVGSVGElement>) => (
 	<svg
 		id="Layer_1"
 		xmlns="http://www.w3.org/2000/svg"
