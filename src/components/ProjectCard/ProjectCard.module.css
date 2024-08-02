@@ -1,6 +1,17 @@
 .card {
 	--border-radius: 8px;
 	position: relative;
+	transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:active {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	transform: translateY(2px);
+}
+
+.imageWrapper {
+	overflow: hidden;
+	border-radius: var(--border-radius);
 }
 
 .link {
@@ -10,11 +21,6 @@
 	font-size: 0;
 	border-radius: var(--border-radius);
 	overflow: hidden;
-}
-
-.imageWrapper {
-	overflow: hidden;
-	border-radius: var(--border-radius);
 }
 
 .image {
