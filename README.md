@@ -1,6 +1,9 @@
 # Portafolio de Max Comperatore
 
-Este proyecto es un fork del portafolio original de [Dresan](https://dresan.dev). Incluye varias mejoras y personalizaciones para satisfacer necesidades específicas (+500 commits).
+Este proyecto es un fork del [portafolio original](https://github.com/dresandev/dresan.dev) de [Dresan](https://dresan.dev). 
+Permiso para usar y modificar el código fuente fue otorgado por el autor original en el día 16 de julio de 2024.
+
+Incluye varias mejoras y personalizaciones para satisfacer necesidades específicas.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/pyoneerC/maxcomperatore.com)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/pyoneerc/maxcomperatore.com)
@@ -97,3 +100,5 @@ Este proyecto está licenciado bajo la Licencia MIT.
 ## Contacto
 
 Para cualquier consulta, por favor contactar a [maxcomperatore@gmail.com](mailto:maxcomperatore@gmail.com).
+
+Hecho con ❤️ por Max Comperatore.
