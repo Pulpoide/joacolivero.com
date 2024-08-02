@@ -69,7 +69,7 @@ export const HeroSection = () => {
             height="20"
             loading="lazy"
           /> <br />
-          <TimeDifference />
+          {/*<TimeDifference />*/}
           <Clock className={styles.clock} />
         </p>
       </div>

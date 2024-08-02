@@ -91,6 +91,23 @@
 	align-items: center;
 }
 
+.themeWrapper2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	block-size: 72px;
+	padding-inline: var(--items-padding);
+	color: var(--color-text-secondary);
+	transition: border-block-start-color var(--theme-transition-duration);
+}
+
+.themeWrapper2 > * {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 
 .button {
 	--size: 32px;
