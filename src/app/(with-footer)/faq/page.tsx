@@ -15,7 +15,7 @@ const FAQ = () => {
         <ScrollToTopButton />
         <h1 className={styles.title}>FAQ</h1>
         <Link className={styles.goHomeLink} href="/">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
                className="icon icon-tabler icons-tabler-outline icon-tabler-home">
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -26,7 +26,7 @@ const FAQ = () => {
           Volver a la página principal
         </Link>
         <Link className={styles.goHomeLink} href="/blog">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 48 48">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48">
             <g fill="none" stroke="currentColor" strokeWidth="4">
               <path strokeLinecap="round" strokeLinejoin="round"
                     d="M24 21v23c-3.291-4-13.371-4-18-4V18c9.874 0 16.114 2 18 3m0 0v23c3.291-4 13.371-4 18-4V18c-9.874 0-16.114 2-18 3" />
