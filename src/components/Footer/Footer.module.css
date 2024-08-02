@@ -69,11 +69,10 @@
 }
 
 .footer .wrapper .year {
-	display: flex;      
+	display: flex;
 	align-items: center;
-	gap: 8px;
+	gap: 6px;
 	font-size: 16px;
-	color: #fff;
 }
 
 .icon {
