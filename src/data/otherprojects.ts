@@ -54,14 +54,6 @@ export const coverProjects: CoverProjectOther[] = [
 		link: "https://github.com/pyoneerC/Array-Utils"
 	},
 	{
-		...projectMetadata.portfolio,
-		imageUrl: `/assets/images/projects/otherprojectscover/portfolio.avif`,
-		description:
-			"Sitio web con diseño oscuro y backend robusto, optimizado para alto rendimiento, accesibilidad y SEO. Incorpora APIs avanzadas, gestión de datos y validación de formularios, con despliegue automático vía CI/CD.",
-		tags: [Tag.typescript, Tag.nextjs, Tag.css, Tag.postgreSQL],
-		link: "https://github.com/pyoneerC/maxcomperatore.com"
-	},
-	{
 		...projectMetadata.thegreatchocolatecaper,
 		imageUrl: `/assets/images/projects/otherprojectscover/thegreatchocolatecaper.avif`,
 		description:
@@ -91,13 +83,5 @@ export const coverProjects: CoverProjectOther[] = [
 		description: "Script de línea de comandos que optimiza el mantenimiento de proyectos de Unreal Engine eliminando carpetas temporales de forma efectiva, segura y rápida.",
 		tags: [Tag.powershell, Tag.cli],
 		link: "https://github.com/pyoneerC/Unreal-Engine-Project-Cleaner"
-	},
-	{
-		...projectMetadata.hangman,
-		imageUrl: `/assets/images/projects/otherprojectscover/hangman.avif`,
-		description:
-			"Implementación del juego clásico \"El Ahorcado\" en 333 líneas de código, disponible para jugar en línea.",
-		tags: [Tag.cPlusPlus, Tag.cli],
-		link: "https://github.com/pyoneerC/hangman"
 	},
 ]

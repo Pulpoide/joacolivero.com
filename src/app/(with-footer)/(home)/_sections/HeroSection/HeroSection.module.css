@@ -111,8 +111,8 @@
 }
 
 .availableCircle {
-	--size: 8px;
-	--color-background: #35bb2b;
+	--size: 10px;
+	--color-background: #4FE2C1;
 	position: relative;
 	inline-size: var(--size);
 	block-size: var(--size);
@@ -126,17 +126,17 @@
 	inset: 0;
 	border-radius: 50%;
 	box-shadow: 0 0 0 0 var(--color-background);
-	animation: circle-pulse 1.15s infinite;
+	animation: circle-pulse 1s infinite;
 }
 
 @keyframes circle-pulse {
 	0% {
 		transform: scale(0.875);
-		box-shadow: 0 0 0 0 #4de635;
+		box-shadow: 0 0 0 0 #4ae1bb;
 	}
 	50% {
 		transform: scale(1);
-		box-shadow: 0 0 0 4px hsl(126 38% 48% / 0);
+		box-shadow: 0 0 0 0.350rem hsl(126 38% 48% / 0);
 	}
 	100% {
 		transform: scale(0.875);
