@@ -18,6 +18,9 @@ export default async function Blog() {
 	return (
 		<main className={styles.wrapper}>
 			<h1 className={styles.title}>Blog</h1>
+			<p className={styles.paragraph}>
+				Artículos sobre desarrollo de software y videojuegos.
+			</p>
 			<Link className={styles.goHomeLink} href="/">
 				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
 						 stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
