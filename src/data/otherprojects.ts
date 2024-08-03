@@ -27,8 +27,8 @@ export const projectMetadata = {
 		name: "Portfolio",
 	},
 	HillClimbRacing: {
-		slug: "thedungeon",
-		name: "Hill Climb Racing",
+		slug: "hillclimbracingclone",
+		name: "Hill Climb Racing Clone",
 	},
 	thegreatchocolatecaper: {
 		slug: "thegreatchocolatecaper",
@@ -41,7 +41,7 @@ export const coverProjects: CoverProjectOther[] = [
 		...projectMetadata.HillClimbRacing,
 		imageUrl: `/assets/images/projects/otherprojectscover/hcr.avif`,
 		description:
-			"Reimplementación de Hill Climb Racing en Unity, optimizando la experiencia original con mejoras en física, interfaz, y efectos sonoros para una jugabilidad más desafiante y envolvente.",
+			"Recreación en Unity con mejoras en física, interfaz y sonido para una experiencia más desafiante e inmersiva. Inspirado por mi amor por este juego de la infancia.",
 		tags: [Tag.unity, Tag.cSharp],
 		link: "https://github.com/pyoneerC/Hill-Climb-Racing"
 	},
