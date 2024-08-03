@@ -33,6 +33,11 @@
 	color: var(--text-color);
 }
 
+.icon {
+	margin-right: 4px;
+	font-size: 1.2em;
+}
+
 .link {
 	display: flex;
 	align-items: center;

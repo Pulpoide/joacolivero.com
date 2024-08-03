@@ -24,7 +24,9 @@ export const Footer404 = () => {
 				<div className={styles.linksWrapper}>
 					{socialMediaLinks.map(({ url, label, icon, className }) => (
 						<Link key={url} className={`${styles.link} ${styles[className]}`} href={url} target="_blank">
+							<span className={styles.icon}>
 							{iconComponents[icon]}
+							</span>
 							{label}
 						</Link>
 					))}
