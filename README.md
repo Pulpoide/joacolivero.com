@@ -5,6 +5,8 @@ Permiso para usar y modificar el código fuente fue otorgado por el autor origin
 
 Incluye varias mejoras y personalizaciones para satisfacer necesidades específicas.
 
+Basado en el [Geist Design System](https://vercel.com/geist/introduction) de [Vercel](https://vercel.com).
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/pyoneerC/maxcomperatore.com)
 ![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/pyoneerc/maxcomperatore.com)
 ![Website](https://img.shields.io/website?url=https%3A%2F%2Fmaxcomperatore.com)
