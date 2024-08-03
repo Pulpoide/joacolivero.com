@@ -124,7 +124,7 @@
 	content: "";
 	position: absolute;
 	inset: 0;
-	border-radius: 50%;
+	border-radius: 75%;
 	box-shadow: 0 0 0 0 var(--color-background);
 	animation: circle-pulse 1s infinite;
 }
@@ -136,7 +136,7 @@
 	}
 	50% {
 		transform: scale(1);
-		box-shadow: 0 0 0 0.350rem hsl(126 38% 48% / 0);
+		box-shadow: 0 0 0 0.375rem hsl(126 38% 48% / 0);
 	}
 	100% {
 		transform: scale(0.875);
