@@ -4,7 +4,6 @@
     --theme-transition-duration: 0.3s;
     --scroll-button-bg: #030303;
     --scroll-button-color: #ffffff;
-    --scroll-button-hover-bg: #1f1f1f;
 }
 
 .dark {
@@ -13,7 +12,6 @@
     --theme-transition-duration: 0.3s;
     --scroll-button-bg: #f1f1f1;
     --scroll-button-color: #030303;
-    --scroll-button-hover-bg: #e1e1e1;
 }
 
 .button {
@@ -28,10 +26,6 @@
     -webkit-tap-highlight-color: transparent;
     cursor: pointer;
     transition: color var(--theme-transition-duration) ease;
-}
-
-.button:hover {
-    color: var(--color-text);
 }
 
 .sunAndMoon {
