@@ -93,6 +93,15 @@
  padding-inline: var(--items-padding);
  color: var(--color-text-secondary);
  transition: border-block-start-color var(--theme-transition-duration);
+	transform: translateY(-10px);
+}
+
+.themeText {
+	transform: translateY(-2px);
+}
+
+.themeText2 {
+	transform: translateY(-1px);
 }
 
 .themeWrapper > * {

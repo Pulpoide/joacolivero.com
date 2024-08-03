@@ -65,14 +65,14 @@ export const MenuMobile = () => {
 					<div className={styles.themeWrapper2}>
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
 								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-								 className="icon icon-tabler icons-tabler-outline icon-tabler-braces">
+								 className="icon icon-tabler icons-tabler-outline icon-tabler-braces" style={{ verticalAlign: 'text-bottom' }}>
 							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 							<path d="M7 4a2 2 0 0 0 -2 2v3a2 3 0 0 1 -2 3a2 3 0 0 1 2 3v3a2 2 0 0 0 2 2" />
 						</svg>
-						<span>Idioma </span>
+						<span className={styles.themeText}>Idioma </span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
 								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-								 className="icon icon-tabler icons-tabler-outline icon-tabler-protocol">
+								 className="icon icon-tabler icons-tabler-outline icon-tabler-protocol" style={{ verticalAlign: 'text-bottom' }}>
 							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 							<path d="M5 14v.015" />
 							<path d="M5 10.015v.015" />
@@ -80,7 +80,7 @@ export const MenuMobile = () => {
 						<LanguageSwitcher />
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
 								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-								 className="icon icon-tabler icons-tabler-outline icon-tabler-braces">
+								 className="icon icon-tabler icons-tabler-outline icon-tabler-braces" style={{ verticalAlign: 'text-bottom', transform: 'translateY(2px)' }}>
 							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 							<path d="M17 4a2 2 0 0 1 2 2v3a2 3 0 0 0 2 3a2 3 0 0 0 -2 3v3a2 2 0 0 1 -2 2" />
 						</svg>
@@ -88,14 +88,14 @@ export const MenuMobile = () => {
 					<div className={styles.themeWrapper}>
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
 								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-								 className="icon icon-tabler icons-tabler-outline icon-tabler-braces">
+								 className="icon icon-tabler icons-tabler-outline icon-tabler-braces" style={{ verticalAlign: 'text-bottom' }}>
 							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 							<path d="M7 4a2 2 0 0 0 -2 2v3a2 3 0 0 1 -2 3a2 3 0 0 1 2 3v3a2 2 0 0 0 2 2" />
 						</svg>
-						<span>Tema </span>
+						<span className={styles.themeText2}>Tema </span>
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none"
 								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-								 className="icon icon-tabler icons-tabler-outline icon-tabler-protocol">
+								 className="icon icon-tabler icons-tabler-outline icon-tabler-protocol" style={{ verticalAlign: 'text-bottom' }}>
 							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 							<path d="M5 14v.015" />
 							<path d="M5 10.015v.015" />
@@ -103,7 +103,7 @@ export const MenuMobile = () => {
 						<ThemeSwitcher />
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
 								 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-								 className="icon icon-tabler icons-tabler-outline icon-tabler-braces">
+								 className="icon icon-tabler icons-tabler-outline icon-tabler-braces" style={{ verticalAlign: 'text-bottom', transform: 'translateY(1px)' }}>
 							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 							<path d="M17 4a2 2 0 0 1 2 2v3a2 3 0 0 0 2 3a2 3 0 0 0 -2 3v3a2 2 0 0 1 -2 2" />
 						</svg>
