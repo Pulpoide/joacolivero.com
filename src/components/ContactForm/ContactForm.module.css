@@ -9,3 +9,12 @@
 	display: inline-block;
 	padding-block-end: 8px;
 }
+
+.error {
+	color: #e00;
+	font-size: 0.875rem;
+	margin-top: 0.5rem;
+	padding: 0.5rem;
+	background-color: #ffeaea;
+	border-radius: 4px;
+}
