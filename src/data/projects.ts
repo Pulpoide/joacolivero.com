@@ -20,13 +20,13 @@ export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.mercadolibrepricechart,
 		imageUrl: `/assets/images/projects/cover/mercadolibre.avif`,
-		description: "Visualiza un histograma detallado de los precios de productos en MercadoLibre.",
+		description: "Histograma de precios en tiempo real para cualquier producto de MercadoLibre.",
 	},
 	{
 		...projectMetadata.monedasAPI,
 		imageUrl: `/assets/images/projects/cover/monedasapi.avif`,
 		description:
-			"API RESTful para obtener los precios más recientes de divisas extranjeras en Argentina.",
+			"API RESTful para obtener cotizaciones de divisas extranjeras en vivo, en Argentina.",
 	},
 	{
 		...projectMetadata.TheDungeon,
