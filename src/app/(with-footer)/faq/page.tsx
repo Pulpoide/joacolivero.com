@@ -40,7 +40,7 @@ const FAQ = () => {
           <p className={styles.paragraph}>
             Mi camino en la programación comenzó en <strong>2021</strong>, impulsado por mi interés por
             los <strong>videojuegos</strong>. Empecé con
-            cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en la aplicación
+            cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en las traducciones de la aplicación
             <em>"War Report for Clash of Clans"</em>. Esta experiencia reforzó mi decisión de seguir una <strong>carrera
             en programación</strong>.
             <br/><br/>
