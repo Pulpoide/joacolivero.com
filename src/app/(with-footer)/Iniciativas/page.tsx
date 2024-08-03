@@ -11,9 +11,9 @@ export const metadata = {
 export default function Blog() {
 	return (
 		<section className={styles.projectsWrapper}>
-			<h2 className={styles.title}>Otros proyectos</h2>
+			<h2 className={styles.title}>Otras iniciativas</h2>
 			<p className={styles.paragraph}>
-				Algunos proyectos personales que he desarrollado en mi tiempo libre.
+				Proyectos personales desarrollados para explorar nuevas tecnologías y mejorar mis habilidades.
 			</p>
 
 			<div className={styles.projectsGrid}>
