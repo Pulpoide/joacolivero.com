@@ -47,11 +47,6 @@
 	font-size: 1.2em;
 }
 
-.navLink:hover {
-	background-color: var(--color-hover-background);
-	color: var(--color-hover-text);
-}
-
 .optionsWrapper {
 	display: flex;
 	flex-direction: column;
@@ -170,11 +165,6 @@
 	color: #e0e0e0;
 }
 
-.dark .navLink:hover {
-	background-color: #333333;
-	color: #ffffff;
-}
-
 .dark .contactButton {
 	background-color: #444444;
 	color: #e0e0e0;
@@ -193,11 +183,6 @@
 }
 
 .light .navLink {
-	color: #333333;
-}
-
-.light .navLink:hover {
-	background-color: #eeeeee;
 	color: #333333;
 }
 
