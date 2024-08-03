@@ -77,7 +77,7 @@
 }
 
 .block {
-	border-block-start: 1px dashed var(--color-stroke);
+	border-block-start: 1px dashed var(--color-text-secondary);
 }
 
 .themeWrapper {
