@@ -37,63 +37,54 @@ const ContactForm = () => {
 				}
 			})
 			.catch(error => {
-				setResponseMessage("Oops! Algo salió mal.")
+				console.error("Form submit error:", error);
+				setResponseMessage("Oops! Algo salió mal.");
 				setHasError(true)
 			})
 	}
 
-	const correctEmail = (event: { target: { value: any } }) => {
-		let email = event.target.value
-		email = email.trim()
-
-		let VALID_EMAIL_API_KEY = 'xbHNBLZBMpUF1DkVkCp6Td4euRjeJLB6'
-
-		const fetchValidEmail = fetch('https://validemail.io/v1/validate?api_key=' + VALID_EMAIL_API_KEY + '&email=gontoregames@gmail.com')
-
-		const domainCorrections = {
-			'gamil.com': 'gmail.com',
-			'hotamil.com': 'hotmail.com',
-			'yhaoo.com': 'yahoo.com',
-			'outlok.com': 'outlook.com',
-			'gmai.com': 'gmail.com',
-			'mail.com': 'gmail.com',
-			'hot.com': 'hotmail.com',
-			'gmali.com': 'gmail.com',
-			'gmial.com': 'gmail.com',
-			'tlok.com': 'outlook.com',
-			'gmal.com': 'gmail.com',
-			'yaho.com': 'yahoo.com',
-			'iahoo.com': 'yahoo.com',
-			'hotmai.com': 'hotmail.com',
-			'hotmaiil.com': 'hotmail.com',
-			'hotmal.com': 'hotmail.com',
-			'hotmial.com': 'hotmail.com',
-			'hotmil.com': 'hotmail.com',
-			'gmaail.com': 'gmail.com',
+	const correctName = (event: React.FocusEvent<HTMLInputElement>) => {
+		const name = event.target.value
+		if (name.length < 5) {
+			setResponseMessage("Por favor, ingrese su nombre completo.");
+			setHasError(true);
+			return;
+		} else {
+			setResponseMessage("");
+			setHasError(false);
 		}
+	}
 
-		const domainRegex = /@(gamil|hotamil|yhaoo|outlok|gmai|mail|hot|gmali|gmial|tlok|gmal|yaho|iahoo|hotmai|hotmaiil|hotmal|hotmail|hotmil|gmaail)\.com$/i
-
-		if (domainRegex.test(email)) {
-			const domainMatch = email.match(domainRegex)
-			if (domainMatch && domainMatch[1]) {
-				const lookupKey = domainMatch[1].toLowerCase() + '.com'
-				// @ts-ignore
-				const correctDomain = domainCorrections[lookupKey]
-				if (correctDomain) {
-					email = email.replace(domainRegex, '@' + correctDomain)
-				}
-			}
+	const correctEmail = (event: React.FocusEvent<HTMLInputElement>) => {
+		const email = event.target.value
+		const emailRegex = /^(?=.{1,254}$)(?=.{1,64}@.{1,255}$)(?=[a-zA-Z0-9._%+-]{1,64}@)[a-zA-Z0-9][a-zA-Z0-9._%+-]{0,63}@[a-zA-Z0-9][a-zA-Z0-9.-]{0,253}[a-zA-Z0-9]\.[a-zA-Z]{2,24}$/
+		if (!emailRegex.test(email)) {
+			setResponseMessage("Por favor ingrese un correo electrónico válido.");
+			setHasError(true);
+			return;
+		} else {
+			setResponseMessage("");
+			setHasError(false);
 		}
+	}
 
-		event.target.value = email
+	const correctMessage = (event: React.FocusEvent<HTMLTextAreaElement>) => {
+		const message = event.target.value
+		if (message.length < 5) {
+			setResponseMessage("Por favor, ingrese un mensaje más largo.");
+			setHasError(true);
+			return;
+		} else {
+			setResponseMessage("");
+			setHasError(false);
+		}
 	}
 
 	return (
 		<form ref={formRef} onSubmit={handleSubmit} className={styles.form} method="POST">
 			<Label>
 				<span className={styles.labelWrapper}>Nombre</span>
-				<Input placeholder="Ingrese su nombre completo" name="name" autoComplete="name" required />
+				<Input placeholder="Ingrese su nombre completo" name="name" autoComplete="name" required onChange={correctName} />
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Correo</span>
@@ -102,15 +93,15 @@ const ContactForm = () => {
 					type="email"
 					name="email"
 					autoComplete="email"
-					onBlur={correctEmail}
+					onInput={correctEmail}
 					required
 				/>
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Mensaje</span>
-				<Textarea placeholder="Escriba su mensaje aquí" name="message" required />
+				<Textarea placeholder="Escriba su mensaje aquí" name="message" required onChange={correctMessage} />
 			</Label>
-			<Button type="submit" size="medium">
+			<Button type="submit" size="medium" disabled={hasError}>
 				Enviar
 			</Button>
 			{responseMessage && (
