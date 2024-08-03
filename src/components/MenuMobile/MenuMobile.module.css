@@ -170,10 +170,6 @@
 	color: #e0e0e0;
 }
 
-.dark .contactButton:hover {
-	background-color: #555555;
-}
-
 .dark .themeWrapper {
 	border-block-start-color: #444444;
 }
@@ -189,10 +185,6 @@
 .light .contactButton {
 	background-color: #dddddd;
 	color: #333333;
-}
-
-.light .contactButton:hover {
-	background-color: #cccccc;
 }
 
 .light .themeWrapper {
