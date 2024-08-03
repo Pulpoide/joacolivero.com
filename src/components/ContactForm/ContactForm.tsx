@@ -1,90 +1,115 @@
-"use client"
+"use client";
 
-import { useRef, useState } from "react"
-import { Button } from "~/components/Ui/Button"
-import { Label } from "~/components/Ui/Label"
-import { Input } from "~/components/Ui/Input"
-import { Textarea } from "~/components/Ui/TextArea"
-import { MessageCard } from "~/components/MessageCard"
-import styles from "./ContactForm.module.css"
+import { useRef, useState } from "react";
+import { Button } from "~/components/Ui/Button";
+import { Label } from "~/components/Ui/Label";
+import { Input } from "~/components/Ui/Input";
+import { Textarea } from "~/components/Ui/TextArea";
+import { MessageCard } from "~/components/MessageCard";
+import styles from "./ContactForm.module.css";
 
 const ContactForm = () => {
-	const formRef = useRef<HTMLFormElement>(null)
-	const [responseMessage, setResponseMessage] = useState("")
-	const [hasError, setHasError] = useState(false)
+	const formRef = useRef<HTMLFormElement>(null);
+	const [responseMessage, setResponseMessage] = useState("");
+	const [nameError, setNameError] = useState("");
+	const [emailError, setEmailError] = useState("");
+	const [messageError, setMessageError] = useState("");
+	const [hasError, setHasError] = useState(false);
 
 	const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-		event.preventDefault()
+		event.preventDefault();
+		console.log("Submitting form");
+
+		// Reset global response message
+		setResponseMessage("");
+
 		// @ts-ignore
-		const formData = new FormData(formRef.current)
+		const formData = new FormData(formRef.current);
 
-		fetch("https://formspree.io/f/xzzpebvr", {
-			method: 'POST',
-			body: formData,
-			headers: {
-				'Accept': 'application/json'
-			},
-		})
-			.then(response => response.json())
-			.then(data => {
-				if (data.ok) {
-					setResponseMessage("Gracias por tu consulta. Responderé a la brevedad.")
-					setHasError(false)
-					formRef.current?.reset()
-				} else {
-					setResponseMessage(data.error || "Oops! Algo salió mal.")
-					setHasError(true)
-				}
-			})
-			.catch(error => {
-				console.error("Form submit error:", error);
-				setResponseMessage("Oops! Algo salió mal.");
-				setHasError(true)
-			})
-	}
+		try {
+			const response = await fetch("https://formspree.io/f/xzzpebvr", {
+				method: "POST",
+				body: formData,
+				headers: {
+					Accept: "application/json",
+				},
+			});
 
-	const correctName = (event: React.FocusEvent<HTMLInputElement>) => {
-		const name = event.target.value
+			const data = await response.json();
+			if (data.ok) {
+				setResponseMessage("Gracias por tu consulta. Responderé a la brevedad.");
+				setHasError(false);
+				formRef.current?.reset();
+			} else {
+				setResponseMessage(data.error || "Oops! Algo salió mal.");
+				setHasError(true);
+			}
+		} catch (error) {
+			console.error("Form submit error:", error);
+			setResponseMessage("Error de red. Intente nuevamente.");
+			setHasError(true);
+		}
+	};
+
+	const validateName = (name: string) => {
 		if (name.length < 5) {
-			setResponseMessage("Por favor, ingrese su nombre completo.");
+			setNameError("Por favor, ingrese su nombre completo.");
 			setHasError(true);
-			return;
 		} else {
-			setResponseMessage("");
+			setNameError("");
 			setHasError(false);
 		}
-	}
+	};
 
-	const correctEmail = (event: React.FocusEvent<HTMLInputElement>) => {
-		const email = event.target.value
-		const emailRegex = /^(?=.{1,254}$)(?=.{1,64}@.{1,255}$)(?=[a-zA-Z0-9._%+-]{1,64}@)[a-zA-Z0-9][a-zA-Z0-9._%+-]{0,63}@[a-zA-Z0-9][a-zA-Z0-9.-]{0,253}[a-zA-Z0-9]\.[a-zA-Z]{2,24}$/
+	const handleNameChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+		const name = event.target.value;
+		validateName(name);
+	};
+
+	const validateEmail = (email: string) => {
+		const emailRegex =
+			/^(?=.{1,254}$)(?=.{1,64}@.{1,255}$)(?=[a-zA-Z0-9._%+-]{1,64}@)[a-zA-Z0-9][a-zA-Z0-9._%+-]{0,63}@[a-zA-Z0-9][a-zA-Z0-9.-]{0,253}[a-zA-Z0-9]\.[a-zA-Z]{2,24}$/;
 		if (!emailRegex.test(email)) {
-			setResponseMessage("Por favor ingrese un correo electrónico válido.");
+			setEmailError("Por favor ingrese un correo electrónico válido.");
 			setHasError(true);
-			return;
 		} else {
-			setResponseMessage("");
+			setEmailError("");
 			setHasError(false);
 		}
-	}
+	};
 
-	const correctMessage = (event: React.FocusEvent<HTMLTextAreaElement>) => {
-		const message = event.target.value
+	const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+		const email = event.target.value;
+		validateEmail(email);
+	};
+
+	const validateMessage = (message: string) => {
 		if (message.length < 5) {
-			setResponseMessage("Por favor, ingrese un mensaje más largo.");
+			setMessageError("Por favor, ingrese un mensaje más largo.");
 			setHasError(true);
-			return;
 		} else {
-			setResponseMessage("");
+			setMessageError("");
 			setHasError(false);
 		}
-	}
+	};
+
+	const handleMessageChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
+		const message = event.target.value;
+		validateMessage(message);
+	};
 
 	return (
 		<form ref={formRef} onSubmit={handleSubmit} className={styles.form} method="POST">
 			<Label>
 				<span className={styles.labelWrapper}>Nombre</span>
-				<Input placeholder="Ingrese su nombre completo" name="name" autoComplete="name" required onChange={correctName} />
+				<Input
+					placeholder="Ingrese su nombre completo"
+					name="name"
+					autoComplete="name"
+					required
+					onChange={handleNameChange}
+				/>
+				{nameError && <p className={styles.error}>{nameError}</p>}
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Correo</span>
@@ -93,13 +118,20 @@ const ContactForm = () => {
 					type="email"
 					name="email"
 					autoComplete="email"
-					onInput={correctEmail}
+					onInput={handleEmailChange}
 					required
 				/>
+				{emailError && <p className={styles.error}>{emailError}</p>}
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Mensaje</span>
-				<Textarea placeholder="Escriba su mensaje aquí" name="message" required onChange={correctMessage} />
+				<Textarea
+					placeholder="Escriba su mensaje aquí"
+					name="message"
+					required
+					onChange={handleMessageChange}
+				/>
+				{messageError && <p className={styles.error}>{messageError}</p>}
 			</Label>
 			<Button type="submit" size="medium" disabled={hasError}>
 				Enviar
@@ -108,7 +140,7 @@ const ContactForm = () => {
 				<MessageCard variant={hasError ? "error" : "success"}>{responseMessage}</MessageCard>
 			)}
 		</form>
-	)
-}
+	);
+};
 
-export default ContactForm
+export default ContactForm;
