@@ -9,12 +9,15 @@ import { MessageCard } from "~/components/MessageCard";
 import styles from "./ContactForm.module.css";
 
 const ContactForm = () => {
-	const formRef = useRef<HTMLFormElement>(null);
+	const formRef = useRef(null);
 	const [responseMessage, setResponseMessage] = useState("");
 	const [nameError, setNameError] = useState("");
 	const [emailError, setEmailError] = useState("");
 	const [messageError, setMessageError] = useState("");
 	const [hasError, setHasError] = useState(false);
+	const [nameValid, setNameValid] = useState(false);
+	const [emailValid, setEmailValid] = useState(false);
+	const [messageValid, setMessageValid] = useState(false);
 
 	const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
 		event.preventDefault();
@@ -54,9 +57,11 @@ const ContactForm = () => {
 	const validateName = (name: string) => {
 		if (name.length < 5) {
 			setNameError("Por favor, ingrese su nombre completo.");
+			setNameValid(false);
 			setHasError(true);
 		} else {
 			setNameError("");
+			setNameValid(true);
 			setHasError(false);
 		}
 	};
@@ -71,9 +76,11 @@ const ContactForm = () => {
 			/^(?=.{1,254}$)(?=.{1,64}@.{1,255}$)(?=[a-zA-Z0-9._%+-]{1,64}@)[a-zA-Z0-9][a-zA-Z0-9._%+-]{0,63}@[a-zA-Z0-9][a-zA-Z0-9.-]{0,253}[a-zA-Z0-9]\.[a-zA-Z]{2,24}$/;
 		if (!emailRegex.test(email)) {
 			setEmailError("Por favor, ingrese un correo válido.");
+			setEmailValid(false);
 			setHasError(true);
 		} else {
 			setEmailError("");
+			setEmailValid(true);
 			setHasError(false);
 		}
 	};
@@ -86,9 +93,11 @@ const ContactForm = () => {
 	const validateMessage = (message: string) => {
 		if (message.length < 5) {
 			setMessageError("Por favor, ingrese un mensaje más largo.");
+			setMessageValid(false);
 			setHasError(true);
 		} else {
 			setMessageError("");
+			setMessageValid(true);
 			setHasError(false);
 		}
 	};
@@ -109,13 +118,22 @@ const ContactForm = () => {
 		>
 			<Label>
 				<span className={styles.labelWrapper}>Nombre</span>
-				<Input
-					placeholder="Ingrese su nombre completo"
-					name="name"
-					autoComplete="name"
-					required
-					onChange={handleNameChange}
-				/>
+				<div className={styles.inputWithIcon}>
+					<Input
+						className={styles.inputField}
+						placeholder="Ingrese su nombre completo"
+						name="name"
+						autoComplete="name"
+						required
+						onChange={handleNameChange}
+					/>
+					{nameValid && (
+						<svg className={styles.checkIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+							<path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+							<path d="M9 12l2 2l4 -4" />
+						</svg>
+					)}
+				</div>
 				{nameError && (
 					<p className={styles.error}>
 						<svg
@@ -138,33 +156,30 @@ const ContactForm = () => {
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Correo</span>
-				<Input
-					placeholder="ejemplo@correo.com"
-					type="email"
-					name="email"
-					autoComplete="email"
-					onInput={handleEmailChange}
-					required
-				/>
-				{emailError && (
-					<p className={styles.error}>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
-							stroke="currentColor"
-							fill="none"
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth="2"
-							viewBox="0 0 24 24"
-							aria-hidden="true"
-						>
-							<path d="M8.274 3h7.452L21 8.274v7.452L15.726 21H8.274L3 15.726V8.274zM12 7.65v5.2m0 3.39v.01"></path>
+				<div className={styles.inputWithIcon}>
+					<Input
+						placeholder="ejemplo@correo.com"
+						type="email"
+						name="email"
+						autoComplete="email"
+						required
+						onInput={handleEmailChange} />
+					{emailValid && (
+						<svg className={styles.checkIcon} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+							<path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+							<path d="M9 12l2 2l4 -4" />
 						</svg>
-						{emailError}
-					</p>
-				)}
+					)}
+				</div>
+					{emailError && (
+						<p className={styles.error}>
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" stroke="currentColor" fill="none"
+									 strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+								<path d="M8.274 3h7.452L21 8.274v7.452L15.726 21H8.274L3 15.726V8.274zM12 7.65v5.2m0 3.39v.01"></path>
+							</svg>
+							{emailError}
+						</p>
+					)}
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Mensaje</span>
@@ -172,22 +187,10 @@ const ContactForm = () => {
 					placeholder="Escriba su mensaje aquí"
 					name="message"
 					required
-					onChange={handleMessageChange}
-				/>
+					onChange={handleMessageChange} />
 				{messageError && (
 					<p className={styles.error}>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
-							stroke="currentColor"
-							fill="none"
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth="2"
-							viewBox="0 0 24 24"
-							aria-hidden="true"
-						>
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
 							<path d="M8.274 3h7.452L21 8.274v7.452L15.726 21H8.274L3 15.726V8.274zM12 7.65v5.2m0 3.39v.01"></path>
 						</svg>
 						{messageError}
