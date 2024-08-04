@@ -17,7 +17,7 @@ export const HeroSection = () => {
       <h2 className={styles.subtitle}>Desarrollador Backend y de Videojuegos</h2>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
-          Programador y estudiante pragmático, centrado en la calidad en cada fase del desarrollo.
+          Dedicado a transformar ideas complejas en soluciones eficaces.
         </p>
         <p className={styles.introSubtitle}>
           Me encuentro en Mendoza, Argentina
