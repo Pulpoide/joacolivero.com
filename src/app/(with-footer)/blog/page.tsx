@@ -37,6 +37,7 @@ export default async function Blog() {
 				</svg>
 				Ir al FAQ
 			</Link>
+			<div className={styles.separator} />
 			<div className={styles.postsWrapper}>
 				{sortedPosts.map((post) => (
 					<PostCard key={post.slug} {...post} />

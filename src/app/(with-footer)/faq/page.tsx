@@ -34,6 +34,7 @@ const FAQ = () => {
           </svg>
           Ir al Blog
         </Link>
+        <div className={styles.separator} />
         <section className={styles.section}>
           <h2 className={styles.title1}>Recorrido en Programación</h2>
           <p className={styles.paragraph}>
