@@ -29,7 +29,13 @@
 	font-size: 1.1em;
 	color: var(--text-color);
 	margin-bottom: 15px;
-	text-align: justify;
+	text-align: left;
+}
+
+@media (max-width: 767px) {
+	.paragraph {
+		text-align: center;
+	}
 }
 
 .photoWrapper {
