@@ -16,7 +16,7 @@ const FAQ = () => {
         <ScrollToTopButton />
         <h1 className={styles.title}>FAQ</h1>
         <p className={styles.subtitle}>
-          Preguntas personales para reflexionar, y practicar para entrevistas de trabajo.
+          Preguntas personales para reflexionar y practicar para entrevistas.
         </p>
         <Link className={styles.goHomeLink} href="/">
           <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">
