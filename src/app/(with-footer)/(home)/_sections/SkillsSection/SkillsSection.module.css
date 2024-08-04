@@ -1,29 +1,48 @@
 .title {
     text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
 }
 
 .skillWrapper {
-    --min-inline-size: 80px;
+    --min-inline-size: 100px;
     display: grid;
-    grid-template-columns: repeat(6, minmax(var(--min-inline-size), 1fr));
+    grid-template-columns: repeat(4, minmax(var(--min-inline-size), 1fr));
     gap: 16px;
-    max-inline-size: 1200px;
-    margin: 32px auto 0;
+    max-inline-size: 800px;
+    margin: 32px auto;
+    padding: 16px;
     border: 1px solid var(--color-stroke);
+    border-radius: 8px;
     overflow: hidden;
     transition: border-color var(--theme-transition-duration);
     justify-content: center;
+    background-color: #1a1a1a;
 }
 
 .skillCard {
     outline: none;
     -webkit-tap-highlight-color: transparent;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skillCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .skillCard:focus,
 .skillCard:active {
     outline: none;
-    -webkit-tap-highlight-color: transparent;
     box-shadow: none;
 }
 
@@ -36,29 +55,32 @@
 @media screen and (max-width: 1024px) {
     .skillWrapper {
         grid-template-columns: repeat(4, minmax(150px, 1fr));
+        max-inline-size: 600px;
     }
     .skillCardImage {
-        width: 75px;
-        height: 75px;
+        width: 60px;
+        height: 60px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .skillWrapper {
         grid-template-columns: repeat(3, minmax(150px, 1fr));
+        max-inline-size: 500px;
     }
     .skillCardImage {
-        width: 75px;
-        height: 75px;
+        width: 60px;
+        height: 60px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .skillWrapper {
         grid-template-columns: repeat(2, minmax(125px, 1fr));
+        max-inline-size: 400px;
     }
     .skillCardImage {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
     }
 }
