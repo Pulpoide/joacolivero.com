@@ -291,7 +291,7 @@ const FAQ = () => {
                 style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
                 <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
                    style={{ color: "inherit", textDecoration: "inherit" }}>
-                    Mercado Libre Price Chart
+                    Mercadix
                 </a>
             </span>&nbsp;es uno de los proyectos más innovadores que he realizado.
               <br /><br />
@@ -328,7 +328,7 @@ const FAQ = () => {
                 style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
                 <a href="https://github.com/pyoneerC/monedas-api" target="_blank" rel="noopener noreferrer"
                    style={{ color: "inherit", textDecoration: "inherit" }}>
-                    Monedas-API
+                    ArgentoFX
                 </a>
             </span>, logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
             </p>
@@ -339,7 +339,7 @@ const FAQ = () => {
                 style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
                 <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
                    style={{ color: "inherit", textDecoration: "inherit" }}>
-                    Mercado Libre Price Chart
+                    Mercadix
                 </a>
             </span>.
             </p>
