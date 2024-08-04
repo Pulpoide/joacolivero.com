@@ -18,7 +18,7 @@ export default async function Blog() {
 	return (
 		<main className={styles.wrapper}>
 			<h1 className={styles.title}>Blog</h1>
-			<p className={styles.paragraph}>
+			<p className={styles.subtitle}>
 				Artículos sobre desarrollo de software y videojuegos.
 			</p>
 			<Link className={styles.goHomeLink} href="/">
