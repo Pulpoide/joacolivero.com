@@ -4,15 +4,15 @@ import { Tag } from "./tags"
 export const projectMetadata = {
 	mercadolibrepricechart: {
 		slug: "mercadolibrepricechart",
-		name: "Mercado Libre Price Chart",
+		name: "Mercadografo",
 	},
 	monedasAPI: {
 		slug: "monedasAPI",
-		name: "Monedas API",
+		name: "ArgentoFX",
 	},
 	TheDungeon: {
 		slug: "the-dungeon",
-		name: "The Dungeon",
+		name: "The Forgotten Maze",
 	},
 }
 
