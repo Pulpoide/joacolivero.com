@@ -17,7 +17,7 @@ export const HeroSection = () => {
       <h2 className={styles.subtitle}>Desarrollador Backend y de Videojuegos</h2>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
-          Dedicado a transformar ideas complejas en soluciones eficaces.
+          Dedicado a transformar <strong>ideas complejas</strong> en <strong>soluciones eficaces</strong>.
         </p>
         <p className={styles.introSubtitle}>
           Me encuentro en Mendoza, Argentina

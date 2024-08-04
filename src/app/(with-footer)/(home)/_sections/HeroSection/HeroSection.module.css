@@ -28,7 +28,7 @@
 }
 
 .introSubtitle > strong {
-	color: var(--color-text);
+	color: var(--color-explanation);
 	font-weight: 500;
 }
 
