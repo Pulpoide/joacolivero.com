@@ -9,46 +9,6 @@ import ArgentinaFlag from "~/components/Svg/ArgentinaFlag"
 
 export const HeroSection = () => {
 
-  let API_KEY = '2bc7d95e0da743c4b49eef9e907ba9b6';
-
-  fetch('https://api.ipgeolocation.io/ipgeo?apiKey=' + API_KEY)
-    .then(response => response.json())
-    .then(ipGeoData => {
-      const ip = ipGeoData.ip;
-      const continentName = ipGeoData.continent_name;
-      const countryName = ipGeoData.country_name;
-      const stateProv = ipGeoData.state_prov;
-      const city = ipGeoData.city;
-
-      fetch('https://api.ipgeolocation.io/user-agent?apiKey=' + API_KEY)
-        .then(response => response.json())
-        .then(userAgentData => {
-          const browserName = userAgentData.name;
-          const deviceType = userAgentData.device.type;
-          const OSname = userAgentData.operatingSystem.name;
-
-          const postData = {
-            ip: ip,
-            continentName: continentName,
-            countryName: countryName,
-            stateProv: stateProv,
-            city: city,
-            browserName: browserName,
-            deviceType: deviceType,
-            OSname: OSname
-          };
-
-          //send to postgres db
-
-        })
-        .catch(error => {
-          console.error('Error fetching user-agent data:', error);
-        });
-    })
-    .catch(error => {
-      console.error('Error fetching IP geolocation data:', error);
-    });
-
   return (
     <section aria-labelledby="hero-title" className={styles.section}>
       <h1 id="hero-title" className={`text-gradient ${styles.title}`}>

@@ -93,13 +93,20 @@ const ContactForm = () => {
 		}
 	};
 
-	const handleMessageChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
+	const handleMessageChange = (
+		event: React.ChangeEvent<HTMLTextAreaElement>
+	) => {
 		const message = event.target.value;
 		validateMessage(message);
 	};
 
 	return (
-		<form ref={formRef} onSubmit={handleSubmit} className={styles.form} method="POST">
+		<form
+			ref={formRef}
+			onSubmit={handleSubmit}
+			className={styles.form}
+			method="POST"
+		>
 			<Label>
 				<span className={styles.labelWrapper}>Nombre</span>
 				<Input
@@ -109,7 +116,25 @@ const ContactForm = () => {
 					required
 					onChange={handleNameChange}
 				/>
-				{nameError && <p className={styles.error}>{nameError}</p>}
+				{nameError && (
+					<p className={styles.error}>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							stroke="currentColor"
+							fill="none"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							viewBox="0 0 24 24"
+							aria-hidden="true"
+						>
+							<path d="M8.274 3h7.452L21 8.274v7.452L15.726 21H8.274L3 15.726V8.274zM12 7.65v5.2m0 3.39v.01"></path>
+						</svg>
+						{nameError}
+					</p>
+				)}
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Correo</span>
@@ -121,7 +146,25 @@ const ContactForm = () => {
 					onInput={handleEmailChange}
 					required
 				/>
-				{emailError && <p className={styles.error}>{emailError}</p>}
+				{emailError && (
+					<p className={styles.error}>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							stroke="currentColor"
+							fill="none"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							viewBox="0 0 24 24"
+							aria-hidden="true"
+						>
+							<path d="M8.274 3h7.452L21 8.274v7.452L15.726 21H8.274L3 15.726V8.274zM12 7.65v5.2m0 3.39v.01"></path>
+						</svg>
+						{emailError}
+					</p>
+				)}
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Mensaje</span>
@@ -131,13 +174,33 @@ const ContactForm = () => {
 					required
 					onChange={handleMessageChange}
 				/>
-				{messageError && <p className={styles.error}>{messageError}</p>}
+				{messageError && (
+					<p className={styles.error}>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							stroke="currentColor"
+							fill="none"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							viewBox="0 0 24 24"
+							aria-hidden="true"
+						>
+							<path d="M8.274 3h7.452L21 8.274v7.452L15.726 21H8.274L3 15.726V8.274zM12 7.65v5.2m0 3.39v.01"></path>
+						</svg>
+						{messageError}
+					</p>
+				)}
 			</Label>
 			<Button type="submit" size="medium" disabled={hasError}>
 				Enviar
 			</Button>
 			{responseMessage && (
-				<MessageCard variant={hasError ? "error" : "success"}>{responseMessage}</MessageCard>
+				<MessageCard variant={hasError ? "error" : "success"}>
+					{responseMessage}
+				</MessageCard>
 			)}
 		</form>
 	);
