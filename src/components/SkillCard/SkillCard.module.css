@@ -10,6 +10,7 @@
     overflow: hidden;
     user-select: none;
     outline: none;
+    transition: transform 150ms;
 }
 
 .card:hover {
@@ -30,6 +31,16 @@
     content: "";
     outline: none;
     user-select: none;
+}
+
+.card:active {
+    transform: translateY(0);
+    user-select: none;
+    outline: none;
+}
+
+.card:focus {
+    outline: none;
 }
 
 .iconWrapper {
@@ -56,6 +67,7 @@
     opacity: 0;
     transition: opacity 150ms, transform 150ms;
     user-select: none;
+    outline: none;
 }
 
 @media (hover: hover) {
@@ -65,4 +77,11 @@
         user-select: none;
         outline: none;
     }
+}
+
+.card:focus-visible,
+.iconWrapper:focus-visible,
+.skillName:focus-visible {
+    outline: none;
+    box-shadow: none;
 }
