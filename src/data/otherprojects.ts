@@ -20,7 +20,7 @@ export const projectMetadata = {
 	},
 	pixelateddrift: {
 		slug: "pixelateddrift",
-		name: "Pixelated Drift",
+		name: "Blackout Boulevard",
 	},
 	portfolio: {
 		slug: "portfolio",
