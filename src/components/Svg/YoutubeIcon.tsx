@@ -1,10 +1,11 @@
 import type { SVGProps } from "react"
 
 export const YoutubeIcon = (props: SVGProps<SVGSVGElement>) => (
-<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="icon icon-tabler icons-tabler-outline icon-tabler-brand-youtube">
-<path stroke="none" d="M0 0h24v24H0z" fill="none" />
-<path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
-<path d="M10 9l5 3l-5 3z" />
+	<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" stroke="currentColor" fill="none"
+			 strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" data-icon="SvgYouTube"
+			 aria-hidden="true">
+		<path
+			d="M21.005 16.4a3 3 0 01-2.04 2.691 27.817 27.817 0 01-13.939 0 3 3 0 01-2.04-2.691V7.568a3 3 0 012.04-2.691 27.794 27.794 0 0113.939 0 3 3 0 012.04 2.691zM10.142 8.388v7.224L15.86 12z"></path>
 	</svg>
 )
 
