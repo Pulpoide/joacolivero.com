@@ -11,6 +11,7 @@ export const metadata = {
 const FAQ = () => {
   return (
     <>
+      <main className={styles.wrapper}>
       <div className={styles.container}>
         <ScrollToTopButton />
         <h1 className={styles.title}>FAQ</h1>
@@ -494,6 +495,7 @@ const FAQ = () => {
           encontrar los enlaces en el pie de página a continuación.
         </p>
       </div>
+      </main>
     </>
   )
 }

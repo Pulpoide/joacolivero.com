@@ -67,6 +67,14 @@
     color: #eaeaea;
 }
 
+.wrapper {
+    max-inline-size: 800px;
+    min-block-size: 100vh;
+    margin-inline: auto;
+    padding-inline: 16px;
+    background-color: #111111;
+}
+
 .goHomeLink {
     display: flex;
     align-items: center;

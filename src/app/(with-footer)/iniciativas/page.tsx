@@ -10,6 +10,7 @@ export const metadata = {
 
 export default function Blog() {
 	return (
+		<main className={styles.wrapper}>
 		<section className={styles.projectsWrapper}>
 			<h2 className={styles.title}>Otras iniciativas</h2>
 			<p className={styles.paragraph}>
@@ -32,5 +33,6 @@ export default function Blog() {
 			</div>
 			<ScrollToTopButton />
 		</section>
+		</main>
 	);
 }
