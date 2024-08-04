@@ -42,6 +42,7 @@ const ContactForm = () => {
 			if (data.ok) {
 				setResponseMessage("Gracias por tu consulta. Responderé a la brevedad.");
 				setHasError(false);
+				// @ts-ignore
 				formRef.current?.reset();
 			} else {
 				setResponseMessage(data.error || "Oops! Algo salió mal.");
