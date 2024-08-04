@@ -102,7 +102,7 @@ export const projects = [
 		...projectMetadata.TheDungeon,
 		index: 2,
 		description:
-			"Este juego combina terror y puzzles, ofreciendo acertijos complejos, una atmósfera siniestra y música envolvente. Diseñado con el objetivo de aprender y mejorar habilidades en desarrollo de juegos, ¿podrás superar todos los desafíos y sobrevivir para ver el final?",
+			"Te encuentras atrapado en un lugar que parece una oficina, pero algo no cuadra. El ambiente es extrañamente realista y perturbador. Con sólo tu ingenio y algunas herramientas esporádicas, debes enfrentarte a una serie de acertijos y rompecabezas meticulosamente diseñados para poner a prueba tu astucia al máximo. ¿Serás capaz de encontrar una salida a esta pesadilla?",
 		mobileImages:
 			[
 				`/assets/images/projects/thedungeon/library.avif`,
