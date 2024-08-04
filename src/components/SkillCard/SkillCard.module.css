@@ -8,8 +8,6 @@
     background-color: var(--background-color);
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px var(--shadow-color);
-    transition: box-shadow var(--theme-transition-duration), transform var(--theme-transition-duration), background-color var(--theme-transition-duration);
     user-select: none;
     outline: none;
 }
@@ -20,29 +18,17 @@
     outline: none;
 }
 
-.card::before,
 .card::after {
     content: "";
     position: absolute;
     background-color: var(--color-stroke);
-    z-index: 1;
-    transition: background-color var(--theme-transition-duration);
     user-select: none;
-}
-
-.card::after {
-    inline-size: 100vw;
-    block-size: 1px;
-    inset-inline-start: 0;
-    inset-block-start: calc(var(--line-offset) * -1);
-    user-select: none;
+    outline: none;
 }
 
 .card::before {
-    block-size: 100vh;
-    inline-size: 1px;
-    inset-block-start: 0;
-    inset-inline-start: calc(var(--line-offset) * -1);
+    content: "";
+    outline: none;
     user-select: none;
 }
 
