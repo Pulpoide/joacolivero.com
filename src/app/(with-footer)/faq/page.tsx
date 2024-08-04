@@ -465,10 +465,9 @@ const FAQ = () => {
             </ul>
           </ul>
         </section>
-        <br /><img
-        src="https://cdn2.unrealengine.com/hlod-water-support-in-unreal-engine-5-1-1920x1080-e402b5c30a87.jpg?resize=1&w=1920"
-        alt="Unreal Engine 5" className={styles.image} />
         <br />
+        <br />
+        <div className={styles.dashedseparator} />
         <img src={"/assets/images/faq_pic_m_c.avif"} alt="Max Comperatore" className={styles.image} />
         <p className={styles.paragraph} style={{ textAlign: "center" }}>
   <span className={styles.paragraph} style={{ color: "lime" }}>

@@ -74,6 +74,19 @@
     color: #eaeaea;
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.dashedseparator {
+    background-color: #333;
+    margin: 10px 0;
+    border-top: 1px dashed #333;
+}
+
 .wrapper {
     max-inline-size: 800px;
     min-block-size: 100vh;
