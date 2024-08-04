@@ -20,7 +20,7 @@ export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.mercadolibrepricechart,
 		imageUrl: `/assets/images/projects/cover/mercadolibre.avif`,
-		description: "Histograma de precios en tiempo real para cualquier producto de MercadoLibre.",
+		description: "Histograma de los precios al momento para cualquier producto de MercadoLibre.",
 	},
 	{
 		...projectMetadata.monedasAPI,
