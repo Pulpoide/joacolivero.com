@@ -270,17 +270,14 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>Hobbies y Pasatiempos</h2>
+          <h2 className={styles.title1}>Pasatiempos</h2>
           <p className={styles.paragraph}>
-            Durante mi tiempo libre, me dedico al desarrollo de proyectos y a la colaboración en diversas iniciativas
-            tecnológicas. Entre mis actividades preferidas se encuentran <em>correr, caminar, analizar videojuegos,
-            seguir las últimas noticias y disfrutar de películas animadas</em>.
+            En mi tiempo libre, me encanta embarcarme en nuevos proyectos tecnológicos y colaborar en diversas iniciativas creativas.
+            Disfruto mantenerme activo a través del running y el senderismo, además de sumergirme en la narrativa y
+            mecánica de videojuegos independientes.
           </p>
           <p className={styles.paragraph}>
-            Asimismo, soy aficionado a los videojuegos de desarrolladores independientes disponibles en Steam, disfruto
-            explorando lugares abandonados y me deleito en la tranquilidad de la naturaleza. Ocasionalmente, me aventuro
-            en la composición de pistas musicales utilizando FL Studio, lo que me permite fusionar creatividad y
-            técnica.
+            En el ámbito creativo, compongo música utilizando FL Studio, combinando así técnica y creatividad de una manera única y gratificante.
           </p>
         </section>
         <br />
