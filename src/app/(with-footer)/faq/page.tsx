@@ -468,7 +468,9 @@ const FAQ = () => {
         <br />
         <br />
         <div className={styles.dashedseparator} />
+        <div className={styles.imageContainer}>
         <img src={"/assets/images/faq_pic_m_c.avif"} alt="Max Comperatore" className={styles.image} />
+        </div>
         <p className={styles.paragraph} style={{ textAlign: "center" }}>
   <span className={styles.paragraph1} style={{ color: "lime" }}>
   ¡Muchas gracias por leer hasta el final!
