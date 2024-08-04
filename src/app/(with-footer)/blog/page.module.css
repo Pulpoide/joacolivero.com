@@ -71,8 +71,8 @@
 	padding: 12px 20px;
 	font-size: 16px;
 	font-weight: bold;
-	color: #eaeaea;
-	background-color: #222;
+	color: var(--color-explanation);
+	background-color: var(--color-background-secondary);
 	border: 2px solid transparent;
 	border-radius: 8px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
