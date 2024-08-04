@@ -11,44 +11,13 @@ export const metadata = {
 
 <ArticleHeader title={metadata.title} date={metadata.publishedOn} />
 
-Bienvenidos....
+Escrito en mi antiguo blog.
 
-std::mutex:
-
-Es como una puerta de baño con cerradura. Cuando alguien entra en el baño
-(es decir, un hilo intenta acceder a un recurso protegido por el mutex), cierra la puerta tras de sí.
-Esto impide que otros hilos entren en el baño hasta que el ocupante actual termine sus asuntos y desbloquee la puerta.
-Cuando un hilo termina de usar el recurso compartido, desbloquea el mutex, permitiendo a otros hilos acceder al recurso.
-Sale del baño...
-
-```cpp
-#include <iostream>
-#include <thread>
-#include <mutex>
-
-std::mutex mtx;
-
-void bathroom(){
-// One enters the bathroom, the other waits. Like 2 friends rushing towards a bathrrom
-std::lock_guard<std::mutex> lock(mtx);
-std::cout << "Using the bathroom" << std::endl;
-// Doing things...
-std::this_thread::sleep_for(std::chrono::seconds(2));
-std::cout << "Leaving the bathroom" << std::endl;
-// The other one can enter now
-}
-
-int main(){
-std::thread t1(bathroom);
-std::thread t2(bathroom);
-t1.join();
-t2.join();
-return 0;
-}
-```
-
-std::timed_mutex
-
-Imagina otro baño. Pero en vez de esperar eternamente puedes esperar x tiempo antes de aburrirte y abandonar el lugar.
-Cuando se acaba el temporizador y aún no has cerrado, abandonas la cola del baño y continúas tu vida,
-ya no te importa ese baño (cerrar), sólo buscas otro, o te mueres si no hay nada más que hacer (literalmente).
+<Button>
+	<a href="https://alowlevelbunker.blogspot.com/2024/03/c-concurrency-by-example.html"
+		 target="_blank"
+		 rel="noopener noreferrer"
+	>
+		Leer en mi antiguo blog (en inglés)
+	</a>
+</Button>
