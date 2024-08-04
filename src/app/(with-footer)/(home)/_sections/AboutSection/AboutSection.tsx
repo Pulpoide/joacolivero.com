@@ -18,16 +18,21 @@ export const AboutSection = () => {
 				</div>
 				<div className={styles.textWrapper}>
 					<p className={styles.paragraph}>
-						Conoce a <strong>Máximo Comperatore</strong>, un aspirante a desarrollador especializado en <strong>Backend</strong> y <strong>Desarrollo de Videojuegos</strong>.
+						Conoce a <strong>Máximo Comperatore</strong>, aspirante a desarrollador con especialización
+						en <strong>Backend</strong> y <strong>Desarrollo de Videojuegos</strong>.
 					</p>
 					<p className={styles.paragraph}>
-						Actualmente, estoy cursando estudios en <strong>Desarrollo de Videojuegos en la Universidad de Mendoza</strong> y también soy <strong>autodidacta</strong>, buscando constantemente nuevas formas de expandir mis conocimientos y habilidades.
+						Actualmente, estoy cursando estudios en <strong>Desarrollo de Videojuegos en la Universidad de
+						Mendoza</strong> y también soy <strong>autodidacta</strong>, buscando constantemente nuevas formas de
+						expandir mis conocimientos y habilidades.
 					</p>
 					<p className={styles.paragraph}>
-						Destaco por ser una persona <strong>atenta al detalle, organizada y agradable</strong>. Además, soy un trabajador perseverante y miembro colaborativo de equipo, siempre dispuesto a aprender y mejorar mis habilidades.
+						Me caracterizo por ser <strong>meticuloso, organizado y cordial</strong>, siempre dispuesto a aprender y a colaborar en
+						equipo.
 					</p>
 					<p className={styles.paragraph}>
-						Estoy interesado en involucrarme en iniciativas que me permitan <strong> ampliar mis habilidades</strong> y <strong>contribuir al crecimiento profesional de los equipos</strong> con los que colaboro. (self-motivated, eager to learn, code optimization, problem-solving and proactive mindset)
+						Busco participar en proyectos que potencien mis habilidades y contribuyan al desarrollo profesional de los
+						equipos, manteniendo una<strong> mentalidad proactiva, resolutiva y enfocada en la optimización del software</strong>.
 					</p>
 				</div>
 			</div>
