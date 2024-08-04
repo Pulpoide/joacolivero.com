@@ -22,7 +22,6 @@
 }
 
 .skillCard {
-    outline: none;
     -webkit-tap-highlight-color: transparent;
     background-color: #2a2a2a;
     border-radius: 8px;
@@ -33,23 +32,35 @@
     padding: 12px;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    touch-action: none;
     user-select: none;
-    touch-action: manipulation;
+    user-focus: none;
+    outline: none;
 }
 
 .skillCard:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    touch-action: none;
+    user-select: none;
+    user-focus: none;
+    outline: none;
 }
 
 .skillCard:focus {
     outline: none;
     box-shadow: none;
+    touch-action: none;
+    user-select: none;
+    user-focus: none;
 }
 
 .skillCard:active {
     outline: none;
     box-shadow: none;
+    touch-action: none;
+    user-select: none;
+    user-focus: none;
 }
 
 .skillCardImage {
@@ -66,10 +77,18 @@
     }
     .skillCard {
         padding: 20px;
+        touch-action: none;
+        user-select: none;
+        user-focus: none;
+        outline: none;
     }
     .skillCardImage {
         width: 70px;
         height: 70px;
+        touch-action: none;
+        user-select: none;
+        user-focus: none;
+        outline: none;
     }
 }
 
@@ -81,10 +100,17 @@
     }
     .skillCard {
         padding: 16px;
+        user-select: none;
+        user-focus: none;
+        outline: none;
     }
     .skillCardImage {
         width: 65px;
         height: 65px;
+        touch-action: none;
+        user-select: none;
+        user-focus: none;
+        outline: none;
     }
 }
 
@@ -97,5 +123,9 @@
     .skillCardImage {
         width: 55px;
         height: 55px;
+        touch-action: none;
+        user-select: none;
+        user-focus: none;
+        outline: none;
     }
 }
