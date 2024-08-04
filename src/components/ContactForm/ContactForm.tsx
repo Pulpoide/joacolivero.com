@@ -70,7 +70,7 @@ const ContactForm = () => {
 		const emailRegex =
 			/^(?=.{1,254}$)(?=.{1,64}@.{1,255}$)(?=[a-zA-Z0-9._%+-]{1,64}@)[a-zA-Z0-9][a-zA-Z0-9._%+-]{0,63}@[a-zA-Z0-9][a-zA-Z0-9.-]{0,253}[a-zA-Z0-9]\.[a-zA-Z]{2,24}$/;
 		if (!emailRegex.test(email)) {
-			setEmailError("Por favor ingrese un correo electrónico válido.");
+			setEmailError("Por favor, ingrese un correo válido.");
 			setHasError(true);
 		} else {
 			setEmailError("");

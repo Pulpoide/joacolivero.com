@@ -14,10 +14,38 @@
 	color: #ff4d4f;
 	font-size: 0.875rem;
 	margin-top: 0.5rem;
-	padding: 0.5rem 0.75rem;
-	background-color: #fff1f1;
-	border: 1px solid #ffcccc;
-	border-radius: 5px;
+	padding: 0.75rem;
+	background-color: rgba(255, 77, 79, 0.1);
+	border: 1px solid rgba(255, 77, 79, 0.3);
+	border-radius: 8px;
 	font-weight: 500;
 	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+	transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.error.dark-mode {
+	background-color: rgba(50, 50, 50, 0.9);
+	color: #ff4d4f;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.error.dark-mode:hover {
+	background-color: rgba(50, 50, 50, 0.8);
+	border-color: rgba(255, 77, 79, 0.5);
+}
+
+.error::before {
+	content: '⚠️';
+	margin-right: 8px;
+	font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+	.error {
+		font-size: 0.75rem;
+		padding: 0.5rem;
+	}
 }
