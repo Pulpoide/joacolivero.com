@@ -470,13 +470,12 @@ const FAQ = () => {
         <div className={styles.dashedseparator} />
         <img src={"/assets/images/faq_pic_m_c.avif"} alt="Max Comperatore" className={styles.image} />
         <p className={styles.paragraph} style={{ textAlign: "center" }}>
-  <span className={styles.paragraph} style={{ color: "lime" }}>
+  <span className={styles.paragraph1} style={{ color: "lime" }}>
   ¡Muchas gracias por leer hasta el final!
   </span>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-               className="icon icon-tabler icons-tabler-outline icon-tabler-mood-smile-beam"
-               style={{ display: 'inline-block', verticalAlign: 'middle', marginRight: '0px' }}>
+               className={styles.icon}>
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
             <path d="M10 10c-.5 -1 -2.5 -1 -3 0" />
@@ -485,7 +484,7 @@ const FAQ = () => {
           </svg>
           <br /><br />
           Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
-          saludar, no dudes en contactarme a través de mis redes sociales o enviándome un correo electrónico. Puedes
+          saludar, <em> no dudes en contactarme a través de mis redes sociales o enviándome un mail</em>. Puedes
           encontrar los enlaces en el pie de página a continuación.
         </p>
       </div>

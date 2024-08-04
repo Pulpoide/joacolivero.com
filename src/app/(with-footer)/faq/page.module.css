@@ -75,18 +75,35 @@
 }
 
 .image {
-    display: flex;
     justify-content: center;
     align-items: center;
     filter: grayscale(100%) brightness(70%);
     transform: scale(.75) rotate(0deg);
     transition: filter 0.7s ease, transform 0.7s ease, box-shadow 0.7s ease;
     border: 3px solid #333;
+    transform-origin: center;
+    width: auto;
+    
 }
 
 .image:hover {
     filter: grayscale(0%) brightness(100%);
     transform: scale(0.8) rotate(3deg);
+}
+
+.paragraph1 {
+    font-size: 1.1em;
+    text-align: left;
+    padding-inline: 10px;
+    color: #eaeaea;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    display: inline-block;
+    vertical-align: text-bottom;
 }
 
 .dashedseparator {
