@@ -312,9 +312,7 @@ const FAQ = () => {
                    style={{ color: "inherit", textDecoration: "inherit" }}>
                     Santiago Ariel
                 </a>
-            </span>, aprendí a implementar traducciones automáticas utilizando Translation.io, optimizando así el
-              proceso y
-              mejorando la eficiencia del desarrollo.
+            </span>, aprendí a implementar traducciones utilizando i18next y JSON, lo que me permitió llegar a nuevas audiencias de manera eficiente.
             </p>
             <br />
             <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
