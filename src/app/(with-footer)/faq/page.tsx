@@ -14,7 +14,7 @@ const FAQ = () => {
       <div className={styles.container}>
         <ScrollToTopButton />
         <h1 className={styles.title}>FAQ</h1>
-        <p className={styles.paragraph}>
+        <p className={styles.subtitle}>
           Preguntas personales para reflexionar, y practicar para entrevistas de trabajo.
         </p>
         <Link className={styles.goHomeLink} href="/">
