@@ -3,7 +3,12 @@
 }
 
 .goHomeLink {
-	font-size: 16px;
+	margin-inline-end: 8px;
+}
+
+.goHomeLink svg {
+	transform: translateY(4px);
+	margin-right: 4px;
 }
 
 .title {

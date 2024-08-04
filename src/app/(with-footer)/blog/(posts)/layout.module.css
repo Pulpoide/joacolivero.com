@@ -5,6 +5,29 @@
 	font-size: 19px;
 }
 
+.goHomeLink {
+	margin-block: 20px auto;
+	padding: 12px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #eaeaea;
+	background-color: #222;
+	border: 2px solid transparent;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease;
+	text-decoration: none;
+	cursor: pointer;
+	width: auto;
+	max-inline-size: 300px;
+}
+
+.goHomeLink svg {
+	display: inline-block;
+	margin-right: 8px;
+	transform: translateY(2px);
+}
+
 .article pre {
 	max-block-size: 75vh;
 	padding: 24px;
