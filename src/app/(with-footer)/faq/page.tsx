@@ -360,6 +360,8 @@ const FAQ = () => {
                 <li>Un juego de autos a control remoto en Unreal Engine.</li>
                 <li>Un motor de juegos propio, en DX12.</li>
                 <li>Un bot de Discord versátil y complejo.</li>
+                <li>Un clon de WhatsApp con RabbitMQ.</li>
+                <li>Una aplicación publicada en Play Store.</li>
                 <li>Contribuir a proyectos de código abierto.</li>
               </ul>
             </blockquote>
