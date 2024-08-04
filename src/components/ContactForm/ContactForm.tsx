@@ -184,14 +184,41 @@ const ContactForm = () => {
 			</Label>
 			<Label>
 				<span className={styles.labelWrapper}>Mensaje</span>
-				<Textarea
-					placeholder="Escriba su mensaje aquí"
-					name="message"
-					required
-					onChange={handleMessageChange} />
+				<div className={styles.inputWithIcon}>
+					<Textarea
+						placeholder="Escriba su mensaje aquí"
+						name="message"
+						required
+						onChange={handleMessageChange}
+						className={messageValid ? styles.valid : ""}
+					/>
+					{messageValid && (
+						<svg
+							className={styles.checkIcon}
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							strokeWidth="2"
+						>
+							<path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+							<path d="M9 12l2 2l4 -4" />
+						</svg>
+					)}
+				</div>
 				{messageError && (
 					<p className={styles.error}>
-						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							stroke="currentColor"
+							fill="none"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="2"
+							viewBox="0 0 24 24"
+							aria-hidden="true"
+						>
 							<path d="M8.274 3h7.452L21 8.274v7.452L15.726 21H8.274L3 15.726V8.274zM12 7.65v5.2m0 3.39v.01"></path>
 						</svg>
 						{messageError}

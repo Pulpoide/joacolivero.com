@@ -14,7 +14,6 @@
 	color: #ff4d4f;
 	font-size: 0.875rem;
 	margin-top: 0.5rem;
-	margin-right: 10px;
 	padding: 12px 16px;
 	background-color: rgba(255, 77, 79, 0.1);
 	border: 1px solid rgba(255, 77, 79, 0.3);
@@ -37,16 +36,20 @@
 .inputWithIcon {
 	display: flex;
 	align-items: center;
+	position: relative;
 }
 
-.inputWithIcon input {
+.inputWithIcon textarea {
 	flex-grow: 1;
-	margin-right: 10px;
 }
 
 .checkIcon {
 	width: 20px;
 	height: 20px;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .error.dark-mode {
@@ -64,5 +67,9 @@
 	.error {
 		font-size: 0.75rem;
 		padding: 10px 12px;
+	}
+
+	.inputWithIcon textarea {
+		max-width: 100%;
 	}
 }
