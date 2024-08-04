@@ -317,9 +317,7 @@ const FAQ = () => {
             <br />
             <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
             <p>
-              Quería crear una API para obtener el precio actualizado de dólares en Argentina, utilizando web scrapers
-              y con el fin de aprender. Al principio, no sabía cómo hacerlo, pero con Python, FASTAPI y dedicando
-              tiempo a leer la documentación, logré desarrollarla con éxito.
+              Quise desarrollar una API para capturar en tiempo real los precios del dólar en Argentina. Al inicio, el proceso parecía complicado, pero con Python, FASTAPI y una dedicación intensa a estudiar la documentación pertinente, logré construirla con éxito.
             </p>
             <br />
             <p>
