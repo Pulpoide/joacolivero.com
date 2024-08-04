@@ -3,7 +3,7 @@
 	min-block-size: 100vh;
 	margin-inline: auto;
 	padding-inline: 16px;
-	background-color: #111111;
+	background-color: var(--color-background);
 }
 
 .postsWrapper {
@@ -25,7 +25,7 @@
 	font-size: 44px;
 	padding-block: 32px;
 	margin-bottom: 4px;
-	color: #eaeaea;
+	color: var(--color-text);
 	font-weight: bold;
 	position: relative;
 }
@@ -50,7 +50,7 @@
 	text-align: center;
 	padding: 0 20px;
 	margin-bottom: 40px;
-	color: #b3b3b3;
+	color: var(--color-explanation);
 	max-width: 800px;
 }
 

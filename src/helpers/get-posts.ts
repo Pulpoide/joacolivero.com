@@ -6,13 +6,11 @@ export const getPosts = async (): Promise<Post[]> => {
 		(dirent) => dirent.isDirectory()
 	)
 
-	const posts = await Promise.all(
+	return await Promise.all(
 		slugs.map(async ({ name }) => {
 			const { metadata } = await import(`/src/app/(with-footer)/blog/(posts)/${name}/page.mdx`)
 
 			return { slug: name, ...metadata }
 		})
 	)
-
-	return posts
 }
