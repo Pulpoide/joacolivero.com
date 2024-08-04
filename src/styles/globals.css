@@ -50,7 +50,7 @@ body {
 	--color-primary: hsl(212 100% 48%);
 	--color-text: hsl(0 0% 93%);
 	--color-text-secondary: hsl(0 0% 62%);
-	--color-background: hsl(0 0% 1%);
+	--color-background: #111111;
 	--color-themed-background: hsl(0 0% 4%);
 	--color-background-secondary: hsl(0 0% 6%);
 	--color-stroke: hsl(0, 0%, 12%);
