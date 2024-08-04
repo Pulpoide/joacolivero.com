@@ -2,7 +2,7 @@
     max-inline-size: 800px;
     margin-inline: auto;
     padding-inline: 16px;
-    background-color: #111111;
+    background-color: var(--color-background);
 }
 
 .faqContainer {
@@ -19,7 +19,7 @@
     font-size: 44px;
     padding-block: 32px;
     margin-bottom: 4px;
-    color: #eaeaea;
+    color: var(--color-text);
     font-weight: bold;
     position: relative;
 }
@@ -44,7 +44,7 @@
     text-align: center;
     padding: 0 20px;
     margin-bottom: 40px;
-    color: #b3b3b3;
+    color: var(--color-explanation);
     max-width: 800px;
 }
 
@@ -55,7 +55,7 @@
     align-items: center;
     text-align: center;
     display: flex;
-    color: #eaeaea;
+    color: var(--color-text);
 }
 
 .separator {
@@ -71,7 +71,7 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
     text-align: justify;
     padding-inline: 210px;
-    color: #eaeaea;
+    color: var(--color-text);
 }
 
 .imageContainer {
@@ -119,14 +119,6 @@
     border-top: 1px ridge #333;
 }
 
-.wrapper {
-    max-inline-size: 800px;
-    min-block-size: 100vh;
-    margin-inline: auto;
-    padding-inline: 16px;
-    background-color: #111111;
-}
-
 .goHomeLink {
     display: flex;
     align-items: center;
@@ -135,8 +127,8 @@
     padding: 12px 20px;
     font-size: 16px;
     font-weight: bold;
-    color: #eaeaea;
-    background-color: #222;
+    color: var(--color-explanation);
+    background-color: var(--color-background-secondary);
     border: 2px solid transparent;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
