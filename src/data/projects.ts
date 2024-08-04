@@ -4,7 +4,7 @@ import { Tag } from "./tags"
 export const projectMetadata = {
 	mercadolibrepricechart: {
 		slug: "mercadolibrepricechart",
-		name: "Mercadografo",
+		name: "Mercadix",
 	},
 	monedasAPI: {
 		slug: "monedasAPI",
@@ -12,7 +12,7 @@ export const projectMetadata = {
 	},
 	TheDungeon: {
 		slug: "the-dungeon",
-		name: "The Forgotten Maze",
+		name: "Ephemera",
 	},
 }
 
