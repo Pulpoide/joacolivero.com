@@ -1,7 +1,7 @@
 .wrapper {
     max-inline-size: 1200px;
     margin-inline: auto;
-    background-color: #111111;
+    background-color: var(--color-background);
 }
 
 
@@ -16,7 +16,7 @@
     font-weight: 700;
     margin-bottom: 30px;
     padding-top: 30px;
-    color: #fff;
+    color: var(--color-text);
     position: relative;
     text-align: center;
     letter-spacing: -0.02em;
@@ -44,7 +44,7 @@
     text-align: center;
     padding: 0 20px;
     margin-bottom: 40px;
-    color: #b3b3b3;
+    color: var(--color-explanation);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -75,8 +75,8 @@
     position: relative;
     padding: 20px;
     border-radius: 8px;
-    background-color: #1a1a1a;
-    color: #eaeaea;
+    background-color: var(--color-background-tertiary);
+    color: var(--color-text);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
