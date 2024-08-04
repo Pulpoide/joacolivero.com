@@ -103,6 +103,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    padding-top: 10px;
     justify-content: center;
 }
 
@@ -154,5 +155,11 @@
     .tag {
         font-size: 0.75em;
         padding: 4px 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .tags {
+        padding-top: 20px;
     }
 }
