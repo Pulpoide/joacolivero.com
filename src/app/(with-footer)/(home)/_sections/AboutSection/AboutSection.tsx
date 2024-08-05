@@ -1,10 +1,16 @@
 import React from 'react'
 import styles from './AboutSection.module.css'
+import {useTranslations} from "next-intl"
 
 export const AboutSection = () => {
+	const t = useTranslations("AboutSection")
+
 	return (
 		<section className="section-wrapper">
-			<h2 className={styles.title}>Sobre mí</h2>
+			<h2 className={styles.title}>
+				{t("title")}
+			</h2>
+
 			<div className={styles.aboutMeContainer}>
 				<div className={styles.photoWrapper}>
 					<img
@@ -18,21 +24,16 @@ export const AboutSection = () => {
 				</div>
 				<div className={styles.textWrapper}>
 					<p className={styles.paragraph}>
-						Conoce a <strong>Máximo Comperatore</strong>, aspirante a desarrollador con especialización
-						en <strong>Backend</strong> y <strong>Desarrollo de Videojuegos</strong>.
+						{t("d0")}
 					</p>
 					<p className={styles.paragraph}>
-						Actualmente, estoy cursando estudios en <strong>Desarrollo de Videojuegos en la Universidad de
-						Mendoza</strong> y también soy <strong>autodidacta</strong>, buscando constantemente nuevas formas de
-						expandir mis conocimientos y habilidades.
+						{t("d1")}
 					</p>
 					<p className={styles.paragraph}>
-						Me caracterizo por ser <strong>meticuloso, organizado y cordial</strong>, siempre dispuesto a aprender y a colaborar en
-						equipo.
+						{t("d2")}
 					</p>
 					<p className={styles.paragraph}>
-						Busco participar en proyectos que potencien mis habilidades y contribuyan al desarrollo profesional de los
-						equipos, manteniendo una<strong> mentalidad proactiva, resolutiva y enfocada en la optimización del software</strong>.
+						{t("d3")}
 					</p>
 				</div>
 			</div>
