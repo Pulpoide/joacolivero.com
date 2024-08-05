@@ -297,6 +297,9 @@ const FAQ = () => {
               <br /><br />
               Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina:
               la <strong>incertidumbre sobre el valor real de los productos</strong> en un contexto económico volátil.
+              <br /><br />
+              Actualmente, Mercadix ayuda a cientos de usuarios a tomar decisiones informadas sobre sus compras y ventas,
+              ofreciendo una perspectiva estratégica del mercado.
             </p>
             <br />
             <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
@@ -368,7 +371,15 @@ const FAQ = () => {
             <br />
             <p>
               Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al
-              final, logramos terminar el proyecto a tiempo y con éxito.
+              final, logramos terminar&nbsp;
+              <span
+                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
+                <a href="https://owtavlr.itch.io/anatidae" target="_blank" rel="noopener noreferrer"
+                   style={{ color: "inherit", textDecoration: "inherit" }}>
+                    el juego
+                </a>
+            </span>
+              &nbsp;a tiempo y con éxito.
             </p>
           </ul>
         </section>
