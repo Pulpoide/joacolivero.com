@@ -215,9 +215,11 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>Canciones Favoritas</h2>
+          <h2 className={styles.title1}>
+            {t("q15")}
+          </h2>
           <p className={styles.paragraph}>
-            Una selección que te hará bailar como un cyborg con exceso de cafeína.
+            {t("a151")}
           </p>
           <ul>
             <ul>
@@ -285,7 +287,7 @@ const FAQ = () => {
         </div>
         <p className={styles.paragraph} style={{ textAlign: "center" }}>
   <span className={styles.paragraph1} style={{ color: "lime" }}>
-  ¡Muchas gracias por leer hasta el final!
+  {t("thanks")}
   </span>
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
@@ -297,9 +299,7 @@ const FAQ = () => {
             <path d="M14.5 15a3.5 3.5 0 0 1 -5 0" />
           </svg>
           <br /><br />
-          Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas
-          saludar, <em> no dudes en contactarme a través de mis redes sociales o enviándome un mail</em>. Puedes
-          encontrar los enlaces en el pie de página a continuación.
+          {t("contact")}
         </p>
       </div>
       </main>
