@@ -152,20 +152,11 @@ const FAQ = () => {
               {t("a93")}
             </p>
             <br />
-            <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo
-              resolviste?</strong></li>
+            <li><strong>{t("q10")}</strong></li>
             <p>
-              Durante el desarrollo de este portafolio, me enfrenté al desafío de traducir manualmente todo el contenido
-              al inglés, lo cual era engorroso y tedioso.
+              {t("a101")}
               <br /><br />
-              Gracias a la orientación de &nbsp;
-              <span
-                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-                <a href="https://github.com/santiagoarielv98" target="_blank" rel="noopener noreferrer"
-                   style={{ color: "inherit", textDecoration: "inherit" }}>
-                    Santiago Ariel
-                </a>
-            </span>, aprendí a implementar traducciones utilizando i18next y JSON, lo que me permitió llegar a nuevas audiencias de manera eficiente.
+              {t("a102")}
             </p>
             <br />
             <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
