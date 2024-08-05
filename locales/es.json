@@ -26,5 +26,14 @@
     },
     "ContactSection": {
         "question": "Want to start a project?"
-    }
+    },
+  "FAQ" : {
+    "subtitle": "Personal questions to reflect on and practice for interviews.",
+    "home": "Back to home",
+    "blog": "Visit blog",
+    "q0" : "Programming Journey",
+    "a01": "My programming journey began in 2021, driven by my interest in video games. I started with basic web development courses and bootcamps, and consolidated my enthusiasm by collaborating on the translations of the \"War Report for Clash of Clans\" application. This experience reinforced my decision to pursue a career in programming.",
+    "a02": "Currently, I am in the second semester of the Game Development career, with a particular focus on computer graphics and backend. My goal is to collaborate with people who share similar interests, inspire others and contribute positively to the world through technology. I am 19 years old, but I am already dedicated to continuous learning and looking for opportunities to improve and collaborate on meaningful projects.",
+    "q1" : "Motivations to Study Programming"
+  }
 }

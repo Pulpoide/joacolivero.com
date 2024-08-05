@@ -10,7 +10,7 @@ export const ContactSection = () => {
 		<section className={clsx("section-wrapper", styles.section)}>
 			<h2 className={styles.title}>
 				<span>{t("question")}</span>
-				
+
 			</h2>
 			<CopyEmailButton />
 		</section>

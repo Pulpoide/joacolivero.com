@@ -26,5 +26,14 @@
   },
     "ContactSection": {
         "question": "¿Quieres iniciar un proyecto?"
-}
+},
+  "FAQ" : {
+    "subtitle": "Preguntas personales para reflexionar y practicar para entrevistas.",
+    "home": "Volver al inicio",
+    "blog": "Visitar blog",
+    "q0" : "Recorrido en Programación",
+    "a01": "Mi camino en la programación comenzó en 2021, impulsado por mi interés por los videojuegos. Empecé con cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en las traducciones de la aplicación\"War Report for Clash of Clans\". Esta experiencia reforzó mi decisión de seguir una carrera en programación.",
+    "a02": "Actualmente, estoy cursando el segundo semestre de la carrera de Desarrollo de Juegos, con un enfoque particular en gráficos por computadora y backend. Mi objetivo es colaborar con personas que compartan intereses similares, inspirar a otros y contribuir de manera positiva al mundo a través de la tecnología. Tengo 19 años, pero ya estoy dedicado al aprendizaje continuo y en busca de oportunidades para mejorar y colaborar en proyectos significativos.",
+    "q1" : "Motivaciones para Estudiar Programación"
+  }
 }

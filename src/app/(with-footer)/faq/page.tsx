@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './page.module.css'
 import ScrollToTopButton from '~/components/ScrollToTopButton/ScrollToTopButton'
 import Link from 'next/link'
+import { useTranslations} from "next-intl"
 
 export const metadata = {
   title: 'Max Comperatore - FAQ',
@@ -9,6 +10,7 @@ export const metadata = {
 }
 
 const FAQ = () => {
+  const t = useTranslations("FAQ")
   return (
     <>
       <main className={styles.wrapper}>
@@ -16,13 +18,13 @@ const FAQ = () => {
         <ScrollToTopButton />
         <h1 className={styles.title}>FAQ</h1>
         <p className={styles.subtitle}>
-          Preguntas personales para reflexionar y practicar para entrevistas.
+          {t("subtitle")}
         </p>
         <Link className={styles.goHomeLink} href="/">
           <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24">
             <path fill="currentColor" d="M6 19h3v-6h6v6h3v-9l-6-4.5L6 10zm-2 2V9l8-6l8 6v12h-7v-6h-2v6zm8-8.75" />
           </svg>
-          Volver a la página principal
+          {t("home")}
         </Link>
         <Link className={styles.goHomeLink} href="/blog">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48">
@@ -32,28 +34,18 @@ const FAQ = () => {
               <circle cx="24" cy="12" r="8" />
             </g>
           </svg>
-          Ir al Blog
+          {t("blog")}
         </Link>
         <div className={styles.separator} />
         <section className={styles.section}>
-          <h2 className={styles.title1}>Recorrido en Programación</h2>
+          <h2 className={styles.title1}>{t("q0")}
+          </h2>
           <p className={styles.paragraph}>
-            Mi camino en la programación comenzó en <strong>2021</strong>, impulsado por mi interés por
-            los <strong>videojuegos</strong>. Empecé con
-            cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en las traducciones de la aplicación
-            <em>"War Report for Clash of Clans"</em>. Esta experiencia reforzó mi decisión de seguir una <strong>carrera
-            en programación</strong>.
+            {t("a01")}
             <br/><br/>
           </p>
           <p className={styles.paragraph}>
-            Actualmente, estoy cursando el segundo semestre de la carrera de <strong>Desarrollo de Juegos</strong>, con
-            un enfoque
-            particular en <strong>gráficos por computadora y backend</strong>. Mi objetivo es colaborar con personas que
-            compartan
-            intereses similares, inspirar a otros y contribuir de manera positiva al mundo a través de la tecnología.
-            Tengo <strong>19 años</strong>, pero ya estoy dedicado al <strong>aprendizaje continuo</strong> y en busca
-            de oportunidades para mejorar y
-            colaborar en proyectos significativos.
+            {t("a02")}
           </p>
         </section>
         <br />
