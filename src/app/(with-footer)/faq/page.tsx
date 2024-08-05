@@ -87,24 +87,24 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>¿Qué Buscas en un Nuevo Trabajo?</h2>
+          <h2 className={styles.title1}>
+            {t("q4")}
+          </h2>
           <p className={styles.paragraph}>
-            Busco un entorno <strong>colaborativo</strong> donde pueda trabajar junto a profesionales competentes y
-            comprometidos.
+            {t("a41")}
           </p>
           <p className={styles.paragraph}>
-            Me interesa participar en proyectos que aprovechen al máximo mis habilidades y conocimientos. Valoro
-            especialmente los lugares que promuevan el <em>crecimiento personal y profesional</em>, respaldados por una
-            comunicación efectiva y un sólido apoyo mutuo.
+            {t("a42")}
           </p>
           <p className={styles.paragraph}>
-            Estoy entusiasmado por asumir nuevos desafíos y responsabilidades en un entorno que favorezca el <strong>aprendizaje
-            continuo</strong> y la <strong>evolución profesional</strong>.
+            {t("a43")}
           </p>
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>Recursos Educativos Recomendados</h2>
+          <h2 className={styles.title1}>
+            {t("q5")}
+          </h2>
           <ul>
             <li>
         <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
