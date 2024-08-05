@@ -102,5 +102,9 @@
   "CopyEmailButton": {
     "copy": "Click to copy",
     "toast": "I'll be waiting for your message!"
+  },
+  "404": {
+    "title": "Page not found",
+    "home": "Back to home"
   }
 }
