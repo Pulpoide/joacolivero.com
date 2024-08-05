@@ -85,7 +85,7 @@ export const projects = [
 		links: [
 			{
 				label: "Visitar documentación",
-				url: "https://fastapiproject-1-eziw.onrender.com/docs",
+				url: "https://maxcomperatore.online/docs",
 			},
 			{
 				label: "Ver código",
