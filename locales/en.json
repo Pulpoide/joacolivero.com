@@ -95,5 +95,8 @@
     "subtitle": "Artículos sobre desarrollo de software y videojuegos.",
     "home": "Volver al inicio",
     "faq": "Ver preguntas frecuentes"
+  },
+  "Header" : {
+    "contact": "Contacto"
   }
 }

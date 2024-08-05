@@ -8,8 +8,10 @@ import { MenuMobile } from "~/components/MenuMobile"
 import { ContactDialog } from "~/components/ContactDialog"
 import styles from "./Header.module.css"
 import { ThemeSwitcher } from "../ThemeSwitcher"
+import { useTranslations } from "next-intl"
 
 export const Header = () => {
+	const t = useTranslations("Header")
 	return (
 		<header className={styles.header}>
 			<div className={styles.contentWrapper}>
@@ -31,7 +33,7 @@ export const Header = () => {
 					<ContactDialog
 						trigger={
 							<Button size="small" type="button">
-								Contactar
+								{t("contact")}
 							</Button>
 						}
 					/>
