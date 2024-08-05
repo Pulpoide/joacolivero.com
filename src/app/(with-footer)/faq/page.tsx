@@ -172,20 +172,17 @@ const FAQ = () => {
               {t("a113")}
             </p>
             <br />
-            <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
+            <li><strong>{t("q12")}</strong></li>
             <blockquote>
               <ul>
-                <li>Una red neuronal compleja para hacer simulaciones en motores gráficos.</li>
-                <li>Una APIs del precio del combustible y relacionadas a Argentina.</li>
-                <li>Una página web en formato de librería virtual, donde los usuarios puedan compartir libros,
-                  portfolios, y más.
-                </li>
-                <li>Un juego de autos a control remoto en Unreal Engine.</li>
-                <li>Un motor de juegos propio, en DX12.</li>
-                <li>Un bot de Discord versátil y complejo.</li>
-                <li>Un clon de WhatsApp con RabbitMQ.</li>
-                <li>Una aplicación publicada en Play Store.</li>
-                <li>Contribuir a proyectos de código abierto.</li>
+                <li>{t("a121")}</li>
+                <li>{t("a122")}</li>
+                <li>{t("a123")}</li>
+                <li>{t("a124")}</li>
+                <li>{t("a125")}</li>
+                <li>{t("a126")}</li>
+                <li>{t("a127")}</li>
+                <li>{t("a128")}</li>
               </ul>
             </blockquote>
             <br />

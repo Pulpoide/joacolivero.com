@@ -68,6 +68,15 @@
     "q11": "A time when you had to learn something new quickly?",
     "a111": "I wanted to develop an API to capture real-time dollar prices in Argentina. At the beginning, the process seemed complicated, but with Python, FASTAPI and an intense dedication to study the relevant documentation, I managed to build it successfully.",
     "a112": "This API, called ArgentoFX, accomplishes in just 400 lines of Python what other projects accomplish in thousands.",
-    "a113": "It is currently consumed by my other project, Mercadix."
+    "a113": "It is currently consumed by my other project, Mercadix.",
+    "q12": "Projects you would like to do in the future?",
+    "a121": "A complex neural network to perform simulations in graphics engines.",
+    "a122": "A fuel price APIs and related to Argentina.",
+    "a123": "A website in the format of a virtual bookstore, where users can share books, portfolios, and more.",
+    "a124": "A remote control car game in Unreal Engine.",
+    "a125": "An in-house game engine, in DX12.",
+    "a126": "A WhatsApp clone with RabbitMQ.",
+    "a127": "An application published on the Play Store.",
+    "a128": "Contribute to open-source projects."
   }
 }

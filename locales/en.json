@@ -68,6 +68,15 @@
     "q11": "Un momento en el que tuviste que aprender algo nuevo rápidamente?",
     "a111": "Quise desarrollar una API para capturar en tiempo real los precios del dólar en Argentina. Al inicio, el proceso parecía complicado, pero con Python, FASTAPI y una dedicación intensa a estudiar la documentación pertinente, logré construirla con éxito.",
     "a112": "Esta API, llamada ArgentoFX, logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.",
-    "a113": "Actualmente, es consumida por mi otro proyecto, Mercadix."
+    "a113": "Actualmente, es consumida por mi otro proyecto, Mercadix.",
+    "q12": "Proyectos que te gustaría hacer en el futuro?",
+    "a121": "Una red neuronal compleja para hacer simulaciones en motores gráficos.",
+    "a122": "Una APIs del precio del combustible y relacionadas a Argentina.",
+    "a123": "Una página web en formato de librería virtual, donde los usuarios puedan compartir libros, portfolios, y más.",
+    "a124": "Un juego de autos a control remoto en Unreal Engine.",
+    "a125": "Un motor de juegos propio, en DX12.",
+    "a126": "Un clon de WhatsApp con RabbitMQ.",
+    "a127": "Una aplicación publicada en Play Store.",
+    "a128": "Contribuir a proyectos de código abierto."
   }
 }
