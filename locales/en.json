@@ -9,5 +9,9 @@
     "position": "Desarrollador Backend y de Videojuegos",
     "location": "Me encuentro en Mendoza, Argentina",
     "subtitle": "Dedicado a transformar ideas complejas en soluciones eficaces"
-  }
+  },
+    "ProjectsSection": {
+        "title": "Proyectos Destacados",
+        "seemore": "Ver más iniciativas"
+    }
 }
