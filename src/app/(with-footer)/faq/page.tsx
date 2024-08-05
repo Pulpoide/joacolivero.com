@@ -139,24 +139,17 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>Preguntas Conductuales</h2>
+          <h2 className={styles.title1}>
+            {t("q8")}
+          </h2>
           <ul className={styles.paragraph}>
-            <li><strong>Lo más innovador que ha hecho y por qué lo considera innovador?</strong></li>
+            <li><strong>{t("q9")}</strong></li>
             <p>
-              Definitivamente, la creación de la aplicación&nbsp;
-              <span
-                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-                <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
-                   style={{ color: "inherit", textDecoration: "inherit" }}>
-                    Mercadix
-                </a>
-            </span>&nbsp;es uno de los proyectos más innovadores que he realizado.
+              {t("a91")}
               <br /><br />
-              Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina:
-              la <strong>incertidumbre sobre el valor real de los productos</strong> en un contexto económico volátil.
+              {t("a92")}
               <br /><br />
-              Actualmente, Mercadix ayuda a cientos de usuarios a tomar decisiones informadas sobre sus compras y ventas,
-              ofreciendo una perspectiva estratégica del mercado.
+              {t("a93")}
             </p>
             <br />
             <li><strong>Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo

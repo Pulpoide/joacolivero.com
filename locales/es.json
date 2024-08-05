@@ -56,6 +56,11 @@
     "a62": "Likewise, I explore trending repositories on GitHub and participate in technology discussions on Discord and Reddit.",
     "q7": "Hobbies",
     "a71": "In my free time, I love embarking on new technological projects and collaborating on various creative initiatives. I enjoy staying active through running and hiking, as well as immersing myself in the narrative and mechanics of indie games.",
-    "a72": "In the creative field, I compose music using FL Studio, thus combining technique and creativity in a unique and rewarding way."
+    "a72": "In the creative field, I compose music using FL Studio, thus combining technique and creativity in a unique and rewarding way.",
+    "q8": "Behavioral Questions",
+    "q9": "The most innovative project you have worked on and why you consider it innovative?",
+    "a91": "Definitely, the creation of the Mercadix application is one of the most innovative projects I have done.",
+    "a92": "This solution addresses a recurring problem among Mercado Libre users in Argentina: uncertainty about the real value of products in a volatile economic context.",
+    "a93": "Today, Mercadix helps hundreds of users make informed decisions about their purchases and sales, offering a strategic perspective of the market."
   }
 }
