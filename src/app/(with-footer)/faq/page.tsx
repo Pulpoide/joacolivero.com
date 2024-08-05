@@ -62,34 +62,27 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>¿Frontend o Backend?</h2>
+          <h2 className={styles.title1}>
+            {t("q2")}
+          </h2>
           <p className={styles.paragraph}>
-            Me especializo en el <strong>desarrollo backend</strong>, aunque también tengo la capacidad de trabajar en
-            frontend cuando es
-            necesario.
+            {t("a21")}
           </p>
           <p className={styles.paragraph}>
-            Disfruto particularmente del desarrollo del lado del servidor, donde enfrento problemas complejos con un
-            enfoque en la eficiencia y la seguridad. La gestión de bases de datos, el diseño y
-            mantenimiento de APIs, y
-            la mejora continua del rendimiento son aspectos que encuentro cruciales, ya que contribuyen a la creación
-            de aplicaciones robustas y escalables.
+            {t("a22")}
           </p>
         </section>
 
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>¿Cómo te Ves en 5 Años?</h2>
+          <h2 className={styles.title1}>
+            {t("q3")}
+          </h2>
           <p className={styles.paragraph}>
-            En cinco años, me visualizo como un <strong>experto en backend y desarrollo de juegos</strong>,
-            liderando <strong>equipos de alto rendimiento</strong> y compartiendo mi conocimiento como mentor. Aspiro a
-            contribuir al avance de <strong>tecnologías de vanguardia</strong>, optimizar procesos complejos y
-            desarrollar soluciones escalables y seguras.
+            {t("a31")}
           </p>
           <p className={styles.paragraph}>
-            En lo personal, busco mantener un <em>equilibrio saludable entre mi vida profesional y personal</em>,
-            disfrutando de mis pasatiempos y participando en proyectos innovadores que generen un impacto positivo en la
-            sociedad.
+            {t("a32")}
           </p>
         </section>
         <br />

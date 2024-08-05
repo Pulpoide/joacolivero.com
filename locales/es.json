@@ -37,6 +37,12 @@
     "q1" : "Motivations to Study Programming",
     "a11": "I have always been fascinated by transforming abstract ideas into practical solutions through programming, a field where technique merges with creativity.",
     "a12": "My early fascination with games and their development has led me to dedicate myself to software creation, where I find deep satisfaction in developing technological solutions that meet specific needs.",
-    "a13": "The constant evolution of technology offers unique opportunities to contribute to innovative projects, and I deeply value the collaborative nature of the developer community, which not only enriches my continuous learning but also strengthens connections with generous and supportive colleagues."
+    "a13": "The constant evolution of technology offers unique opportunities to contribute to innovative projects, and I deeply value the collaborative nature of the developer community, which not only enriches my continuous learning but also strengthens connections with generous and supportive colleagues.",
+    "q2" : "Frontend or Backend?",
+    "a21": "I specialize in backend development, although I also have the ability to work on frontend when necessary.",
+    "a22": "I particularly enjoy server-side development, where I tackle complex problems with a focus on efficiency and security. Database management, API design and maintenance, and continuous performance improvement are aspects that I find crucial, as they contribute to the creation of robust and scalable applications.",
+    "q3" : "Where do you See Yourself in 5 Years?",
+    "a31": "In five years, I see myself as an expert in backend and game development, leading high-performance teams and sharing my knowledge as a mentor. I aspire to contribute to the advancement of cutting-edge technologies, optimize complex processes and develop scalable and secure solutions.",
+    "a32": "Personally, I seek to maintain a healthy balance between my professional and personal life, enjoying my hobbies and participating in innovative projects that have a positive impact on society. My goal is to continue learning, growing and collaborating with people passionate about technology."
   }
 }
