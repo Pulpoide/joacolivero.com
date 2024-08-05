@@ -50,21 +50,14 @@ const FAQ = () => {
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>Motivaciones para Estudiar Programación</h2>
+          <h2 className={styles.title1}>{t("q1")}</h2>
           <p className={styles.paragraph}>
-            Siempre me ha fascinado <strong>transformar ideas abstractas en soluciones prácticas</strong> mediante la
-            programación, un
-            campo donde la técnica se fusiona con la creatividad.
+            {t("a11")}
             <br /><br />
-            Mi temprana fascinación por los juegos y su desarrollo me ha llevado a dedicarme a la creación de
-            software, donde encuentro una profunda satisfacción al desarrollar soluciones tecnológicas que satisfacen
-            necesidades concretas.
+            {t("a12")}
           </p>
           <p className={styles.paragraph}>
-            La constante evolución de la tecnología ofrece oportunidades únicas para contribuir a proyectos innovadores,
-            y valoro profundamente el carácter <strong>colaborativo</strong> de la comunidad de desarrolladores,
-            que no solo enriquece mi aprendizaje continuo sino que también fortalece conexiones con colegas generosos y
-            solidarios.
+            {t("a13")}
           </p>
         </section>
         <br />
