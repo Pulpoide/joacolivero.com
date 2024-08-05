@@ -186,24 +186,13 @@ const FAQ = () => {
               </ul>
             </blockquote>
             <br />
-            <li><strong>Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su
-              rendimiento</strong></li>
+            <li><strong>{t("q13")}</strong></li>
             <p>
-              Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de
-              Unreal Engine.
+              {t("a131")}
             </p>
             <br />
             <p>
-              Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al
-              final, logramos terminar&nbsp;
-              <span
-                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-                <a href="https://owtavlr.itch.io/anatidae" target="_blank" rel="noopener noreferrer"
-                   style={{ color: "inherit", textDecoration: "inherit" }}>
-                    el juego
-                </a>
-            </span>
-              &nbsp;a tiempo y con éxito.
+              {t("a132")}
             </p>
           </ul>
         </section>

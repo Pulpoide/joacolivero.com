@@ -77,6 +77,9 @@
     "a125": "An in-house game engine, in DX12.",
     "a126": "A WhatsApp clone with RabbitMQ.",
     "a127": "An application published on the Play Store.",
-    "a128": "Contribute to open-source projects."
+    "a128": "Contribute to open-source projects.",
+    "q13": "A time when you supported or trained another person on your team to improve their performance?",
+    "a131": "During a game jam, a teammate was not sure how to implement a certain functionality with Unreal Engine scripting.",
+    "a132": "I showed him several key functionalities, recommended useful resources and together we reviewed his code. In the end, we managed to successfully finish the game on time."
   }
 }
