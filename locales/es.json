@@ -64,6 +64,10 @@
     "a93": "Today, Mercadix helps hundreds of users make informed decisions about their purchases and sales, offering a strategic perspective of the market.",
     "q10": "A moment when you had to solve a complex problem and how you approached it?",
     "a101": "During the development of this portfolio, I faced the challenge of manually translating all the content into English, which was cumbersome and tedious.",
-    "a102": "Thanks to Santiago Ariel's guidance, I learned how to implement translations using i18next and JSON, which allowed me to reach new audiences efficiently."
+    "a102": "Thanks to Santiago Ariel's guidance, I learned how to implement translations using i18next and JSON, which allowed me to reach new audiences efficiently.",
+    "q11": "A time when you had to learn something new quickly?",
+    "a111": "I wanted to develop an API to capture real-time dollar prices in Argentina. At the beginning, the process seemed complicated, but with Python, FASTAPI and an intense dedication to study the relevant documentation, I managed to build it successfully.",
+    "a112": "This API, called ArgentoFX, accomplishes in just 400 lines of Python what other projects accomplish in thousands.",
+    "a113": "It is currently consumed by my other project, Mercadix."
   }
 }

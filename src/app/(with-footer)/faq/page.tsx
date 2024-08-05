@@ -159,31 +159,17 @@ const FAQ = () => {
               {t("a102")}
             </p>
             <br />
-            <li><strong>Un momento en el que tuviste que aprender algo nuevo rápidamente?</strong></li>
+            <li><strong>{t("q11")}</strong></li>
             <p>
-              Quise desarrollar una API para capturar en tiempo real los precios del dólar en Argentina. Al inicio, el proceso parecía complicado, pero con Python, FASTAPI y una dedicación intensa a estudiar la documentación pertinente, logré construirla con éxito.
+              {t("a111")}
             </p>
             <br />
             <p>
-              Esta API, llamada&nbsp;
-              <span
-                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-                <a href="https://github.com/pyoneerC/monedas-api" target="_blank" rel="noopener noreferrer"
-                   style={{ color: "inherit", textDecoration: "inherit" }}>
-                    ArgentoFX
-                </a>
-            </span>, logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.
+              {t("a112")}
             </p>
             <br />
             <p>
-              Actualmente, es consumida por mi otro proyecto,&nbsp;
-              <span
-                style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-                <a href="https://maxcomperatore.store" target="_blank" rel="noopener noreferrer"
-                   style={{ color: "inherit", textDecoration: "inherit" }}>
-                    Mercadix
-                </a>
-            </span>.
+              {t("a113")}
             </p>
             <br />
             <li><strong>Proyectos que te gustaría hacer en el futuro?</strong></li>
