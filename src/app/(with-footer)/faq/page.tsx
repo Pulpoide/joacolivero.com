@@ -115,56 +115,26 @@ const FAQ = () => {
         </section>
         <br /><br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>Mantenerse Actualizado</h2>
+          <h2 className={styles.title1}>
+            {t("q6")}
+          </h2>
           <p className={styles.paragraph}>
-            Para estar al tanto de las últimas <strong>tendencias y tecnologías</strong>, sigo canales influyentes
-            como&nbsp;
-            <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-      <a href="https://m.youtube.com/@midulive" target="_blank" rel="noopener noreferrer"
-         style={{ color: "inherit", textDecoration: "inherit" }}>
-        Midudev
-      </a>
-    </span>,&nbsp;
-            <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-      <a href="https://m.youtube.com/@Fireship" target="_blank" rel="noopener noreferrer"
-         style={{ color: "inherit", textDecoration: "inherit" }}>
-        Fireship
-      </a>
-    </span>,&nbsp;
-            <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-      <a href="https://m.youtube.com/@unrealengine" target="_blank" rel="noopener noreferrer"
-         style={{ color: "inherit", textDecoration: "inherit" }}>
-        Unreal Engine
-      </a>
-    </span>&nbsp;y&nbsp;
-            <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
-      <a href="https://m.youtube.com/@unity" target="_blank" rel="noopener noreferrer"
-         style={{ color: "inherit", textDecoration: "inherit" }}>
-        Unity
-      </a>
-    </span>.
+            {t("a61")}
           </p>
           <p className={styles.paragraph}>
-            Asimismo, exploro <em>repositorios de tendencia en GitHub</em> y participo en discusiones sobre tecnología
-            en&nbsp;
-            <span style={{ color: "skyblue", textDecoration: "none", fontFamily: "inherit", fontSize: "inherit" }}>
-    Discord
-    </span>&nbsp;y&nbsp;
-            <span style={{ color: "skyblue", textDecoration: "none", fontFamily: "inherit", fontSize: "inherit" }}>
-    Reddit
-    </span>.
+            {t("a62")}
           </p>
         </section>
         <br />
         <section className={styles.section}>
-          <h2 className={styles.title1}>Pasatiempos</h2>
+          <h2 className={styles.title1}>
+            {t("q7")}
+          </h2>
           <p className={styles.paragraph}>
-            En mi tiempo libre, me encanta embarcarme en nuevos proyectos tecnológicos y colaborar en diversas iniciativas creativas.
-            Disfruto mantenerme activo a través del running y el senderismo, además de sumergirme en la narrativa y
-            mecánica de videojuegos independientes.
+            {t("a71")}
           </p>
           <p className={styles.paragraph}>
-            En el ámbito creativo, compongo música utilizando FL Studio, combinando así técnica y creatividad de una manera única y gratificante.
+            {t("a72")}
           </p>
         </section>
         <br />
