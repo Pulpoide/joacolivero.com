@@ -1,4 +1,8 @@
 {
+  "404": {
+    "title": "Página no encontrada",
+    "home": "Volver al inicio"
+  },
   "LanguageSwitcher": {
     "switchLanguage": "Cambiar a Inglés"
   },
@@ -16,7 +20,7 @@
   },
   "AboutSection": {
     "title": "Sobre mí",
-    "d0":"Conoce a Máximo Comperatore, aspirante a desarrollador con especialización en Backend y Desarrollo de Videojuegos",
+    "d0": "Conoce a Máximo Comperatore, aspirante a desarrollador con especialización en Backend y Desarrollo de Videojuegos",
     "d1": "Actualmente, estoy cursando estudios en Desarrollo de Videojuegos en la Universidad de Mendoza y también soy autodidacta, buscando constantemente nuevas formas de expandir mis conocimientos y habilidades.",
     "d2": "Me caracterizo por ser meticuloso, organizado y cordial, siempre dispuesto a aprender y a colaborar en equipo.",
     "d3": "Busco participar en proyectos que potencien mis habilidades y contribuyan al desarrollo profesional de los equipos, manteniendo una mentalidad proactiva, resolutiva y enfocada en la optimización del software."
@@ -27,21 +31,21 @@
   "ContactSection": {
     "question": "¿Quieres iniciar un proyecto?"
   },
-  "FAQ" : {
+  "FAQ": {
     "subtitle": "Preguntas personales para reflexionar y practicar para entrevistas.",
     "home": "Volver al inicio",
     "blog": "Visitar blog",
-    "q0" : "Recorrido en Programación",
+    "q0": "Recorrido en Programación",
     "a01": "Mi camino en la programación comenzó en 2021, impulsado por mi interés por los videojuegos. Empecé con cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en las traducciones de la aplicación\"War Report for Clash of Clans\". Esta experiencia reforzó mi decisión de seguir una carrera en programación.",
     "a02": "Actualmente, estoy cursando el segundo semestre de la carrera de Desarrollo de Juegos, con un enfoque particular en gráficos por computadora y backend. Mi objetivo es colaborar con personas que compartan intereses similares, inspirar a otros y contribuir de manera positiva al mundo a través de la tecnología. Tengo 19 años, pero ya estoy dedicado al aprendizaje continuo y en busca de oportunidades para mejorar y colaborar en proyectos significativos.",
-    "q1" : "Motivaciones para Estudiar Programación",
+    "q1": "Motivaciones para Estudiar Programación",
     "a11": "Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas mediante la programación, un campo donde la técnica se fusiona con la creatividad.",
     "a12": "Mi temprana fascinación por los juegos y su desarrollo me ha llevado a dedicarme a la creación de software, donde encuentro una profunda satisfacción al desarrollar soluciones tecnológicas que satisfacen necesidades concretas.",
     "a13": "La constante evolución de la tecnología ofrece oportunidades únicas para contribuir a proyectos innovadores, y valoro profundamente el carácter colaborativo de la comunidad de desarrolladores, que no solo enriquece mi aprendizaje continuo sino que también fortalece conexiones con colegas generosos y solidarios.",
-    "q2" : "¿Frontend o Backend?",
+    "q2": "¿Frontend o Backend?",
     "a21": "Me especializo en el desarrollo backend, aunque también tengo la capacidad de trabajar en frontend cuando es necesario.",
     "a22": "Disfruto particularmente del desarrollo del lado del servidor, donde enfrento problemas complejos con un enfoque en la eficiencia y la seguridad. La gestión de bases de datos, el diseño y mantenimiento de APIs, y la mejora continua del rendimiento son aspectos que encuentro cruciales, ya que contribuyen a la creación de aplicaciones robustas y escalables.",
-    "q3" : "¿Cómo te Ves en 5 Años?",
+    "q3": "¿Cómo te Ves en 5 Años?",
     "a31": "En cinco años, me visualizo como un experto en backend y desarrollo de juegos, liderando equipos de alto rendimiento y compartiendo mi conocimiento como mentor. Aspiro a contribuir al avance de tecnologías de vanguardia, optimizar procesos complejos y desarrollar soluciones escalables y seguras.",
     "a32": "En lo personal, busco mantener un equilibrio saludable entre mi vida profesional y personal, disfrutando de mis pasatiempos y participando en proyectos innovadores que generen un impacto positivo en la sociedad. Mi objetivo es seguir aprendiendo, creciendo y colaborando con personas apasionadas por la tecnología",
     "q4": "¿Qué Buscas en un Nuevo Trabajo?",
@@ -91,23 +95,19 @@
     "thanks": "¡Muchas gracias por leer hasta el final!",
     "contact": "Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas saludar,no dudes en contactarme a través de mis redes sociales o enviándome un mail. Puedes encontrar los enlaces en el pie de página a continuación."
   },
-  "Blog" : {
+  "Blog": {
     "subtitle": "Artículos sobre desarrollo de software y videojuegos.",
     "home": "Volver al inicio",
     "faq": "Ver preguntas frecuentes"
   },
-  "Header" : {
+  "Header": {
     "contact": "Contacto"
   },
   "CopyEmailButton": {
     "copy": "Click para copiar",
     "toast": "¡Estaré esperando tu mensaje!"
   },
-  "404" : {
-    "title": "Página no encontrada",
-    "home": "Volver al inicio"
-  },
-  "Initiatives" : {
+  "Initiatives": {
     "title": "Otras iniciativas",
     "subtitle": "Proyectos personales desarrollados para explorar nuevas tecnologías y mejorar mis habilidades."
   }

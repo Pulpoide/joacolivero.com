@@ -1,4 +1,8 @@
 {
+  "404": {
+    "title": "Page not found",
+    "home": "Back to home"
+  },
   "LanguageSwitcher": {
     "switchLanguage": "Switch to Spanish"
   },
@@ -16,7 +20,7 @@
   },
   "AboutSection": {
     "title": "About me",
-    "d0":"Meet Máximo Comperatore, aspiring developer with specialization in Backend and Game Development",
+    "d0": "Meet Máximo Comperatore, aspiring developer with specialization in Backend and Game Development",
     "d1": "Currently, I am studying Game Development at the University of Mendoza and I am also self-taught, constantly looking for new ways to expand my knowledge and skills.",
     "d2": "I am characterized for being meticulous, organized and friendly, always willing to learn and collaborate in a team.",
     "d3": "I seek to participate in projects that enhance my skills and contribute to the professional development of teams, maintaining a proactive, resolutive and focused mindset on software optimization."
@@ -27,21 +31,21 @@
   "ContactSection": {
     "question": "Want to start a project?"
   },
-  "FAQ" : {
+  "FAQ": {
     "subtitle": "Personal questions to reflect on and practice for interviews.",
     "home": "Back to home",
     "blog": "Visit blog",
-    "q0" : "Programming Journey",
+    "q0": "Programming Journey",
     "a01": "My programming journey began in 2021, driven by my interest in video games. I started with basic web development courses and bootcamps, and consolidated my enthusiasm by collaborating on the translations of the \"War Report for Clash of Clans\" application. This experience reinforced my decision to pursue a career in programming.",
     "a02": "Currently, I am in the second semester of the Game Development career, with a particular focus on computer graphics and backend. My goal is to collaborate with people who share similar interests, inspire others and contribute positively to the world through technology. I am 19 years old, but I am already dedicated to continuous learning and looking for opportunities to improve and collaborate on meaningful projects.",
-    "q1" : "Motivations to Study Programming",
+    "q1": "Motivations to Study Programming",
     "a11": "I have always been fascinated by transforming abstract ideas into practical solutions through programming, a field where technique merges with creativity.",
     "a12": "My early fascination with games and their development has led me to dedicate myself to software creation, where I find deep satisfaction in developing technological solutions that meet specific needs.",
     "a13": "The constant evolution of technology offers unique opportunities to contribute to innovative projects, and I deeply value the collaborative nature of the developer community, which not only enriches my continuous learning but also strengthens connections with generous and supportive colleagues.",
-    "q2" : "Frontend or Backend?",
+    "q2": "Frontend or Backend?",
     "a21": "I specialize in backend development, although I also have the ability to work on frontend when necessary.",
     "a22": "I particularly enjoy server-side development, where I tackle complex problems with a focus on efficiency and security. Database management, API design and maintenance, and continuous performance improvement are aspects that I find crucial, as they contribute to the creation of robust and scalable applications.",
-    "q3" : "Where do you See Yourself in 5 Years?",
+    "q3": "Where do you See Yourself in 5 Years?",
     "a31": "In five years, I see myself as an expert in backend and game development, leading high-performance teams and sharing my knowledge as a mentor. I aspire to contribute to the advancement of cutting-edge technologies, optimize complex processes and develop scalable and secure solutions.",
     "a32": "Personally, I seek to maintain a healthy balance between my professional and personal life, enjoying my hobbies and participating in innovative projects that have a positive impact on society. My goal is to continue learning, growing and collaborating with people passionate about technology.",
     "q4": "What are you Looking for in a New Job?",
@@ -103,11 +107,7 @@
     "copy": "Click to copy",
     "toast": "I'll be waiting for your message!"
   },
-  "404": {
-    "title": "Page not found",
-    "home": "Back to home"
-  },
-  "Initiatives" : {
+  "Initiatives": {
     "title": "Other initiatives",
     "subtitle": "Personal projects developed to explore new technologies and improve my skills."
   }
