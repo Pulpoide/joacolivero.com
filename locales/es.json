@@ -90,5 +90,10 @@
     "a151": "A selection that will make you dance like a cyborg with an excess of caffeine.",
     "thanks": "Thank you very much for reading to the end!",
     "contact": "If you are interested in collaborating on a project, hiring me or just want to say hello, feel free to contact me through my social networks or by sending me an email. You can find the links in the footer below."
+  },
+  "Blog": {
+    "subtitle": "Articles on software development and videogames.",
+    "home": "Back to home",
+    "faq": "Visit FAQ"
   }
 }
