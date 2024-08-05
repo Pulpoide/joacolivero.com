@@ -1,110 +1,110 @@
 {
   "LanguageSwitcher": {
-    "switchLanguage": "Cambiar a Inglés"
+    "switchLanguage": "Switch to Spanish"
   },
   "HeroSection": {
-    "availability": "Disponible para nuevos proyectos",
-    "contact": "Contactar",
-    "download": "Descargar Currículum",
-    "position": "Desarrollador Backend y de Videojuegos",
-    "location": "Me encuentro en Mendoza, Argentina",
-    "subtitle": "Dedicado a transformar ideas complejas en soluciones eficaces"
+    "availability": "Available for new projects",
+    "contact": "Contact",
+    "download": "Download Resume",
+    "position": "Backend and Game Developer",
+    "location": "I'm based in Mendoza, Argentina",
+    "subtitle": "Dedicated to transforming complex ideas into effective solutions"
   },
-    "ProjectsSection": {
-        "title": "Proyectos Destacados",
-        "seemore": "Ver más iniciativas"
-    },
+  "ProjectsSection": {
+    "title": "Featured Projects",
+    "seemore": "See more initiatives"
+  },
   "AboutSection": {
-    "title": "Sobre mí",
-    "d0":"Conoce a Máximo Comperatore, aspirante a desarrollador con especialización en Backend y Desarrollo de Videojuegos",
-    "d1": "Actualmente, estoy cursando estudios en Desarrollo de Videojuegos en la Universidad de Mendoza y también soy autodidacta, buscando constantemente nuevas formas de expandir mis conocimientos y habilidades.",
-    "d2": "Me caracterizo por ser meticuloso, organizado y cordial, siempre dispuesto a aprender y a colaborar en equipo.",
-    "d3": "Busco participar en proyectos que potencien mis habilidades y contribuyan al desarrollo profesional de los equipos, manteniendo una mentalidad proactiva, resolutiva y enfocada en la optimización del software."
+    "title": "About me",
+    "d0":"Meet Máximo Comperatore, aspiring developer with specialization in Backend and Game Development",
+    "d1": "Currently, I am studying Game Development at the University of Mendoza and I am also self-taught, constantly looking for new ways to expand my knowledge and skills.",
+    "d2": "I am characterized for being meticulous, organized and friendly, always willing to learn and collaborate in a team.",
+    "d3": "I seek to participate in projects that enhance my skills and contribute to the professional development of teams, maintaining a proactive, resolutive and focused mindset on software optimization."
   },
   "SkillsSection": {
-    "title": "Tecnologías empleadas recientemente"
+    "title": "Recently used technologies"
   },
-    "ContactSection": {
-        "question": "¿Quieres iniciar un proyecto?"
-},
+  "ContactSection": {
+    "question": "Want to start a project?"
+  },
   "FAQ" : {
-    "subtitle": "Preguntas personales para reflexionar y practicar para entrevistas.",
-    "home": "Volver al inicio",
-    "blog": "Visitar blog",
-    "q0" : "Recorrido en Programación",
-    "a01": "Mi camino en la programación comenzó en 2021, impulsado por mi interés por los videojuegos. Empecé con cursos básicos y bootcamps de desarrollo web, y consolidé mi entusiasmo al colaborar en las traducciones de la aplicación\"War Report for Clash of Clans\". Esta experiencia reforzó mi decisión de seguir una carrera en programación.",
-    "a02": "Actualmente, estoy cursando el segundo semestre de la carrera de Desarrollo de Juegos, con un enfoque particular en gráficos por computadora y backend. Mi objetivo es colaborar con personas que compartan intereses similares, inspirar a otros y contribuir de manera positiva al mundo a través de la tecnología. Tengo 19 años, pero ya estoy dedicado al aprendizaje continuo y en busca de oportunidades para mejorar y colaborar en proyectos significativos.",
-    "q1" : "Motivaciones para Estudiar Programación",
-    "a11": "Siempre me ha fascinado transformar ideas abstractas en soluciones prácticas mediante la programación, un campo donde la técnica se fusiona con la creatividad.",
-    "a12": "Mi temprana fascinación por los juegos y su desarrollo me ha llevado a dedicarme a la creación de software, donde encuentro una profunda satisfacción al desarrollar soluciones tecnológicas que satisfacen necesidades concretas.",
-    "a13": "La constante evolución de la tecnología ofrece oportunidades únicas para contribuir a proyectos innovadores, y valoro profundamente el carácter colaborativo de la comunidad de desarrolladores, que no solo enriquece mi aprendizaje continuo sino que también fortalece conexiones con colegas generosos y solidarios.",
-    "q2" : "¿Frontend o Backend?",
-    "a21": "Me especializo en el desarrollo backend, aunque también tengo la capacidad de trabajar en frontend cuando es necesario.",
-    "a22": "Disfruto particularmente del desarrollo del lado del servidor, donde enfrento problemas complejos con un enfoque en la eficiencia y la seguridad. La gestión de bases de datos, el diseño y mantenimiento de APIs, y la mejora continua del rendimiento son aspectos que encuentro cruciales, ya que contribuyen a la creación de aplicaciones robustas y escalables.",
-    "q3" : "¿Cómo te Ves en 5 Años?",
-    "a31": "En cinco años, me visualizo como un experto en backend y desarrollo de juegos, liderando equipos de alto rendimiento y compartiendo mi conocimiento como mentor. Aspiro a contribuir al avance de tecnologías de vanguardia, optimizar procesos complejos y desarrollar soluciones escalables y seguras.",
-    "a32": "En lo personal, busco mantener un equilibrio saludable entre mi vida profesional y personal, disfrutando de mis pasatiempos y participando en proyectos innovadores que generen un impacto positivo en la sociedad. Mi objetivo es seguir aprendiendo, creciendo y colaborando con personas apasionadas por la tecnología",
-    "q4": "¿Qué Buscas en un Nuevo Trabajo?",
-    "a41": "Busco un entorno colaborativo donde pueda trabajar junto a profesionales competentes y comprometidos.",
-    "a42": "Me interesa participar en proyectos que aprovechen al máximo mis habilidades y conocimientos. Valoro especialmente los lugares que promuevan el crecimiento personal y profesional, respaldados por una comunicación efectiva y un sólido apoyo mutuo.",
-    "a43": "Estoy entusiasmado por asumir nuevos desafíos y responsabilidades en un entorno que favorezca el aprendizaje continuo y la evolución profesional.",
-    "q5": "Recursos Educativos Recomendados",
-    "a51": "Vea la",
-    "a52": "lista.",
-    "q6": "Mantenerse Actualizado",
-    "a61": "Para estar al tanto de las últimas tendencias y tecnologías, sigo canales influyentes como Midudev, Fireship, Unreal Engine y Unity.",
-    "a62": "Asimismo, exploro repositorios de tendencia en GitHub y participo en discusiones sobre tecnología en Discord y Reddit.",
-    "q7": "Pasatiempos",
-    "a71": "En mi tiempo libre, me encanta embarcarme en nuevos proyectos tecnológicos y colaborar en diversas iniciativas creativas. Disfruto mantenerme activo a través del running y el senderismo, además de sumergirme en la narrativa y mecánica de videojuegos independientes.",
-    "a72": "En el ámbito creativo, compongo música utilizando FL Studio, combinando así técnica y creatividad de una manera única y gratificante.",
-    "q8": "Preguntas Conductuales",
-    "q9": "Lo más innovador que ha hecho y por qué lo considera innovador?",
-    "a91": "Definitivamente, la creación de la aplicación Mercadix es uno de los proyectos más innovadores en los que he trabajado.",
-    "a92": "Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina: la incertidumbre sobre el valor real de los productos en un contexto económico volátil.",
-    "a93": "Actualmente, Mercadix ayuda a cientos de usuarios a tomar decisiones informadas sobre sus compras y ventas, ofreciendo una perspectiva estratégica del mercado.",
-    "q10": "Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?",
-    "a101": "Durante el desarrollo de este portafolio, me enfrenté al desafío de traducir manualmente todo el contenido al inglés, lo cual era engorroso y tedioso.",
-    "a102": "Gracias a la orientación de Santiago Ariel, aprendí a implementar traducciones utilizando i18next y JSON, lo que me permitió llegar a nuevas audiencias de manera eficiente.",
-    "q11": "Un momento en el que tuviste que aprender algo nuevo rápidamente?",
-    "a111": "Quise desarrollar una API para capturar en tiempo real los precios del dólar en Argentina. Al inicio, el proceso parecía complicado, pero con Python, FASTAPI y una dedicación intensa a estudiar la documentación pertinente, logré construirla con éxito.",
-    "a112": "Esta API, llamada ArgentoFX, logra en solo 400 líneas de Python lo que otros proyectos realizan en miles.",
-    "a113": "Actualmente, es consumida por mi otro proyecto, Mercadix.",
-    "q12": "Proyectos que te gustaría hacer en el futuro?",
-    "a121": "Una red neuronal compleja para hacer simulaciones en motores gráficos.",
-    "a122": "Una APIs del precio del combustible y relacionadas a Argentina.",
-    "a123": "Una página web en formato de librería virtual, donde los usuarios puedan compartir libros, portfolios, y más.",
-    "a124": "Un juego de autos a control remoto en Unreal Engine.",
-    "a125": "Un motor de juegos propio, en DX12.",
-    "a126": "Un clon de WhatsApp con RabbitMQ.",
-    "a127": "Una aplicación publicada en Play Store.",
-    "a128": "Contribuir a proyectos de código abierto.",
-    "q13": "Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento?",
-    "a131": "Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de Unreal Engine.",
-    "a132": "Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al final, logramos terminar el juego a tiempo y con éxito.",
-    "q14": "Agradecimientos",
-    "a141": "Quiero expresar mi profundo agradecimiento a Colin Schmale, Franco Yudica, y Enzo Notario, quienes han sido fundamentales en mi carrera por sus valiosos consejos y constante apoyo.",
-    "a142": "También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores de Discord de programación en español, cuya disposición para ayudar y compartir sus conocimientos ha sido crucial para mi desarrollo profesional.",
-    "a143": "Por último, quiero dar las gracias a Lucas Pope, Markus Persson y Charlie Cleveland por su inspirador trabajo en la industria del desarrollo de juegos, que también ha sido una enorme motivación para que yo siga una carrera en este campo. Y claro, mi juego favorito: Rocket League (y su magnífica banda sonora).",
-    "a144": "Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando la cultura de colaboración y aprendizaje mutuo.",
-    "q15": "Canciones Favoritas",
-    "a151": "Una selección que te hará bailar como un cyborg con exceso de cafeína.",
-    "thanks": "¡Muchas gracias por leer hasta el final!",
-    "contact": "Si estás interesado en colaborar en algún proyecto, contratarme o simplemente deseas saludar,no dudes en contactarme a través de mis redes sociales o enviándome un mail. Puedes encontrar los enlaces en el pie de página a continuación."
+    "subtitle": "Personal questions to reflect on and practice for interviews.",
+    "home": "Back to home",
+    "blog": "Visit blog",
+    "q0" : "Programming Journey",
+    "a01": "My programming journey began in 2021, driven by my interest in video games. I started with basic web development courses and bootcamps, and consolidated my enthusiasm by collaborating on the translations of the \"War Report for Clash of Clans\" application. This experience reinforced my decision to pursue a career in programming.",
+    "a02": "Currently, I am in the second semester of the Game Development career, with a particular focus on computer graphics and backend. My goal is to collaborate with people who share similar interests, inspire others and contribute positively to the world through technology. I am 19 years old, but I am already dedicated to continuous learning and looking for opportunities to improve and collaborate on meaningful projects.",
+    "q1" : "Motivations to Study Programming",
+    "a11": "I have always been fascinated by transforming abstract ideas into practical solutions through programming, a field where technique merges with creativity.",
+    "a12": "My early fascination with games and their development has led me to dedicate myself to software creation, where I find deep satisfaction in developing technological solutions that meet specific needs.",
+    "a13": "The constant evolution of technology offers unique opportunities to contribute to innovative projects, and I deeply value the collaborative nature of the developer community, which not only enriches my continuous learning but also strengthens connections with generous and supportive colleagues.",
+    "q2" : "Frontend or Backend?",
+    "a21": "I specialize in backend development, although I also have the ability to work on frontend when necessary.",
+    "a22": "I particularly enjoy server-side development, where I tackle complex problems with a focus on efficiency and security. Database management, API design and maintenance, and continuous performance improvement are aspects that I find crucial, as they contribute to the creation of robust and scalable applications.",
+    "q3" : "Where do you See Yourself in 5 Years?",
+    "a31": "In five years, I see myself as an expert in backend and game development, leading high-performance teams and sharing my knowledge as a mentor. I aspire to contribute to the advancement of cutting-edge technologies, optimize complex processes and develop scalable and secure solutions.",
+    "a32": "Personally, I seek to maintain a healthy balance between my professional and personal life, enjoying my hobbies and participating in innovative projects that have a positive impact on society. My goal is to continue learning, growing and collaborating with people passionate about technology.",
+    "q4": "What are you Looking for in a New Job?",
+    "a41": "I am looking for a collaborative environment where I can work alongside competent and committed professionals.",
+    "a42": "I am interested in participating in projects that make the most of my skills and knowledge. I especially value places that promote personal and professional growth, backed by effective communication and strong mutual support.",
+    "a43": "I am excited to take on new challenges and responsibilities in an environment that favors continuous learning and professional evolution.",
+    "q5": "Recommended Educational Resources",
+    "a51": "See the",
+    "a52": "list.",
+    "q6": "Staying Updated",
+    "a61": "To stay up to date on the latest trends and technologies, I follow influential channels such as Midudev, Fireship, Unreal Engine and Unity.",
+    "a62": "Likewise, I explore trending repositories on GitHub and participate in technology discussions on Discord and Reddit.",
+    "q7": "Hobbies",
+    "a71": "In my free time, I love embarking on new technological projects and collaborating on various creative initiatives. I enjoy staying active through running and hiking, as well as immersing myself in the narrative and mechanics of indie games.",
+    "a72": "In the creative field, I compose music using FL Studio, thus combining technique and creativity in a unique and rewarding way.",
+    "q8": "Behavioral Questions",
+    "q9": "The most innovative project you have worked on and why you consider it innovative?",
+    "a91": "Definitely, the creation of the Mercadix application is one of the most innovative projects I have done.",
+    "a92": "This solution addresses a recurring problem among Mercado Libre users in Argentina: uncertainty about the real value of products in a volatile economic context.",
+    "a93": "Today, Mercadix helps hundreds of users make informed decisions about their purchases and sales, offering a strategic perspective of the market.",
+    "q10": "A moment when you had to solve a complex problem and how you approached it?",
+    "a101": "During the development of this portfolio, I faced the challenge of manually translating all the content into English, which was cumbersome and tedious.",
+    "a102": "Thanks to Santiago Ariel's guidance, I learned how to implement translations using i18next and JSON, which allowed me to reach new audiences efficiently.",
+    "q11": "A time when you had to learn something new quickly?",
+    "a111": "I wanted to develop an API to capture real-time dollar prices in Argentina. At the beginning, the process seemed complicated, but with Python, FASTAPI and an intense dedication to study the relevant documentation, I managed to build it successfully.",
+    "a112": "This API, called ArgentoFX, accomplishes in just 400 lines of Python what other projects accomplish in thousands.",
+    "a113": "It is currently consumed by my other project, Mercadix.",
+    "q12": "Projects you would like to do in the future?",
+    "a121": "A complex neural network to perform simulations in graphics engines.",
+    "a122": "A fuel price APIs and related to Argentina.",
+    "a123": "A website in the format of a virtual bookstore, where users can share books, portfolios, and more.",
+    "a124": "A remote control car game in Unreal Engine.",
+    "a125": "An in-house game engine, in DX12.",
+    "a126": "A WhatsApp clone with RabbitMQ.",
+    "a127": "An application published on the Play Store.",
+    "a128": "Contribute to open-source projects.",
+    "q13": "A time when you supported or trained another person on your team to improve their performance?",
+    "a131": "During a game jam, a teammate was not sure how to implement a certain functionality with Unreal Engine scripting.",
+    "a132": "I showed him several key functionalities, recommended useful resources and together we reviewed his code. In the end, we managed to successfully finish the game on time.",
+    "q14": "Acknowledgments",
+    "a141": "I would like to express my deep gratitude to Colin Schmale, Franco Yudica, and Enzo Notario, who have been instrumental in my career for their valuable advice and constant support.",
+    "a142": "I also thank my teammates at the University and the users of several Spanish programming Discord servers, whose willingness to help and share their knowledge has been crucial for my professional development.",
+    "a143": "Lastly, I want to thank Lucas Pope, Markus Persson, and Charlie Cleveland for their inspiring work in the game development industry, which has also been a huge motivation for me to pursue a career in this field. And of course, my favorite game: Rocket League (and its magnificent soundtrack).",
+    "a144": "Inspired by these examples, I aspire to offer the same level of support and guidance to others, perpetuating the culture of collaboration and mutual learning.",
+    "q15": "Favorite Songs",
+    "a151": "A selection that will make you dance like a cyborg with an excess of caffeine.",
+    "thanks": "Thank you very much for reading to the end!",
+    "contact": "If you are interested in collaborating on a project, hiring me or just want to say hello, feel free to contact me through my social networks or by sending me an email. You can find the links in the footer below."
   },
-  "Blog" : {
-    "subtitle": "Artículos sobre desarrollo de software y videojuegos.",
-    "home": "Volver al inicio",
-    "faq": "Ver preguntas frecuentes"
+  "Blog": {
+    "subtitle": "Articles on software development and videogames.",
+    "home": "Back to home",
+    "faq": "Visit FAQ"
   },
-  "Header" : {
-    "contact": "Contacto"
+  "Header": {
+    "contact": "Contact"
   },
   "CopyEmailButton": {
-    "copy": "Click para copiar",
-    "toast": "¡Estaré esperando tu mensaje!"
+    "copy": "Click to copy",
+    "toast": "I'll be waiting for your message!"
   },
-    "404" : {
-        "title": "Página no encontrada",
-        "home": "Volver al inicio"
-    }
+  "404": {
+    "title": "Page not found",
+    "home": "Back to home"
+  }
 }
