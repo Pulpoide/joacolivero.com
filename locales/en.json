@@ -98,5 +98,9 @@
   },
   "Header" : {
     "contact": "Contacto"
+  },
+  "CopyEmailButton": {
+    "copy": "Click para copiar",
+    "toast": "¡Estaré esperando tu mensaje!"
   }
 }
