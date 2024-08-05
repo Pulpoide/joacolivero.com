@@ -197,28 +197,20 @@ const FAQ = () => {
           </ul>
         </section>
         <section className={styles.section}>
-          <h2 className={styles.title1}>Mentores y Colaboradores</h2>
+          <h2 className={styles.title1}>
+            {t("q14")}
+          </h2>
           <p className={styles.paragraph}>
-            Quiero expresar mi profundo agradecimiento a&nbsp;
-            <a href="https://twitter.com/colinschmale" target="_blank" rel="noopener noreferrer"
-               style={{ color: "skyblue", textDecoration: "underline" }}>Colin Schmale</a>,&nbsp;
-            <a href="https://github.com/FrancoYudica" target="_blank" rel="noopener noreferrer"
-               style={{ color: "skyblue", textDecoration: "underline" }}>Franco Yudica</a>,&nbsp;y&nbsp;
-            <a href="https://github.com/enzonotario" target="_blank" rel="noopener noreferrer"
-               style={{ color: "skyblue", textDecoration: "underline" }}>Enzo Notario</a>, quienes han sido&nbsp;
-            <strong>fundamentales</strong> en mi carrera por sus valiosos consejos y constante apoyo.
+            {t("a141")}
           </p>
           <p className={styles.paragraph}>
-            También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores
-            de&nbsp;
-            <strong>Discord de programación en español</strong>, cuya disposición para ayudar y compartir sus
-            conocimientos ha sido&nbsp;
-            <em>crucial</em> para mi desarrollo profesional.
+            {t("a142")}
           </p>
           <p className={styles.paragraph}>
-            Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando
-            la&nbsp;
-            <strong>cultura de colaboración y aprendizaje mutuo</strong>.
+            {t("a143")}
+          </p>
+          <p>
+            {t("a144")}
           </p>
         </section>
         <br />

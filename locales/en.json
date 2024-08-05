@@ -80,6 +80,11 @@
     "a128": "Contribuir a proyectos de código abierto.",
     "q13": "Una ocasión en la que apoyó o capacitó a otra persona de su equipo para mejorar su rendimiento?",
     "a131": "Durante una game jam, un compañero no sabía muy bien como hacer cierta funcionalidad con el scripting de Unreal Engine.",
-    "a132": "Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al final, logramos terminar el juego a tiempo y con éxito."
+    "a132": "Le enseñé varias funcionalidades clave, recomendé recursos útiles y juntos revisamos su código. Al final, logramos terminar el juego a tiempo y con éxito.",
+    "q14": "Agradecimientos",
+    "a141": "Quiero expresar mi profundo agradecimiento a Colin Schmale, Franco Yudica, y Enzo Notario, quienes han sido fundamentales en mi carrera por sus valiosos consejos y constante apoyo.",
+    "a142": "También agradezco a mis compañeros de equipo en la Universidad y a los usuarios de varios servidores de Discord de programación en español, cuya disposición para ayudar y compartir sus conocimientos ha sido crucial para mi desarrollo profesional.",
+    "a143": "Por último, quiero dar las gracias a Lucas Pope, Markus Persson y Charlie Cleveland por su inspirador trabajo en la industria del desarrollo de juegos, que también ha sido una enorme motivación para que yo siga una carrera en este campo. Y claro, mi juego favorito: Rocket League (y su magnífica banda sonora).",
+    "a144": "Inspirado por estos ejemplos, aspiro a ofrecer el mismo nivel de apoyo y orientación a otros, perpetuando la cultura de colaboración y aprendizaje mutuo."
   }
 }
