@@ -5,7 +5,7 @@
 }
 
 .link:hover {
-	color: rgba(255, 255, 255, 0.9);
+	color: var(--hover-color-background);
 	cursor: url('~/public/assets/cursor/hand-pointer.png'), auto;
 }
 
