@@ -105,104 +105,13 @@ const FAQ = () => {
           <h2 className={styles.title1}>
             {t("q5")}
           </h2>
-          <ul>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
-        <a href="https://gist.github.com/pyoneerC/423ec3e9371fae255091d703e5dcc86c" target="_blank"
-           rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "inherit" }}>
-        Recursos de gráficos por computadora
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
-        <a href="https://www.bigocheatsheet.com" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Hoja de Referencia de Notación Big O
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "none", fontSize: "16px" }}>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Repositorios de Código Abierto en GitHub
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
-        <a href="https://gist.github.com/pyoneerC/a9f9132ce2a57db5331a8cd95ca45b8e" target="_blank"
-           rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "inherit" }}>
-        Comunidades de Discord
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "none", fontSize: "16px" }}>
-        <a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Wikipedia y Libros
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
-        <a href="https://fullstackopen.com/en/" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Fullstack Open
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
-        <a href="https://learn.microsoft.com" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Microsoft Learn
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
-        <a href="https://www.khanacademy.org" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Khan Academy
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
-        <a href="https://roadmap.sh" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Roadmap.sh
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "18px" }}>
-        <a href="https://www.learncpp.com" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Learn CPP
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
-        <a href="https://app.diagrams.net/" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        draw.io
-        </a>
-        </span>
-            </li>
-            <li>
-        <span style={{ color: "skyblue", textDecoration: "underline", fontSize: "16px" }}>
-        <a href="https://trello.com" target="_blank" rel="noopener noreferrer"
-           style={{ color: "inherit", textDecoration: "inherit" }}>
-        Trello
-        </a>
-        </span>
-            </li>
-          </ul>
+            {t("a51")}&nbsp;
+          <span style={{ color: "skyblue", textDecoration: "underline", fontFamily: "inherit", fontSize: "inherit" }}>
+      <a href="https://gist.github.com/pyoneerC/b06fc1390048ff9ef094e70211dc68f8" target="_blank" rel="noopener noreferrer"
+         style={{ color: "inherit", textDecoration: "inherit" }}>
+        {t("a52")}
+      </a>
+          </span>
         </section>
         <br /><br />
         <section className={styles.section}>
