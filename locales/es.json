@@ -5,6 +5,9 @@
   "HeroSection": {
     "availability": "Available for new projects",
     "contact": "Contact",
-    "download": "Download Resume"
+    "download": "Download Resume",
+    "position": "Backend and Game Developer",
+    "location": "I'm based in Mendoza, Argentina",
+    "subtitle": "Dedicated to transforming complex ideas into effective solutions"
   }
 }

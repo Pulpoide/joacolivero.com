@@ -16,13 +16,15 @@ export const HeroSection = () => {
       <h1 id="hero-title" className={`text-gradient ${styles.title}`}>
         Max Comperatore
       </h1>
-      <h2 className={styles.subtitle}>Desarrollador Backend y de Videojuegos</h2>
+      <h2 className={styles.subtitle}>
+        {t('position')}
+      </h2>
       <div className={styles.intro}>
         <p className={styles.introSubtitle}>
-          Dedicado a transformar <strong>ideas complejas</strong> en <strong>soluciones eficaces</strong>.
+          {t('subtitle')}
         </p>
         <p className={styles.introSubtitle}>
-          Me encuentro en Mendoza, Argentina
+          {t('location')}
           <ArgentinaFlag className={styles.flag} />
            <br />
           {/*<TimeDifference />*/}

@@ -5,6 +5,9 @@
   "HeroSection": {
     "availability": "Disponible para nuevos proyectos",
     "contact": "Contactar",
-    "download": "Descargar Currículum"
+    "download": "Descargar Currículum",
+    "position": "Desarrollador Backend y de Videojuegos",
+    "location": "Me encuentro en Mendoza, Argentina",
+    "subtitle": "Dedicado a transformar ideas complejas en soluciones eficaces"
   }
 }
