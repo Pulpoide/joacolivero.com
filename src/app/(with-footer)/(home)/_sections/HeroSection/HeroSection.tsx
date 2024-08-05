@@ -6,8 +6,10 @@ import styles from "./HeroSection.module.css";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
 import Clock from "~/components/Clock/Clock";
 import ArgentinaFlag from "~/components/Svg/ArgentinaFlag"
+import { useTranslations } from 'next-intl';
 
 export const HeroSection = () => {
+  const t = useTranslations('HeroSection');
 
   return (
     <section aria-labelledby="hero-title" className={styles.section}>
@@ -35,7 +37,7 @@ export const HeroSection = () => {
             rel="noopener noreferrer"
           >
             <span className={styles.availableCircle}></span>
-            Disponible para nuevos proyectos
+            {t('availability')}
           </NextLink>
         </Button>
       </div>
@@ -55,14 +57,13 @@ export const HeroSection = () => {
             target="_blank"
             prefetch={false}
           >
-            Descargar Currículum
-
+            {t('download')}
           </NextLink>
         </Button>
         <ContactDialog
           trigger={
             <Button className={styles.actionBtn} type="button">
-              Contactar
+              {t('contact')}
             </Button>
           }
         />

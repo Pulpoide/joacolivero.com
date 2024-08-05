@@ -5,6 +5,8 @@ import { Header } from "~/components/Header"
 import "~/styles/reset.css"
 import "~/styles/globals.css"
 import "~/styles/utils.css"
+import { NextIntlClientProvider } from "next-intl"
+import { getMessages } from "next-intl/server"
 export const metadata = {
 	metadataBase: new URL("https://maxcomperatore.com"),
 	title: "Max Comperatore - Desarrollador Backend y de Videojuegos",
@@ -12,7 +14,8 @@ export const metadata = {
 	authors: [{ name: "Max Comperatore" }],
 	creator: "Max Comperatore",
 }
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+	const messages = await getMessages();
 	return (
 		<html lang="es" suppressHydrationWarning>
 		<head>
@@ -65,13 +68,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			/>
 		</head>
 		<body className={`${GeistSans.className} ${GeistSans.variable}`}>
-		<ThemeProvider>
-			<SvgMasks />
-			<div className="__next">
-				<Header />
-				{children}
-			</div>
-		</ThemeProvider>
+		<NextIntlClientProvider messages={messages}>
+			<ThemeProvider>
+				<SvgMasks />
+				<div className="__next">
+					<Header />
+					{children}
+				</div>
+			</ThemeProvider>
+		</NextIntlClientProvider>
 		</body>
 		</html>
 	)

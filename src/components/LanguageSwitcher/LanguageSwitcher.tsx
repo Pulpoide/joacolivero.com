@@ -1,38 +1,37 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useTransition } from "react"
 import styles from "./LanguageSwitcher.module.css"
+import { setUserLocale } from "~/services/locale"
+import { useLocale, useTranslations } from "next-intl"
 
 export const LanguageSwitcher = () => {
-	const [isSpanish, setIsSpanish] = useState(true)
-
-	useEffect(() => {
-		const savedLanguage = localStorage.getItem("language")
-		if (savedLanguage) {
-			setIsSpanish(savedLanguage === "es")
-		}
-	}, [])
+	const locale = useLocale()
+	const [isPending, startTransition] = useTransition()
+	// const [isSpanish, setIsSpanish] = useState(locale === "es");
+	const t = useTranslations("LanguageSwitcher")
 
 	const handleOnClick = () => {
-		const newLanguage = isSpanish ? "en" : "es"
-		setIsSpanish(!isSpanish)
-		localStorage.setItem("language", newLanguage)
-
-		document.documentElement.lang = newLanguage
+		// localStorage.setItem("language", isSpanish ? "en" : "es");
+		startTransition(() => {
+			setUserLocale(locale === "es" ? "en" : "es")
+			// setIsSpanish(!isSpanish);
+		})
 	}
 
 	return (
 		<button
 			className={styles.button}
 			onClick={handleOnClick}
-			title={isSpanish ? "Cambiar a inglés" : "Switch to Spanish"}
+			title={t("switchLanguage")}
 			aria-live="polite"
+			disabled={isPending}
 		>
 			<img
 				className={styles.flag}
 				aria-hidden="true"
-				src={isSpanish ? "/assets/icons/spain.avif" : "/assets/icons/uk.avif"}
-				alt={`Switch to ${isSpanish ? "English" : "Spanish"}`}
+				src={locale == "es" ? "/assets/icons/spain.avif" : "/assets/icons/uk.avif"}
+				alt={`Switch to ${locale == "en" ? "English" : "Spanish"}`}
 				height={24}
 				width={24}
 			/>
