@@ -20,7 +20,7 @@ export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.mercadolibrepricechart,
 		imageUrl: `/assets/images/projects/cover/mercadolibre.avif`,
-		description: "Aplicación web que muestra un histograma en tiempo real de los precios de cualquier producto en MercadoLibre.",
+		description: "Visualiza un histograma de precios en vivo para cualquier producto en MercadoLibre.",
 	},
 	{
 		...projectMetadata.monedasAPI,
@@ -32,7 +32,7 @@ export const coverProjects: CoverProject[] = [
 		...projectMetadata.TheDungeon,
 		imageUrl: `/assets/images/projects/cover/thedungeon.avif`,
 		description:
-			"Juego de puzzles y terror que combina acertijos desafiantes en un entorno oscuro y misterioso."
+			"Juego de puzzles que presenta acertijos desafiantes en un entorno maquiavélico."
 	},
 ]
 
@@ -102,7 +102,7 @@ export const projects = [
 		...projectMetadata.TheDungeon,
 		index: 2,
 		description:
-			"Te encuentras atrapado en un lugar que parece una oficina, pero algo no cuadra. El ambiente es extrañamente realista y perturbador.\n Con sólo tu ingenio y algunas herramientas esporádicas, debes enfrentarte a una serie de acertijos y rompecabezas meticulosamente diseñados para poner a prueba tu astucia al máximo.\n ¿Serás capaz de encontrar una salida a esta pesadilla?",
+			"Te encuentras atrapado en un lugar que parece una oficina, pero algo no cuadra. El ambiente es perturbador.\n Con sólo tu ingenio y algunas herramientas esporádicas, debes enfrentarte a una serie de acertijos y rompecabezas diseñados para poner a prueba tu astucia.\n ¿Serás capaz de encontrar una salida a esta pesadilla?",
 		mobileImages:
 			[
 				`/assets/images/projects/thedungeon/library.avif`,
