@@ -106,5 +106,9 @@
   "404" : {
     "title": "Página no encontrada",
     "home": "Volver al inicio"
+  },
+  "Initiatives" : {
+    "title": "Otras iniciativas",
+    "subtitle": "Proyectos personales desarrollados para explorar nuevas tecnologías y mejorar mis habilidades."
   }
 }

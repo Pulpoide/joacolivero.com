@@ -2,6 +2,7 @@ import styles from "./page.module.css";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
 import { coverProjects } from "~/data/otherprojects";
 import { ProjectCard } from "~/components/OtherProjectCard";
+import { useTranslations } from "next-intl";
 
 export const metadata = {
 	title: "Max Comperatore - Otros proyectos",
@@ -9,12 +10,13 @@ export const metadata = {
 }
 
 export default function Blog() {
+	const t = useTranslations("Initiatives")
 	return (
 		<main className={styles.wrapper}>
 		<section className={styles.projectsWrapper}>
-			<h2 className={styles.title}>Otras iniciativas</h2>
+			<h2 className={styles.title}>{t("title")}</h2>
 			<p className={styles.paragraph}>
-				Proyectos personales desarrollados para explorar nuevas tecnologías y mejorar mis habilidades.
+				{t("subtitle")}
 			</p>
 
 			<div className={styles.projectsGrid}>
