@@ -4,6 +4,7 @@ import { projects } from "~/data/projects"
 import { getPrevAndNextProjectSlug, getProjectBySlug } from "~/helpers/get-projects"
 import { Link } from "~/components/Ui/Link"
 import styles from "./page.module.css"
+import React from "react"
 
 interface Props {
 	params: { slug: string }
@@ -35,6 +36,14 @@ export default function Project({ params }: Props) {
 
 	const [prevProjectSlug, nextProjectSlug] = getPrevAndNextProjectSlug(index)
 
+	const renderDescription = (text: string) => {
+		return text.split('\n').map((item, key) => {
+			return <React.Fragment key={key}>
+				<div style={{ marginBottom: '0.75rem' }}>{item}</div>
+			</React.Fragment>;
+		});
+	}
+
 	return (
 		<>
 			<main className={styles.wrapper}>
@@ -42,12 +51,12 @@ export default function Project({ params }: Props) {
 				<div className={styles.topWrapper}>
 					<section className={styles.detailsSection}>
 						<h1 className={styles.title}>{name}</h1>
-						<p>{description}</p>
+						<p>{renderDescription(description)}</p>
 						<div className={styles.tagsWrapper}>
 							{tags.map((tag) => (
 								<span key={tag} className={styles.tagPill}>
-									{tag}
-								</span>
+                                    {tag}
+                                </span>
 							))}
 						</div>
 						<div className={styles.linksWrapper}>

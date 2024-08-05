@@ -41,7 +41,7 @@ export const projects = [
 		...projectMetadata.mercadolibrepricechart,
 		index: 0,
 		description:
-			"Aplicación web que permite consultar precios de productos en MercadoLibre y visualizarlos en un histograma. Utiliza web scraping para obtener los precios, la API ArgentoFX (desarrollada por mí) para el tipo de cambio actualizado a dólares, y Matplotlib para generar gráficos claros y concisos que representan eficazmente la variabilidad de los precios.",
+			"Aplicación web que permite consultar precios de productos en MercadoLibre y visualizarlos en un histograma.\n Utiliza web scraping para obtener los precios, la API ArgentoFX (desarrollada por mí) para el tipo de cambio actualizado a dólares, y Matplotlib para generar gráficos claros y concisos que representan eficazmente la variabilidad de los precios.",
 		mobileImages:
 			[
 				`/assets/images/projects/mercadolibre/mercadolibrepcmobile.avif`,
@@ -72,7 +72,7 @@ export const projects = [
 		...projectMetadata.monedasAPI,
 		index: 1,
 		description:
-			"Una servicio web robusto y dinámico desarrollado con FastAPI, que proporciona tasas de cambio de divisas en tiempo real mediante extracción de datos de sitios web financieros. Se centra en tasas de cambio en Argentina, incluyendo USD (blue, oficial, MEP, CCL), Euro, Real Brasileño y más. Desplegada en un servidor web, ofrece acceso remoto a través de solicitudes RESTful.",
+			"Una servicio web robusto y dinámico desarrollado con FastAPI, que proporciona tasas de cambio de divisas en tiempo real mediante extracción de datos de sitios web financieros.\n Se centra en tasas de cambio en Argentina, incluyendo USD (blue, oficial, MEP, CCL), Euro, Real Brasileño y más. \nDesplegada en un servidor web, ofrece acceso remoto a través de solicitudes RESTful.",
 		mobileImages:
 			[
 				`/assets/images/projects/monedasapi/json.avif`,
@@ -102,7 +102,7 @@ export const projects = [
 		...projectMetadata.TheDungeon,
 		index: 2,
 		description:
-			"Te encuentras atrapado en un lugar que parece una oficina, pero algo no cuadra. El ambiente es extrañamente realista y perturbador. Con sólo tu ingenio y algunas herramientas esporádicas, debes enfrentarte a una serie de acertijos y rompecabezas meticulosamente diseñados para poner a prueba tu astucia al máximo. ¿Serás capaz de encontrar una salida a esta pesadilla?",
+			"Te encuentras atrapado en un lugar que parece una oficina, pero algo no cuadra. El ambiente es extrañamente realista y perturbador.\n Con sólo tu ingenio y algunas herramientas esporádicas, debes enfrentarte a una serie de acertijos y rompecabezas meticulosamente diseñados para poner a prueba tu astucia al máximo.\n ¿Serás capaz de encontrar una salida a esta pesadilla?",
 		mobileImages:
 			[
 				`/assets/images/projects/thedungeon/library.avif`,
