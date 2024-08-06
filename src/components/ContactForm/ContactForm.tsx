@@ -92,7 +92,7 @@ const ContactForm = () => {
 	};
 
 	const validateMessage = (message: string) => {
-		if (message.length < 5) {
+		if (message.length < 10) {
 			setMessageError("Por favor, ingrese un mensaje más largo.");
 			setMessageValid(false);
 			setHasError(true);
