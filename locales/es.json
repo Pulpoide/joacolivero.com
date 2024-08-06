@@ -65,7 +65,7 @@
     "q9": "Lo más innovador que ha hecho y por qué lo considera innovador?",
     "a91": "Definitivamente, la creación de la aplicación Mercadix es uno de los proyectos más innovadores en los que he trabajado.",
     "a92": "Esta solución aborda una problemática recurrente entre los usuarios de Mercado Libre en Argentina: la incertidumbre sobre el valor real de los productos en un contexto económico volátil.",
-    "a93": "Actualmente, Mercadix ayuda a cientos de usuarios a tomar decisiones informadas sobre sus compras y ventas, ofreciendo una perspectiva estratégica del mercado.",
+    "a93": "Actualmente, Mercadix entiende a sus usuarios y ayuda a cientos de estos a tomar decisiones informadas sobre sus compras y ventas, ofreciendo una perspectiva estratégica del mercado.",
     "q10": "Un momento en el que no sabías qué hacer o cómo resolver un problema difícil. ¿Cómo lo resolviste?",
     "a101": "Durante el desarrollo de este portafolio, me enfrenté al desafío de traducir manualmente todo el contenido al inglés, lo cual era engorroso y tedioso.",
     "a102": "Gracias a la orientación de Santiago Ariel, aprendí a implementar traducciones utilizando i18next y JSON, lo que me permitió llegar a nuevas audiencias de manera eficiente.",
