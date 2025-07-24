@@ -8,7 +8,7 @@ import styles from "./not-found.module.css";
 
 
 export const metadata = {
-	title: "Maximo Comperatore - 404",
+	title: "Joaquin Olivero - 404",
 };
 
 export default function NotFound() {
