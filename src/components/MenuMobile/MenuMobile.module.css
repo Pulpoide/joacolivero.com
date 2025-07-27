@@ -40,7 +40,7 @@
 	align-items: center;
 	block-size: 48px;
 	padding-inline: var(--items-padding);
-	color: white;
+	color: white !important;
 	text-align: center;
 	width: 100%;
 	text-decoration: none;
@@ -164,9 +164,9 @@
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
-.dark .navLink {
+/* .dark .navLink {
 	color: #e0e0e0;
-}
+} */
 
 .dark .contactButton {
 	background-color: #444444;
@@ -181,9 +181,9 @@
 	background-color: rgba(255, 255, 255, 0.9);
 }
 
-.light .navLink {
+/* .light .navLink {
 	color: #333333;
-}
+} */
 
 .light .contactButton {
 	background-color: #dddddd;
