@@ -62,7 +62,7 @@
 
 .flag {
 	position: relative;
-	display: none;
+	display: inline-block;
 	width: 20px;
 	height: auto;
 	margin-left: 8px;
@@ -70,18 +70,9 @@
 	caret-color: transparent;
 }
 
-@media (min-width: 768px) {
-	.flag {
-		display: inline-block;
-	}
-}
-
 @media (max-width: 767px) {
-	.flag {
-		display: none;
-	}
 	.section {
-		margin-top: 5rem;
+		margin-top: 2rem;
 	}
 }
 

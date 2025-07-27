@@ -32,6 +32,7 @@
 	padding-inline-start: 0;
 	margin: 0;
 	width: 100%;
+	margin-top: 15%;
 }
 
 .navLink {
@@ -39,12 +40,12 @@
 	align-items: center;
 	block-size: 48px;
 	padding-inline: var(--items-padding);
-	color: var(--color-text-secondary);
+	color: white;
 	text-align: center;
 	width: 100%;
 	text-decoration: none;
 	font-weight: bold;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 
 .optionsWrapper {
@@ -52,6 +53,7 @@
 	flex-direction: column;
 	row-gap: 32px;
 	margin-block-start: auto;
+	margin-bottom: 25%;
 }
 
 .dark .contactButton {
@@ -86,7 +88,7 @@
  align-items: center;
  block-size: 80px;
  padding-inline: var(--items-padding);
- color: var(--color-text-secondary);
+ color: white;
  transition: border-block-start-color var(--theme-transition-duration);
 	transform: translateY(-10px);
 }
@@ -109,7 +111,7 @@
 .themeWrapper2 {
  display: flex;
  padding-inline: var(--items-padding);
- color: var(--color-text-secondary);
+ color: white;
  transition: border-block-start-color var(--theme-transition-duration);
 }
 
