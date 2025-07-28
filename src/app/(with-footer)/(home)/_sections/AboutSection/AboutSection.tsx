@@ -15,6 +15,7 @@ export const AboutSection = () => {
 	const sectionRef = useRef<HTMLElement>(null);
 	const titleRef = useRef<HTMLHeadingElement | null>(null);
 	const photoWrapperRef = useRef<HTMLDivElement>(null);
+	const photoRef = useRef<HTMLImageElement>(null);
 	const textWrapperRef = useRef<HTMLDivElement>(null);
 	const paragraphRefs = useRef<(HTMLParagraphElement | null)[]>([]);
 
@@ -78,6 +79,16 @@ export const AboutSection = () => {
 				}
 			});
 
+			if (photoRef.current) {
+				ScrollTrigger.create({
+					trigger: sectionRef.current!,
+					start: "top center+=100",
+					end: "bottom center",
+					toggleActions: "play none none reverse",
+					toggleClass: { targets: photoRef.current, className: styles.active },
+				});
+			}
+
 			return () => {
 				if (titleSplit && titleRef.current && titleRef.current.isConnected) {
 					titleSplit.revert();
@@ -94,6 +105,7 @@ export const AboutSection = () => {
 			<div className={styles.aboutMeContainer}>
 				<div className={styles.photoWrapper} ref={photoWrapperRef}>
 					<img
+						ref={photoRef}
 						src="/assets/images/joaquin_olivero.avif"
 						alt="Joaquín Olivero"
 						className={styles.photo}
