@@ -128,7 +128,8 @@ text-align: left;
 	}
 }
 
-.photo:hover {
+.photo:hover,
+.photo.active {
 	--i: 1;
 	--a: 15turn;
 	transition:

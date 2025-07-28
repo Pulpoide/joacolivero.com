@@ -106,6 +106,7 @@
  display: flex;
  justify-content: center;
  align-items: center;
+ color: white;
 }
 
 .themeWrapper2 {
@@ -164,10 +165,6 @@
 	background-color: rgba(0, 0, 0, 0.9);
 }
 
-/* .dark .navLink {
-	color: #e0e0e0;
-} */
-
 .dark .contactButton {
 	background-color: #444444;
 	color: #e0e0e0;
@@ -180,10 +177,6 @@
 .light .menu {
 	background-color: rgba(255, 255, 255, 0.9);
 }
-
-/* .light .navLink {
-	color: #333333;
-} */
 
 .light .contactButton {
 	background-color: #dddddd;
