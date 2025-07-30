@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from "react";
 
-import gsap from "gsap"; 
+import gsap from "gsap";
 import NextLink from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -29,9 +29,9 @@ export const HeroSection = () => {
 	useEffect(() => {
 		const interval = setInterval(() => {
 			setPositionIndex((prevIndex: number) => (prevIndex + 1) % positions.length);
-		}, 7000); 
+		}, 7000);
 
-		return () => clearInterval(interval); 
+		return () => clearInterval(interval);
 	}, [positions.length]);
 
 	const sectionRef = useRef<HTMLElement | null>(null);
@@ -97,20 +97,6 @@ export const HeroSection = () => {
 				{t("language")}
 			</p>
 
-			<div className={styles.intro} ref={introRef}>
-				<p className={styles.introSubtitle}>
-					{t.rich("subtitle", {
-						em: (children) => <strong>{children}</strong>,
-					})}
-				</p>
-				<p className={styles.introSubtitle}>
-					<a href="https://www.google.com/maps/place/Villa+Carlos+Paz,+Córdoba,+Argentina/" target="_blank" rel="noopener noreferrer"
-						className={styles.link}>
-						{t("location")}
-					</a>
-					<ArgentinaFlag className={styles.flag} />
-				</p>
-			</div>
 			<div className={styles.buttonContainer} ref={buttonContainerRef}>
 				<Button rounded="full" size="small" asChild className={styles.button}>
 					<NextLink
@@ -123,6 +109,26 @@ export const HeroSection = () => {
 					</NextLink>
 				</Button>
 			</div>
+
+			<div className={styles.intro} ref={introRef}>
+				<p className={styles.introSubtitle}>
+					{t.rich("subtitle", {
+						em: (children) => <strong>{children}</strong>,
+					})}
+				</p>
+				<p className={styles.author}>
+					— {t("author")}
+				</p>
+
+				<p className={styles.introSubtitle}>
+					<a href="https://www.google.com/maps/place/Villa+Carlos+Paz,+Córdoba,+Argentina/" target="_blank" rel="noopener noreferrer"
+						className={styles.link}>
+						{t("location")}
+					</a>
+					<ArgentinaFlag className={styles.flag} />
+				</p>
+			</div>
+
 			<div className={styles.actions} ref={actionsRef}>
 				<NextLink
 					href="https://drive.google.com/file/d/1rNXZtcN3vtu76RrbPCILsKad2ujhB8qJ/view?usp=sharing"

@@ -38,9 +38,9 @@
 	padding: 10px 30px;
 	font-size: clamp(18px, 17px + 0.141vw, 20px);
 	color: var(--color-text-secondary);
-	border-block-end: 1px dashed var(--color-stroke);
 	transition: border-block-end-color var(--theme-transition-duration);
 	caret-color: transparent;
+	border-block-start:1.5px dashed var(--color-stroke); ;
 }
 
 .introSubtitle > strong {
@@ -48,16 +48,25 @@
 	font-weight: 500;
 }
 
+.author {
+  padding: 4px 30px 0;
+  font-style: italic;
+  font-size: clamp(16px, 15px + 0.141vw, 18px); 
+  color: var(--color-text-secondary);
+  caret-color: transparent;
+  padding-bottom: 1rem;
+}
+
 .actions {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
+	margin: 1rem auto;
 	width: fit-content;
 }
 
 .copyEmailButton {
-	margin: 10px auto;
+	margin: 27px auto;
 }
 
 .flag {
@@ -177,7 +186,7 @@
 	text-align: center;
 	caret-color: transparent;
 	min-width: 32px;
-	min-height: 48px;
+	min-height: 35px;
 	margin: 8px;
 }
 
