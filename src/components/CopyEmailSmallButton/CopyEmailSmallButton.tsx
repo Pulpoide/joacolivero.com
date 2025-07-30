@@ -27,10 +27,13 @@ export const CopyEmailSmallButton: React.FC<Props> = ({ className }) => {
 	useTimeout(hideFeedback, RESET_FEEDBACK_TIME);
 
 	const handleOnClick = async () => {
-		const isCopied = true;
-		setDisplayFeedback(isCopied);
-		window.location.href = `mailto:${JOACO_EMAIL}`;
-	};
+    try {
+      await navigator.clipboard.writeText(JOACO_EMAIL);
+      setDisplayFeedback(true);
+    } catch (err) {
+      console.error("Error copiando email:", err);
+    }
+  };
 
 	return (
 		<button className={clsx(styles.button, className)} onClick={handleOnClick}>
