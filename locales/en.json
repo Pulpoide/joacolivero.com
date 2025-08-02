@@ -18,10 +18,10 @@
     "availability": "Available for new projects",
     "contact": "Contact",
     "download": "Resume",
-    "position": "SDET / QA Automation Engineer",
-    "position2": "Backend Specialist",
-    "position3": "Test Automation Specialist",
-    "position4": "Backend + QA Automation Hybrid",
+    "position": "Backend Developer",
+    "position2": "API & Microservices Builder",
+    "position3": "Cloud & Automation Enthusiast",
+    "position4": "Future Backend Specialist",
     "language": "(¡Clic en la bandera para español!)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"Pleasure in the job puts perfection in the work\"</em>",
@@ -71,7 +71,7 @@
     "title": "About Me",
     "d0": "I'm <strong>Joaquín Darío Olivero</strong>, a software developer specialized in <strong>robust backend applications and scalable REST APIs</strong>.",
     "d1": "Graduated from the Instituto Universitario Aeronáutico with a technical degree and a <strong>perfect score (10/10) on my Deporturnos thesis</strong>, where I led design, development, and deployment. This project gave me a solid foundation in <strong>software architecture, agile methodologies</strong>, and analytical thinking.",
-    "d2": "While my main passion is backend development, I also enjoy collaborating across the stack. I excel at <strong>code optimization, proactive problem-solving</strong>, and contributing to teams building <strong>innovative, high‑quality projects</strong>.",
+    "d2": "While my main passion is backend development, I have working knowledge of <strong>frontend technologies</strong> such as HTML, CSS, and React.js, which allows me to collaborate effectively across the stack.",
     "mab": "More about me"
   },
   "SkillsSection": {

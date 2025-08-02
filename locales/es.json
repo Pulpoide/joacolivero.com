@@ -18,10 +18,10 @@
     "availability": "Disponible para nuevos proyectos",
     "contact": "Contactar",
     "download": "Currículum",
-    "position": "SDET / Ingeniero automatización QA",
-    "position2": "Especialista Backend",
-    "position3": "Especialista en automatización de pruebas",
-    "position4": "Perfil híbrido Backend + QA Automation",
+    "position": "Desarrollador Backend",
+    "position2": "Creador de APIs y Microservicios",
+    "position3": "Entusiasta de la Nube y Automatización",
+    "position4": "Futuro Especialista Backend",
     "language": "(Click the flag to switch to English!)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"El placer en el trabajo pone perfección en la tarea\"</em>",
@@ -71,7 +71,7 @@
     "title": "Sobre mí",
     "d0": "Soy <strong>Joaquín Darío Olivero</strong>, desarrollador de software especializado en <strong>aplicaciones backend robustas y REST APIs escalables</strong>.",
     "d1": "Graduado del Instituto Universitario Aeronáutico con un título técnico y <strong>10/10 en mi tesis Deporturnos</strong>, donde lideré diseño, desarrollo y despliegue. Esta experiencia me brindó una base sólida en <strong>arquitectura de software, metodologías ágiles</strong> y pensamiento analítico.",
-    "d2": "Mi pasión principal es el backend, aunque también disfruto colaborar en otras áreas del desarrollo. Me destaco por <strong>optimizar código, resolver problemas de forma proactiva</strong> y contribuir en equipos que crean <strong>proyectos innovadores y de alta calidad</strong>.",
+    "d2": "Aunque mi principal pasión es el desarrollo backend, poseo conocimientos en <strong>tecnologías frontend</strong> como HTML, CSS y React.js, lo que me permite colaborar eficazmente en todo el stack.",
     "mab": "Más sobre mí"
   },
   "SkillsSection": {
