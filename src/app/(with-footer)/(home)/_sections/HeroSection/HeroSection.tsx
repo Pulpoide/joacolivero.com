@@ -80,9 +80,7 @@ export const HeroSection = () => {
 
 	return (
 		<section aria-labelledby="hero-title" className={styles.section} ref={sectionRef}>
-			{/* <h1 id="hero-title" className={`text-gradient ${styles.title}`} ref={titleRef}>
-				Joaquín Olivero
-			</h1> */}
+
 			<GradualSpacing text="Joaquín Olivero" />
 			<h2 className={styles.subtitle} ref={subtitleRef}>
 				{positions[positionIndex]}
