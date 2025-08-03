@@ -1,9 +1,9 @@
 "use client";
-
+// eslint-disable-next-line import/order
 import { forwardRef } from "react";
-
 import clsx from "clsx";
 import { AnimatePresence, motion, Variants } from "framer-motion";
+
 
 import styles from "./GradualSpacing.module.css";
 
@@ -41,7 +41,7 @@ export const GradualSpacing = forwardRef<HTMLDivElement, GradualSpacingProps>(
               exit="hidden"
               variants={framerProps}
               transition={{ duration, delay: i * delayMultiple }}
-              className={styles.char}
+              className={styles.char as string}
             >
               {char === " " ? "\u00A0" : char}
             </motion.span>
