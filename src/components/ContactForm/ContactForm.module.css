@@ -3,6 +3,7 @@
 	flex-direction: column;
 	row-gap: 20px;
 	padding-block-start: 24px;
+	color: inherit;
 }
 
 .labelWrapper {
