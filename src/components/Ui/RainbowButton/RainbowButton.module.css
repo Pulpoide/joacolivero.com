@@ -1,0 +1,82 @@
+:root {
+    --color-1: 0 100% 63%;
+    --color-2: 270 100% 63%;
+    --color-3: 210 100% 63%;
+    --color-4: 195 100% 63%;
+    --color-5: 90 100% 63%;
+    --speed: 2s;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0%;
+    }
+
+    100% {
+        background-position: 200%;
+    }
+}
+
+.rainbowButton {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.75rem;
+    padding: 0 2rem;
+    font-weight: 500;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: all var(--theme-transition-duration);
+    border-radius: 0.75rem;
+
+    border: calc(0.08 * 1rem) solid transparent;
+    background-size: 200%;
+    animation: rainbow var(--speed, 2s) infinite linear;
+    background-clip: padding-box, border-box, border-box;
+    background-origin: border-box;
+
+    background: linear-gradient(var(--color-text), var(--color-text)),
+        linear-gradient(var(--color-text) 50%, hsl(var(--color-text-hsl) / 0.6) 80%, hsl(var(--color-text-hsl) / 0)),
+        linear-gradient(90deg, hsl(var(--color-1)), hsl(var(--color-5)), hsl(var(--color-3)), hsl(var(--color-4)), hsl(var(--color-2)));
+    color: var(--color-background);
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -20%;
+        left: 50%;
+        z-index: -1;
+        height: 20%;
+        width: 60%;
+        transform: translateX(-50%);
+        background: linear-gradient(90deg, hsl(var(--color-1)), hsl(var(--color-5)), hsl(var(--color-3)), hsl(var(--color-4)), hsl(var(--color-2)));
+        background-size: 200%;
+        filter: blur(calc(0.8 * 1rem));
+        animation: rainbow var(--speed, 2s) infinite linear;
+    }
+}
+
+[data-theme="dark"] .rainbowButton {
+    background: linear-gradient(var(--color-text), var(--color-text)), 
+                linear-gradient(var(--color-text) 50%, hsl(var(--color-text-hsl) / 0.6) 80%, hsl(var(--color-text-hsl) / 0)), 
+                linear-gradient(90deg, hsl(var(--color-1)), hsl(var(--color-5)), hsl(var(--color-3)), hsl(var(--color-4)), hsl(var(--color-2)));
+    color: var(--color-background); 
+}
+
+.rainbowButton:active {
+    background-color: hsl(var(--color-text-hsl) / 0.8);
+}
+
+@media (hover: hover) {
+    .rainbowButton:hover {
+        cursor: url('/assets/cursor/hand-pointer.png'), auto;
+    }
+}
+
+.rainbowButton:disabled {
+    opacity: 0.7;
+    pointer-events: none;
+}
