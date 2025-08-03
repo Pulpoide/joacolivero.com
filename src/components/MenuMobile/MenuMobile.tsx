@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 
 import { track } from "@vercel/analytics";
 import clsx from "clsx";
@@ -43,6 +43,12 @@ export const MenuMobile = () => {
 		track("Menu Toggle", {}, { flags: [newOpenState ? "menu-open" : "menu-closed"] });
 	};
 
+	const handleMenuClick = (e: React.MouseEvent<HTMLDivElement>) => {
+        if (e.target === e.currentTarget) {
+            handleCloseMenu();
+        }
+    };
+
 	const t = useTranslations("Header");
 
 	return (
@@ -56,7 +62,8 @@ export const MenuMobile = () => {
 				<span className={styles.buttonLine}></span>
 				<span className={styles.buttonLine}></span>
 			</button>
-			<div className={clsx(styles.menu, { [styles.open]: open })}>
+			<div className={clsx(styles.menu, { [styles.open]: open })}
+				onClick={handleMenuClick}>
 				{isValidAppRoute && (
 					<nav className={styles.nav}>
 						<ul className={styles.navList}>
