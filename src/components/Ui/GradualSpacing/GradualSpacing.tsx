@@ -41,7 +41,9 @@ export const GradualSpacing = forwardRef<HTMLDivElement, GradualSpacingProps>(
               exit="hidden"
               variants={framerProps}
               transition={{ duration, delay: i * delayMultiple }}
-              className={styles.char as string}
+              style={{
+                ...((styles.char && { className: styles.char }) as any),
+              }}
             >
               {char === " " ? "\u00A0" : char}
             </motion.span>
