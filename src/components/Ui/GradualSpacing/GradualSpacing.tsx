@@ -1,9 +1,9 @@
-// GradualSpacing.tsx
 "use client";
 
-import { AnimatePresence, motion, Variants } from "framer-motion";
-import clsx from "clsx";
 import { forwardRef } from "react";
+
+import clsx from "clsx";
+import { AnimatePresence, motion, Variants } from "framer-motion";
 
 import styles from "./GradualSpacing.module.css";
 

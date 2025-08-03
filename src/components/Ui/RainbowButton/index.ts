@@ -1,1 +1,1 @@
-export * from "./RainbowButton"
+export * from "./RainbowButton";

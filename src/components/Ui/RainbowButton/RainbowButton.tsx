@@ -1,15 +1,11 @@
 "use client";
+import React, { forwardRef } from "react";
 
-import { forwardRef } from "react";
 import clsx from "clsx";
 
 import styles from "./RainbowButton.module.css";
 
-export interface RainbowButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  
-}
-
-export const RainbowButton = forwardRef<HTMLButtonElement, RainbowButtonProps>(
+export const RainbowButton = forwardRef<HTMLButtonElement, React.ButtonHTMLAttributes<HTMLButtonElement>>(
   ({ className, children, ...props }, ref) => {
     return (
       <button
