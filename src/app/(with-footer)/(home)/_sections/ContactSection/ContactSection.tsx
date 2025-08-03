@@ -8,7 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslations } from "next-intl";
 
 import { ContactDialog } from "~/components/ContactDialog";
-import { Button } from "~/components/Ui/Button";
+import { RainbowButton } from "~/components/Ui/RainbowButton";
 
 import styles from "./ContactSection.module.css";
 
@@ -64,9 +64,9 @@ export const ContactSection = () => {
 			<div className={styles.contactDialogContainer} ref={contactDialogContainerRef} style={{ opacity: 1 }}>
 				<ContactDialog
 					trigger={
-						<Button className={styles.actionBtn} type="button">
+						<RainbowButton className={styles.actionBtn} type="button">
 							{t("contact")}
-						</Button>
+						</RainbowButton>
 					}
 				/>
 			</div>

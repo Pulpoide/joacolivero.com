@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  font: 900 clamp(42px, 34px + 2.375vw, 80px) / 1 var(--font-geist-sans);
+  padding: var(--space-inline) 12px;
+  display: flex; 
+  flex-wrap: wrap; 
+  caret-color: transparent;
+  justify-content: center;
+  text-align: center;
+}
+
+.char {
+  display: inline-block; 
+  white-space: pre; 
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transition: border-block-color var(--theme-transition-duration);
+  pointer-events: none;
+}
