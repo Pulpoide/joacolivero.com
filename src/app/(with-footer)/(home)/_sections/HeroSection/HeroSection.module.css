@@ -4,22 +4,6 @@
 	padding-block-start: var(--space-block);
 }
 
-.title {
-	position: relative;
-	padding: var(--space-inline) 12px;
-	font: 900 clamp(42px, 34px + 2.375vw, 80px) / 1 var(--font-geist-sans);
-	caret-color: transparent;
-}
-
-.title::after {
-	content: "";
-	position: absolute;
-	inset: 0;
-	border-block: 1px dashed var(--color-stroke);
-	transition: border-block-color var(--theme-transition-duration);
-	pointer-events: none;
-}
-
 .subtitle {
 	display: inline-block;
 	animation: fadeInOut 7s infinite;
@@ -126,9 +110,6 @@
 		margin: 8px 0;
 	}
 
-	.title {
-		margin-top: 60px;
-	}
 }
 
 .availableCircle {
@@ -240,16 +221,6 @@
 	caret-color: transparent;
 }
 
-.title::after {
-	content: "";
-	position: absolute;
-	inset: 0;
-	border-block: 1px dashed var(--color-stroke);
-	transition: border-block-color var(--theme-transition-duration);
-	pointer-events: none;
-	display: none;
-	caret-color: transparent;
-}
 
 .arrowwave {
 	display: none; /* AS ITS TRANSLATES AUTOMATICALLY */
@@ -327,17 +298,17 @@
 	top: 70px;
 	right: 140px;
 	font-size: 0;
-	transform: rotate(290deg) scale(0.70); /* Combine rotation and scale */
-	pointer-events: none; /* Makes it non-interactive */
-	margin: 0; /* Removes any extra space around the element */
-	display: none; /* AS ITS TRANSLATES AUTOMATICALLY */
+	transform: rotate(290deg) scale(0.70); 
+	pointer-events: none; 
+	margin: 0;
+	display: none; 
 }
 
 .language {
 	top: 220px;
 	right: 70px;
 	position: absolute;
-	display: none; /* AS ITS TRANSLATES AUTOMATICALLY */
+	display: none; 
 }
 
 @media (max-width: 767px) {

@@ -10,6 +10,7 @@ import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
 import ArgentinaFlag from "~/components/Svg/ArgentinaFlag";
 import { Button } from "~/components/Ui/Button";
+import { GradualSpacing } from "~/components/Ui/GradualSpacing/GradualSpacing";
 
 import styles from "./HeroSection.module.css";
 
@@ -79,9 +80,10 @@ export const HeroSection = () => {
 
 	return (
 		<section aria-labelledby="hero-title" className={styles.section} ref={sectionRef}>
-			<h1 id="hero-title" className={`text-gradient ${styles.title}`} ref={titleRef}>
+			{/* <h1 id="hero-title" className={`text-gradient ${styles.title}`} ref={titleRef}>
 				Joaquín Olivero
-			</h1>
+			</h1> */}
+			<GradualSpacing text="Joaquín Olivero" />
 			<h2 className={styles.subtitle} ref={subtitleRef}>
 				{positions[positionIndex]}
 			</h2>
