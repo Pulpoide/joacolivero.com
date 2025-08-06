@@ -1,0 +1,132 @@
+{
+  "404": {
+    "title": "Página não encontrada",
+    "home": "Voltar para o início"
+  },
+  "LanguageSwitcher": {
+    "switchLanguage": "Mudar para inglês"
+  },
+  "ContactDialog": {
+    "title": "Fale comigo"
+  },
+  "Experience": {
+    "remote": "Remoto",
+    "hybrid": "Híbrido",
+    "experience": "Experiência"
+  },
+  "HeroSection": {
+    "availability": "Disponível para novos projetos",
+    "contact": "Contato",
+    "download": "Currículo",
+    "position": "Desenvolvedor Backend",
+    "position2": "Construtor de API & Microsserviços",
+    "position3": "Entusiasta de Cloud & Automação",
+    "position4": "Futuro Especialista Backend",
+    "language": "(Clique na bandeira para português!)",
+    "location": "Córdoba, Argentina",
+    "subtitle": "<em>\"O prazer no trabalho aperfeiçoa a obra\"</em>",
+    "author": "Aristóteles",
+    "resumeUrl": "https://drive.google.com/file/d/1rNXZtcN3vtu76RrbPCILsKad2ujhB8qJ/view?usp=sharing"
+  },
+  "ProjectsSection": {
+    "title": "Projetos em Destaque",
+    "pc": "Explore meus projetos!",
+    "mobile": "Explore meus projetos!",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "home": "← Voltar para o início",
+    "Deporturnos": {
+      "name": "Deporturnos",
+      "description": "Plataforma para a gestão completa de quadras esportivas.",
+      "linkVisitSite": "Website",
+      "linkViewCode": "Repositório Backend",
+      "linkViewCode2": "Repositório Frontend",
+      "linkVisitDocs": "Documentação",
+      "about": "Deporturnos é uma aplicação web que simplifica a reserva de quadras em centros esportivos com um design intuitivo.\nSeu backend, desenvolvido do zero, garante desempenho seguro e confiável.\nAlém disso, oferece uma solução completa para gestão de reservas, administração de usuários e muito mais."
+    },
+    "ProductManager": {
+      "name": "Product Manager App",
+      "description": "RESTful API projetada para gerenciar operações CRUD completas para produtos.",
+      "linkVisitSite": "Website",
+      "linkViewCode": "Repositório",
+      "linkVisitDocs": "Documentação",
+      "about": "Esta aplicação é uma ferramenta completa para gestão de produtos, projetada para ser escalável e fácil de usar. Inclui autenticação JWT, upload de arquivos, documentação Swagger, testes automatizados e views EJS."
+    },
+    "Poui": {
+      "name": "Poui",
+      "description": "Website criado para uma empreendedora dedicada à venda de velas e difusores aromáticos.",
+      "linkVisitSite": "Website",
+      "linkViewCode": "Repositório",
+      "about": "O site oferece uma experiência calorosa e elegante que reflete a essência do negócio, com um design focado em destacar a qualidade e variedade dos produtos relacionados a aromaterapia e bem-estar.\nInclui um catálogo interativo, formulário de contato e uma seção 'Sobre Nós'."
+    },
+    "TaskList": {
+      "name": "TaskList",
+      "description": "Uma lista de tarefas simples que vai te ajudar bastante.",
+      "linkVisitSite": "Website",
+      "linkViewCode": "Repositório",
+      "about": "Esta é uma lista de tarefas simples que usa o React Router para navegação e armazena os dados no localStorage."
+    }
+  },
+  "AboutSection": {
+    "title": "Sobre Mim",
+    "d0": "Eu sou <strong>Joaquín Darío Olivero</strong>, um desenvolvedor de software especializado em <strong>aplicações backend robustas e APIs REST escaláveis</strong>.",
+    "d1": "Graduado pelo Instituto Universitario Aeronáutico com um diploma técnico e uma <strong>nota perfeita (10/10) na minha tese sobre o Deporturnos</strong>, onde liderei o design, o desenvolvimento e o deploy. Este projeto me deu uma base sólida em <strong>arquitetura de software, metodologias ágeis</strong> e pensamento analítico.",
+    "d2": "Embora minha paixão principal seja o desenvolvimento backend, tenho conhecimento prático de <strong>tecnologias frontend</strong> como HTML, CSS e React.js, o que me permite colaborar de forma eficaz em toda a stack.",
+    "mab": "Mais sobre mim"
+  },
+  "SkillsSection": {
+    "title": "Tecnologias utilizadas recentemente",
+    "defaultDescription": "Passe o mouse sobre uma habilidade para ver mais detalhes!",
+    "Java": "Linguagem robusta e orientada a objetos para construir sistemas backend escaláveis e aplicações corporativas.",
+    "Docker": "Empacota aplicações em contêineres seguros para um deploy fácil e consistente.",
+    "SpringBoot": "Framework baseado em Java para construir aplicações backend escaláveis e prontas para produção com uma configuração mínima.",
+    "PostgreSQL": "Banco de dados relacional de código aberto com SQL poderoso, conformidade ACID e extensibilidade.",
+    "MongoDB": "Banco de dados de documentos NoSQL projetado para flexibilidade, escalabilidade e desempenho.",
+    "NextJS": "Framework React para renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).",
+    "TypeScript": "Superset tipado do JavaScript que se adapta.",
+    "React": "Ferramenta para construir aplicações web rápidas e dinâmicas (como esta!)."
+  },
+  "ContactSection": {
+    "question": "Gostaria de trabalhar comigo?",
+    "services": "Serviços disponíveis",
+    "servicesDevelopment": "Programação",
+    "backendDevelopment": "Desenvolvimento backend",
+    "servicesDigitalMarketing": "Mídia",
+    "servicesContentCreation": "Criação de conteúdo",
+    "servicesSEO": "SEO e otimização de websites",
+    "servicesOther": "Outros",
+    "servicesInformationalInterviews": "Entrevistas informativas",
+    "servicesTranslation": "Tradução (Espanhol, Inglês, Português)",
+    "contact": "Entre em contato"
+  },
+  "Header": {
+    "contact": "Contato",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "tech": "Tecnologias",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+  "CopyEmailButton": {
+    "copy": "Clique para copiar",
+    "toast": "Estarei esperando sua mensagem!"
+  },
+  "Form": {
+    "name": "João da Silva",
+    "email": "exemplo@gmail.com",
+    "message": "Olá, Joaco! Estou entrando em contato porque...",
+    "messageError": "Por favor, digite uma mensagem mais longa.",
+    "emailError": "Por favor, digite um email válido.",
+    "nameError": "Por favor, digite seu nome.",
+    "success": "Obrigado por sua mensagem. Responderei em breve.",
+    "submit": "Enviar",
+    "somethingWrong": "Algo deu errado. Por favor, tente novamente mais tarde.",
+    "networkError": "Erro de rede. Por favor, tente novamente.",
+    "nameLabel": "Nome",
+    "emailLabel": "Email",
+    "messageLabel": "Mensagem"
+  },
+  "Page": {
+    "tohome": "← Voltar para o início"
+  }
+}

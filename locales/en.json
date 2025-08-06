@@ -90,14 +90,13 @@
     "question": "Would you like to work with me?",
     "services": "Available services",
     "servicesDevelopment": "Programming",
-    "gameDevelopment": "Video game development",
     "backendDevelopment": "Backend development",
     "servicesDigitalMarketing": "Media",
     "servicesContentCreation": "Content Creation",
     "servicesSEO": "SEO and website optimization",
     "servicesOther": "Other",
     "servicesInformationalInterviews": "Informational interviews",
-    "servicesTranslation": "Translation (Spanish, English)",
+    "servicesTranslation": "Translation (Spanish, English, Portuguese)",
     "contact": "Get in touch"
   },
   "Header": {

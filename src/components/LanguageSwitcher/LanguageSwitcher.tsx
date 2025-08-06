@@ -22,20 +22,24 @@ export const LanguageSwitcher = () => {
 		if (!mounted) return;
 		const params = new URLSearchParams(window.location.search);
 		const lang = params.get("lang");
-		const valid = lang === "en" || lang === "es" ? lang : "en";
+		const valid = lang === "en" || lang === "es" || lang === "pt-BR" ? lang : "en";
 		setLocale(valid);
 		setUserLocale(valid);
 	}, [mounted]);
 
 	const handleOnClick = () => {
 		startTransition(() => {
-			const newLocale = locale === "es" ? "en" : "es";
+			const locales = ["es", "en", "pt-BR"];
+			const currentIndex = locales.indexOf(locale);
+			const nextIndex = (currentIndex + 1) % locales.length;
+			const newLocale = locales[nextIndex] as "es" | "en" | "pt-BR";
+
 			setUserLocale(newLocale).then(() => setLocale(newLocale));
 		});
 	};
 
 	if (!mounted) return null;
-	
+
 	return (
 		<button
 			className={styles.button}
@@ -47,7 +51,7 @@ export const LanguageSwitcher = () => {
 			<img
 				className={styles.flag}
 				aria-hidden="true"
-				src={locale === "es" ? "/assets/flags/spain.avif" : "/assets/flags/uk.avif"}
+				src={locale === "es" ? "/assets/flags/spain.avif" : locale === "en" ? "/assets/flags/uk.avif" : "/assets/flags/brazil.avif"}
 				alt={`Switch to ${locale === "en" ? "English" : "Spanish"}`}
 				height={24}
 				width={24}
