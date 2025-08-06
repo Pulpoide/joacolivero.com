@@ -51,7 +51,7 @@ export default async function RootLayout({
 		url: "https://joacolivero.com",
 		image: "",
 		sameAs: [
-			"https://www.linkedin.com/in/joaquinolivero/",
+			"https://www.linkedin.com/in/joaquinolivero",
 			"https://github.com/Pulpoide",
 		],
 		worksFor: {

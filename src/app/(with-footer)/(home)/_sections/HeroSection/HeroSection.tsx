@@ -100,7 +100,7 @@ export const HeroSection = () => {
 			<div className={styles.buttonContainer} ref={buttonContainerRef}>
 				<Button rounded="full" size="small" asChild className={styles.button}>
 					<NextLink
-						href="https://www.linkedin.com/in/joaquinolivero/"
+						href="https://www.linkedin.com/in/joaquinolivero"
 						target="_blank"
 						rel="noopener"
 					>
