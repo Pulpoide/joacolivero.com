@@ -18,10 +18,10 @@
     "availability": "Disponible para nuevos proyectos",
     "contact": "Contactar",
     "download": "Currículum",
-    "position": "Desarrollador Backend",
-    "position2": "Creador de APIs y Microservicios",
-    "position3": "Entusiasta de la Nube y Automatización",
-    "position4": "Futuro Especialista Backend",
+    "position": "Desarrollador Full Stack",
+    "position2": "Diseñador de APIs y Arquitecturas Backend",
+    "position3": "Frontend + Backend End-to-End",
+    "position4": "Apasionado por la tecnología y la innovación",
     "language": "(Click the flag to switch to English!)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"El placer en el trabajo pone perfección en la tarea\"</em>",
@@ -69,9 +69,9 @@
   },
   "AboutSection": {
     "title": "Sobre mí",
-    "d0": "Soy <strong>Joaquín Darío Olivero</strong>, desarrollador de software especializado en <strong>aplicaciones backend robustas y REST APIs escalables</strong>.",
-    "d1": "Graduado del Instituto Universitario Aeronáutico con un título técnico y <strong>10/10 en mi tesis Deporturnos</strong>, donde lideré diseño, desarrollo y despliegue. Esta experiencia me brindó una base sólida en <strong>arquitectura de software, metodologías ágiles</strong> y pensamiento analítico.",
-    "d2": "Aunque mi principal pasión es el desarrollo backend, poseo conocimientos en <strong>tecnologías frontend</strong> como HTML, CSS y React.js, lo que me permite colaborar eficazmente en todo el stack.",
+    "d0": "Hola, soy <strong>Joaquín Darío Olivero</strong>, un <strong>Desarrollador Full Stack</strong> apasionado por construir soluciones robustas y escalables.",
+    "d1": "Mi principal enfoque es el <strong>backend</strong>, donde me especializo en el diseño e implementación de <strong>APIs REST de alto rendimiento</strong>. A través de proyectos como <strong>Deporturnos</strong>, mi tesis universitaria, aprendí a liderar el desarrollo y despliegue de plataformas de principio a fin.",
+    "d2": "Aunque mi fuerte es el backend, también tengo experiencia con <strong>tecnologías frontend</strong> (HTML, CSS, React.js), lo que me permite entregar soluciones completas y <strong>end-to-end</strong>, así como colaborar de forma fluida con equipos multidisciplinarios.",
     "mab": "Más sobre mí"
   },
   "SkillsSection": {
@@ -87,7 +87,7 @@
     "React": "Herramienta para apps web dinámicas y rápidas (¡como esta!)."
   },
   "ContactSection": {
-    "question": "¿Te gustaría trabajar conmigo?",
+    "question": "¿Querés trabajar conmigo?",
     "services": "Servicios disponibles",
     "servicesDevelopment": "Programación",
     "backendDevelopment": "Desarrollo Backend",

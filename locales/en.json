@@ -18,10 +18,10 @@
     "availability": "Available for new projects",
     "contact": "Contact",
     "download": "Resume",
-    "position": "Backend Developer",
-    "position2": "API & Microservices Builder",
-    "position3": "Cloud & Automation Enthusiast",
-    "position4": "Future Backend Specialist",
+    "position": "Full Stack Developer",
+    "position2": "API & Backend Architecture Designer",
+    "position3": "End-to-End Frontend + Backend",
+    "position4": "Passionate About Technology & Innovation",
     "language": "(¡Clic en la bandera para español!)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"Pleasure in the job puts perfection in the work\"</em>",
@@ -69,9 +69,9 @@
   },
   "AboutSection": {
     "title": "About Me",
-    "d0": "I'm <strong>Joaquín Darío Olivero</strong>, a software developer specialized in <strong>robust backend applications and scalable REST APIs</strong>.",
-    "d1": "Graduated from the Instituto Universitario Aeronáutico with a technical degree and a <strong>perfect score (10/10) on my Deporturnos thesis</strong>, where I led design, development, and deployment. This project gave me a solid foundation in <strong>software architecture, agile methodologies</strong>, and analytical thinking.",
-    "d2": "While my main passion is backend development, I have working knowledge of <strong>frontend technologies</strong> such as HTML, CSS, and React.js, which allows me to collaborate effectively across the stack.",
+    "d0": "Hi, I'm <strong>Joaquín Darío Olivero</strong>, a <strong>Full Stack Developer</strong> passionate about building robust and scalable solutions.",
+    "d1": "My main focus is on <strong>backend</strong>, where I specialize in designing and implementing <strong>high-performance REST APIs</strong>. Through projects like <strong>Deporturnos</strong>, my university thesis, I learned to lead the design, development, and deployment of platforms end-to-end.",
+    "d2": "While my strength is backend, I also have experience with <strong>frontend technologies</strong> (HTML, CSS, React.js), which allows me to deliver complete end-to-end solutions and collaborate effectively with multidisciplinary teams.",
     "mab": "More about me"
   },
   "SkillsSection": {
@@ -87,7 +87,7 @@
     "React": "Tool for building fast, dynamic web apps (like this one!)."
   },
   "ContactSection": {
-    "question": "Would you like to work with me?",
+    "question": "Wanna work with me?",
     "services": "Available services",
     "servicesDevelopment": "Programming",
     "backendDevelopment": "Backend development",
