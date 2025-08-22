@@ -17,17 +17,17 @@ import "~/styles/utils.css";
 
 export const metadata = {
 	metadataBase: new URL("https://joacolivero.com"),
-	title: "Joaquín Olivero / Backend Developer – Java, JavaScript, React, MongoDB, Node.js, PostgreSQL",
+	title: "Joaquín Olivero / Full Stack Developer – Java, JavaScript, React, MongoDB, Node.js, PostgreSQL",
 	description:
-		"Joaquín Olivero is a backend developer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide.",
+		"Joaquín Olivero is a Full Stack developer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide.",
 	authors: [{ name: "Joaquín Olivero" }],
 	creator: "Joaquín Olivero",
 	openGraph: {
 		type: "website",
 		url: "https://joacolivero.com",
-		title: "Joaquín Olivero / Backend Developer – Java, JavaScript, React, MongoDB, Node.js, PostgreSQL",
+		title: "Joaquín Olivero / Full Stack Developer – Java, JavaScript, React, MongoDB, Node.js, PostgreSQL",
 		description:
-			"Joaquín Olivero is a backend developer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide.",
+			"Joaquín Olivero is a Full Stack developer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide.",
 		images: [
 			{
 
@@ -47,7 +47,7 @@ export default async function RootLayout({
 		"@context": "https://schema.org",
 		"@type": "Person",
 		name: "Joaquín Olivero",
-		jobTitle: "Backend Developer",
+		jobTitle: "Full Stack Developer",
 		url: "https://joacolivero.com",
 		image: "",
 		sameAs: [
@@ -99,7 +99,7 @@ export default async function RootLayout({
 		],
 		hasOccupation: {
 			"@type": "Occupation",
-			name: "Backend Developer",
+			name: "Full Stack Developer",
 			description:
 				"Specialized in backend development. Building scalable and innovative solutions for complex problems.",
 			occupationalCategory: "15-1132.00",
@@ -123,7 +123,7 @@ export default async function RootLayout({
 				<title>{metadata.title}</title>
 				<meta
 					name="description"
-					content="Joaquín Olivero is a backend developer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide."
+					content="Joaquín Olivero is a Full Stack developer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide."
 				/>
 				<meta name="author" content="Joaquín Olivero" />
 				<meta name="creator" content="Joaquín Olivero" />

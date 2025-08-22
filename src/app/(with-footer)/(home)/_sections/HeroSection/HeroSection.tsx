@@ -100,7 +100,7 @@ export const HeroSection = () => {
 			<div className={styles.buttonContainer} ref={buttonContainerRef}>
 				<Button rounded="full" size="small" asChild className={styles.button}>
 					<NextLink
-						href="https://www.linkedin.com/in/joaquinolivero"
+						href="https://wa.link/zazzg3"
 						target="_blank"
 						rel="noopener"
 					>
@@ -131,7 +131,7 @@ export const HeroSection = () => {
 
 			<div className={styles.actions} ref={actionsRef}>
 				<NextLink
-					href="https://drive.google.com/file/d/1rNXZtcN3vtu76RrbPCILsKad2ujhB8qJ/view?usp=sharing"
+					href={t("resumeUrl")}
 					target="_blank"
 					prefetch={true}
 					passHref
