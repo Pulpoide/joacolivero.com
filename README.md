@@ -69,7 +69,7 @@ A quick look at the top-level directory structure:
    npm run build
    ~~~
 
-## 📄 Contact
+## Author
 
 **Joaquin D. Olivero** Full Stack Developer | Backend Specialist
 
