@@ -4,7 +4,9 @@
 
 Welcome to my personal portfolio repository. This website showcases my projects, technical skills, and professional journey as a **Full Stack Developer** specialized in Java/Spring Boot and modern Frontend technologies.
 
-🔗 **[View Live Demo](https://www.joacolivero.com/)** ## 🚀 About The Project
+🔗 **[View Live Demo](https://www.joacolivero.com/)** 
+
+## 🚀 About The Project
 
 This portfolio is built with performance and type safety in mind, utilizing **Next.js** and **TypeScript**. It serves as a central hub to demonstrate my work, including my latest integrations with **k6** performance testing and Dockerized architectures.
 
