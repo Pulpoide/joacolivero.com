@@ -1,13 +1,13 @@
 {
   "404": {
     "title": "Página não encontrada",
-    "home": "Voltar para o início"
+    "home": "Voltar ao início"
   },
   "LanguageSwitcher": {
-    "switchLanguage": "Mudar para inglês"
+    "switchLanguage": "Mudar para Inglês"
   },
   "ContactDialog": {
-    "title": "Fale comigo"
+    "title": "Entre em contato"
   },
   "Experience": {
     "remote": "Remoto",
@@ -16,117 +16,117 @@
   },
   "HeroSection": {
     "availability": "Disponível para novos projetos",
-    "contact": "Contato",
-    "download": "Currículo",
+    "contact": "Entre em contato",
+    "download": "Baixar CV",
     "position": "Desenvolvedor Full Stack",
-    "position2": "Arquiteto de APIs e Backends",
-    "position3": "Frontend + Backend End-to-End",
-    "position4": "Apaixonado por Tecnologia e Inovação",
-    "language": "(Clique na bandeira para português!)",
+    "position2": "Arquiteto de Backend e APIs",
+    "position3": "Entusiasta de Testes de Performance",
+    "position4": "Apaixonado por Escalabilidade e Inovação",
+    "language": "(Clique na bandeira para Inglês)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"O prazer no trabalho aperfeiçoa a obra\"</em>",
     "author": "Aristóteles",
-    "resumeUrl": "https://drive.google.com/file/d/1Aw_bgZz3oUOpyRUAGbxEK_v60hSDYUBy/view?usp=sharing"
+    "resumeUrl": "https://drive.google.com/file/d/14u0FnJNsKY9chz4RzC9yfe74Te4m6DcG/view?usp=sharing"
   },
   "ProjectsSection": {
     "title": "Projetos em Destaque",
-    "pc": "Explore meus projetos!",
-    "mobile": "Explore meus projetos!",
+    "pc": "Explore meu trabalho",
+    "mobile": "Explore meu trabalho",
     "next": "Próximo",
     "previous": "Anterior",
-    "home": "← Voltar para o início",
+    "home": "← Voltar ao início",
     "Deporturnos": {
       "name": "Deporturnos",
-      "description": "Plataforma para a gestão completa de quadras esportivas.",
-      "linkVisitSite": "Website",
-      "linkViewCode": "Repositório Backend",
-      "linkViewCode2": "Repositório Frontend",
-      "linkVisitDocs": "Documentação",
-      "about": "Deporturnos é uma aplicação web que simplifica a reserva de quadras em centros esportivos com um design intuitivo.\nSeu backend, desenvolvido do zero, garante desempenho seguro e confiável.\nAlém disso, oferece uma solução completa para gestão de reservas, administração de usuários e muito mais."
+      "description": "Plataforma de alto desempenho para gestão integral de centros esportivos.",
+      "linkVisitSite": "Demo ao Vivo",
+      "linkViewCode": "Repo Backend",
+      "linkViewCode2": "Repo Frontend",
+      "linkVisitDocs": "Docs API",
+      "about": "Uma aplicação full-stack robusta projetada para lidar com lógica complexa de reservas. \nDestaques: \n• Backend desenvolvido com Spring Boot e segurança JWT. \n• Resiliência testada usando **k6** (Testes de Estresse e Pico) para garantir estabilidade sob altas cargas. \n• Conteinerizado com Docker para um deploy consistente."
     },
     "ProductManager": {
-      "name": "Product Manager App",
-      "description": "RESTful API projetada para gerenciar operações CRUD completas para produtos.",
-      "linkVisitSite": "Website",
+      "name": "Product Manager API",
+      "description": "API RESTful escalável projetada para gestão avançada do ciclo de vida de produtos.",
+      "linkVisitSite": "Demo ao Vivo",
       "linkViewCode": "Repositório",
-      "linkVisitDocs": "Documentação",
-      "about": "Esta aplicação é uma ferramenta completa para gestão de produtos, projetada para ser escalável e fácil de usar. Inclui autenticação JWT, upload de arquivos, documentação Swagger, testes automatizados e views EJS."
+      "linkVisitDocs": "Docs Swagger",
+      "about": "Um projeto focado em backend que demonstra arquitetura limpa e testes. Inclui operações CRUD robustas, autenticação JWT, manipulação de imagens e testes automatizados. Totalmente documentado com Swagger/OpenAPI."
     },
     "Poui": {
-      "name": "Poui",
-      "description": "Website criado para uma empreendedora dedicada à venda de velas e difusores aromáticos.",
-      "linkVisitSite": "Website",
+      "name": "Poui Aromas",
+      "description": "Landing page de e-commerce focada em identidade de marca e experiência do usuário.",
+      "linkVisitSite": "Visitar Site",
       "linkViewCode": "Repositório",
-      "about": "O site oferece uma experiência calorosa e elegante que reflete a essência do negócio, com um design focado em destacar a qualidade e variedade dos produtos relacionados a aromaterapia e bem-estar.\nInclui um catálogo interativo, formulário de contato e uma seção 'Sobre Nós'."
+      "about": "Uma solução frontend moderna e responsiva para um negócio de aromaterapia. Conta com um design UI/UX elegante, catálogo interativo de produtos e integração fluida de contato para impulsionar vendas."
     },
     "TaskList": {
-      "name": "TaskList",
-      "description": "Uma lista de tarefas simples que vai te ajudar bastante.",
-      "linkVisitSite": "Website",
+      "name": "Smart TaskList",
+      "description": "Ferramenta de produtividade focada em gestão de estado e eficiência.",
+      "linkVisitSite": "Visitar App",
       "linkViewCode": "Repositório",
-      "about": "Esta é uma lista de tarefas simples que usa o React Router para navegação e armazena os dados no localStorage."
+      "about": "Aplicação baseada em React que demonstra gestão eficiente de estado, persistência em armazenamento local e roteamento dinâmico. Simples na superfície, código limpo por dentro."
     }
   },
   "AboutSection": {
     "title": "Sobre Mim",
-    "d0": "Olá, sou <strong>Joaquín Darío Olivero</strong>, um <strong>Desenvolvedor Full Stack</strong> apaixonado por construir soluções robustas e escaláveis.",
-    "d1": "Meu foco principal é o <strong>backend</strong>, onde me especializo em projetar e implementar <strong>APIs REST de alto desempenho</strong>. Através de projetos como <strong>Deporturnos</strong>, meu trabalho de conclusão de curso, aprendi a liderar o design, desenvolvimento e implementação de plataformas de ponta a ponta.",
-    "d2": "Embora minha maior experiência seja em backend, também tenho conhecimentos em <strong>tecnologias frontend</strong> (HTML, CSS, React.js), permitindo entregar soluções completas e <strong>end-to-end</strong>, além de colaborar de forma eficaz com equipes multidisciplinares.",
-    "mab": "Mais sobre mim"
+    "d0": "Olá, sou <strong>Joaquín D. Olivero</strong>, um <strong>Desenvolvedor de Software</strong> focado em arquitetura backend e desempenho de sistemas.",
+    "d1": "Eu me especializo em construir aplicações com <strong>Java e Spring Boot</strong> que não apenas funcionam, mas são <strong>escaláveis e resilientes</strong>. Meu trabalho recente envolve implementar estratégias de <strong>Testes de Carga (k6)</strong> para garantir que as APIs suportem tráfego real sem falhas.",
+    "d2": "Embora meu ponto forte seja o backend, possuo sólidas capacidades <strong>Full Stack</strong> (React, Next.js), o que me permite entender o ciclo de vida completo do produto e colaborar eficazmente com equipes de frontend.",
+    "mab": "Mais sobre minha trajetória"
   },
   "SkillsSection": {
-    "title": "Tecnologias utilizadas recentemente",
-    "defaultDescription": "Passe o mouse sobre uma habilidade para ver mais detalhes!",
-    "Java": "Linguagem robusta e orientada a objetos para construir sistemas backend escaláveis e aplicações corporativas.",
-    "Docker": "Empacota aplicações em contêineres seguros para um deploy fácil e consistente.",
-    "SpringBoot": "Framework baseado em Java para construir aplicações backend escaláveis e prontas para produção com uma configuração mínima.",
-    "PostgreSQL": "Banco de dados relacional de código aberto com SQL poderoso, conformidade ACID e extensibilidade.",
-    "MongoDB": "Banco de dados de documentos NoSQL projetado para flexibilidade, escalabilidade e desempenho.",
-    "NextJS": "Framework React para renderização do lado do servidor (SSR) e geração de sites estáticos (SSG).",
-    "TypeScript": "Superset tipado do JavaScript que se adapta.",
-    "React": "Ferramenta para construir aplicações web rápidas e dinâmicas (como esta!)."
+    "title": "Stack Tecnológico",
+    "defaultDescription": "Passe o mouse sobre uma tecnologia para ver detalhes!",
+    "Java": "Minha linguagem principal. Usada para construir sistemas backend robustos de nível empresarial.",
+    "Docker": "Essencial para conteinerização, garantindo que meus apps rodem igual em qualquer lugar.",
+    "SpringBoot": "O framework escolhido para criar microsserviços e APIs prontas para produção.",
+    "PostgreSQL": "Meu banco de dados relacional de confiança para modelagem de dados complexos e confiabilidade.",
+    "MongoDB": "Usado para estruturas de dados flexíveis orientadas a documentos quando SQL não é o ideal.",
+    "NextJS": "Utilizado para renderização do lado do servidor e aplicações frontend amigáveis para SEO.",
+    "TypeScript": "Garante tipagem estática e manutenibilidade em meus projetos JavaScript.",
+    "React": "Usado para construir interfaces de usuário dinâmicas, responsivas e modernas."
   },
   "ContactSection": {
-    "question": "Quer trabalhar comigo?",
-    "services": "Serviços disponíveis",
-    "servicesDevelopment": "Programação",
-    "backendDevelopment": "Desenvolvimento backend",
-    "servicesDigitalMarketing": "Mídia",
-    "servicesContentCreation": "Criação de conteúdo",
-    "servicesSEO": "SEO e otimização de websites",
-    "servicesOther": "Outros",
-    "servicesInformationalInterviews": "Entrevistas informativas",
-    "servicesTranslation": "Tradução (Espanhol, Inglês, Português)",
-    "contact": "Entre em contato"
+    "question": "Interessado em colaborar?",
+    "services": "Como posso ajudar?",
+    "servicesDevelopment": "Arquitetura Backend",
+    "backendDevelopment": "Desenvolvimento e Integração de APIs",
+    "servicesDigitalMarketing": "Testes de Performance (k6)",
+    "servicesContentCreation": "Desenvolvimento Full Stack",
+    "servicesSEO": "Otimização de Banco de Dados",
+    "servicesOther": "Consultoria Técnica",
+    "servicesInformationalInterviews": "Revisão de Código",
+    "servicesTranslation": "Design de Sistemas",
+    "contact": "Enviar Mensagem"
   },
   "Header": {
     "contact": "Contato",
-    "about": "Sobre",
+    "about": "Sobre mim",
     "projects": "Projetos",
-    "tech": "Tecnologias",
+    "tech": "Stack",
     "language": "Idioma",
     "theme": "Tema"
   },
   "CopyEmailButton": {
-    "copy": "Clique para copiar",
-    "toast": "Estarei esperando sua mensagem!"
+    "copy": "Copiar Email",
+    "toast": "Email copiado! Aguardo sua mensagem."
   },
   "Form": {
-    "name": "João da Silva",
-    "email": "exemplo@gmail.com",
-    "message": "Olá, Joaco! Estou entrando em contato porque...",
-    "messageError": "Por favor, digite uma mensagem mais longa.",
-    "emailError": "Por favor, digite um email válido.",
-    "nameError": "Por favor, digite seu nome.",
-    "success": "Obrigado por sua mensagem. Responderei em breve.",
-    "submit": "Enviar",
+    "name": "Seu Nome",
+    "email": "seu.email@exemplo.com",
+    "message": "Olá Joaquín! Tenho interesse no seu perfil backend...",
+    "messageError": "Por favor, insira uma mensagem detalhada.",
+    "emailError": "Por favor, insira um email válido.",
+    "nameError": "Por favor, insira seu nome completo.",
+    "success": "Mensagem enviada com sucesso! Responderei em breve.",
+    "submit": "Enviar Mensagem",
     "somethingWrong": "Algo deu errado. Por favor, tente novamente mais tarde.",
-    "networkError": "Erro de rede. Por favor, tente novamente.",
+    "networkError": "Erro de rede. Por favor, verifique sua conexão.",
     "nameLabel": "Nome",
     "emailLabel": "Email",
     "messageLabel": "Mensagem"
   },
   "Page": {
-    "tohome": "← Voltar para o início"
+    "tohome": "← Voltar ao início"
   }
 }

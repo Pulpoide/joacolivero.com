@@ -1,13 +1,13 @@
 {
   "404": {
     "title": "Page not found",
-    "home": "Back to home"
+    "home": "Return to home"
   },
   "LanguageSwitcher": {
     "switchLanguage": "Switch to Spanish"
   },
   "ContactDialog": {
-    "title": "Contact me"
+    "title": "Contact Me"
   },
   "Experience": {
     "remote": "Remote",
@@ -16,13 +16,13 @@
   },
   "HeroSection": {
     "availability": "Available for new projects",
-    "contact": "Contact",
-    "download": "Resume",
+    "contact": "Get in touch",
+    "download": "Download CV",
     "position": "Full Stack Developer",
-    "position2": "API & Backend Architecture Designer",
-    "position3": "End-to-End Frontend + Backend",
-    "position4": "Passionate About Technology & Innovation",
-    "language": "(¡Clic en la bandera para español!)",
+    "position2": "Backend & API Architect",
+    "position3": "Performance Testing Enthusiast",
+    "position4": "Passionate About Scalability & Innovation",
+    "language": "(Click the flag for Spanish)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"Pleasure in the job puts perfection in the work\"</em>",
     "author": "Aristotle",
@@ -30,103 +30,103 @@
   },
   "ProjectsSection": {
     "title": "Featured Projects",
-    "pc": "Explore my projects!",
-    "mobile": "Explore my projects!",
+    "pc": "Explore my work",
+    "mobile": "Explore my work",
     "next": "Next",
     "previous": "Previous",
     "home": "← Back to home",
     "Deporturnos": {
       "name": "Deporturnos",
-      "description": "Platform for the comprehensive management of sports courts.",
-      "linkVisitSite": "Website",
-      "linkViewCode": "Backend Repository",
-      "linkViewCode2": "Frontend Repository",
-      "linkVisitDocs": "Documentation",
-      "about": "Deporturnos is a web application that simplifies court reservations in sports centers with an intuitive design.\nIts backend, developed from scratch, ensures secure and reliable performance.\nAdditionally, it provides a complete solution for reservation management, user administration, and more."
+      "description": "High-performance platform for comprehensive sports center management.",
+      "linkVisitSite": "Live Demo",
+      "linkViewCode": "Backend Repo",
+      "linkViewCode2": "Frontend Repo",
+      "linkVisitDocs": "API Docs",
+      "about": "A robust full-stack application designed to handle complex reservation logic. \nKey Highlights: \n• Backend engineered with Spring Boot & JWT security. \n• Resilience tested using **k6** (Stress & Spike testing) to ensure stability under high loads. \n• Containerized with Docker for consistent deployment."
     },
     "ProductManager": {
-      "name": "Product Manager App",
-      "description": "RESTful API designed to handle full CRUD operations for products.",
-      "linkVisitSite": "Website",
+      "name": "Product Manager API",
+      "description": "Scalable RESTful API designed for advanced product lifecycle management.",
+      "linkVisitSite": "Live Demo",
       "linkViewCode": "Repository",
-      "linkVisitDocs": "Documentation",
-      "about": "This application is a comprehensive tool for product management, designed to be scalable and easy to use. Includes JWT authentication, file uploads, Swagger documentation, automated tests, and EJS views."
+      "linkVisitDocs": "Swagger Docs",
+      "about": "A backend-focused project demonstrating clean architecture and testing. Features include robust CRUD operations, JWT authentication, image handling, and automated testing. Fully documented with Swagger/OpenAPI."
     },
     "Poui": {
-      "name": "Poui",
-      "description": "Website designed for an entrepreneur dedicated to selling scented candles and diffusers.",
-      "linkVisitSite": "Website",
+      "name": "Poui Aromas",
+      "description": "E-commerce landing page focused on brand identity and user experience.",
+      "linkVisitSite": "Visit Website",
       "linkViewCode": "Repository",
-      "about": "The site offers a warm and elegant experience that reflects the essence of the business, with a design focused on highlighting the quality and variety of products related to aromatherapy and well-being.\nIt includes an interactive catalog, contact form, and an 'About Us' section."
+      "about": "A modern, responsive frontend solution for an aromatherapy business. It features an elegant UI/UX design, an interactive product catalog, and a seamless contact integration to drive sales."
     },
     "TaskList": {
-      "name": "TaskList",
-      "description": "A simple task list that will help you a lot.",
-      "linkVisitSite": "Website",
+      "name": "Smart TaskList",
+      "description": "A productivity tool focused on state management and efficiency.",
+      "linkVisitSite": "Visit App",
       "linkViewCode": "Repository",
-      "about": "This is a simple task list that uses React Router for navigation and stores data in localStorage."
+      "about": "A React-based application demonstrating efficient state management, local storage persistence, and dynamic routing. Simple on the surface, clean under the hood."
     }
   },
   "AboutSection": {
     "title": "About Me",
-    "d0": "Hi, I'm <strong>Joaquín Darío Olivero</strong>, a <strong>Full Stack Developer</strong> passionate about building robust and scalable solutions.",
-    "d1": "My main focus is on <strong>backend</strong>, where I specialize in designing and implementing <strong>high-performance REST APIs</strong>. Through projects like <strong>Deporturnos</strong>, my university thesis, I learned to lead the design, development, and deployment of platforms end-to-end.",
-    "d2": "While my strength is backend, I also have experience with <strong>frontend technologies</strong> (HTML, CSS, React.js), which allows me to deliver complete end-to-end solutions and collaborate effectively with multidisciplinary teams.",
-    "mab": "More about me"
+    "d0": "Hi, I'm <strong>Joaquín D. Olivero</strong>, a <strong>Software Developer</strong> focused on backend architecture and system performance.",
+    "d1": "I specialize in building <strong>Java & Spring Boot</strong> applications that are not just functional, but <strong>scalable and resilient</strong>. My recent work involves implementing <strong>Load Testing strategies (k6)</strong> to ensure APIs can handle real-world traffic without failure.",
+    "d2": "While my core strength is the backend, I possess strong <strong>Full Stack capabilities</strong> (React, Next.js), allowing me to understand the complete product lifecycle and collaborate effectively with frontend teams.",
+    "mab": "More about my journey"
   },
   "SkillsSection": {
-    "title": "Recently used technologies",
-    "defaultDescription": "Hover over a skill to see more details!",
-    "Java": "Robust, object-oriented language for building scalable backend systems and enterprise applications.",
-    "Docker": "Packages apps in secure containers for easy, consistent deployment.",
-    "SpringBoot": "Java-based framework for building production-ready, scalable backend applications with minimal setup.",
-    "PostgreSQL": "Open-source relational database with powerful SQL, ACID compliance, and extensibility.",
-    "MongoDB": "NoSQL document database designed for flexibility, scalability, and performance.",
-    "NextJS": "React framework for server-side rendering and static site generation.",
-    "TypeScript": "Typed superset of JavaScript that scales.",
-    "React": "Tool for building fast, dynamic web apps (like this one!)."
+    "title": "Tech Stack & Tools",
+    "defaultDescription": "Hover over a tech to see how I use it!",
+    "Java": "My core language. Used for building robust, enterprise-grade backend systems.",
+    "Docker": "Essential for containerization, ensuring my apps run consistently everywhere.",
+    "SpringBoot": "The framework of choice for creating production-ready microservices and APIs.",
+    "PostgreSQL": "My go-to relational database for complex data modeling and reliability.",
+    "MongoDB": "Used for flexible, document-oriented data structures when SQL isn't the fit.",
+    "NextJS": "Utilized for server-side rendering and building SEO-friendly frontend applications.",
+    "TypeScript": "Ensures type safety and maintainability across my JavaScript projects.",
+    "React": "Used to build dynamic, responsive, and modern user interfaces."
   },
   "ContactSection": {
-    "question": "Wanna work with me?",
-    "services": "Available services",
-    "servicesDevelopment": "Programming",
-    "backendDevelopment": "Backend development",
-    "servicesDigitalMarketing": "Media",
-    "servicesContentCreation": "Content Creation",
-    "servicesSEO": "SEO and website optimization",
-    "servicesOther": "Other",
-    "servicesInformationalInterviews": "Informational interviews",
-    "servicesTranslation": "Translation (Spanish, English, Portuguese)",
-    "contact": "Get in touch"
+    "question": "Interested in collaborating?",
+    "services": "How can I help?",
+    "servicesDevelopment": "Backend Architecture",
+    "backendDevelopment": "API Development & Integration",
+    "servicesDigitalMarketing": "Performance Testing (k6)",
+    "servicesContentCreation": "Full Stack Development",
+    "servicesSEO": "Database Optimization",
+    "servicesOther": "Technical Consulting",
+    "servicesInformationalInterviews": "Code Reviews",
+    "servicesTranslation": "System Design",
+    "contact": "Send a Message"
   },
   "Header": {
     "contact": "Contact",
     "about": "About",
     "projects": "Projects",
-    "tech": "Technologies",
+    "tech": "Stack",
     "language": "Language",
     "theme": "Theme"
   },
   "CopyEmailButton": {
-    "copy": "Click to copy",
-    "toast": "I'll be waiting for your message!"
+    "copy": "Copy Email",
+    "toast": "Email copied! Looking forward to hearing from you."
   },
   "Form": {
-    "name": "John Doe",
-    "email": "example@gmail.com",
-    "message": "Hi Joaco! I'm reaching out because...",
-    "messageError": "Please enter a longer message.",
-    "emailError": "Please enter a valid email.",
-    "nameError": "Please enter your name.",
-    "success": "Thank you for your inquiry. I will respond shortly.",
-    "submit": "Send",
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "message": "Hi Joaquín! I'm interested in your backend skills...",
+    "messageError": "Please enter a detailed message.",
+    "emailError": "Please enter a valid email address.",
+    "nameError": "Please enter your full name.",
+    "success": "Message sent successfully! I'll get back to you soon.",
+    "submit": "Send Message",
     "somethingWrong": "Something went wrong. Please try again later.",
-    "networkError": "Network error. Please try again.",
+    "networkError": "Network error. Please check your connection.",
     "nameLabel": "Name",
     "emailLabel": "Email",
     "messageLabel": "Message"
   },
   "Page": {
-    "tohome": "← Back to home"
+    "tohome": "← Return to Home"
   }
 }
