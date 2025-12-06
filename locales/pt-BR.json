@@ -42,7 +42,7 @@
       "linkViewCode": "Repo Backend",
       "linkViewCode2": "Repo Frontend",
       "linkVisitDocs": "Docs API",
-      "about": "Uma aplicação full-stack robusta projetada para lidar com lógica complexa de reservas. \nDestaques: \n• Backend desenvolvido com Spring Boot e segurança JWT. \n• Resiliência testada usando **k6** (Testes de Estresse e Pico) para garantir estabilidade sob altas cargas. \n• Conteinerizado com Docker para um deploy consistente."
+      "about": "Uma aplicação full-stack robusta projetada para lidar com lógica complexa de reservas. \nDestaques: \n• Backend desenvolvido com Spring Boot e segurança JWT. \n• Resiliência testada usando k6 (Testes de Estresse e Pico) para garantir estabilidade sob altas cargas. \n• Conteinerizado com Docker para um deploy consistente."
     },
     "ProductManager": {
       "name": "Product Manager API",
