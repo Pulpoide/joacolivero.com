@@ -69,7 +69,7 @@
   },
   "AboutSection": {
     "title": "Sobre Mim",
-    "d0": "Olá, sou <strong>Joaquín D. Olivero</strong>, um <strong>Desenvolvedor de Software</strong> focado em arquitetura backend e desempenho de sistemas.",
+    "d0": "Olá, sou <strong>Joaquín Dario Olivero</strong>, um <strong>Desenvolvedor de Software</strong> focado em arquitetura backend e desempenho de sistemas.",
     "d1": "Eu me especializo em construir aplicações com <strong>Java e Spring Boot</strong> que não apenas funcionam, mas são <strong>escaláveis e resilientes</strong>. Meu trabalho recente envolve implementar estratégias de <strong>Testes de Carga (k6)</strong> para garantir que as APIs suportem tráfego real sem falhas.",
     "d2": "Embora meu ponto forte seja o backend, possuo sólidas capacidades <strong>Full Stack</strong> (React, Next.js), o que me permite entender o ciclo de vida completo do produto e colaborar eficazmente com equipes de frontend.",
     "mab": "Mais sobre minha trajetória"
