@@ -4,7 +4,7 @@
     "home": "Return to home"
   },
   "LanguageSwitcher": {
-    "switchLanguage": "Switch to Portuguese"
+    "switchLanguage": "Switch Language"
   },
   "ContactDialog": {
     "title": "Contact Me"
@@ -20,9 +20,9 @@
     "download": "Download CV",
     "position": "Full Stack Developer",
     "position2": "Backend & API Architect",
-    "position3": "Performance Testing Enthusiast",
+    "position3": "Performance Testing Specialist",
     "position4": "Passionate About Scalability & Innovation",
-    "language": "(Click the flag for Spanish)",
+    "language": "(Click flag for Spanish)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"Pleasure in the job puts perfection in the work\"</em>",
     "author": "Aristotle",
@@ -42,7 +42,7 @@
       "linkViewCode": "Backend Repo",
       "linkViewCode2": "Frontend Repo",
       "linkVisitDocs": "API Docs",
-      "about": "A robust full-stack application designed to handle complex reservation logic. \nKey Highlights: \n• Backend engineered with Spring Boot & JWT security. \n• Resilience tested using k6 (Stress & Spike testing) to ensure stability under high loads. \n• Containerized with Docker for consistent deployment."
+      "about": "A robust Full Stack application designed to handle complex reservation logic. \nKey Highlights: \n• Backend engineered with Spring Boot & JWT security. \n• Resilience verified using k6 (Stress & Spike testing) to ensure stability under high concurrency. \n• Containerized with Docker for consistent deployment."
     },
     "ProductManager": {
       "name": "Product Manager API",
@@ -50,41 +50,41 @@
       "linkVisitSite": "Live Demo",
       "linkViewCode": "Repository",
       "linkVisitDocs": "Swagger Docs",
-      "about": "A backend-focused project demonstrating clean architecture and testing. Features include robust CRUD operations, JWT authentication, image handling, and automated testing. Fully documented with Swagger/OpenAPI."
+      "about": "A backend-focused project demonstrating Clean Architecture and testing best practices. Features include robust CRUD operations, JWT authentication, image handling, and automated testing. Fully documented with Swagger/OpenAPI."
     },
     "Poui": {
       "name": "Poui Aromas",
       "description": "E-commerce landing page focused on brand identity and user experience.",
       "linkVisitSite": "Visit Website",
       "linkViewCode": "Repository",
-      "about": "A modern, responsive frontend solution for an aromatherapy business. It features an elegant UI/UX design, an interactive product catalog, and a seamless contact integration to drive sales."
+      "about": "A modern, responsive Frontend solution for an aromatherapy business. Features an elegant UI/UX design, an interactive product catalog, and seamless contact integration to drive sales conversion."
     },
     "TaskList": {
       "name": "Smart TaskList",
-      "description": "A productivity tool focused on state management and efficiency.",
+      "description": "Productivity tool focused on state management and efficiency.",
       "linkVisitSite": "Visit App",
       "linkViewCode": "Repository",
-      "about": "A React-based application demonstrating efficient state management, local storage persistence, and dynamic routing. Simple on the surface, clean under the hood."
+      "about": "React-based application demonstrating efficient state management, local storage persistence, and dynamic routing. Minimalist interface with clean, maintainable code under the hood."
     }
   },
   "AboutSection": {
     "title": "About Me",
-    "d0": "Hi, I'm <strong>Joaquín Dario Olivero</strong>, a <strong>Software Developer</strong> focused on backend architecture and system performance.",
-    "d1": "I specialize in building <strong>Java & Spring Boot</strong> applications that are not just functional, but <strong>scalable and resilient</strong>. My recent work involves implementing <strong>Load Testing strategies (k6)</strong> to ensure APIs can handle real-world traffic without failure.",
-    "d2": "While my core strength is the backend, I possess strong <strong>Full Stack capabilities</strong> (React, Next.js), allowing me to understand the complete product lifecycle and collaborate effectively with frontend teams.",
+    "d0": "Hello! I'm <strong>Joaquín Dario Olivero</strong>, a <strong>Software Developer</strong> focused on Backend architecture and system performance.",
+    "d1": "I specialize in building <strong>Java & Spring Boot</strong> applications that are not just functional, but <strong>scalable and resilient</strong>. My recent work focuses on implementing <strong>Load Testing strategies (k6)</strong> to ensure APIs can handle real-world traffic without failure.",
+    "d2": "While my core strength is the Backend, I possess strong <strong>Full Stack capabilities</strong> (React, Next.js), allowing me to understand the complete product lifecycle and collaborate effectively with Frontend teams.",
     "mab": "More about my journey"
   },
   "SkillsSection": {
     "title": "Tech Stack & Tools",
     "defaultDescription": "Hover over a tech to see how I use it!",
-    "Java": "My core language. Used for building robust, enterprise-grade backend systems.",
-    "Docker": "Essential for containerization, ensuring my apps run consistently everywhere.",
-    "SpringBoot": "The framework of choice for creating production-ready microservices and APIs.",
-    "PostgreSQL": "My go-to relational database for complex data modeling and reliability.",
-    "MongoDB": "Used for flexible, document-oriented data structures when SQL isn't the fit.",
-    "NextJS": "Utilized for server-side rendering and building SEO-friendly frontend applications.",
-    "TypeScript": "Ensures type safety and maintainability across my JavaScript projects.",
-    "React": "Used to build dynamic, responsive, and modern user interfaces."
+    "Java": "Primary language for building robust, enterprise-grade backend systems.",
+    "Docker": "Essential for containerization, ensuring consistent environments across development and production.",
+    "SpringBoot": "My preferred framework for creating production-ready microservices and APIs.",
+    "PostgreSQL": "Go-to relational database for complex data modeling and data integrity.",
+    "MongoDB": "Used for flexible, document-oriented data structures when SQL fits less efficiently.",
+    "NextJS": "Utilized for server-side rendering (SSR) and building SEO-friendly web applications.",
+    "TypeScript": "Ensures type safety and code maintainability across JavaScript projects.",
+    "React": "Library of choice for building dynamic, responsive, and modern user interfaces."
   },
   "ContactSection": {
     "question": "Interested in collaborating?",
