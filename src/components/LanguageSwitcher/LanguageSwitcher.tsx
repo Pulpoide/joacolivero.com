@@ -36,6 +36,7 @@ export const LanguageSwitcher = () => {
     const params = new URLSearchParams(window.location.search);
     const urlLang = params.get("lang");
 
+    // Corrección del 'any': validamos el tipo correctamente
     const isValidUrlLang =
       urlLang && (locales as readonly string[]).includes(urlLang);
 
@@ -44,8 +45,7 @@ export const LanguageSwitcher = () => {
       : detectedFormat;
 
     setLocale(finalLocale);
-    setUserLocale(finalLocale);
-
+    void setUserLocale(finalLocale); // Usamos void para promesas no esperadas
   }, [mounted]);
 
   const handleOnClick = () => {
