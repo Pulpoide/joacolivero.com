@@ -1,13 +1,13 @@
 "use client";
-
+/* eslint-disable-next-line import/order */
 import { useEffect, useState, useTransition } from "react";
-
 import { useTranslations } from "next-intl";
 
 import { defaultLocale, locales, type Locale } from "~/config";
 import { setUserLocale } from "~/services/locale";
 
 import styles from "./LanguageSwitcher.module.css";
+
 
 export const LanguageSwitcher = () => {
   const [mounted, setMounted] = useState(false);
@@ -75,8 +75,8 @@ export const LanguageSwitcher = () => {
           locale === "es"
             ? "/assets/flags/spain.avif"
             : locale === "en"
-            ? "/assets/flags/uk.avif"
-            : "/assets/flags/brazil.avif"
+              ? "/assets/flags/uk.avif"
+              : "/assets/flags/brazil.avif"
         }
         alt={`Switch language (Current: ${locale})`}
         height={24}
