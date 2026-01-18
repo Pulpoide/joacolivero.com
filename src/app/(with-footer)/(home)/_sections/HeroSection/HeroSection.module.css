@@ -63,6 +63,11 @@
 	caret-color: transparent;
 }
 
+.actionBtn {
+	filter:
+		drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 7px #1abc9c);
+}
+
 @media (max-width: 767px) {
 	.section {
 		margin-top: 2rem;
@@ -80,6 +85,8 @@
 
 	.actionBtn {
 		flex: 1 0 250px;
+		filter:
+		drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 7px #1abc9c);
 	}
 }
 
@@ -114,7 +121,7 @@
 
 .availableCircle {
 	--size: 10px;
-	--color-background: #4FE2C1;
+	--color-background: #1abc9c;
 	position: relative;
 	inline-size: var(--size);
 	block-size: var(--size);
@@ -223,7 +230,7 @@
 
 
 .arrowwave {
-	display: none; /* AS ITS TRANSLATES AUTOMATICALLY */
+	display: none; 
 	cursor: pointer;
 	margin-top: 50px;
 	margin-bottom: -50px;

@@ -1,6 +1,8 @@
 .title {
 	text-align: center;
 	caret-color: transparent;
+	filter:
+		drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 77px #1abc9c);
 }
 
 .projectsWrapper {
@@ -39,6 +41,7 @@
 		max-inline-size: var(--max-inline-size);
 		margin: 48px auto 0;
 	}
+
 	.icon {
 		padding: 0 0 12px;
 	}
@@ -48,6 +51,7 @@
 	.projectsWrapper {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
+
 	.icon {
 		padding: 0 0 16px;
 	}
@@ -127,11 +131,13 @@
 		max-inline-size: var(--max-inline-size);
 		margin: 48px auto 0;
 	}
+
 	.buttonWrapper {
 		grid-column: 1 / -1;
 		justify-content: center;
 		margin: 20px auto;
 	}
+
 	.link {
 		margin: auto;
 		display: flex;

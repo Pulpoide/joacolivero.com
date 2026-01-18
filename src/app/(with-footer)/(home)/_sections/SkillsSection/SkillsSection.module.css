@@ -4,6 +4,8 @@
     margin-bottom: 20px;
     color: var(--color-text);
     caret-color: transparent;
+    filter:
+		drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 77px #1abc9c);
 }
 
 .skillWrapper {
@@ -133,7 +135,7 @@
     position: absolute;
     height: 2px;
     width: 12px;
-    background-color: #454545;
+    background-color: #1abc9c;
 }
 
 .arrowwave span::before {
