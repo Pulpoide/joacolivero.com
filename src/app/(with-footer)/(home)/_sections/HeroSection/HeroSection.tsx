@@ -3,8 +3,8 @@
 import React, { useEffect, useRef, useState } from "react";
 
 import gsap from "gsap";
-import { useTranslations } from "next-intl";
 import NextLink from "next/link";
+import { useTranslations } from "next-intl";
 
 import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
