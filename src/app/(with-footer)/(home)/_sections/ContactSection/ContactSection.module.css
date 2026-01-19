@@ -11,6 +11,8 @@
 	font-weight: 900;
 	margin-bottom: 2rem;
 	caret-color: transparent;
+	filter:
+		drop-shadow(0 0 1	px #fff);
 }
 .subtitle {
 	text-align: center;
