@@ -3,16 +3,16 @@
 import React, { useEffect, useRef, useState } from "react";
 
 import gsap from "gsap";
-import NextLink from "next/link";
 import { useTranslations } from "next-intl";
+import NextLink from "next/link";
 
 import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
 import ArgentinaFlag from "~/components/Svg/ArgentinaFlag";
-import { Button } from "~/components/Ui/Button";
-import { GradualSpacing } from "~/components/Ui/GradualSpacing/GradualSpacing";
 import { GithubIcon } from "~/components/Svg/GithubIcon";
 import { LinkedInIcon } from "~/components/Svg/LinkedInIcon";
+import { Button } from "~/components/Ui/Button";
+import { GradualSpacing } from "~/components/Ui/GradualSpacing/GradualSpacing";
 import { socialMediaLinks } from "~/data/links";
 
 import styles from "./HeroSection.module.css";
