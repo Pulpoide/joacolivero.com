@@ -11,6 +11,9 @@ import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton"
 import ArgentinaFlag from "~/components/Svg/ArgentinaFlag";
 import { Button } from "~/components/Ui/Button";
 import { GradualSpacing } from "~/components/Ui/GradualSpacing/GradualSpacing";
+import { GithubIcon } from "~/components/Svg/GithubIcon";
+import { LinkedInIcon } from "~/components/Svg/LinkedInIcon";
+import { socialMediaLinks } from "~/data/links";
 
 import styles from "./HeroSection.module.css";
 
@@ -28,12 +31,25 @@ export const HeroSection = () => {
 	const [positionIndex, setPositionIndex] = useState(0);
 
 	useEffect(() => {
-		const interval = setInterval(() => {
-			setPositionIndex((prevIndex: number) => (prevIndex + 1) % positions.length);
-		}, 7000);
+		const ctx = gsap.context(() => {
+			const tl = gsap.timeline({
+				onComplete: () => {
+					setPositionIndex((prev) => (prev + 1) % positions.length);
+				}
+			});
 
-		return () => clearInterval(interval);
-	}, [positions.length]);
+			tl.fromTo(subtitleRef.current,
+				{ opacity: 0, y: 15, scale: 0.98 },
+				{ opacity: 1, y: 0, scale: 1, duration: 1, ease: "power3.out" }
+			)
+				.to({}, { duration: 4 })
+				.to(subtitleRef.current,
+					{ opacity: 0, y: -15, scale: 0.98, duration: 0.8, ease: "power3.in" }
+				);
+		}, subtitleRef);
+
+		return () => ctx.revert();
+	}, [positionIndex, positions.length]);
 
 	const sectionRef = useRef<HTMLElement | null>(null);
 	const titleRef = useRef<HTMLHeadingElement | null>(null);
@@ -160,6 +176,14 @@ export const HeroSection = () => {
 				</NextLink>
 			</div>
 			<CopyEmailSmallButton className={styles.copyEmailButton} />
+
+			<div className={styles.socialWrapper}>
+				{socialMediaLinks.map(({ id, url, icon }) => (
+					<a key={id} href={url} target="_blank" rel="noopener noreferrer" className={styles.socialLink}>
+						{icon === "GithubIcon" ? <GithubIcon /> : <LinkedInIcon />}
+					</a>
+				))}
+			</div>
 
 			<div className={styles.arrowwave} ref={arrowwaveRef}>
 				<span></span>

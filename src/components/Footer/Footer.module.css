@@ -59,19 +59,11 @@
 }
 
 .link.github:hover {
-	color: #5e5e5e;
+	color: #1abc9c;
 }
 
 .link.email:hover {
 	color: #5e5a5a;
-}
-
-.link.youtube:hover {
-	color: #FF0000;
-}
-
-.link.itchio:hover {
-	color: #fa5c5c;
 }
 
 .footer .wrapper .year {

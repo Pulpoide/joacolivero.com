@@ -5,17 +5,41 @@
 }
 
 .subtitle {
+	padding-top: 0px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+	font: 500 1.5rem/2rem var(--font-geist-sans);
+	caret-color: transparent;
 	display: inline-block;
-	animation: fadeInOut 7s infinite;
 	will-change: opacity, transform;
+	min-height: 3.5rem;
 }
 
 @keyframes fadeInOut {
-	0%   { opacity: 0; transform: translateY(10px) scale(0.95); }
-	15%  { opacity: 1; transform: translateY(0) scale(1); }
-	45%  { opacity: 1; transform: translateY(0) scale(1); }
-	85%  { opacity: 0.35; transform: translateY(-10px) scale(0.95); }
-	100% { opacity: 0; transform: translateY(10px) scale(0.95); }
+	0% {
+		opacity: 0;
+		transform: translateY(10px) scale(0.95);
+	}
+
+	15% {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+
+	45% {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+
+	85% {
+		opacity: 0.35;
+		transform: translateY(-10px) scale(0.95);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(10px) scale(0.95);
+	}
 }
 
 .introSubtitle {
@@ -24,21 +48,21 @@
 	color: var(--color-text-secondary);
 	transition: border-block-end-color var(--theme-transition-duration);
 	caret-color: transparent;
-	border-block-start:1.5px dashed var(--color-stroke); ;
+	border-block-start: 2px dashed rgba(26, 188, 156, 0.2);
 }
 
-.introSubtitle > strong {
+.introSubtitle>strong {
 	color: var(--color-explanation);
 	font-weight: 500;
 }
 
 .author {
-  padding: 4px 30px 0;
-  font-style: italic;
-  font-size: clamp(16px, 15px + 0.141vw, 18px); 
-  color: var(--color-text-secondary);
-  caret-color: transparent;
-  padding-bottom: 1rem;
+	padding: 4px 30px 0;
+	font-style: italic;
+	font-size: clamp(16px, 15px + 0.141vw, 18px);
+	color: var(--color-text-secondary);
+	caret-color: transparent;
+	padding-bottom: 1rem;
 }
 
 .actions {
@@ -51,6 +75,23 @@
 
 .copyEmailButton {
 	margin: 27px auto;
+}
+
+.socialWrapper {
+	display: flex;
+	justify-content: center;
+	gap: 33px;
+	margin-top: 10px;
+}
+
+.socialLink {
+	color: var(--color-text-secondary);
+	transition: color 0.3s ease, filter 0.3s ease;
+}
+
+.socialLink:hover {
+	color: #1abc9c;
+	filter: drop-shadow(0 0 8px #1abc9c);
 }
 
 .flag {
@@ -86,7 +127,7 @@
 	.actionBtn {
 		flex: 1 0 250px;
 		filter:
-		drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 7px #1abc9c);
+			drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 7px #1abc9c);
 	}
 }
 
@@ -128,6 +169,8 @@
 	border-radius: 50%;
 	background: var(--color-background);
 	animation: pulsate-fwd 1s infinite;
+	filter:
+		drop-shadow(0 0 2px #fff) drop-shadow(0 0 5px var(--color-background));
 }
 
 .availableCircle::after {
@@ -144,10 +187,12 @@
 		transform: scale(0.875);
 		box-shadow: 0 0 0 0 #23f3c2;
 	}
+
 	50% {
 		transform: scale(1);
 		box-shadow: 0 0 0 0.375rem hsl(126 38% 48% / 0);
 	}
+
 	100% {
 		transform: scale(0.875);
 		box-shadow: 0 0 0 0 hsl(126 38% 48% / 0);
@@ -196,24 +241,29 @@
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
+
 	50% {
 		-webkit-transform: scale(1.1);
 		transform: scale(1.1);
 	}
+
 	100% {
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
 }
+
 @keyframes pulsate-fwd {
 	0% {
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
+
 	50% {
 		-webkit-transform: scale(1.1);
 		transform: scale(1.1);
 	}
+
 	100% {
 		-webkit-transform: scale(1);
 		transform: scale(1);
@@ -230,7 +280,7 @@
 
 
 .arrowwave {
-	display: none; 
+	display: none;
 	cursor: pointer;
 	margin-top: 50px;
 	margin-bottom: -50px;
@@ -282,6 +332,7 @@
 	animation: animate-arrow-wave 2s infinite;
 	animation-delay: .25s;
 }
+
 .arrowwave span:nth-child(2n) {
 	animation: animate-arrow-wave 2s infinite;
 	animation-delay: .50s;
@@ -293,11 +344,25 @@
 }
 
 @keyframes animate-arrow-wave {
-	0%   { opacity: 0.2; }
-	25%  { opacity: 0.2; }
-	50%  { opacity: 0.2; }
-	75%  { opacity: 1.0; }
-	100% { opacity: 0.2; }
+	0% {
+		opacity: 0.2;
+	}
+
+	25% {
+		opacity: 0.2;
+	}
+
+	50% {
+		opacity: 0.2;
+	}
+
+	75% {
+		opacity: 1.0;
+	}
+
+	100% {
+		opacity: 0.2;
+	}
 }
 
 .arrow {
@@ -305,17 +370,17 @@
 	top: 70px;
 	right: 140px;
 	font-size: 0;
-	transform: rotate(290deg) scale(0.70); 
-	pointer-events: none; 
+	transform: rotate(290deg) scale(0.70);
+	pointer-events: none;
 	margin: 0;
-	display: none; 
+	display: none;
 }
 
 .language {
 	top: 220px;
 	right: 70px;
 	position: absolute;
-	display: none; 
+	display: none;
 }
 
 @media (max-width: 767px) {
@@ -337,4 +402,3 @@
 		display: none;
 	}
 }
-
