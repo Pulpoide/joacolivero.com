@@ -39,7 +39,7 @@
 	transition: transform 0.3s ease, filter 0.3s ease;
 	animation: text-flicker-in-glow 4s linear;
 	filter:
-		drop-shadow(0 0 0.2px #fff) drop-shadow(0 0 7px #1abc9c) drop-shadow(0 0 70px #1abc9c);
+		drop-shadow(0 0 0.2px #fff) drop-shadow(0 0 7px #1abc9c) drop-shadow(0 0 30px #1abc9c) drop-shadow(0 0 70px #1abc9c);
 }
 
 .homeLogo:hover {

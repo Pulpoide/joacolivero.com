@@ -2,7 +2,7 @@
 	text-align: center;
 	caret-color: transparent;
 	filter:
-		drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 77px #1abc9c);
+		drop-shadow(0 0 1px #fff) drop-shadow(0 0 70px #1abc9c);
 }
 
 .projectsWrapper {
