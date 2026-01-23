@@ -6,11 +6,16 @@
 	display: flex;
 	justify-content: center;
 	block-size: var(--header-block-size);
+	will-change: transform, backdrop-filter;
+	overflow: visible;
 	padding-inline: 24px;
+	-webkit-backdrop-filter: saturate(180%) blur(17px);
 	backdrop-filter: saturate(180%) blur(17px);
 	transition: border-block-end-color var(--theme-transition-duration),
 		background-color var(--theme-transition-duration);
+	transform: translateZ(0);
 	caret-color: transparent;
+	background-color: rgba(0, 0, 0, 0.01);
 }
 
 .contentWrapper {
