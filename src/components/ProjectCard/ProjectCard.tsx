@@ -8,7 +8,7 @@ import type { CoverProject } from "~/types";
 
 import styles from "./ProjectCard.module.css";
 /* eslint-disable @typescript-eslint/no-empty-object-type */
-interface Props extends CoverProject {}
+interface Props extends CoverProject { }
 
 export const ProjectCard: React.FC<Props> = ({ slug, imageUrl, name, description }) => {
 	const href = `/project/${slug}`;
@@ -40,17 +40,19 @@ export const ProjectCard: React.FC<Props> = ({ slug, imageUrl, name, description
 				ref={cardRef}
 				className={`${styles.card} ${isVisible ? styles.cardVisible : styles.cardInitial}`}
 			>
-				<figure className={styles.imageWrapper}>
-					<img
-						className={styles.image}
-						src={imageUrl}
-						alt={name}
-						width={684}
-						height={385}
-						loading="lazy"
-						style={{ objectFit: "cover" }}
-					/>
-				</figure>
+				<div className={styles.imageContainer}>
+					<figure className={styles.imageWrapper}>
+						<img
+							className={styles.image}
+							src={imageUrl}
+							alt={name}
+							width={684}
+							height={385}
+							loading="lazy"
+							style={{ objectFit: "cover" }}
+						/>
+					</figure>
+				</div>
 				<h3 className={styles.title}>{name}</h3>
 				<p>{description}</p>
 			</article>

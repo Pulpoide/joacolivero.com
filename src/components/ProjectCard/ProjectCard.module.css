@@ -1,176 +1,117 @@
 .card {
-	--border-radius: 8px;
-	position: relative;
-	transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  --radius: 8px;
+  --t-rgb: 26, 188, 156;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+  transition: transform 0.3s ease;
 }
 
 .card:active {
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-	transform: translateY(2px);
+  transform: translateY(2px);
+}
+
+.imageContainer {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 12px;
+}
+
+.imageContainer::before {
+  content: "";
+  position: absolute;
+  inset: -3%;
+  background: radial-gradient(circle, rgba(var(--t-rgb), 0.2), transparent 75%);
+  border-radius: 12px;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.6s ease;
 }
 
 .imageWrapper {
-	overflow: hidden;
-	border-radius: var(--border-radius);
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: var(--radius);
+  transition: box-shadow 0.6s ease;
 }
 
-@media (max-width: 768px) {
-	.cardInitial {
-		opacity: 0;
-		transform: rotateX(-100deg);
-		transform-origin: top;
-	}
-
-	.cardVisible {
-		animation: swing-in-top-fwd 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-	}
-
-	.image {
-		filter: brightness(1) contrast(1.15) saturate(1) !important;
-		transform: scale(1) !important;
-	}
-
-	.card:hover .image {
-        cursor: auto !important;
-    }
-}
-
-@keyframes swing-in-top-fwd {
-	0% {
-		transform: rotateX(-100deg);
-		transform-origin: top;
-		opacity: 0;
-	}
-	100% {
-		transform: rotateX(0deg);
-		transform-origin: top;
-		opacity: 1;
-	}
-}
-
-.link {
-	position: absolute;
-	inset: 0;
-	z-index: 1;
-	font-size: 0;
-	border-radius: var(--border-radius);
-	overflow: hidden;
+.imageWrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02));
+  opacity: 0;
+  z-index: 2;
+  transition: opacity 0.6s ease;
 }
 
 .image {
-	inline-size: 100%;
-	block-size: auto;
-	border-radius: var(--border-radius);
-	filter: saturate(0);
-	transition: filter 250ms ease-in-out, transform 250ms ease-in-out;
-	transform-origin: center;
-	will-change: transform, filter;
-	mask-image: linear-gradient(
-		to bottom,
-		black 70%,
-		transparent
-	);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0);
+  will-change: transform, filter;
+  transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1), filter 0.6s ease;
 }
 
 .card:hover .image {
-	filter: brightness(1) contrast(1.15) saturate(1); 
-	transform: scale(1.12);
-	cursor: url('/assets/cursor/hand-pointer.png'), auto; 
-	transition:
-			transform 0.6s cubic-bezier(0.19, 1, 0.22, 1),
-			filter 0.5s ease,
-			box-shadow 0.5s ease; 
-	box-shadow: 0 15px 30px rgba(255, 255, 255, 0.15), 0 8px 15px rgba(0, 0, 0, 0.2); 
-	position: relative;
-	z-index: 2; 
+  filter: saturate(1) brightness(1.05);
+  transform: scale(1.05);
+  cursor: url('/assets/cursor/hand-pointer.png'), auto;
 }
 
-
-.card:hover .image::before {
-	content: "";
-	position: absolute;
-	top: -8%;
-	left: -8%;
-	width: 116%;
-	height: 116%;
-	border-radius: 12px;
-	background: radial-gradient(circle, rgba(255, 255, 255, 0.4), transparent 70%); 
-	box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.4); 
-	opacity: 0;
-	z-index: -1; 
-	transition: opacity 0.5s ease, transform 0.7s ease;
-	transform: scale(1.1);
+.card:hover .imageWrapper {
+  box-shadow: 0 0 15px rgba(var(--t-rgb), 0.15), 0 0 30px rgba(var(--t-rgb), 0.1);
 }
 
-.card:hover .image::before {
-	opacity: 1; /* Glow fades in */
-	transform: scale(1); /* Slightly zoom out for elegance */
+.card:hover .imageContainer::before {
+  opacity: 1;
+  animation: glowPulse 3s infinite ease-in-out;
 }
 
-/* Subtle Dynamic Glow */
-.card:hover .image::after {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.1));
-	border-radius: 12px;
-	z-index: 1; /* Subtle overlay above the image */
-	transition: opacity 0.6s ease, transform 0.5s ease;
-	opacity: 0.6; /* Slight visibility */
-	transform: scale(1.05);
-}
-
-.card:hover .image::after {
-	opacity: 1; /* Glow becomes more pronounced */
-	transform: scale(1.1); /* Slight expansion */
-}
-
-/* Epic Glow Ripple Effect */
-.card:hover .image::before,
-.card:hover .image::after {
-	animation: glowPulse 2s infinite ease-in-out; /* Smooth pulsing glow */
-}
-
-@keyframes glowPulse {
-	0% {
-		box-shadow: 0 0 20px rgba(255, 255, 255, 0.3), 0 0 40px rgba(0, 150, 255, 0.2);
-	}
-	50% {
-		box-shadow: 0 0 30px rgba(255, 255, 255, 0.4), 0 0 60px rgba(0, 150, 255, 0.3);
-	}
-	100% {
-		box-shadow: 0 0 20px rgba(255, 255, 255, 0.3), 0 0 40px rgba(0, 150, 255, 0.2);
-	}
-}
-
-/* Ripple Animation */
-.card:hover .image::after {
-	animation: rippleEffect 2s infinite ease-out;
-}
-
-@keyframes rippleEffect {
-	0% {
-		transform: scale(1.05); /* Start slightly expanded */
-		opacity: 0.8;
-	}
-	50% {
-		transform: scale(1.2); /* Expand more */
-		opacity: 0.4; /* Fade slightly */
-	}
-	100% {
-		transform: scale(1.05); /* Return to initial */
-		opacity: 0.8;
-	}
-}
-
-
-.card .image {
-	transform: scale(1);
+.card:hover .imageWrapper::after {
+  opacity: 0.5;
 }
 
 .title {
-	padding-block-start: 12px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.description {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .cardInitial {
+    opacity: 0;
+    transform: rotateX(-100deg);
+    transform-origin: top;
+  }
+
+  .cardVisible {
+    animation: swing-in-top-fwd 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+  }
+
+  .image {
+    filter: saturate(1) brightness(1) !important;
+    transform: none !important;
+  }
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 10px rgba(var(--t-rgb), 0.1); }
+  50% { box-shadow: 0 0 25px rgba(var(--t-rgb), 0.25); }
+}
+
+@keyframes swing-in-top-fwd {
+  0% { transform: rotateX(-100deg); opacity: 0; }
+  100% { transform: rotateX(0deg); opacity: 1; }
 }
