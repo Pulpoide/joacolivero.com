@@ -41,12 +41,21 @@
 
 .homeLogo {
 	transition: transform 0.3s ease, filter 0.3s ease;
-	animation: text-flicker-in-glow 4s linear;
+	animation: text-flicker-in-glow 4s linear forwards;
+
+	transform: translateZ(0);
+	will-change: filter, opacity;
+	backface-visibility: hidden;
+
+	padding: 7px;
+	margin: -7px;
+
 	filter:
 		drop-shadow(0 0 0.2px #fff) drop-shadow(0 0 7px #1abc9c) drop-shadow(0 0 30px #1abc9c) drop-shadow(0 0 70px #1abc9c);
 }
 
 .homeLogo:hover {
+	transform: translateZ(0) scale(1.05);
 	filter:
 		drop-shadow(0 0 0.5px #fff) drop-shadow(0 0 15px #1abc9c) drop-shadow(0 0 50px #1abc9c) brightness(1.2);
 	animation: flicker-3 2.5s infinite both;
