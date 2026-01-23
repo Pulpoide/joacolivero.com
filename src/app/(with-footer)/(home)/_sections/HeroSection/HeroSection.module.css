@@ -43,12 +43,24 @@
 }
 
 .introSubtitle {
-	padding: 10px 30px;
+	position: relative;
+	padding: 18px 30px;
 	font-size: clamp(18px, 17px + 0.141vw, 20px);
 	color: var(--color-text-secondary);
-	transition: border-block-end-color var(--theme-transition-duration);
 	caret-color: transparent;
-	border-block-start: 2px dashed rgba(26, 188, 156, 0.2);
+}
+
+.introSubtitle::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 10%;
+	width: 80%;
+	height: 1px;
+	background: linear-gradient(to right,
+			transparent,
+			rgba(26, 188, 156, 0.7) 50%,
+			transparent);
 }
 
 .introSubtitle>strong {
@@ -80,18 +92,21 @@
 .socialWrapper {
 	display: flex;
 	justify-content: center;
-	gap: 33px;
-	margin-top: 10px;
+	gap: 32px;
+	margin-top: 24px;
 }
 
 .socialLink {
 	color: var(--color-text-secondary);
-	transition: color 0.3s ease, filter 0.3s ease;
+	transition: color 0.3s ease, filter 0.3s ease, transform 0.3s ease;
+	transform: scale(1.2);
+	display: inline-flex;
 }
 
 .socialLink:hover {
 	color: #1abc9c;
 	filter: drop-shadow(0 0 8px #1abc9c);
+	transform: scale(1.4);
 }
 
 .flag {
@@ -112,6 +127,14 @@
 @media (max-width: 767px) {
 	.section {
 		margin-top: 2rem;
+	}
+
+	.socialWrapper {
+		gap: 40px;
+	}
+
+	.socialLink {
+		transform: scale(1.3);
 	}
 }
 
