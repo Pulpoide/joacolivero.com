@@ -13,7 +13,7 @@
   display: inline-block;
   white-space: pre;
   filter:
-    drop-shadow(0 0 1px #fff);
+    drop-shadow(0 0 2px #fff);
 }
 
 .container::after {
