@@ -1,3 +1,5 @@
+import i18n from "~/i18n";
+
 export const Tag = {
 	docker: "Docker",
 	mongoDB: "MongoDB",
@@ -9,7 +11,9 @@ export const Tag = {
 	css: "CSS",
 	html: "HTML",
 	javascript: "JavaScript",
-	
+	tailwindCSS: "Tailwind CSS",
+	supabase: "Supabase",
+	i18n: "i18n",
 	java: "Java",
 	springboot: "Spring Boot",
 	reactjs: "React.js",

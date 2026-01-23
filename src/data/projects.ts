@@ -15,17 +15,22 @@ export const projectMetadata = {
 		slug: "poui",
 		name: "Poui",
 	},
-	TaskList: {
-		slug: "task-list",
-		name: "Task List",
+	DraVildoza: {
+		slug: "dra-vildoza",
+		name: "Dra Vildoza",
 	}
 };
 
 export const coverProjects: CoverProject[] = [
 	{
 		...projectMetadata.Deporturnos,
-		imageUrl: "/assets/images/projects/deporturnos/home-depo.avif",
+		imageUrl: "/assets/images/projects/deporturnos/home.avif",
 		i18nDescriptionKey: "Deporturnos.description",
+	},
+	{
+		...projectMetadata.DraVildoza,
+		imageUrl: "/assets/images/projects/dravildoza/home.avif",
+		i18nDescriptionKey: "DraVildoza.description",
 	},
 	{
 		...projectMetadata.ProductManager,
@@ -34,13 +39,8 @@ export const coverProjects: CoverProject[] = [
 	},
 	{
 		...projectMetadata.Poui,
-		imageUrl: "/assets/images/projects/poui/home-poui.avif",
+		imageUrl: "/assets/images/projects/poui/home.avif",
 		i18nDescriptionKey: "Poui.description",
-	},
-	{
-		...projectMetadata.TaskList,
-		imageUrl: "/assets/images/projects/tasklist/home-tasklist.avif",
-		i18nDescriptionKey: "TaskList.description",
 	},
 ];
 
@@ -55,9 +55,11 @@ export const projects = [
 			],
 		desktopImages:
 			[
-				"/assets/images/projects/deporturnos/login.avif",
-				"/assets/images/projects/deporturnos/register.avif",
-				"/assets/images/projects/deporturnos/homeclient.avif",
+				"/assets/images/projects/deporturnos/home-admin.avif",
+				"/assets/images/projects/deporturnos/users.avif",
+				"/assets/images/projects/deporturnos/turnos.avif",
+				"/assets/images/projects/deporturnos/mis-reservas.avif",
+
 			],
 		links: [
 			{
@@ -87,16 +89,54 @@ export const projects = [
 			],
 	},
 	{
-		...projectMetadata.ProductManager,
+		...projectMetadata.DraVildoza,
 		index: 1,
+		description: "DraVildoza.about",
+		links: [
+			{
+				label: "DraVildoza.linkVisitSite",
+				url: "https://www.dravildoza.com/",
+			},
+			{
+				label: "DraVildoza.linkViewCode",
+				url: "https://github.com/Pulpoide/drasilviavildoza",
+			}
+		],
+		mobileImages:
+			[
+				"/assets/images/projects/dravildoza/home.avif"
+			],
+		desktopImages:
+			[
+				"/assets/images/projects/dravildoza/form.avif",
+				"/assets/images/projects/dravildoza/ty.avif",
+				"/assets/images/projects/dravildoza/login.avif",
+				"/assets/images/projects/dravildoza/panel.avif"
+			],
+		tags:
+			[
+				Tag.nextjs,
+				Tag.typescript,
+				Tag.tailwindCSS,
+				Tag.supabase,
+				Tag.i18n,
+			],
+	},
+	{
+		...projectMetadata.ProductManager,
+		index: 2,
 		description: "ProductManager.about",
 		mobileImages:
 			[
 				"/assets/images/projects/productmanager/productmanager.gif",
+
 			],
 		desktopImages:
 			[
-				"/assets/images/projects/productmanager/home.avif"
+				"/assets/images/projects/productmanager/home.avif",
+				"/assets/images/projects/productmanager/products.avif",
+				"/assets/images/projects/productmanager/edit-product.avif"
+
 			],
 		links: [
 			{
@@ -121,7 +161,7 @@ export const projects = [
 	},
 	{
 		...projectMetadata.Poui,
-		index: 2,
+		index: 3,
 		description: "Poui.about",
 		mobileImages:
 			[
@@ -147,35 +187,6 @@ export const projects = [
 				Tag.javascript,
 				Tag.css,
 				Tag.html
-			],
-	},
-	{
-		...projectMetadata.TaskList,
-		index: 3,
-		description: "TaskList.about",
-		links: [
-			{
-				label: "TaskList.linkVisitSite",
-				url: "https://listatareasjolivero.netlify.app/",
-			},
-			{
-				label: "TaskList.linkViewCode",
-				url: "https://github.com/Pulpoide/TaskList",
-			}
-		],
-		mobileImages:
-			[
-				"/assets/images/projects/tasklist/home-tasklist.avif"
-			],
-		desktopImages:
-			[
-				
-			],
-		tags:
-			[
-				Tag.javascript,
-				Tag.html,
-				Tag.css,
 			],
 	},
 ];
