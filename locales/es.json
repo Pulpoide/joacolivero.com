@@ -42,7 +42,7 @@
       "linkViewCode": "Repo Backend",
       "linkViewCode2": "Repo Frontend",
       "linkVisitDocs": "Docs API",
-      "about": "Una aplicación Full Stack robusta diseñada para manejar lógica compleja de reservas. \nPuntos Clave: \n• Backend diseñado con Spring Boot y seguridad JWT. \n• Resiliencia validada usando k6 (Pruebas de Estrés y Picos) para asegurar estabilidad bajo altas cargas. \n• Contenerizado con Docker para un despliegue consistente."
+      "about": "Plataforma integral de gestión deportiva diseñada para alta concurrencia y seguridad. \nPuntos Clave: \n• Arquitectura en Spring Boot con seguridad avanzada mediante JWT. \n• Resiliencia del sistema garantizada mediante pruebas de estrés y picos con k6. \n• Infraestructura profesional basada en Docker para despliegues ágiles y consistentes."
     },
     "ProductManager": {
       "name": "Product Manager API",
@@ -59,12 +59,12 @@
       "linkViewCode": "Repositorio",
       "about": "Solución Frontend moderna y responsiva para negocio de aromaterapia. Cuenta con diseño UI/UX elegante, catálogo interactivo de productos e integración fluida de contacto para impulsar la conversión de ventas."
     },
-    "TaskList": {
-      "name": "Smart TaskList",
-      "description": "Herramienta de productividad enfocada en gestión de estado y eficiencia.",
-      "linkVisitSite": "Visitar App",
+    "DraVildoza": {
+      "name": "Dra. Silvia Vildoza",
+      "description": "Plataforma médica 'boutique' con sistema de gestión de pacientes y branding profesional.",
+      "linkVisitSite": "Visitar Sitio",
       "linkViewCode": "Repositorio",
-      "about": "Aplicación React que demuestra manejo eficiente del estado, persistencia local y enrutamiento dinámico. Interfaz minimalista con código limpio y mantenible."
+      "about": "Sistema médico integral trilingüe desarrollado con Next.js 15 y Supabase. Incluye un dashboard administrativo para gestión de terapias hormonales (HRT), formularios de admisión complejos con validación en tiempo real y una interfaz premium con estética Glassmorphism."
     }
   },
   "AboutSection": {

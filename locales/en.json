@@ -42,7 +42,7 @@
       "linkViewCode": "Backend Repo",
       "linkViewCode2": "Frontend Repo",
       "linkVisitDocs": "API Docs",
-      "about": "A robust Full Stack application designed to handle complex reservation logic. \nKey Highlights: \n• Backend engineered with Spring Boot & JWT security. \n• Resilience verified using k6 (Stress & Spike testing) to ensure stability under high concurrency. \n• Containerized with Docker for consistent deployment."
+      "about": "Comprehensive sports management platform designed for high concurrency and security. \nKey Highlights: \n• Spring Boot architecture with advanced security through JWT. \n• System resilience guaranteed through stress and spike testing with k6. \n• Professional Docker-based infrastructure for agile and consistent deployments."
     },
     "ProductManager": {
       "name": "Product Manager API",
@@ -59,12 +59,12 @@
       "linkViewCode": "Repository",
       "about": "A modern, responsive Frontend solution for an aromatherapy business. Features an elegant UI/UX design, an interactive product catalog, and seamless contact integration to drive sales conversion."
     },
-    "TaskList": {
-      "name": "Smart TaskList",
-      "description": "Productivity tool focused on state management and efficiency.",
-      "linkVisitSite": "Visit App",
+    "DraVildoza": {
+      "name": "Dr. Silvia Vildoza",
+      "description": "Premium boutique medical platform with patient management system and professional branding.",
+      "linkVisitSite": "Visit Site",
       "linkViewCode": "Repository",
-      "about": "React-based application demonstrating efficient state management, local storage persistence, and dynamic routing. Minimalist interface with clean, maintainable code under the hood."
+      "about": "A comprehensive trilingual medical system built with Next.js 15 and Supabase. Features an administrative dashboard for HRT lead management, multi-step admission forms with real-time validation, and a high-end UI featuring Glassmorphism aesthetics."
     }
   },
   "AboutSection": {
