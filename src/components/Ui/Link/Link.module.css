@@ -1,16 +1,49 @@
 .link {
-	display: inline-flex;
-	color: var(--color-text-secondary);
-	transition: color var(--theme-transition-duration) ease;
+    display: inline-flex;
+    align-items: center;
+    color: var(--color-text); 
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    padding: 4px 0;
+    transition: color var(--theme-transition-duration) ease,
+                text-shadow var(--theme-transition-duration) ease;
 }
 
 .link:hover {
-	color: var(--hover-color-background);
-	cursor: url('/assets/cursor/hand-pointer.png'), auto;
+    color: #1abc9c; 
+    cursor: url('/assets/cursor/hand-pointer.png'), auto;
+    
+    text-shadow: 
+        0 0 10px rgba(26, 188, 156, 0.5),
+        0 0 20px rgba(26, 188, 156, 0.2);
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #1abc9c;
+    box-shadow: 0 0 10px #1abc9c;
+    transition: all var(--theme-transition-duration) ease;
+    transform: translateX(-50%);
+}
+
+.link:hover::after {
+    width: 100%;
 }
 
 .arrowIcon {
-	--size: 0.65em;
-	inline-size: var(--size);
-	block-size: var(--size);
+    --size: 0.65em;
+    inline-size: var(--size);
+    block-size: var(--size);
+    margin-left: 6px;
+    transition: transform 0.3s ease;
+}
+
+.link:hover .arrowIcon {
+    transform: translate(2px, -2px);
 }
