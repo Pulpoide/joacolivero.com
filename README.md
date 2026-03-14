@@ -71,12 +71,7 @@ A quick look at the top-level directory structure:
 
 ## Author
 
-**Joaquin D. Olivero** Full Stack Developer | Backend Specialist
+**Joaquín Olivero** ~ Software & AI Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/JoaquinOlivero)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pulpoide)
-
----
-
-### Credits
-This project is based on the design by [Max](https://github.com/pyoneerC). You can view the original repository [here](https://github.com/pyoneerC/maxcomperatore.com).
