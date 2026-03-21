@@ -17,16 +17,16 @@
   "HeroSection": {
     "availability": "Disponível para novos projetos",
     "contact": "Entre em contato",
-    "download": "Baixar CV",
-    "position": "Desenvolvedor Full Stack",
-    "position2": "Especialista em Backend e APIs",
-    "position3": "Engenheiro de Performance",
-    "position4": "Foco em Escalabilidade",
+    "download": "Visualizar CV",
+    "position": "Engenheiro de Software",
+    "position2": "Arquiteto de Sistemas Backend",
+    "position3": "Integração de Soluções de IA",
+    "position4": "Performance e Escalabilidade",
     "language": "(Clique na bandeira para Inglês)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"O prazer no trabalho aperfeiçoa a obra\"</em>",
     "author": "Aristóteles",
-    "resumeUrl": "https://drive.google.com/file/d/1rYsyAKGkODfc-P3oeEgxl3eXBTiTYnMN/view?usp=sharing"
+    "resumeUrl": "https://drive.google.com/file/d/19ul1ZJ0dL6XS8KvFetwtLBF0bLotzaJn/view?usp=sharing"
   },
   "ProjectsSection": {
     "title": "Projetos em Destaque",
@@ -69,9 +69,9 @@
   },
   "AboutSection": {
     "title": "Sobre Mim",
-    "d0": "Olá, sou <strong>Joaquín Dario Olivero</strong>, um <strong>Desenvolvedor de Software</strong> focado em arquitetura backend e desempenho de sistemas.",
-    "d1": "Eu me especializo em construir aplicações com <strong>Java e Spring Boot</strong> que não apenas funcionam, mas são <strong>escaláveis e resilientes</strong>. Meu trabalho recente envolve implementar estratégias de <strong>Testes de Carga (k6)</strong> para garantir que as APIs suportem tráfego real sem falhas.",
-    "d2": "Embora meu ponto forte seja o backend, possuo sólidas capacidades <strong>Full Stack</strong> (React, Next.js), o que me permite entender o ciclo de vida completo do produto e colaborar eficazmente com equipes de frontend.",
+    "d0": "Sou <strong>Joaquín Olivero</strong>, engenheiro de software com foco em <strong>backend</strong> e integração de <strong>inteligência artificial</strong>. Tenho motivação por resolver problemas complexos e construir sistemas escaláveis, acreditando que o futuro do software está na combinação entre arquiteturas robustas e sistemas inteligentes.",
+    "d1": "Minha formação combina uma base sólida em engenharia —lógica, algoritmos e análise matemática— com uma graduação tecnológica em programação concluída com excelente desempenho acadêmico.",
+    "d2": "Sou baterista há mais de 10 anos, experiência que contribuiu para desenvolver disciplina, escuta ativa e trabalho em equipe.",
     "mab": "Mais sobre minha trajetória"
   },
   "SkillsSection": {

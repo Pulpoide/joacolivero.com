@@ -17,16 +17,16 @@
   "HeroSection": {
     "availability": "Available for new projects",
     "contact": "Get in touch",
-    "download": "Download CV",
-    "position": "Full Stack Developer",
-    "position2": "Backend & API Specialist",
-    "position3": "Performance Engineer",
-    "position4": "Scalability Focused",
+    "download": "View CV",
+    "position": "Software Engineer",
+    "position2": "Backend Systems Architect",
+    "position3": "AI Solutions Integration",
+    "position4": "Performance & Scalability",
     "language": "(Click flag for Spanish)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"Pleasure in the job puts perfection in the work\"</em>",
     "author": "Aristotle",
-    "resumeUrl": "https://drive.google.com/file/d/1rYsyAKGkODfc-P3oeEgxl3eXBTiTYnMN/view?usp=sharing"
+    "resumeUrl": "https://drive.google.com/file/d/1E98-4R7KejqmyJeQjnDQHLt8kqpJcfTt/view?usp=sharing"
   },
   "ProjectsSection": {
     "title": "Featured Projects",
@@ -69,9 +69,9 @@
   },
   "AboutSection": {
     "title": "About Me",
-    "d0": "Hello! I'm <strong>Joaquín Dario Olivero</strong>, a <strong>Software Developer</strong> focused on Backend architecture and system performance.",
-    "d1": "I specialize in building <strong>Java & Spring Boot</strong> applications that are not just functional, but <strong>scalable and resilient</strong>. My recent work focuses on implementing <strong>Load Testing strategies (k6)</strong> to ensure APIs can handle real-world traffic without failure.",
-    "d2": "While my core strength is the Backend, I possess strong <strong>Full Stack capabilities</strong> (React, Next.js), allowing me to understand the complete product lifecycle and collaborate effectively with Frontend teams.",
+    "d0": "I'm <strong>Joaquín Olivero</strong>, a software engineer focused on <strong>backend development</strong> and <strong>AI integration</strong>. I’m driven by solving complex problems and building scalable systems, with a strong belief that the future of software lies at the intersection of robust architectures and intelligent systems.",
+    "d1": "My background blends a solid engineering foundation —including logic, algorithms, and mathematical analysis— with a technical degree in programming completed with top academic performance.",
+    "d2": "I`ve been a drummer for over 10 years, an experience that shaped my discipline, active listening, and collaborative mindset.",
     "mab": "More about my journey"
   },
   "SkillsSection": {

@@ -17,16 +17,16 @@
   "HeroSection": {
     "availability": "Disponible para nuevos proyectos",
     "contact": "Contáctame",
-    "download": "Descargar CV",
-    "position": "Desarrollador Full Stack",
-    "position2": "Especialista en Backend y APIs",
-    "position3": "Ingeniero de Performance",
-    "position4": "Enfoque en Escalabilidad",
+    "download": "Ver CV",
+    "position": "Ingeniero de Software",
+    "position2": "Arquitecto de Sistemas Backend",
+    "position3": "Integración de Soluciones de IA",
+    "position4": "Rendimiento y Escalabilidad",
     "language": "(Click en bandera para Inglés)",
     "location": "Córdoba, Argentina",
     "subtitle": "<em>\"El placer en el trabajo lleva a la perfección de la obra\"</em>",
     "author": "Aristóteles",
-    "resumeUrl": "https://drive.google.com/file/d/14pofvR7-5_4gpuN9sKyRq6QZxLOIROYu/view?usp=sharing"
+    "resumeUrl": "https://drive.google.com/file/d/1wOiJ_IrFPanot2cePagKi5Y1WjeYk27Q/view?usp=sharing"
   },
   "ProjectsSection": {
     "title": "Proyectos Destacados",
@@ -69,9 +69,9 @@
   },
   "AboutSection": {
     "title": "Sobre Mí",
-    "d0": "Hola, soy <strong>Joaquín Dario Olivero</strong>, un <strong>Desarrollador de Software</strong> enfocado en arquitectura Backend y rendimiento de sistemas.",
-    "d1": "Me especializo en construir aplicaciones con <strong>Java y Spring Boot</strong> que no solo son funcionales, sino <strong>escalables y resilientes</strong>. Mi trabajo reciente se centra en implementar estrategias de <strong>Pruebas de Carga (k6)</strong> para asegurar que las APIs soporten tráfico real sin fallos.",
-    "d2": "Aunque mi fortaleza principal es el Backend, poseo sólidas capacidades <strong>Full Stack</strong> (React, Next.js), lo que me permite entender el ciclo de vida completo del producto y colaborar eficazmente con equipos Frontend.",
+    "d0": "Soy <strong>Joaquín Olivero</strong>, ingeniero de software enfocado en <strong>backend</strong> y en la integración de <strong>inteligencia artificial</strong>. Me motiva resolver problemas complejos y construir sistemas escalables, entendiendo que el futuro del software está en la combinación de arquitecturas robustas y sistemas inteligentes.",
+    "d1": "Mi formación combina bases sólidas en ingeniería —lógica, algoritmos y análisis matemático— con una tecnicatura en programación finalizada con promedio destacado.",
+    "d2": "Hace más de 10 años que soy baterista, experiencia que moldeó mi constancia, escucha activa y forma de trabajar en equipo.",
     "mab": "Más sobre mi trayectoria"
   },
   "SkillsSection": {
