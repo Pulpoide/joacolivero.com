@@ -2,7 +2,7 @@
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-Welcome to my personal portfolio repository. This website showcases my projects, technical skills, and professional journey as a **Full Stack Developer** specialized in Java/Spring Boot and modern Frontend technologies.
+Welcome to my personal portfolio repository. This website showcases my projects, technical skills, and professional journey as a **Software Engineer** specialized in Java/Spring Boot and modern Frontend technologies.
 
 🔗 **[View Live Demo](https://www.joacolivero.com/)** 
 
