@@ -17,17 +17,17 @@ import "~/styles/utils.css";
 
 export const metadata = {
 	metadataBase: new URL("https://joacolivero.com"),
-	title: "Joaquín Olivero | Software Engineer",
+	title: "Joaquín Olivero | Software Engineer | Backend & AI",
 	description:
-		"Joaquín Olivero is a Software Engineer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide.",
+		"Joaquín Olivero is a Software Engineer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact.",
 	authors: [{ name: "Joaquín Olivero" }],
 	creator: "Joaquín Olivero",
 	openGraph: {
 		type: "website",
 		url: "https://joacolivero.com",
-		title: "Joaquín Olivero | Software Engineer",
+		title: "Joaquín Olivero | Software Engineer | Backend & AI",
 		description:
-			"Joaquín Olivero is a Software Engineer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide.",
+			"Joaquín Olivero is a Software Engineer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact.",
 		images: [
 			{
 
@@ -75,7 +75,7 @@ export default async function RootLayout({
 			contactType: "Work",
 			email: "mailto:joacolivero.dev@gmail.com",
 			url: "https://joacolivero.com",
-			availableLanguage: ["Spanish", "English"],
+			availableLanguage: ["Spanish", "English", "Portuguese"],
 			areaServed: "Global",
 			hoursAvailable: {
 				"@type": "OpeningHoursSpecification",
@@ -96,12 +96,17 @@ export default async function RootLayout({
 				name: "English",
 				alternateName: "en",
 			},
+			{
+				"@type": "Language",
+				name: "Portuguese",
+				alternateName: "pt",
+			},
 		],
 		hasOccupation: {
 			"@type": "Occupation",
 			name: "Software Engineer",
 			description:
-				"Specialized in backend development. Building scalable and innovative solutions for complex problems.",
+				"Specialized in backend development and AI integration. Building scalable and innovative solutions for complex problems.",
 			occupationalCategory: "15-1132.00",
 		},
 		knowsAbout: [
@@ -112,6 +117,7 @@ export default async function RootLayout({
 			"Microservices",
 			"DevOps",
 			"Scalable Systems",
+			"AI Integration",
 		],
 	};
 
@@ -123,7 +129,7 @@ export default async function RootLayout({
 				<title>{metadata.title}</title>
 				<meta
 					name="description"
-					content="Joaquín Olivero is a Software Engineer specialized in scalable backend systems. Delivering cutting-edge solutions for startups and enterprises worldwide."
+					content="Software Engineer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact."
 				/>
 				<meta name="author" content="Joaquín Olivero" />
 				<meta name="creator" content="Joaquín Olivero" />
@@ -135,7 +141,7 @@ export default async function RootLayout({
 				<link rel="alternate" hrefLang="en" href="https://joacolivero.com/" />
 				<meta
 					name="keywords"
-					content="Backend development, Joaquín Olivero, software developer, scalable systems, cloud computing, data engineering, APIs, microservices, DevOps, innovative software solutions"
+					content="Backend development, Joaquín Olivero, software developer, scalable systems, cloud computing, data engineering, APIs, microservices, DevOps, innovative software solutions, AI integration"
 				/>
 
 				{/* Structured Data */}
