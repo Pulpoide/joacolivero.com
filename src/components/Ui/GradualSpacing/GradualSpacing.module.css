@@ -4,9 +4,15 @@
   padding: var(--space-inline) 12px;
   display: flex;
   flex-wrap: wrap;
+  gap: 0 0.3em;
   caret-color: transparent;
   justify-content: center;
   text-align: center;
+}
+
+.word {
+  display: inline-flex;
+  white-space: nowrap;
 }
 
 .char {

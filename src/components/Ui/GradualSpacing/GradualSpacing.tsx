@@ -23,21 +23,33 @@ export function GradualSpacing({
   className,
   ...props
 }: GradualSpacingProps) {
+  const words = text.split(" ");
+  let charIndex = 0;
+
   return (
     <div className={clsx(styles.container, className)} {...props}>
       <AnimatePresence>
-        {text.split("").map((char, i) => (
-          <motion.span
-            key={i}
-            initial="hidden"
-            animate="visible"
-            exit="hidden"
-            variants={framerProps}
-            transition={{ duration, delay: i * delayMultiple }}
-            {...{ className: styles.char } as { className: string }}
-          >
-            {char === " " ? "\u00A0" : char}
-          </motion.span>
+        {words.map((word, wordIdx) => (
+          <span key={wordIdx} className={styles.word}>
+            {word.split("").map((char) => {
+              const i = charIndex++;
+              return (
+                <motion.span
+                  key={i}
+                  initial="hidden"
+                  animate="visible"
+                  exit="hidden"
+                  variants={framerProps}
+                  transition={{ duration, delay: i * delayMultiple }}
+                  {...{ className: styles.char } as { className: string }}
+                >
+                  {char}
+                </motion.span>
+              );
+            })}
+            {/* Account for the space character index */}
+            {wordIdx < words.length - 1 && void charIndex++}
+          </span>
         ))}
       </AnimatePresence>
     </div>
