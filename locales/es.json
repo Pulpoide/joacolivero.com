@@ -18,7 +18,7 @@
     "availability": "Disponible para nuevos proyectos",
     "contact": "Contáctame",
     "download": "Ver CV",
-    "position": "Ingeniero de Software",
+    "position": "Desarrollador de Software",
     "position2": "Arquitecto de Sistemas Backend",
     "position3": "Integración de Soluciones de IA",
     "position4": "Rendimiento y Escalabilidad",
@@ -69,7 +69,7 @@
   },
   "AboutSection": {
     "title": "Sobre Mí",
-    "d0": "Soy <strong>Joaquín Olivero</strong>, ingeniero de software enfocado en <strong>backend</strong> y en la integración de <strong>inteligencia artificial</strong>. Me motiva resolver problemas complejos y construir sistemas escalables, entendiendo que el futuro del software está en la combinación de arquitecturas robustas y sistemas inteligentes.",
+    "d0": "Soy <strong>Joaquín Olivero</strong>, desarrollador de software enfocado en <strong>backend</strong> y en la integración de <strong>inteligencia artificial</strong>. Me motiva resolver problemas complejos y construir sistemas escalables, entendiendo que el futuro del software está en la combinación de arquitecturas robustas y sistemas inteligentes.",
     "d1": "Mi formación combina bases sólidas en ingeniería —lógica, algoritmos y análisis matemático— con una tecnicatura en programación finalizada con promedio destacado.",
     "d2": "Hace más de 10 años que soy baterista, experiencia que moldeó mi constancia, escucha activa y forma de trabajar en equipo.",
     "mab": "Más sobre mi trayectoria"

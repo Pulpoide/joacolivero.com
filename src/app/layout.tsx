@@ -17,17 +17,17 @@ import "~/styles/utils.css";
 
 export const metadata = {
 	metadataBase: new URL("https://joacolivero.com"),
-	title: "Joaquín Olivero | Software Engineer | Backend & AI",
+	title: "Joaquín Olivero | Software Developer | Backend & AI",
 	description:
-		"Joaquín Olivero is a Software Engineer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact.",
+		"Joaquín Olivero is a Software Developer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact.",
 	authors: [{ name: "Joaquín Olivero" }],
 	creator: "Joaquín Olivero",
 	openGraph: {
 		type: "website",
 		url: "https://joacolivero.com",
-		title: "Joaquín Olivero | Software Engineer | Backend & AI",
+		title: "Joaquín Olivero | Software Developer | Backend & AI",
 		description:
-			"Joaquín Olivero is a Software Engineer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact.",
+			"Joaquín Olivero is a Software Developer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact.",
 		images: [
 			{
 
@@ -104,7 +104,7 @@ export default async function RootLayout({
 		],
 		hasOccupation: {
 			"@type": "Occupation",
-			name: "Software Engineer",
+			name: "Software Developer",
 			description:
 				"Specialized in backend development and AI integration. Building scalable and innovative solutions for complex problems.",
 			occupationalCategory: "15-1132.00",
@@ -129,7 +129,7 @@ export default async function RootLayout({
 				<title>{metadata.title}</title>
 				<meta
 					name="description"
-					content="Software Engineer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact."
+					content="Software Developer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact."
 				/>
 				<meta name="author" content="Joaquín Olivero" />
 				<meta name="creator" content="Joaquín Olivero" />

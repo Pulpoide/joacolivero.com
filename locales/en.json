@@ -18,7 +18,7 @@
     "availability": "Available for new projects",
     "contact": "Get in touch",
     "download": "View CV",
-    "position": "Software Engineer",
+    "position": "Software Developer",
     "position2": "Backend Systems Architect",
     "position3": "AI Solutions Integration",
     "position4": "Performance & Scalability",
@@ -69,7 +69,7 @@
   },
   "AboutSection": {
     "title": "About Me",
-    "d0": "I'm <strong>Joaquín Olivero</strong>, a software engineer focused on <strong>backend development</strong> and <strong>AI integration</strong>. I’m driven by solving complex problems and building scalable systems, with a strong belief that the future of software lies at the intersection of robust architectures and intelligent systems.",
+    "d0": "I'm <strong>Joaquín Olivero</strong>, a software developer focused on <strong>backend development</strong> and <strong>AI integration</strong>. I’m driven by solving complex problems and building scalable systems, with a strong belief that the future of software lies at the intersection of robust architectures and intelligent systems.",
     "d1": "My background blends a solid engineering foundation —including logic, algorithms, and mathematical analysis— with a technical degree in programming completed with top academic performance.",
     "d2": "I`ve been a drummer for over 10 years, an experience that shaped my discipline, active listening, and collaborative mindset.",
     "mab": "More about my journey"
