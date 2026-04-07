@@ -73,9 +73,9 @@ export const LanguageSwitcher = () => {
         aria-hidden="true"
         src={
           locale === "es"
-            ? "/assets/flags/spain.avif"
+            ? "/assets/flags/arg.avif"
             : locale === "en"
-              ? "/assets/flags/uk.avif"
+              ? "/assets/flags/usa.avif"
               : "/assets/flags/brazil.avif"
         }
         alt={`Switch language (Current: ${locale})`}

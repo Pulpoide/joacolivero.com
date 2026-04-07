@@ -81,10 +81,28 @@
 	caret-color: transparent;
 }
 
+.mobileSwitchers {
+	display: none;
+	align-items: center;
+	gap: 16px;
+	caret-color: transparent;
+}
+
 @media screen and (max-width: 768px) {
 
 	.nav,
 	.optionsWrapper {
+		display: none;
+	}
+
+	.mobileSwitchers {
+		display: flex;
+		margin-inline-start: auto;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.mobileSwitchers {
 		display: none;
 	}
 }

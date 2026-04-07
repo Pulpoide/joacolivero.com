@@ -131,7 +131,6 @@
 	row-gap: 8px;
 	inline-size: var(--size);
 	block-size: var(--size);
-	margin-inline-start: auto;
 	padding-inline: 0;
 	-webkit-tap-highlight-color: transparent;
 	cursor: pointer;
