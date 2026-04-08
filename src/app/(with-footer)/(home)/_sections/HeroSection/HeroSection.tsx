@@ -137,11 +137,10 @@ export const HeroSection = () => {
 				</p>
 
 				<p className={styles.introSubtitle}>
-					<a href="https://www.google.com/maps/place/Villa+Carlos+Paz,+Córdoba,+Argentina/" target="_blank" rel="noopener noreferrer"
+					<a href="https://maps.app.goo.gl/rpApwTj44Q2f2fwp9" target="_blank" rel="noopener noreferrer"
 						className={styles.link}>
 						{t("location")}
 					</a>
-					<ArgentinaFlag className={styles.flag} />
 				</p>
 			</div>
 
