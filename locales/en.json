@@ -114,7 +114,7 @@
   "Form": {
     "name": "Your Name",
     "email": "your.email@example.com",
-    "message": "Hi Joaquín! I'm interested in your backend skills...",
+    "message": "Hi Joaquín!",
     "messageError": "Please enter a detailed message.",
     "emailError": "Please enter a valid email address.",
     "nameError": "Please enter your full name.",

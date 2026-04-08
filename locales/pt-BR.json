@@ -114,7 +114,7 @@
   "Form": {
     "name": "Seu Nome",
     "email": "seu.email@exemplo.com",
-    "message": "Olá Joaquín! Tenho interesse no seu perfil backend...",
+    "message": "Olá Joaquín!",
     "messageError": "Por favor, insira uma mensagem detalhada.",
     "emailError": "Por favor, insira um email válido.",
     "nameError": "Por favor, insira seu nome completo.",
