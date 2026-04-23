@@ -41,7 +41,8 @@
 
 .homeLogo {
 	transition: transform 0.3s ease, filter 0.3s ease;
-	animation: text-flicker-in-glow 4s linear forwards;
+	animation: text-flicker-in-glow 2.7s linear forwards,
+		neon-idle-pulse 0.05s ease-in-out 4.5s 1;
 
 	transform: translateZ(0);
 	will-change: filter, opacity;
@@ -116,6 +117,46 @@
 @keyframes fill {
 	to {
 		fill: currentColor;
+	}
+}
+
+@-webkit-keyframes neon-idle-pulse {
+
+	0%,
+	100% {
+		opacity: 1;
+	}
+
+	35% {
+		opacity: 0.1;
+	}
+
+	55% {
+		opacity: 0.1;
+	}
+
+	56% {
+		opacity: 1;
+	}
+}
+
+@keyframes neon-idle-pulse {
+
+	0%,
+	100% {
+		opacity: 1;
+	}
+
+	35% {
+		opacity: 0.1;
+	}
+
+	55% {
+		opacity: 0.1;
+	}
+
+	56% {
+		opacity: 1;
 	}
 }
 
