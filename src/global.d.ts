@@ -3,3 +3,5 @@ declare namespace JSX {
 		"pixel-canvas": unknown;
 	}
 }
+
+declare module "*.css";
