@@ -69,9 +69,9 @@
   },
   "AboutSection": {
     "title": "About Me",
-    "d0": "I'm <strong>Joaquín Olivero</strong>, a software developer focused on <strong>backend development</strong> and <strong>AI integration</strong>. I’m driven by solving complex problems and building scalable systems, with a strong belief that the future of software lies at the intersection of robust architectures and intelligent systems.",
-    "d1": "My background blends a solid engineering foundation —including logic, algorithms, and mathematical analysis— with a technical degree in programming completed with top academic performance.",
-    "d2": "I`ve been a drummer for over 10 years, an experience that shaped my discipline, active listening, and collaborative mindset.",
+    "d0": "I'm a Backend & AI Engineer based in Córdoba, Argentina, focused on building systems that combine robust architectures with real intelligence.",
+    "d1": "My work centers on <strong>multi-agent systems and RAG pipelines</strong> — I design, build, and deploy AI-powered backends using Python, LangGraph, and LangChain, integrated with production-grade APIs in Java/Spring Boot.",
+    "d2": "I'm actively looking for <strong>remote opportunities</strong> where I can ship backend infrastructure and AI systems that actually work in production — not just demos.",
     "mab": "More about my journey"
   },
   "SkillsSection": {
