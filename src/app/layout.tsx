@@ -17,22 +17,34 @@ import "~/styles/utils.css";
 
 export const metadata = {
 	metadataBase: new URL("https://joacolivero.com"),
-	title: "Joaquín Olivero | Software Developer | Backend & AI",
-	description:
-		"Joaquín Olivero is a Software Developer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact.",
+	title: "Joaquín Olivero | Backend & AI Engineer",
+	description: "Multi-agent systems, RAG pipelines & scalable APIs. Open to remote.",
 	authors: [{ name: "Joaquín Olivero" }],
 	creator: "Joaquín Olivero",
+	keywords: [
+		"AI engineer",
+		"LangGraph",
+		"LangChain",
+		"RAG",
+		"multi-agent systems",
+		"Python developer",
+		"remote backend engineer",
+		"LangFuse",
+		"ChromaDB",
+		"Spring Boot developer",
+		"Argentina remote developer"
+	],
+	alternates: {
+		canonical: "https://joacolivero.com",
+		languages: {
+			en: "https://joacolivero.com/",
+		},
+	},
 	openGraph: {
 		type: "website",
 		url: "https://joacolivero.com",
-		title: "Joaquín Olivero | Software Developer | Backend & AI",
-		description:
-			"Joaquín Olivero is a Software Developer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact.",
-		images: [
-			{
-
-			},
-		],
+		title: "Joaquín Olivero | Backend & AI Engineer",
+		description: "Multi-agent systems, RAG pipelines & scalable APIs. Open to remote.",
 	},
 };
 
@@ -126,23 +138,8 @@ export default async function RootLayout({
 			<head>
 				<meta charSet="UTF-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
-				<title>{metadata.title}</title>
-				<meta
-					name="description"
-					content="Software Developer specialized in Backend development and AI integration. Building scalable architectures and intelligent solutions for global impact."
-				/>
-				<meta name="author" content="Joaquín Olivero" />
-				<meta name="creator" content="Joaquín Olivero" />
-
 
 				<link rel="icon" href="/favicon.ico" />
-
-				<link rel="canonical" href="https://joacolivero.com" />
-				<link rel="alternate" hrefLang="en" href="https://joacolivero.com/" />
-				<meta
-					name="keywords"
-					content="Backend development, Joaquín Olivero, software developer, scalable systems, cloud computing, data engineering, APIs, microservices, DevOps, innovative software solutions, AI integration"
-				/>
 
 				{/* Structured Data */}
 				<script
