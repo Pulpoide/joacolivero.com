@@ -100,6 +100,7 @@ body {
 	background-color: var(--color-background);
 	transition: color var(--theme-transition-duration),
 		background-color var(--theme-transition-duration);
+	overflow-x: hidden;
 }
 
 h2 {

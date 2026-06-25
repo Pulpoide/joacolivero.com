@@ -35,6 +35,30 @@
     "next": "Próximo",
     "previous": "Anterior",
     "home": "← Voltar ao início",
+    "LexTrace": {
+      "name": "LexTrace",
+      "description": "Sistema de análise de contratos e diff semântico multiagente e multimodal.",
+      "linkVisitSite": "Demo ao vivo",
+      "linkViewCode": "Repositório",
+      "linkVisitDocs": "Documentação",
+      "about": "Um projeto de IA de nível empresarial que demonstra a orquestração multiagente e as melhores práticas de teste. As funcionalidades incluem extração de texto por OCR de imagens digitalizadas com GPT-4o Vision, mapeamento semântico para mitigar a fadiga de contexto dos LLMs, detecção de anomalias e saída JSON estruturada validada com Pydantic v2. Totalmente observável com Langfuse e rigorosamente testado com pytest-mock, alcançando 97% de cobertura lógica."
+    },
+    "GCP_ecommerce_pipeline": {
+      "name": "GCP E-Commerce Data Intelligence",
+      "description": "Pipeline de engenharia de dados end-to-end construído na Google Cloud Platform para ingestão automatizada de produtos, categorização baseada em IA e monitoramento de preços em tempo real.",
+      "linkVisitSite": "",
+      "linkViewCode": "Repositório",
+      "linkVisitDocs": "Documentação",
+      "about": "Um pipeline de dados serverless e orientado a eventos construído inteiramente no GCP. Os recursos incluem ingestão automatizada em lote (batch) com validação a nível de linha, enriquecimento de produtos baseado em IA usando Gemini 2.5 Flash via Vertex AI e monitoramento de preços em tempo real aproveitando Pub/Sub e Cloud Functions Gen2. A Infraestrutura como Código (IaC) é gerenciada de forma robusta com Terraform usando um backend do GCS para gerenciamento de estado."
+    },
+    "TourmasterAI": {
+      "name": "Tourmaster AI",
+      "description": "Sistema de orquestação multiagente de nível de produção para gestão de turnês musicais.",
+      "linkVisitSite": "Demo ao vivo",
+      "linkViewCode": "Repositório",
+      "linkVisitDocs": "Documentação",
+      "about": "Um sistema multiagente de nível empresarial desenvolvido com uma arquitetura de Grafo Acíclico Dirigido (DAG) usando LangGraph. Os recursos incluem agentes de IA especializados para Booking, Logística, Marketing e Clima, integrados com Geração Aumentada de Recuperação (ChromaDB) e chamada de ferramentas em tempo real (OpenWeatherMap). Garante resultados de alta qualidade por meio de um sistema de avaliação LLM-as-a-Judge e mantém total observabilidade com Langfuse."
+    },
     "Deporturnos": {
       "name": "Deporturnos",
       "description": "Plataforma de alto desempenho para gestão integral de centros esportivos.",
@@ -43,6 +67,21 @@
       "linkViewCode2": "Repo Frontend",
       "linkVisitDocs": "Docs API",
       "about": "Plataforma integral de gestão esportiva projetada para alta concorrência e segurança. \nPontos Chave: \n• Arquitetura em Spring Boot com segurança avançada através de JWT. \n• Resiliência do sistema garantida através de testes de estresse e picos com k6. \n• Infraestrutura profissional baseada em Docker para implantações ágeis e consistentes."
+    },
+    "BiohackerRoot": {
+      "name": "Biohacker Root",
+      "description": "Um sistema RAG de alto desempenho projetado para auditar 'bugs' biológicos e implantar protocolos baseados em neurociência.",
+      "linkVisitSite": "Demo ao vivo",
+      "linkViewCode": "Repositório",
+      "linkVisitDocs": "Documentação",
+      "about": "Um sistema de geração aumentada de recuperação desenvolvido para soberania pessoal usando LangChain, ChromaDB e OpenAI. Os recursos incluem fragmentação semântica por unidades lógicas de conhecimento para manter a coerência científica, engenharia de prompts avançada para barreiras de segurança estritas, memória conversacional e um agente avaliador secundário integrado para pontuar a fidelidade e a relevância das respostas."
+    },
+    "DraVildoza": {
+      "name": "Dra. Silvia Vildoza",
+      "description": "Plataforma médica 'boutique' com sistema de gestão de pacientes e branding profissional.",
+      "linkVisitSite": "Visitar Site",
+      "linkViewCode": "Repositório",
+      "about": "Sistema médico integral trilíngue desenvolvido com Next.js 15 e Supabase. Inclui um painel administrativo para gestão de terapias hormonais (HRT), formulários de admissão complexos e uma interface premium com estética Glassmorphism."
     },
     "ProductManager": {
       "name": "Product Manager API",
@@ -58,13 +97,6 @@
       "linkVisitSite": "Visitar Site",
       "linkViewCode": "Repositório",
       "about": "Uma solução frontend moderna e responsiva para um negócio de aromaterapia. Conta com um design UI/UX elegante, catálogo interativo de produtos e integração fluida de contato para impulsionar vendas."
-    },
-    "DraVildoza": {
-      "name": "Dra. Silvia Vildoza",
-      "description": "Plataforma médica 'boutique' com sistema de gestão de pacientes e branding profissional.",
-      "linkVisitSite": "Visitar Site",
-      "linkViewCode": "Repositório",
-      "about": "Sistema médico integral trilíngue desenvolvido com Next.js 15 e Supabase. Inclui um painel administrativo para gestão de terapias hormonais (HRT), formulários de admissão complexos e uma interface premium com estética Glassmorphism."
     }
   },
   "AboutSection": {

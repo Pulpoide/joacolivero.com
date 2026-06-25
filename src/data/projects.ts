@@ -3,10 +3,31 @@ import type { CoverProject } from "~/types";
 import { Tag } from "./tags";
 
 export const projectMetadata = {
+	LexTrace: {
+		slug: "lextrace",
+		name: "LexTrace",
+	},
+	GCP_ecommerce_pipeline: {
+		slug: "gcp-ecommerce",
+		name: "GCP E-commerce",
+	},
+	TourmasterAI: {
+		slug: "tourmaster-ai",
+		name: "Tourmaster AI",
+	},
 	Deporturnos: {
 		slug: "deporturnos",
 		name: "Deporturnos",
 	},
+	BiohackerRoot: {
+		slug: "biohacker-root",
+		name: "Biohacker Root",
+	},
+	DraVildoza: {
+		slug: "dra-vildoza",
+		name: "Dra Vildoza",
+	},
+
 	ProductManager: {
 		slug: "product-manager",
 		name: "Product Manager",
@@ -15,21 +36,37 @@ export const projectMetadata = {
 		slug: "poui",
 		name: "Poui",
 	},
-	DraVildoza: {
-		slug: "dra-vildoza",
-		name: "Dra Vildoza",
-	}
 };
 
 export const coverProjects: CoverProject[] = [
 	{
+		...projectMetadata.LexTrace,
+		imageUrl: "/assets/images/projects/lextrace/lextrace.avif",
+		i18nDescriptionKey: "LexTrace.description",
+	},
+	{
+		...projectMetadata.GCP_ecommerce_pipeline,
+		imageUrl: "/assets/images/projects/gcp-ecommerce/gcp-ecommerce.avif",
+		i18nDescriptionKey: "GCP_ecommerce_pipeline.description",
+	},
+	{
+		...projectMetadata.TourmasterAI,
+		imageUrl: "/assets/images/projects/tourmaster-ai/tourmasterai.avif",
+		i18nDescriptionKey: "TourmasterAI.description",
+	},
+	{
 		...projectMetadata.Deporturnos,
-		imageUrl: "/assets/images/projects/deporturnos/home.avif",
+		imageUrl: "/assets/images/projects/deporturnos/deporturnos.avif",
 		i18nDescriptionKey: "Deporturnos.description",
 	},
 	{
+		...projectMetadata.BiohackerRoot,
+		imageUrl: "/assets/images/projects/biohacker-root/biohacker.avif",
+		i18nDescriptionKey: "BiohackerRoot.description",
+	},
+	{
 		...projectMetadata.DraVildoza,
-		imageUrl: "/assets/images/projects/dravildoza/home.avif",
+		imageUrl: "/assets/images/projects/dra-vildoza/dra-vildoza.avif",
 		i18nDescriptionKey: "DraVildoza.description",
 	},
 	{
@@ -46,8 +83,96 @@ export const coverProjects: CoverProject[] = [
 
 export const projects = [
 	{
-		...projectMetadata.Deporturnos,
+		...projectMetadata.LexTrace,
 		index: 0,
+		description: "LexTrace.about",
+		mobileImages:
+			[
+				"/assets/images/projects/lextrace/lextrace.avif",
+			],
+		desktopImages:
+			[
+			],
+		links: [
+			{
+				label: "LexTrace.linkViewCode",
+				url: "https://github.com/Pulpoide/lextrace-agentic-contract-diff",
+			},
+		],
+		tags:
+			[
+				Tag.python,
+				Tag.openai,
+				Tag.gpt4oVision,
+				Tag.langgraph,
+				Tag.langchain,
+				Tag.pydantic,
+				Tag.langfuse,
+				Tag.streamlit,
+				Tag.pytest,
+				Tag.uv
+			],
+	},
+	{
+		...projectMetadata.GCP_ecommerce_pipeline,
+		index: 1,
+		description: "GCP_ecommerce_pipeline.about",
+		mobileImages:
+			[
+				"/assets/images/projects/gcp-ecommerce/gcp-ecommerce.avif",
+			],
+		desktopImages:
+			[
+			],
+		links: [
+			{
+				label: "GCP_ecommerce_pipeline.linkViewCode",
+				url: "https://github.com/Pulpoide/gcp-ecommerce-data-intelligence",
+			},
+		],
+		tags:
+			[
+				Tag.python,
+				Tag.gcp,
+				Tag.vertexAI,
+				Tag.pubsub,
+				Tag.cloudFunctions,
+				Tag.bigQuery,
+				Tag.terraform
+			],
+	},
+	{
+		...projectMetadata.TourmasterAI,
+		index: 2,
+		description: "TourmasterAI.about",
+		mobileImages:
+			[
+				"/assets/images/projects/tourmaster-ai/tourmasterai.avif",
+			],
+		desktopImages:
+			[
+			],
+		links: [
+			{
+				label: "TourmasterAI.linkViewCode",
+				url: "https://github.com/Pulpoide/tourmaster-ai",
+			},
+		],
+		tags:
+			[
+				Tag.python,
+				Tag.openai,
+				Tag.langgraph,
+				Tag.langchain,
+				Tag.pydantic,
+				Tag.chromaDB,
+				Tag.langfuse,
+				Tag.uv
+			],
+	},
+	{
+		...projectMetadata.Deporturnos,
+		index: 3,
 		description: "Deporturnos.about",
 		mobileImages:
 			[
@@ -89,8 +214,34 @@ export const projects = [
 			],
 	},
 	{
+		...projectMetadata.BiohackerRoot,
+		index: 4,
+		description: "BiohackerRoot.about",
+		mobileImages:
+			[
+				"/assets/images/projects/biohacker-root/biohacker.avif",
+			],
+		desktopImages:
+			[
+			],
+		links: [
+			{
+				label: "BiohackerRoot.linkViewCode",
+				url: "https://github.com/Pulpoide/biohacker-rag",
+			},
+		],
+		tags:
+			[
+				Tag.python,
+				Tag.openai,
+				Tag.langchain,
+				Tag.chromaDB,
+				Tag.uv
+			],
+	},
+	{
 		...projectMetadata.DraVildoza,
-		index: 1,
+		index: 5,
 		description: "DraVildoza.about",
 		links: [
 			{
@@ -104,14 +255,13 @@ export const projects = [
 		],
 		mobileImages:
 			[
-				"/assets/images/projects/dravildoza/home.avif"
+				"/assets/images/projects/dra-vildoza/dra-vildoza.avif"
 			],
 		desktopImages:
 			[
-				"/assets/images/projects/dravildoza/form.avif",
-				"/assets/images/projects/dravildoza/ty.avif",
-				"/assets/images/projects/dravildoza/login.avif",
-				"/assets/images/projects/dravildoza/panel.avif"
+				"/assets/images/projects/dra-vildoza/form.avif",
+				"/assets/images/projects/dra-vildoza/login.avif",
+				"/assets/images/projects/dra-vildoza/panel.avif"
 			],
 		tags:
 			[
@@ -124,7 +274,7 @@ export const projects = [
 	},
 	{
 		...projectMetadata.ProductManager,
-		index: 2,
+		index: 6,
 		description: "ProductManager.about",
 		mobileImages:
 			[
@@ -161,7 +311,7 @@ export const projects = [
 	},
 	{
 		...projectMetadata.Poui,
-		index: 3,
+		index: 7,
 		description: "Poui.about",
 		mobileImages:
 			[
