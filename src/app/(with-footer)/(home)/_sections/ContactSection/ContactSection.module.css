@@ -98,7 +98,7 @@
 	transition: transform 0.3s ease, box-shadow 0.3s ease;
 	width: 100%;
 	max-width: 400px;
-	min-width: 300px;
+	min-width: 0;
 	margin: 0 auto;
 }
 .serviceCard:hover {
