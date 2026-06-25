@@ -35,6 +35,30 @@
     "next": "Next",
     "previous": "Previous",
     "home": "← Back to home",
+    "LexTrace": {
+      "name": "LexTrace",
+      "description": "Multi-agent, multimodal contract analysis and semantic diff system.",
+      "linkVisitSite": "Live Demo",
+      "linkViewCode": "Repository",
+      "linkVisitDocs": "Documentation",
+      "about": "An enterprise-grade AI project demonstrating multi-agent orchestration and testing best practices. Features include OCR text extraction from scanned images with GPT-4o Vision, semantic mapping to mitigate LLM context fatigue, anomaly detection, and structured JSON output validated with Pydantic v2. Fully observable with Langfuse and rigorously tested with pytest-mock achieving 97% logical coverage."
+    },
+    "GCP_ecommerce_pipeline": {
+      "name": "GCP E-Commerce Data Intelligence",
+      "description": "End-to-end data engineering pipeline built on Google Cloud Platform for automated product ingestion, AI-powered categorization, and real-time price monitoring.",
+      "linkVisitSite": "",
+      "linkViewCode": "Repository",
+      "linkVisitDocs": "Documentation",
+      "about": "A serverless, event-driven data pipeline built entirely on GCP. Features include automated batch ingestion with row-level validation, AI-powered product enrichment using Gemini 2.5 Flash via Vertex AI, and real-time price monitoring leveraging Pub/Sub and Cloud Functions Gen2. Infrastructure as Code (IaC) is robustly managed with Terraform using a GCS backend for state management."
+    },
+    "TourmasterAI": {
+      "name": "Tourmaster AI",
+      "description": "Production-grade multi-agent orchestration system for music tour management.",
+      "linkVisitSite": "Live Demo",
+      "linkViewCode": "Repository",
+      "linkVisitDocs": "Documentation",
+      "about": "An enterprise-grade multi-agent system built with a Directed Acyclic Graph (DAG) architecture using LangGraph. Features include specialized AI agents for Booking, Logistics, Marketing, and Weather, integrated with Retrieval-Augmented Generation (ChromaDB) and real-time Tool Calling (OpenWeatherMap). Ensures high-quality outputs via an LLM-as-a-Judge evaluation system and maintains full observability with Langfuse."
+    },
     "Deporturnos": {
       "name": "Deporturnos",
       "description": "High-performance platform for comprehensive sports center management.",
@@ -43,6 +67,21 @@
       "linkViewCode2": "Frontend Repo",
       "linkVisitDocs": "API Docs",
       "about": "Comprehensive sports management platform designed for high concurrency and security. \nKey Highlights: \n• Spring Boot architecture with advanced security through JWT. \n• System resilience guaranteed through stress and spike testing with k6. \n• Professional Docker-based infrastructure for agile and consistent deployments."
+    },
+    "BiohackerRoot": {
+      "name": "Biohacker Root",
+      "description": "A high-performance RAG system designed to audit biological 'bugs' and deploy neuroscience-backed protocols.",
+      "linkVisitSite": "Live Demo",
+      "linkViewCode": "Repository",
+      "linkVisitDocs": "Documentation",
+      "about": "A retrieval-augmented generation system built for personal sovereignty using LangChain, ChromaDB, and OpenAI. Features include Semantic Chunking by logical knowledge units to maintain scientific coherence, advanced Prompt Engineering for strict safety guardrails, conversational memory, and an integrated secondary agent evaluator to score response fidelity and relevance."
+    },
+    "DraVildoza": {
+      "name": "Dra. Silvia Vildoza",
+      "description": "Premium boutique medical platform with patient management system and professional branding.",
+      "linkVisitSite": "Visit Site",
+      "linkViewCode": "Repository",
+      "about": "A comprehensive trilingual medical system built with Next.js 15 and Supabase. Features an administrative dashboard for HRT lead management, multi-step admission forms with real-time validation, and a high-end UI featuring Glassmorphism aesthetics."
     },
     "ProductManager": {
       "name": "Product Manager API",
@@ -58,13 +97,6 @@
       "linkVisitSite": "Visit Website",
       "linkViewCode": "Repository",
       "about": "A modern, responsive Frontend solution for an aromatherapy business. Features an elegant UI/UX design, an interactive product catalog, and seamless contact integration to drive sales conversion."
-    },
-    "DraVildoza": {
-      "name": "Dr. Silvia Vildoza",
-      "description": "Premium boutique medical platform with patient management system and professional branding.",
-      "linkVisitSite": "Visit Site",
-      "linkViewCode": "Repository",
-      "about": "A comprehensive trilingual medical system built with Next.js 15 and Supabase. Features an administrative dashboard for HRT lead management, multi-step admission forms with real-time validation, and a high-end UI featuring Glassmorphism aesthetics."
     }
   },
   "AboutSection": {
