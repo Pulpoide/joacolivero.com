@@ -2,32 +2,37 @@
 
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-Welcome to my personal portfolio repository. This website showcases my projects, technical skills, and professional journey as a **Software Developer** specialized in Java/Spring Boot and modern Frontend technologies.
+Welcome to my personal portfolio repository. This website showcases my projects, technical skills, and professional journey as a **Backend & AI Engineer** specializing in AI Agents (LangGraph/LangChain), data intelligence pipelines (GCP/Vertex AI), scalable backend architectures (Java/Spring Boot, Python), and system optimization.
 
 🔗 **[View Live Demo](https://www.joacolivero.com/)** 
 
-## 🚀 About The Project
+## About The Project
 
-This portfolio is built with performance and type safety in mind, utilizing **Next.js** and **TypeScript**. It serves as a central hub to demonstrate my work, including my latest integrations with **k6** performance testing and Dockerized architectures.
+This portfolio is designed to showcase production-grade architectures and intelligent systems. It serves as a central hub demonstrating my development philosophy: clean architecture, robust testing (TDD/k6), and AI-driven solutions.
 
-### Key Features
-- **Responsive Design:** Optimized for all devices (Mobile & Desktop).
-- **Project Showcase:** Detailed cards for projects like *Deporturnos*.
-- **Resume Download:** Direct access to my updated CV.
-- **Interactive UI:** Smooth animations and intuitive navigation.
+### Featured Projects Highlighted
+- **LexTrace:** An agentic contract diffing tool utilizing LangGraph, GPT-4o Vision, and Langfuse observability.
+- **GCP E-commerce Pipeline:** A modern serverless data intelligence flow built with Cloud Functions, Pub/Sub, BigQuery, and Vertex AI.
+- **Tourmaster AI & Biohacker RAG:** RAG-based systems integrating vector databases (ChromaDB) and semantic search.
+- **Deporturnos:** A robust sports booking system using Java, Spring Boot, PostgreSQL, and Docker.
 
-## 🛠️ Tech Stack
+---
 
-- **Framework:** [Next.js](https://nextjs.org/)
+## Portfolio Site Stack
+
+This interactive web application is built using:
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
 - **Language:** [TypeScript](https://www.typescriptlang.org/)
-- **Styling:** CSS / SCSS modules
-- **Deployment:** Vercel (Recommended)
+- **Styling:** Vanilla CSS modules with modern variables and fluid layout
+- **Deployment:** Vercel
 
-## 📂 Project Structure
+---
+
+## Project Structure
 
 A quick look at the top-level directory structure:
 
-~~~text
+```text
 .
 ├── public
 │   ├── assets
@@ -43,35 +48,35 @@ A quick look at the top-level directory structure:
 │   └── styles          # Global styles & variables
 ├── package.json
 └── tsconfig.json
-~~~
+```
 
-## ⚡ Installation & Usage
+## Installation & Usage
 
 1. **Clone the repository:**
-   ~~~bash
-   git clone https://github.com/Pulpoide/tu-portfolio-repo.git
-   cd tu-portfolio-repo
-   ~~~
+   ```bash
+   git clone https://github.com/Pulpoide/joacolivero.com.git
+   cd joacolivero.com
+   ```
 
 2. **Install dependencies:**
-   ~~~bash
+   ```bash
    npm install
-   ~~~
+   ```
 
 3. **Run the development server:**
-   ~~~bash
+   ```bash
    npm run dev
-   ~~~
+   ```
    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 4. **Build for production:**
-   ~~~bash
+   ```bash
    npm run build
-   ~~~
+   ```
 
 ## Author
 
-**Joaquín Olivero** ~ Software Developer | Backend & AI
+**Joaquín Olivero** ~ Backend & AI Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/JoaquinOlivero)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pulpoide)
