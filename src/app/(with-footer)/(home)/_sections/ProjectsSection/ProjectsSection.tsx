@@ -15,9 +15,15 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const ProjectsSection = () => {
 	const t = useTranslations("ProjectsSection");
+	const tc = useTranslations("Common");
 	const [IsPC, setIsPC] = useState(false);
+	const [visibleCount, setVisibleCount] = useState(6);
 	const pc = t("pc");
 	const mobile = t("mobile");
+
+	const handleShowMore = () => {
+		setVisibleCount((prev) => Math.min(prev + 2, coverProjects.length));
+	};
 
 	// GSAP Refs
 	const sectionRef = useRef<HTMLElement | null>(null);
@@ -81,7 +87,7 @@ export const ProjectsSection = () => {
 				{IsPC ? pc : mobile}
 			</p>
 			<div className={styles.projectsWrapper} ref={projectsWrapperRef}>
-				{coverProjects.map(({ i18nDescriptionKey, ...projects }) => (
+				{coverProjects.slice(0, visibleCount).map(({ i18nDescriptionKey, ...projects }) => (
 					<ProjectCard
 						key={projects.name}
 						description={t(i18nDescriptionKey ?? "")}
@@ -89,6 +95,14 @@ export const ProjectsSection = () => {
 					/>
 				))}
 			</div>
+
+			{coverProjects.length > visibleCount && (
+				<div className={styles.showMoreWrapper}>
+					<button className={styles.showMoreBtn} onClick={handleShowMore}>
+						{tc("showMore")}
+					</button>
+				</div>
+			)}
 		</section>
 	);
 };

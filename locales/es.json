@@ -1,4 +1,7 @@
 {
+  "Common": {
+    "showMore": "Ver más"
+  },
   "404": {
     "title": "Página no encontrada",
     "home": "Volver al inicio"
@@ -108,7 +111,6 @@
   },
   "SkillsSection": {
     "title": "Stack Tecnológico",
-    "showMore": "Ver más",
     "defaultDescription": "¡Pasa el cursor sobre una tecnología para ver detalles!",
     "Java": "Lenguaje principal para construir sistemas backend robustos de nivel empresarial.",
     "Docker": "Esencial para la contenerización, asegurando entornos consistentes entre desarrollo y producción.",

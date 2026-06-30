@@ -16,6 +16,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 export const SkillsSection: FC = () => {
 	const t = useTranslations("SkillsSection");
+	const tc = useTranslations("Common");
 	const [currentTooltip, setCurrentTooltip] = useState<string>("");
 	const [activeCategory, setActiveCategory] = useState<SkillCategory | "All">("All");
 	const [filteredSkills, setFilteredSkills] = useState(skills);
@@ -160,7 +161,7 @@ export const SkillsSection: FC = () => {
 			{filteredSkills.length > visibleCount && (
 				<div className={styles.showMoreWrapper}>
 					<button className={styles.showMoreBtn} onClick={handleShowMore}>
-						{t("showMore")}
+						{tc("showMore")}
 					</button>
 				</div>
 			)}
