@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { ContactDialog } from "~/components/ContactDialog";
 import { LanguageSwitcher } from "~/components/LanguageSwitcher";
 import { MenuMobile } from "~/components/MenuMobile";
-import { HomeLogo } from "~/components/Svg/HomeLogo";
+import { HomeLogo } from "~/components/Svg/Logos/HomeLogo";
 import { Button } from "~/components/Ui/Button";
 
 import { ThemeSwitcher } from "../ThemeSwitcher";
