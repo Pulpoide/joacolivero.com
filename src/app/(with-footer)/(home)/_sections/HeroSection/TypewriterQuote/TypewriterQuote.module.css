@@ -1,0 +1,81 @@
+.container {
+  min-height: 9rem;
+  transition: opacity 0.3s ease;
+}
+
+.container.exiting {
+  opacity: 0;
+}
+
+.text {
+  position: relative;
+  padding: 18px 30px;
+  font-size: clamp(18px, 17px + 0.141vw, 20px);
+  font-style: italic;
+  color: var(--color-text-secondary);
+  caret-color: transparent;
+}
+
+.text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 80%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(26, 188, 156, 0.7) 50%,
+    transparent
+  );
+}
+
+.cursor {
+  color: var(--color-explanation, #1abc9c);
+  font-size: clamp(18px, 17px + 0.141vw, 20px);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.authorWrapper {
+  transition: opacity 0.4s ease;
+}
+
+.authorVisible {
+  opacity: 1;
+}
+
+.authorHidden {
+  opacity: 0;
+}
+
+.author {
+  padding: 4px 30px 0;
+  margin: 0;
+  font-style: italic;
+  font-size: clamp(16px, 15px + 0.141vw, 18px);
+  color: var(--color-text-secondary);
+  caret-color: transparent;
+}

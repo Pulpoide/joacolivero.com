@@ -49,6 +49,10 @@
 
 @media screen and (min-width: 1200px) {
 	.projectsWrapper {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.projectsWrapper.expanded {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
 
@@ -151,6 +155,39 @@
 
 @media screen and (min-width: 1200px) {
 	.projectsWrapper {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+
+	.projectsWrapper.expanded {
 		grid-template-columns: repeat(4, minmax(0, 1fr));
 	}
+}
+
+.showMoreWrapper {
+	display: flex;
+	justify-content: center;
+	margin-top: 32px;
+}
+
+.showMoreBtn {
+	background: transparent;
+	border: 1px solid rgba(26, 188, 156, 0.4);
+	color: #1abc9c;
+	padding: 10px 28px;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 0.95rem;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.showMoreBtn:hover {
+	background: rgba(26, 188, 156, 0.1);
+	border-color: rgba(26, 188, 156, 0.6);
+	transform: translateY(-2px);
+	box-shadow: 0 4px 12px rgba(26, 188, 156, 0.15);
+}
+
+.showMoreBtn:active {
+	transform: translateY(0);
 }

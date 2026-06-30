@@ -1,4 +1,7 @@
 {
+  "Common": {
+    "showMore": "Ver mais"
+  },
   "404": {
     "title": "Página não encontrada",
     "home": "Voltar ao início"
@@ -18,14 +21,14 @@
     "availability": "Disponível",
     "contact": "Entre em contato",
     "download": "Visualizar CV",
-    "position": "Desenvolvedor de Software",
-    "position2": "Engenheiro de IA",
-    "position3": "Arquiteto de Sistemas Backend",
-    "position4": "Performance e Escalabilidade",
+    "position1": "Backend & Engenheiro de IA",
+    "position2": "Baterista & Percussionista",
     "language": "(Clique na bandeira para Inglês)",
     "location": "Córdoba, Argentina",
-    "subtitle": "<em>\"O prazer no trabalho aperfeiçoa a obra\"</em>",
-    "author": "Aristóteles",
+    "quotes": [
+      { "text": "O prazer no trabalho aperfeiçoa a obra. ", "author": "Aristóteles" },
+      { "text": "No meio da dificuldade reside a oportunidade. ", "author": "Albert Einstein" }
+    ],
     "resumeUrl": "https://drive.google.com/file/d/1OVF3dl9XDfAE6LajdnSBjYPm0q8nPGeO/view?usp=sharing"
   },
   "ProjectsSection": {
