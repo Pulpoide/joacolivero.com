@@ -21,14 +21,14 @@
     "availability": "Disponible",
     "contact": "Contáctame",
     "download": "Ver CV",
-    "position": "Desarrollador de Software",
-    "position2": "AI Engineer",
-    "position3": "Arquitecto de Sistemas Backend",
-    "position4": "Rendimiento y Escalabilidad",
+    "position1": "Backend & Ingeniero de IA",
+    "position2": "Baterista & Percusionista",
     "language": "(Click en bandera para Inglés)",
     "location": "Córdoba, Argentina",
-    "subtitle": "<em>\"El placer en el trabajo lleva a la perfección de la obra\"</em>",
-    "author": "Aristóteles",
+    "quotes": [
+      { "text": "El placer en el trabajo lleva a la perfección de la obra. ", "author": "Aristóteles" },
+      { "text": "En medio de la dificultad reside la oportunidad. ", "author": "Albert Einstein" }
+    ],
     "resumeUrl": "https://drive.google.com/file/d/1maoy6Ba7tFnZvsx4CXpB3R9ClFeiJOEs/view?usp=sharing"
   },
   "ProjectsSection": {

@@ -8,24 +8,23 @@ import { useTranslations } from "next-intl";
 
 import { CopyEmailSmallButton } from "~/components/CopyEmailSmallButton";
 import ScrollToTopButton from "~/components/ScrollToTopButton/ScrollToTopButton";
-import ArgentinaFlag from "~/components/Svg/ArgentinaFlag";
 import { GithubIcon } from "~/components/Svg/GithubIcon";
 import { LinkedInIcon } from "~/components/Svg/LinkedInIcon";
 import { Button } from "~/components/Ui/Button";
 import { GradualSpacing } from "~/components/Ui/GradualSpacing/GradualSpacing";
+import { RainbowButton } from "~/components/Ui/RainbowButton";
 import { socialMediaLinks } from "~/data/links";
 
 import styles from "./HeroSection.module.css";
+import { TypewriterQuote } from "./TypewriterQuote";
 
 
 export const HeroSection = () => {
 	const t = useTranslations("HeroSection");
 
 	const positions = [
-		t("position"),
-		t("position2"),
-		t("position3"),
-		t("position4"),
+		t("position1"),
+		t("position2")
 	];
 
 	const [positionIndex, setPositionIndex] = useState(0);
@@ -127,15 +126,7 @@ export const HeroSection = () => {
 			</div>
 
 			<div className={styles.intro} ref={introRef}>
-				<p className={styles.introSubtitle}>
-					{t.rich("subtitle", {
-						em: (children) => <strong>{children}</strong>,
-					})}
-				</p>
-				<p className={styles.author}>
-					— {t("author")}
-				</p>
-
+				<TypewriterQuote />
 				<p className={styles.introSubtitle}>
 					<a href="https://maps.app.goo.gl/rpApwTj44Q2f2fwp9" target="_blank" rel="noopener noreferrer"
 						className={styles.link}>
@@ -151,7 +142,7 @@ export const HeroSection = () => {
 					prefetch={true}
 					passHref
 				>
-					<Button className={styles.actionBtn} variant="outlined">
+					<RainbowButton className={styles.actionBtn}>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							width="20"
@@ -171,7 +162,7 @@ export const HeroSection = () => {
 							<path d="M9.5 14.5l2.5 2.5l2.5 -2.5" />
 						</svg>
 						{t("download")}
-					</Button>
+					</RainbowButton>
 				</NextLink>
 			</div>
 			<CopyEmailSmallButton className={styles.copyEmailButton} />

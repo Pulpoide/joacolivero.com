@@ -21,14 +21,14 @@
     "availability": "Available",
     "contact": "Get in touch",
     "download": "View CV",
-    "position": "Software Developer",
-    "position2": "AI Engineer",
-    "position3": "Backend Systems Architect",
-    "position4": "Performance & Scalability",
+    "position1": "Backend & AI Engineer",
+    "position2": "Drummer & Percussionist",
     "language": "(Click flag for Spanish)",
     "location": "Córdoba, Argentina",
-    "subtitle": "<em>\"Pleasure in the job puts perfection in the work\"</em>",
-    "author": "Aristotle",
+    "quotes": [
+      { "text": "Pleasure in the job puts perfection in the work. ", "author": "Aristotle" },
+      { "text": "In the middle of every difficulty lies opportunity. ", "author": "Albert Einstein" }
+    ],
     "resumeUrl": "https://drive.google.com/file/d/1Bqm1Bxr_WUArDdvXRlOSV2YraWIc-vjj/view?usp=sharing"
   },
   "ProjectsSection": {
