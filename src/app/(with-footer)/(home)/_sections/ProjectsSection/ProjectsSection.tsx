@@ -20,6 +20,7 @@ export const ProjectsSection = () => {
 	const [visibleCount, setVisibleCount] = useState(6);
 	const pc = t("pc");
 	const mobile = t("mobile");
+	const isExpanded = visibleCount > 6;
 
 	const handleShowMore = () => {
 		setVisibleCount((prev) => Math.min(prev + 2, coverProjects.length));
@@ -86,7 +87,7 @@ export const ProjectsSection = () => {
 			<p className={styles.subtitle} ref={subtitleRef}>
 				{IsPC ? pc : mobile}
 			</p>
-			<div className={styles.projectsWrapper} ref={projectsWrapperRef}>
+			<div className={`${styles.projectsWrapper} ${isExpanded ? styles.expanded : ""}`} ref={projectsWrapperRef}>
 				{coverProjects.slice(0, visibleCount).map(({ i18nDescriptionKey, ...projects }) => (
 					<ProjectCard
 						key={projects.name}
