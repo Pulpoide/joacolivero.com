@@ -108,6 +108,7 @@
   },
   "SkillsSection": {
     "title": "Stack Tecnológico",
+    "showMore": "Ver mais",
     "defaultDescription": "Passe o mouse sobre uma tecnologia para ver detalhes!",
     "Java": "Minha linguagem principal. Usada para construir sistemas backend robustos de nível empresarial.",
     "Docker": "Essencial para conteinerização, garantindo que meus apps rodem igual em qualquer lugar.",

@@ -108,6 +108,7 @@
   },
   "SkillsSection": {
     "title": "Tech Stack & Tools",
+    "showMore": "Show more",
     "defaultDescription": "Hover over a tech to see how I use it!",
     "Java": "Primary language for building robust, enterprise-grade backend systems.",
     "Docker": "Essential for containerization, ensuring consistent environments across development and production.",
