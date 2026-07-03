@@ -26,8 +26,14 @@
     "language": "(Click flag for Spanish)",
     "location": "Córdoba, Argentina",
     "quotes": [
-      { "text": "Pleasure in the job puts perfection in the work. ", "author": "Aristotle" },
-      { "text": "In the middle of every difficulty lies opportunity. ", "author": "Albert Einstein" }
+      {
+        "text": "Pleasure in the job puts perfection in the work. ",
+        "author": "Aristotle"
+      },
+      {
+        "text": "In the middle of every difficulty lies opportunity. ",
+        "author": "Albert Einstein"
+      }
     ],
     "resumeUrl": "https://drive.google.com/file/d/1Bqm1Bxr_WUArDdvXRlOSV2YraWIc-vjj/view?usp=sharing"
   },
@@ -56,11 +62,11 @@
     },
     "TourmasterAI": {
       "name": "Tourmaster AI",
-      "description": "Production-grade multi-agent orchestration system for music tour management.",
+      "description": "An advanced multi-agent architectural sandbox designed to orchestrate complex music tour logistics.",
       "linkVisitSite": "Live Demo",
       "linkViewCode": "Repository",
       "linkVisitDocs": "Documentation",
-      "about": "An enterprise-grade multi-agent system built with a Directed Acyclic Graph (DAG) architecture using LangGraph. Features include specialized AI agents for Booking, Logistics, Marketing, and Weather, integrated with Retrieval-Augmented Generation (ChromaDB) and real-time Tool Calling (OpenWeatherMap). Ensures high-quality outputs via an LLM-as-a-Judge evaluation system and maintains full observability with Langfuse."
+      "about": "An advanced Proof of Concept (PoC) built to explore task routing and state management in a Directed Acyclic Graph (DAG) using LangGraph. The system orchestrates specialized agents for Booking, Logistics, Marketing, and Weather by integrating Retrieval-Augmented Generation (ChromaDB) and real-time Tool Calling (OpenWeatherMap API). It implements an LLM-as-a-Judge evaluation node to score response alignment and utilizes Langfuse to monitor token costs, latency, and step-by-step agent decisions."
     },
     "Deporturnos": {
       "name": "Deporturnos",

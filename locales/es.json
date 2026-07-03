@@ -56,11 +56,11 @@
     },
     "TourmasterAI": {
       "name": "Tourmaster AI",
-      "description": "Sistema de orquestación multiagente de nivel de producción para la gestión de giras musicales.",
+      "description": "Un sandbox arquitectónico multi-agente avanzado diseñado para orquestar la compleja logística de giras musicales.",
       "linkVisitSite": "Demo en vivo",
       "linkViewCode": "Repositorio",
       "linkVisitDocs": "Documentación",
-      "about": "Un sistema multiagente de nivel empresarial desarrollado con una arquitectura de Grafo Acíclico Dirigido (DAG) utilizando LangGraph. Incluye agentes de IA especializados para Booking, Logística, Marketing y Clima, integrados con Generación Aumentada por Recuperación (ChromaDB) y llamadas a herramientas en tiempo real (OpenWeatherMap). Garantiza resultados de alta calidad mediante un sistema de evaluación LLM-as-a-Judge y mantiene una observabilidad completa con Langfuse."
+      "about": "Una Prueba de Concepto (PoC) avanzada desarrollada para explorar el enrutamiento de tareas y la gestión de estados en un Grafo Acíclico Dirigido (DAG) utilizando LangGraph. El sistema orquesta agentes especializados en Reserva (Booking), Logística, Marketing y Clima mediante la integración de Generación Aumentada por Recuperación (ChromaDB) y llamadas a herramientas en tiempo real (API de OpenWeatherMap). Implementa un nodo de evaluación del tipo 'LLM-as-a-Judge' para calificar la alineación de las respuestas y utiliza Langfuse para monitorear costos de tokens, latencia y las decisiones paso a paso de los agentes."
     },
     "Deporturnos": {
       "name": "Deporturnos",
