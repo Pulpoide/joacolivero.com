@@ -21,7 +21,7 @@
     "availability": "Available",
     "contact": "Get in touch",
     "download": "View CV",
-    "position1": "Backend & AI Engineer",
+    "position1": "Backend & AI Integration",
     "position2": "Drummer & Percussionist",
     "language": "(Click flag for Spanish)",
     "location": "Córdoba, Argentina",
@@ -35,7 +35,7 @@
         "author": "Albert Einstein"
       }
     ],
-    "resumeUrl": "https://drive.google.com/file/d/1Bqm1Bxr_WUArDdvXRlOSV2YraWIc-vjj/view?usp=sharing"
+    "resumeUrl": "https://drive.google.com/file/d/1mqZhdLpjjaUt43GyBDKfSCctOuNn4qoz/view?usp=sharing"
   },
   "ProjectsSection": {
     "title": "Featured Projects",
@@ -110,9 +110,9 @@
   },
   "AboutSection": {
     "title": "About Me",
-    "d0": "I'm a Backend & AI Engineer based in Córdoba, Argentina, focused on building systems that combine robust architectures with real intelligence.",
-    "d1": "My work centers on <strong>multi-agent systems and RAG pipelines</strong> — I design, build, and deploy AI-powered backends using Python, LangGraph, and LangChain, integrated with production-grade APIs in Java/Spring Boot.",
-    "d2": "I'm actively looking for <strong>remote opportunities</strong> where I can ship backend infrastructure and AI systems that actually work in production — not just demos.",
+    "d0": "Application development technician focused on Backend and AI integration, with a solid foundation in logic and engineering.",
+    "d1": "Today I build everything from web platforms to multi-agent systems, RAG pipelines, and functional APIs.",
+    "d2": "I am actively looking for a remote role where I can contribute. I have been playing the drums for over ten years, and there I learned that a good system, just like a band, requires consistency, coordination, and true teamwork.",
     "mab": "More about my journey"
   },
   "SkillsSection": {

@@ -17,7 +17,7 @@ import "~/styles/utils.css";
 
 export const metadata = {
 	metadataBase: new URL("https://joacolivero.com"),
-	title: "Joaquín Olivero | Backend & AI Engineer",
+	title: "Joaquín Olivero | Backend & AI",
 	description: "Multi-agent systems, RAG pipelines & scalable APIs. Open to remote.",
 	authors: [{ name: "Joaquín Olivero" }],
 	creator: "Joaquín Olivero",
@@ -43,7 +43,7 @@ export const metadata = {
 	openGraph: {
 		type: "website",
 		url: "https://joacolivero.com",
-		title: "Joaquín Olivero | Backend & AI Engineer",
+		title: "Joaquín Olivero | Backend & AI",
 		description: "Multi-agent systems, RAG pipelines & scalable APIs. Open to remote.",
 	},
 };
