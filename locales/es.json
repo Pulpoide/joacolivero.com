@@ -21,7 +21,7 @@
     "availability": "Disponible",
     "contact": "Contáctame",
     "download": "Ver CV",
-    "position1": "Backend & Ingeniero de IA",
+    "position1": "Backend & Integración de IA",
     "position2": "Baterista & Percusionista",
     "language": "(Click en bandera para Inglés)",
     "location": "Córdoba, Argentina",
@@ -29,7 +29,7 @@
       { "text": "El placer en el trabajo lleva a la perfección de la obra. ", "author": "Aristóteles" },
       { "text": "En medio de la dificultad reside la oportunidad. ", "author": "Albert Einstein" }
     ],
-    "resumeUrl": "https://drive.google.com/file/d/1maoy6Ba7tFnZvsx4CXpB3R9ClFeiJOEs/view?usp=sharing"
+    "resumeUrl": "https://drive.google.com/file/d/1IT4h2K4nFxdCu80Nv6sPCM2DvQaTzvWX/view?usp=sharing"
   },
   "ProjectsSection": {
     "title": "Proyectos Destacados",
@@ -104,9 +104,9 @@
   },
   "AboutSection": {
     "title": "Sobre Mí",
-    "d0": "Soy Backend & AI Engineer de Córdoba, Argentina. Construyo sistemas multi-agente, pipelines RAG y APIs de producción que combinan arquitecturas sólidas con inteligencia real.",
-    "d1": "Mi stack principal: Python, LangGraph, LangChain para el lado AI; Java/Spring Boot para backend escalable. Siempre con foco en que funcione en producción.",
-    "d2": "Estoy buscando activamente <strong>trabajo remoto</strong> en equipos que construyan productos con impacto real.",
+    "d0": "Técnico en desarrollo de aplicaciones enfocado en Backend e integración de IA, con una base sólida en lógica e ingeniería.",
+    "d1": "Hoy construyo desde plataformas web hasta sistemas multi-agente, pipelines RAG y APIs funcionales.",
+    "d2": "Estoy buscando activamente un rol remoto donde pueda aportar. Llevo más de diez años tocando la batería, y ahí aprendí que un buen sistema, al igual que una banda, requiere constancia, coordinación y un verdadero trabajo en equipo.",
     "mab": "Más sobre mi trayectoria"
   },
   "SkillsSection": {

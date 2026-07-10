@@ -21,15 +21,21 @@
     "availability": "Disponível",
     "contact": "Entre em contato",
     "download": "Visualizar CV",
-    "position1": "Backend & Engenheiro de IA",
+    "position1": "Backend & Integração de IA",
     "position2": "Baterista & Percussionista",
     "language": "(Clique na bandeira para Inglês)",
     "location": "Córdoba, Argentina",
     "quotes": [
-      { "text": "O prazer no trabalho aperfeiçoa a obra. ", "author": "Aristóteles" },
-      { "text": "No meio da dificuldade reside a oportunidade. ", "author": "Albert Einstein" }
+      {
+        "text": "O prazer no trabalho aperfeiçoa a obra. ",
+        "author": "Aristóteles"
+      },
+      {
+        "text": "No meio da dificuldade reside a oportunidade. ",
+        "author": "Albert Einstein"
+      }
     ],
-    "resumeUrl": "https://drive.google.com/file/d/1OVF3dl9XDfAE6LajdnSBjYPm0q8nPGeO/view?usp=sharing"
+    "resumeUrl": "https://drive.google.com/file/d/1-NiKpca-OXucCrRxNEPGAAUh4XLADp11/view?usp=sharing"
   },
   "ProjectsSection": {
     "title": "Projetos em Destaque",
@@ -104,9 +110,9 @@
   },
   "AboutSection": {
     "title": "Sobre Mim",
-    "d0": "Sou um Engenheiro de Backend e IA baseado em Córdoba, Argentina, focado em construir sistemas que combinam arquiteturas robustas com inteligência real.",
-    "d1": "Meu trabalho se concentra em sistemas multiagentes e pipelines RAG — eu projeto, construo e faço o deploy de backends impulsionados por IA usando Python, LangGraph e LangChain, integrados a APIs de nível de produção em Java/Spring Boot.",
-    "d2": "Estou buscando ativamente oportunidades remotas onde eu possa entregar infraestrutura de backend e sistemas de IA que realmente funcionem em produção — e não apenas demonstrações.",
+    "d0": "Técnico em desenvolvimento de aplicações com foco em Backend e integração de IA, com uma base sólida em lógica e engenharia.",
+    "d1": "Hoje construo desde plataformas web até sistemas multiagentes, pipelines RAG e APIs funcionais.",
+    "d2": "Estou buscando ativamente uma vaga remota onde eu possa contribuir. Toco bateria há mais de dez anos, e lá aprendi que um bom sistema, assim como uma banda, exige constância, coordenação e um verdadeiro trabalho em equipe.",
     "mab": "Mais sobre minha trajetória"
   },
   "SkillsSection": {
